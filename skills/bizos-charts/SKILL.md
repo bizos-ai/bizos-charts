@@ -1,5 +1,6 @@
 ---
 name: bizos-charts
+license: Apache-2.0
 description: Create rigorous business, financial, experimental, and biomedical charts or complete reports from supplied data. Includes an offline HTML/SVG engine with 64 exhibit types, 6 report layouts, English/Chinese output, and inspectable data. Use for charts, visualization, dashboards, performance reviews, valuation, study reports, and scientific figures; plain-text explanations and source-data cleanup do not require charts.
 ---
 

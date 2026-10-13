@@ -2,7 +2,7 @@
 
 Open-source skills for turning evidence into clear, inspectable business and research outputs.
 
-The first release is **BizOS Charts 2.1.0**: a charting skill, a dependency-free rendering engine, **64 exhibit types**, and **6 complete report layouts**. It produces offline HTML with SVG graphics, readable source notes, inspectable data tables, and SVG, PNG, and CSV exports.
+The featured skill is **BizOS Charts** (public package **2.1.1**, renderer **2.1.0**): a charting skill, a dependency-free rendering engine, **64 exhibit types**, and **6 complete report layouts**. It produces offline HTML with SVG graphics, readable source notes, inspectable data tables, and SVG, PNG, and CSV exports.
 
 ![Six examples rendered by the BizOS Charts engine](skills/bizos-charts/assets/previews/overview.png)
 
@@ -242,4 +242,4 @@ Catalogs and specifications contain English chart names and field descriptions a
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the source/build workflow and validation requirements. Keep chart changes in `engine/src/`, add a meaningful sample for a new type, and rebuild generated artifacts. Changes should preserve accurate encodings, clear methods, inspectable data, and offline output.
 
-The collection and BizOS Charts are released under the [MIT License](LICENSE), copyright 2026 BIZOS. You may use, modify, and redistribute them, including commercially, under its terms.
+The collection and BizOS Charts are released under the [Apache License 2.0](LICENSE), copyright 2026 BIZOS. You may use, modify, and redistribute them, including commercially, under its terms.

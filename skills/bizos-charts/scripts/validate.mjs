@@ -19,10 +19,10 @@ const rel = (p) => path.relative(root, p);
 const read = (p) => fs.readFileSync(path.join(root, p), 'utf8');
 const exists = (p) => fs.existsSync(path.join(root, p));
 
-const LICENSE_FILES = ['LICENSE'];
+const LICENSE_FILES = ['LICENSE', 'NOTICE'];
 
 /* 1. layout of the skill directory */
-const ALLOWED_TOP = new Set(['SKILL.md', 'README.md', 'README.en.md', 'LICENSE', 'assets', 'catalog.md', 'report-catalog.md', 'color-presets.js', 'mono-tokens.js', 'engine', 'references', 'scripts', 'templates', 'examples']);
+const ALLOWED_TOP = new Set(['SKILL.md', 'README.md', 'README.en.md', 'LICENSE', 'NOTICE', 'assets', 'catalog.md', 'report-catalog.md', 'color-presets.js', 'mono-tokens.js', 'engine', 'references', 'scripts', 'templates', 'examples']);
 for (const name of fs.readdirSync(root)) if (!name.startsWith('.') && !ALLOWED_TOP.has(name)) err(`unexpected top-level entry: ${name}`);
 for (const p of ['SKILL.md', 'catalog.md', 'report-catalog.md', 'engine/bizos-charts.js', 'references/house-style.md', 'references/chart-selection.md', 'references/spec-reference.md', 'references/report-mode.md', 'references/delivery-checks.md', 'references/chart-index.json', 'templates/gallery.zh.html', 'templates/gallery.en.html']) if (!exists(p)) err(`missing: ${p}`);
 

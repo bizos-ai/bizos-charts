@@ -1,6 +1,6 @@
 # BizOS Charts
 
-A standalone charting skill and offline engine for business, financial, experimental, and biomedical evidence. Version **2.1.0** includes **64 exhibit types** and **6 complete report layouts**.
+A standalone charting skill and offline engine for business, financial, experimental, and biomedical evidence. Public package **2.1.1**, using renderer **2.1.0**, includes **64 exhibit types** and **6 complete report layouts**.
 
 ![Examples rendered from bundled specifications](assets/previews/overview.png)
 
@@ -43,4 +43,4 @@ node scripts/verify.mjs output/trend.html
 
 Browser verification needs optional `playwright-core` and a local Chrome/Edge executable. Set `BIZOS_PLAYWRIGHT_CORE` to the module path if it is not installed locally, and use `--chrome` for an explicit browser executable. An unavailable browser returns `unverified`, not a pass.
 
-This public package covers the standalone chart engine and six general report layouts. It has no private application template or account-service dependency. The [MIT License](LICENSE) applies.
+This public package covers the standalone chart engine and six general report layouts. It has no private application template or account-service dependency. The [Apache License 2.0](LICENSE) applies.

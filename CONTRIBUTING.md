@@ -28,4 +28,4 @@ The preview generator is `tools/render-previews.mjs`. Point `BIZOS_PLAYWRIGHT_CO
 
 ## Scope and licensing
 
-Do not add credentials, user data, local dependencies, private application resources, or service configuration. Changes must remain offline and self-contained at render time. Contributions are distributed under the repository's MIT License; retain any legally necessary license notices.
+Do not add credentials, user data, local dependencies, private application resources, or service configuration. Changes must remain offline and self-contained at render time. Contributions are distributed under the repository's Apache License 2.0; retain any legally necessary license notices.
