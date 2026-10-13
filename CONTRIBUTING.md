@@ -20,7 +20,7 @@ For a new chart type, provide a registered ID, English and Chinese names, an ana
 
 Rendering has no npm dependency. Real-browser checks additionally need `playwright-core` and Chrome or Edge. Check changed outputs at 1280px and 390px; inspect labeling, scaling, data tables, source lines, and exports. Never report an `unverified` result as a browser pass.
 
-The animated preview generator is `tools/render-previews.mjs`. It needs `playwright-core`, a local browser, and FFmpeg. Point `BIZOS_PLAYWRIGHT_CORE` to the module path, then run it from the repository root. Set `BIZOS_FFMPEG` if FFmpeg is not on PATH. It regenerates English preview pages, checks browser errors and network requests, records real scrolling, tooltips and data-table interactions, and encodes the looping GIFs used in the introduction. Temporary frames stay in the ignored `output/` directory.
+The README media generator is `tools/render-readme-media.mjs`. It needs `playwright-core` and a local Chrome or Edge (`BIZOS_CHROME`). Point `BIZOS_PLAYWRIGHT_CORE` to the module path, then run it from the repository root. It renders every bundled sample with the engine, copies the HTML table exhibits and the report samples into SVG from their real browser layout, adds CSS-only entrance animations (no script; readers who prefer reduced motion see the finished chart), writes `docs/media/`, and regenerates the gallery sections of `README.md` and `README.zh-CN.md` between the `gallery` markers. Rerun it and commit the results when a chart type, a sample, a report sample or the house style changes. While iterating, `--lang en` or `--only T01,hero,reports` limits a run; partial runs leave the READMEs unchanged.
 
 ## Branches
 

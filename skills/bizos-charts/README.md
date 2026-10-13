@@ -2,9 +2,7 @@
 
 A standalone charting skill and offline engine for business, financial, experimental, and biomedical evidence. Public package **2.1.2**, using renderer **2.1.0**, includes **64 exhibit types** and **6 complete report layouts**.
 
-![Animated tour of examples rendered from bundled specifications](assets/previews/overview.gif)
-
-All preview data are illustrative. The engine embeds data, styles, and scripts in the finished HTML; chart rendering needs Node.js and no npm install or service account.
+All sample data are illustrative. The engine embeds data, styles, and scripts in the finished HTML; chart rendering needs Node.js and no npm install or service account.
 
 ## Start here
 
