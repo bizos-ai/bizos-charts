@@ -1,0 +1,749 @@
+{
+ "type": "B02",
+ "title": {
+  "zh": "化合物 B 抑制作用最强，IC50 为 7.38 nM，效力约为参照药的 7.6 倍",
+  "en": "Compound B is the most potent (IC50 7.38 nM), about 7.6× the reference"
+ },
+ "subtitle": {
+  "zh": "肿瘤细胞系 72 小时细胞活力（% 溶剂对照），10 个浓度，每个浓度 3 个复孔",
+  "en": "Tumour cell viability at 72 h (% of vehicle), 10 concentrations, triplicate wells"
+ },
+ "x": "nM",
+ "y": "viab",
+ "group": "cmpd",
+ "concUnit": "nM",
+ "unit": "%",
+ "error": "sd",
+ "names": {
+  "viab": {
+   "zh": "细胞活力",
+   "en": "Cell viability"
+  }
+ },
+ "data": [
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 0.1,
+   "viab": 99
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 0.1,
+   "viab": 96.8
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 0.1,
+   "viab": 98.3
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 0.3,
+   "viab": 102.6
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 0.3,
+   "viab": 94.4
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 0.3,
+   "viab": 99
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 1,
+   "viab": 98.2
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 1,
+   "viab": 91.6
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 1,
+   "viab": 97.7
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 3,
+   "viab": 94.8
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 3,
+   "viab": 99.5
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 3,
+   "viab": 89.1
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 10,
+   "viab": 79.8
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 10,
+   "viab": 84.3
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 10,
+   "viab": 82.1
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 30,
+   "viab": 65.8
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 30,
+   "viab": 63.1
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 30,
+   "viab": 58.9
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 100,
+   "viab": 34.7
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 100,
+   "viab": 26.2
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 100,
+   "viab": 28.7
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 300,
+   "viab": 18.4
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 300,
+   "viab": 11.6
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 300,
+   "viab": 10.6
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 1000,
+   "viab": 7.3
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 1000,
+   "viab": 11.5
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 1000,
+   "viab": 5.7
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 3000,
+   "viab": 2.1
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 3000,
+   "viab": -1.7
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 A",
+    "en": "Compound A"
+   },
+   "nM": 3000,
+   "viab": 4.3
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 0.1,
+   "viab": 98.2
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 0.1,
+   "viab": 94.2
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 0.1,
+   "viab": 97.5
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 0.3,
+   "viab": 94.4
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 0.3,
+   "viab": 105.3
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 0.3,
+   "viab": 107.5
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 1,
+   "viab": 99.5
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 1,
+   "viab": 89.8
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 1,
+   "viab": 88.1
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 3,
+   "viab": 76.5
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 3,
+   "viab": 76.4
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 3,
+   "viab": 82.9
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 10,
+   "viab": 50.6
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 10,
+   "viab": 40.2
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 10,
+   "viab": 36
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 30,
+   "viab": 17.4
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 30,
+   "viab": 22.6
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 30,
+   "viab": 19.4
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 100,
+   "viab": 6.6
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 100,
+   "viab": 5
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 100,
+   "viab": 13.3
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 300,
+   "viab": 2.6
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 300,
+   "viab": 9.5
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 300,
+   "viab": 8.9
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 1000,
+   "viab": 2.6
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 1000,
+   "viab": 6.1
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 1000,
+   "viab": 10.5
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 3000,
+   "viab": 0.3
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 3000,
+   "viab": 4.8
+  },
+  {
+   "cmpd": {
+    "zh": "化合物 B",
+    "en": "Compound B"
+   },
+   "nM": 3000,
+   "viab": 5.3
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 0.1,
+   "viab": 101.4
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 0.1,
+   "viab": 93.8
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 0.1,
+   "viab": 101.7
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 0.3,
+   "viab": 100.5
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 0.3,
+   "viab": 92.8
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 0.3,
+   "viab": 98.6
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 1,
+   "viab": 101.3
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 1,
+   "viab": 96.2
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 1,
+   "viab": 97.5
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 3,
+   "viab": 94.3
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 3,
+   "viab": 90.1
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 3,
+   "viab": 87.2
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 10,
+   "viab": 79
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 10,
+   "viab": 86.3
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 10,
+   "viab": 79.4
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 30,
+   "viab": 67.1
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 30,
+   "viab": 61.2
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 30,
+   "viab": 63.4
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 100,
+   "viab": 41.9
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 100,
+   "viab": 39
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 100,
+   "viab": 40.5
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 300,
+   "viab": 19.5
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 300,
+   "viab": 12.7
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 300,
+   "viab": 28.8
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 1000,
+   "viab": 17.2
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 1000,
+   "viab": 3.4
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 1000,
+   "viab": 12.6
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 3000,
+   "viab": 4.9
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 3000,
+   "viab": 7.1
+  },
+  {
+   "cmpd": {
+    "zh": "参照药",
+    "en": "Reference"
+   },
+   "nM": 3000,
+   "viab": 7.3
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

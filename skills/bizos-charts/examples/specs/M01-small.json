@@ -1,0 +1,615 @@
+{
+ "type": "M01",
+ "wide": true,
+ "base": "T01",
+ "facet": "market",
+ "x": "month",
+ "y": "sales",
+ "title": {
+  "zh": "六个站点中五个全年走高，日本站是唯一下滑的市场",
+  "en": "Five of six marketplaces trended up in 2025; Japan was the only decline"
+ },
+ "subtitle": {
+  "zh": "各站点月度销售额（万美元），2025 年；纵轴刻度相同",
+  "en": "Monthly sales by marketplace (US$ 10k), 2025; common y-axis"
+ },
+ "unit": {
+  "zh": "万美元",
+  "en": "US$ 10k"
+ },
+ "format": "number:0",
+ "names": {
+  "sales": {
+   "zh": "销售额",
+   "en": "Sales"
+  }
+ },
+ "highlight": [
+  {
+   "zh": "日本",
+   "en": "Japan"
+  }
+ ],
+ "data": [
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "month": "2025-01",
+   "sales": 180
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "month": "2025-02",
+   "sales": 192.3
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "month": "2025-03",
+   "sales": 202.2
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "month": "2025-04",
+   "sales": 208.3
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "month": "2025-05",
+   "sales": 210.5
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "month": "2025-06",
+   "sales": 210.2
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "month": "2025-07",
+   "sales": 209.8
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "month": "2025-08",
+   "sales": 211.8
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "month": "2025-09",
+   "sales": 217.6
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "month": "2025-10",
+   "sales": 227.4
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "month": "2025-11",
+   "sales": 284.6
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "month": "2025-12",
+   "sales": 252
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "month": "2025-01",
+   "sales": 74
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "month": "2025-02",
+   "sales": 78.4
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "month": "2025-03",
+   "sales": 81.8
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "month": "2025-04",
+   "sales": 83.6
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "month": "2025-05",
+   "sales": 83.9
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "month": "2025-06",
+   "sales": 83.1
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "month": "2025-07",
+   "sales": 82.3
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "month": "2025-08",
+   "sales": 82.4
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "month": "2025-09",
+   "sales": 84.1
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "month": "2025-10",
+   "sales": 87.5
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "month": "2025-11",
+   "sales": 110.4
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "month": "2025-12",
+   "sales": 96.3
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "month": "2025-01",
+   "sales": 62
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "month": "2025-02",
+   "sales": 65.4
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "month": "2025-03",
+   "sales": 67.9
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "month": "2025-04",
+   "sales": 69.1
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "month": "2025-05",
+   "sales": 69
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "month": "2025-06",
+   "sales": 68.1
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "month": "2025-07",
+   "sales": 67.1
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "month": "2025-08",
+   "sales": 66.9
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "month": "2025-09",
+   "sales": 68
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "month": "2025-10",
+   "sales": 70.5
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "month": "2025-11",
+   "sales": 89.4
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "month": "2025-12",
+   "sales": 77.3
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "month": "2025-01",
+   "sales": 58
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "month": "2025-02",
+   "sales": 59.4
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "month": "2025-03",
+   "sales": 60.1
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "month": "2025-04",
+   "sales": 59.5
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "month": "2025-05",
+   "sales": 57.7
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "month": "2025-06",
+   "sales": 55.1
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "month": "2025-07",
+   "sales": 52.4
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "month": "2025-08",
+   "sales": 50.5
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "month": "2025-09",
+   "sales": 49.9
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "month": "2025-10",
+   "sales": 50.5
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "month": "2025-11",
+   "sales": 66.4
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "month": "2025-12",
+   "sales": 53.3
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "month": "2025-01",
+   "sales": 30
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "month": "2025-02",
+   "sales": 32.6
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "month": "2025-03",
+   "sales": 34.7
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "month": "2025-04",
+   "sales": 36.2
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "month": "2025-05",
+   "sales": 37.1
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "month": "2025-06",
+   "sales": 37.5
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "month": "2025-07",
+   "sales": 38
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "month": "2025-08",
+   "sales": 38.8
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "month": "2025-09",
+   "sales": 40.3
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "month": "2025-10",
+   "sales": 42.4
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "month": "2025-11",
+   "sales": 52.4
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "month": "2025-12",
+   "sales": 47.5
+  },
+  {
+   "market": {
+    "zh": "法国",
+    "en": "France"
+   },
+   "month": "2025-01",
+   "sales": 26
+  },
+  {
+   "market": {
+    "zh": "法国",
+    "en": "France"
+   },
+   "month": "2025-02",
+   "sales": 27.8
+  },
+  {
+   "market": {
+    "zh": "法国",
+    "en": "France"
+   },
+   "month": "2025-03",
+   "sales": 29.3
+  },
+  {
+   "market": {
+    "zh": "法国",
+    "en": "France"
+   },
+   "month": "2025-04",
+   "sales": 30.2
+  },
+  {
+   "market": {
+    "zh": "法国",
+    "en": "France"
+   },
+   "month": "2025-05",
+   "sales": 30.5
+  },
+  {
+   "market": {
+    "zh": "法国",
+    "en": "France"
+   },
+   "month": "2025-06",
+   "sales": 30.5
+  },
+  {
+   "market": {
+    "zh": "法国",
+    "en": "France"
+   },
+   "month": "2025-07",
+   "sales": 30.5
+  },
+  {
+   "market": {
+    "zh": "法国",
+    "en": "France"
+   },
+   "month": "2025-08",
+   "sales": 30.8
+  },
+  {
+   "market": {
+    "zh": "法国",
+    "en": "France"
+   },
+   "month": "2025-09",
+   "sales": 31.7
+  },
+  {
+   "market": {
+    "zh": "法国",
+    "en": "France"
+   },
+   "month": "2025-10",
+   "sales": 33.1
+  },
+  {
+   "market": {
+    "zh": "法国",
+    "en": "France"
+   },
+   "month": "2025-11",
+   "sales": 41.4
+  },
+  {
+   "market": {
+    "zh": "法国",
+    "en": "France"
+   },
+   "month": "2025-12",
+   "sales": 36.8
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

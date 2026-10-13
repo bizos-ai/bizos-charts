@@ -1,0 +1,197 @@
+{
+ "type": "T05",
+ "title": {
+  "zh": "中性预测下 2026 年上半年月销量在 1.6–1.7 万件，区间随期限扩大",
+  "en": "Base case puts H1 2026 monthly units at 16.4k–17.2k; the range widens with horizon"
+ },
+ "subtitle": {
+  "zh": "月度销量（百件）及预测区间，2025 年 1 月–2026 年 6 月",
+  "en": "Monthly units (hundreds) with forecast intervals, Jan 2025–Jun 2026"
+ },
+ "unit": {
+  "zh": "百件",
+  "en": "hundred units"
+ },
+ "x": "month",
+ "y": "units",
+ "names": {
+  "units": {
+   "zh": "销量",
+   "en": "Units"
+  }
+ },
+ "bands": [
+  {
+   "low": "lo90",
+   "high": "hi90",
+   "name": {
+    "zh": "90% 区间",
+    "en": "90% interval"
+   }
+  },
+  {
+   "low": "lo50",
+   "high": "hi50",
+   "name": {
+    "zh": "50% 区间",
+    "en": "50% interval"
+   }
+  }
+ ],
+ "data": [
+  {
+   "month": "2025-01",
+   "units": 119,
+   "lo90": null,
+   "hi90": null,
+   "lo50": null,
+   "hi50": null
+  },
+  {
+   "month": "2025-02",
+   "units": 125.3,
+   "lo90": null,
+   "hi90": null,
+   "lo50": null,
+   "hi50": null
+  },
+  {
+   "month": "2025-03",
+   "units": 131.7,
+   "lo90": null,
+   "hi90": null,
+   "lo50": null,
+   "hi50": null
+  },
+  {
+   "month": "2025-04",
+   "units": 136.6,
+   "lo90": null,
+   "hi90": null,
+   "lo50": null,
+   "hi50": null
+  },
+  {
+   "month": "2025-05",
+   "units": 137.6,
+   "lo90": null,
+   "hi90": null,
+   "lo50": null,
+   "hi50": null
+  },
+  {
+   "month": "2025-06",
+   "units": 135,
+   "lo90": null,
+   "hi90": null,
+   "lo50": null,
+   "hi50": null
+  },
+  {
+   "month": "2025-07",
+   "units": 137.3,
+   "lo90": null,
+   "hi90": null,
+   "lo50": null,
+   "hi50": null
+  },
+  {
+   "month": "2025-08",
+   "units": 137.2,
+   "lo90": null,
+   "hi90": null,
+   "lo50": null,
+   "hi50": null
+  },
+  {
+   "month": "2025-09",
+   "units": 135.2,
+   "lo90": null,
+   "hi90": null,
+   "lo50": null,
+   "hi50": null
+  },
+  {
+   "month": "2025-10",
+   "units": 140.1,
+   "lo90": null,
+   "hi90": null,
+   "lo50": null,
+   "hi50": null
+  },
+  {
+   "month": "2025-11",
+   "units": 148,
+   "lo90": null,
+   "hi90": null,
+   "lo50": null,
+   "hi50": null
+  },
+  {
+   "month": "2025-12",
+   "units": 156.1,
+   "lo90": 156.1,
+   "hi90": 156.1,
+   "lo50": 156.1,
+   "hi50": 156.1
+  },
+  {
+   "month": "2026-01E",
+   "units": 163.5,
+   "lo90": 156.6,
+   "hi90": 170.4,
+   "lo50": 160.7,
+   "hi50": 166.3
+  },
+  {
+   "month": "2026-02E",
+   "units": 169.1,
+   "lo90": 155.2,
+   "hi90": 183,
+   "lo50": 163.5,
+   "hi50": 174.7
+  },
+  {
+   "month": "2026-03E",
+   "units": 171.8,
+   "lo90": 151,
+   "hi90": 192.5,
+   "lo50": 163.3,
+   "hi50": 180.2
+  },
+  {
+   "month": "2026-04E",
+   "units": 171.6,
+   "lo90": 143.9,
+   "hi90": 199.3,
+   "lo50": 160.3,
+   "hi50": 182.8
+  },
+  {
+   "month": "2026-05E",
+   "units": 169.7,
+   "lo90": 135.1,
+   "hi90": 204.4,
+   "lo50": 155.6,
+   "hi50": 183.8
+  },
+  {
+   "month": "2026-06E",
+   "units": 167.8,
+   "lo90": 126.2,
+   "hi90": 209.4,
+   "lo50": 150.9,
+   "hi50": 184.7
+  }
+ ],
+ "notes": [
+  {
+   "zh": "区间来自季节性模型残差的分位数；不含促销等未计划事件",
+   "en": "Intervals use quantiles of seasonal-model residuals; unplanned promotions excluded"
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

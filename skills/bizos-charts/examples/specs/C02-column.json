@@ -1,0 +1,65 @@
+{
+ "type": "C02",
+ "title": {
+  "zh": "GMV 2021–2025 年复合增速 29.7%，预计 2027 年接近 5 亿美元",
+  "en": "GMV compounded 29.7% over 2021–2025 and should near US$500mn by 2027E"
+ },
+ "subtitle": {
+  "zh": "年度 GMV（百万美元），2021A–2027E",
+  "en": "Annual GMV (US$ mn), 2021A–2027E"
+ },
+ "unit": {
+  "zh": "百万美元",
+  "en": "US$ mn"
+ },
+ "format": "number:0",
+ "x": "year",
+ "y": "gmv",
+ "names": {
+  "gmv": "GMV"
+ },
+ "cagr": {
+  "from": "2021A",
+  "to": "2025A"
+ },
+ "data": [
+  {
+   "year": "2021A",
+   "gmv": 128
+  },
+  {
+   "year": "2022A",
+   "gmv": 171
+  },
+  {
+   "year": "2023A",
+   "gmv": 236
+  },
+  {
+   "year": "2024A",
+   "gmv": 298
+  },
+  {
+   "year": "2025A",
+   "gmv": 362
+  },
+  {
+   "year": "2026E",
+   "gmv": 431
+  },
+  {
+   "year": "2027E",
+   "gmv": 498
+  }
+ ],
+ "notes": [
+  {
+   "zh": "2026E–2027E 为 BizOS 预测",
+   "en": "2026E–2027E are BizOS estimates"
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

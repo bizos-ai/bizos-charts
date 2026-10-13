@@ -1,0 +1,75 @@
+{
+ "type": "C04",
+ "title": {
+  "zh": "宠物与厨房拉动增长，3C 配件和美妆工具同比下滑超 15%",
+  "en": "Pet and kitchen led growth; electronics accessories and beauty tools fell over 15%"
+ },
+ "subtitle": {
+  "zh": "各品类 2025 年销售额同比增速（%）",
+  "en": "2025 sales growth by category (% YoY)"
+ },
+ "format": "percent",
+ "x": "category",
+ "y": "yoy",
+ "names": {
+  "yoy": {
+   "zh": "同比增速",
+   "en": "YoY growth"
+  }
+ },
+ "data": [
+  {
+   "category": {
+    "zh": "宠物用品",
+    "en": "Pet supplies"
+   },
+   "yoy": 34.2
+  },
+  {
+   "category": {
+    "zh": "厨房用品",
+    "en": "Kitchen"
+   },
+   "yoy": 21.5
+  },
+  {
+   "category": {
+    "zh": "玩具",
+    "en": "Toys"
+   },
+   "yoy": 8.3
+  },
+  {
+   "category": {
+    "zh": "户外",
+    "en": "Outdoor"
+   },
+   "yoy": 2.1
+  },
+  {
+   "category": {
+    "zh": "家居收纳",
+    "en": "Home storage"
+   },
+   "yoy": -6.4
+  },
+  {
+   "category": {
+    "zh": "美妆工具",
+    "en": "Beauty tools"
+   },
+   "yoy": -18.9
+  },
+  {
+   "category": {
+    "zh": "3C 配件",
+    "en": "Electronics accessories"
+   },
+   "yoy": -24.6
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

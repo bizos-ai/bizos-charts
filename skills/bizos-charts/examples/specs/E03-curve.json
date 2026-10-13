@@ -1,0 +1,1386 @@
+{
+ "type": "E03",
+ "title": {
+  "zh": "第 21 天，化合物 B 30 mg/kg 组平均肿瘤体积较溶剂组低 68%，10 mg/kg 组低 44%",
+  "en": "At day 21, 30 mg/kg cut mean tumour volume by 68% vs vehicle; 10 mg/kg by 44%"
+ },
+ "subtitle": {
+  "zh": "皮下异种移植瘤体积（mm³），每日一次口服给药，每组 8 只小鼠",
+  "en": "Subcutaneous xenograft volume (mm³), once-daily oral dosing, 8 mice per group"
+ },
+ "x": "day",
+ "y": "vol",
+ "group": "group",
+ "xUnit": {
+  "zh": "天",
+  "en": "days"
+ },
+ "unit": "mm³",
+ "error": "sem",
+ "names": {
+  "day": {
+   "zh": "给药后天数",
+   "en": "Days on treatment"
+  },
+  "vol": {
+   "zh": "肿瘤体积",
+   "en": "Tumour volume"
+  }
+ },
+ "data": [
+  {
+   "day": 0,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 92
+  },
+  {
+   "day": 3,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 147
+  },
+  {
+   "day": 7,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 213
+  },
+  {
+   "day": 10,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 329
+  },
+  {
+   "day": 14,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 515
+  },
+  {
+   "day": 17,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 732
+  },
+  {
+   "day": 21,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 1123
+  },
+  {
+   "day": 0,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 98
+  },
+  {
+   "day": 3,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 132
+  },
+  {
+   "day": 7,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 202
+  },
+  {
+   "day": 10,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 290
+  },
+  {
+   "day": 14,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 474
+  },
+  {
+   "day": 17,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 730
+  },
+  {
+   "day": 21,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 1073
+  },
+  {
+   "day": 0,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 102
+  },
+  {
+   "day": 3,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 122
+  },
+  {
+   "day": 7,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 242
+  },
+  {
+   "day": 10,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 314
+  },
+  {
+   "day": 14,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 497
+  },
+  {
+   "day": 17,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 809
+  },
+  {
+   "day": 21,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 1450
+  },
+  {
+   "day": 0,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 101
+  },
+  {
+   "day": 3,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 171
+  },
+  {
+   "day": 7,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 299
+  },
+  {
+   "day": 10,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 423
+  },
+  {
+   "day": 14,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 685
+  },
+  {
+   "day": 17,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 1117
+  },
+  {
+   "day": 21,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 1724
+  },
+  {
+   "day": 0,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 87
+  },
+  {
+   "day": 3,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 145
+  },
+  {
+   "day": 7,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 247
+  },
+  {
+   "day": 10,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 354
+  },
+  {
+   "day": 14,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 546
+  },
+  {
+   "day": 17,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 931
+  },
+  {
+   "day": 21,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 1740
+  },
+  {
+   "day": 0,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 106
+  },
+  {
+   "day": 3,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 174
+  },
+  {
+   "day": 7,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 304
+  },
+  {
+   "day": 10,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 394
+  },
+  {
+   "day": 14,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 755
+  },
+  {
+   "day": 17,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 1162
+  },
+  {
+   "day": 21,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 2081
+  },
+  {
+   "day": 0,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 88
+  },
+  {
+   "day": 3,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 124
+  },
+  {
+   "day": 7,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 232
+  },
+  {
+   "day": 10,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 329
+  },
+  {
+   "day": 14,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 500
+  },
+  {
+   "day": 17,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 714
+  },
+  {
+   "day": 21,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 1226
+  },
+  {
+   "day": 0,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 106
+  },
+  {
+   "day": 3,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 144
+  },
+  {
+   "day": 7,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 232
+  },
+  {
+   "day": 10,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 369
+  },
+  {
+   "day": 14,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 585
+  },
+  {
+   "day": 17,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 1067
+  },
+  {
+   "day": 21,
+   "group": {
+    "zh": "溶剂",
+    "en": "Vehicle"
+   },
+   "vol": 1605
+  },
+  {
+   "day": 0,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 112
+  },
+  {
+   "day": 3,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 172
+  },
+  {
+   "day": 7,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 249
+  },
+  {
+   "day": 10,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 324
+  },
+  {
+   "day": 14,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 520
+  },
+  {
+   "day": 17,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 732
+  },
+  {
+   "day": 21,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 999
+  },
+  {
+   "day": 0,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 100
+  },
+  {
+   "day": 3,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 115
+  },
+  {
+   "day": 7,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 175
+  },
+  {
+   "day": 10,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 208
+  },
+  {
+   "day": 14,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 300
+  },
+  {
+   "day": 17,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 403
+  },
+  {
+   "day": 21,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 594
+  },
+  {
+   "day": 0,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 83
+  },
+  {
+   "day": 3,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 118
+  },
+  {
+   "day": 7,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 158
+  },
+  {
+   "day": 10,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 210
+  },
+  {
+   "day": 14,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 331
+  },
+  {
+   "day": 17,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 423
+  },
+  {
+   "day": 21,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 675
+  },
+  {
+   "day": 0,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 82
+  },
+  {
+   "day": 3,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 120
+  },
+  {
+   "day": 7,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 179
+  },
+  {
+   "day": 10,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 239
+  },
+  {
+   "day": 14,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 398
+  },
+  {
+   "day": 17,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 532
+  },
+  {
+   "day": 21,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 920
+  },
+  {
+   "day": 0,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 108
+  },
+  {
+   "day": 3,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 137
+  },
+  {
+   "day": 7,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 245
+  },
+  {
+   "day": 10,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 321
+  },
+  {
+   "day": 14,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 426
+  },
+  {
+   "day": 17,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 771
+  },
+  {
+   "day": 21,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 1026
+  },
+  {
+   "day": 0,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 105
+  },
+  {
+   "day": 3,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 127
+  },
+  {
+   "day": 7,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 241
+  },
+  {
+   "day": 10,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 293
+  },
+  {
+   "day": 14,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 399
+  },
+  {
+   "day": 17,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 523
+  },
+  {
+   "day": 21,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 751
+  },
+  {
+   "day": 0,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 116
+  },
+  {
+   "day": 3,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 188
+  },
+  {
+   "day": 7,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 239
+  },
+  {
+   "day": 10,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 342
+  },
+  {
+   "day": 14,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 554
+  },
+  {
+   "day": 17,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 659
+  },
+  {
+   "day": 21,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 1212
+  },
+  {
+   "day": 0,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 65
+  },
+  {
+   "day": 3,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 96
+  },
+  {
+   "day": 7,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 143
+  },
+  {
+   "day": 10,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 202
+  },
+  {
+   "day": 14,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 270
+  },
+  {
+   "day": 17,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 386
+  },
+  {
+   "day": 21,
+   "group": {
+    "zh": "化合物 B 10 mg/kg",
+    "en": "Cmpd B 10 mg/kg"
+   },
+   "vol": 605
+  },
+  {
+   "day": 0,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 133
+  },
+  {
+   "day": 3,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 124
+  },
+  {
+   "day": 7,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 181
+  },
+  {
+   "day": 10,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 234
+  },
+  {
+   "day": 14,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 342
+  },
+  {
+   "day": 17,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 447
+  },
+  {
+   "day": 21,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 635
+  },
+  {
+   "day": 0,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 111
+  },
+  {
+   "day": 3,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 134
+  },
+  {
+   "day": 7,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 180
+  },
+  {
+   "day": 10,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 219
+  },
+  {
+   "day": 14,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 295
+  },
+  {
+   "day": 17,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 362
+  },
+  {
+   "day": 21,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 449
+  },
+  {
+   "day": 0,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 118
+  },
+  {
+   "day": 3,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 151
+  },
+  {
+   "day": 7,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 192
+  },
+  {
+   "day": 10,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 292
+  },
+  {
+   "day": 14,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 365
+  },
+  {
+   "day": 17,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 419
+  },
+  {
+   "day": 21,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 612
+  },
+  {
+   "day": 0,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 106
+  },
+  {
+   "day": 3,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 130
+  },
+  {
+   "day": 7,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 164
+  },
+  {
+   "day": 10,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 194
+  },
+  {
+   "day": 14,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 246
+  },
+  {
+   "day": 17,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 429
+  },
+  {
+   "day": 21,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 426
+  },
+  {
+   "day": 0,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 80
+  },
+  {
+   "day": 3,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 108
+  },
+  {
+   "day": 7,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 143
+  },
+  {
+   "day": 10,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 162
+  },
+  {
+   "day": 14,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 262
+  },
+  {
+   "day": 17,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 304
+  },
+  {
+   "day": 21,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 418
+  },
+  {
+   "day": 0,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 94
+  },
+  {
+   "day": 3,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 108
+  },
+  {
+   "day": 7,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 159
+  },
+  {
+   "day": 10,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 232
+  },
+  {
+   "day": 14,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 359
+  },
+  {
+   "day": 17,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 427
+  },
+  {
+   "day": 21,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 558
+  },
+  {
+   "day": 0,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 82
+  },
+  {
+   "day": 3,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 102
+  },
+  {
+   "day": 7,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 135
+  },
+  {
+   "day": 10,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 176
+  },
+  {
+   "day": 14,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 212
+  },
+  {
+   "day": 17,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 295
+  },
+  {
+   "day": 21,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 362
+  },
+  {
+   "day": 0,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 85
+  },
+  {
+   "day": 3,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 111
+  },
+  {
+   "day": 7,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 165
+  },
+  {
+   "day": 10,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 167
+  },
+  {
+   "day": 14,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 243
+  },
+  {
+   "day": 17,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 312
+  },
+  {
+   "day": 21,
+   "group": {
+    "zh": "化合物 B 30 mg/kg",
+    "en": "Cmpd B 30 mg/kg"
+   },
+   "vol": 403
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ },
+ "notes": [
+  {
+   "zh": "肿瘤体积 = 长 × 宽² / 2",
+   "en": "Volume = length × width² / 2"
+  }
+ ]
+}

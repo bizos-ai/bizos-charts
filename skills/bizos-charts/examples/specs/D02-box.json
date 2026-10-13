@@ -1,0 +1,2825 @@
+{
+ "type": "D02",
+ "title": {
+  "zh": "加拿大站配送时长中位数 3.3 天，为五站最长且波动最大",
+  "en": "Canada's median delivery of 3.3 days is the longest and least predictable of five marketplaces"
+ },
+ "subtitle": {
+  "zh": "2025 年第四季度 FBA 订单配送时长（天），各站点随机抽样 80 单",
+  "en": "FBA delivery time (days), random 80 orders per marketplace, 4Q25"
+ },
+ "unit": {
+  "zh": "天",
+  "en": "days"
+ },
+ "format": "number:1",
+ "x": "market",
+ "y": "days",
+ "sort": "median",
+ "data": [
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.7
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.4
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 1.7
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 1
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 0.8
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.2
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.9
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.9
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 1.5
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 3.4
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.9
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 1.5
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 1.9
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 1.5
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.8
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 1.4
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 1.6
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 3
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.8
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.6
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 3.4
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 3.4
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.2
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 1.9
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 3
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 3.1
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 3.4
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.9
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.7
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.3
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 1.8
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.1
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.1
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 1.2
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.5
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 5.9
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.9
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 1.8
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.1
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 1.7
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.4
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 0.8
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 1.7
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 6.2
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 1.6
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 3.4
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 1.2
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 1.4
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 3.4
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.4
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.1
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 1.8
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 1.7
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 3.4
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 3.2
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 3.2
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.4
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.7
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 1.8
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.2
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.9
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.6
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.8
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.3
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 1.9
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 1.8
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.5
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 1.9
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 1.2
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 3
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.1
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.9
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 0.9
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 1.8
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 2.8
+  },
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "days": 3.5
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 1.9
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 1.5
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.6
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 1.1
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 1.5
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.7
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.6
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.1
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 1.2
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 0.8
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.6
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 1.9
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.2
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.3
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.1
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 1.6
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.1
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.8
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.3
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 1.5
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.3
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.6
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 1.5
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 1.8
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.2
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 6.2
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.1
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.5
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.7
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 3.2
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 1.8
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.5
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 3.1
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 1.1
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.6
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.1
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 3
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.4
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.7
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 3.5
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.5
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 3.1
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 1.8
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.1
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 3.1
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.5
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 1.9
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.4
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 1.8
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.8
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 1.9
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 0.8
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 6.4
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 1.7
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 1.8
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 1.4
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 3
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.3
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.1
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 1.9
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.4
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.2
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 1.8
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.5
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.6
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.5
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.4
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 1.8
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 3.1
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 6.9
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.6
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 1.2
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.2
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.5
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "days": 2.4
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 3.4
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 3.3
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 4
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 4.3
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 1.3
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.5
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.3
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 1.9
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 3.3
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.9
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 3
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 1.8
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 1.6
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 1.7
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.8
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 3.6
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.1
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.3
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.3
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 3.5
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.7
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 3.6
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 3.6
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.6
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 3.1
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.5
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.4
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.6
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.3
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.8
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.9
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 3
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 3
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 3.2
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 3.4
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.9
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 1.7
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 3.2
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.1
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.2
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.8
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 1.9
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 3
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 1.3
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.3
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 4.5
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 1.7
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 3.1
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.7
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.3
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 3
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 3.3
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 0.8
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.9
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 3.5
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 1.8
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 3.7
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.5
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.1
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.5
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.3
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 3.7
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.2
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.6
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 1.9
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 1.2
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.3
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 3.6
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.3
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.9
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 1.6
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.3
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.3
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 3.1
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 1.5
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.1
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "days": 2.6
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 0.8
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.6
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.6
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2.2
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.7
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2.1
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2.3
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2.1
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 0.9
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.1
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 0.9
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.9
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.2
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.8
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.7
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.4
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.8
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.3
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.5
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 0.9
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.7
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.1
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 0.9
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.2
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.8
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2.2
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.6
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 6.2
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.8
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.5
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2.2
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.1
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.1
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2.4
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.6
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.9
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 7.8
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.5
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.5
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.6
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2.8
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.2
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.1
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.6
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2.4
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.1
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2.2
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2.3
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2.3
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.8
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.5
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.9
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2.7
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 0.8
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2.6
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.2
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.7
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2.3
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.4
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 6.4
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2.3
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 0.9
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 0.9
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 0.9
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2.3
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 5
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2.3
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 1.6
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "days": 2
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 2.2
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 2.5
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 3.9
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 1.3
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 3.3
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 3.2
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 4.2
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 0.8
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 3.4
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 4.3
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 5.3
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 3
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 2.8
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 3.5
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 5.1
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 3
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 2.9
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 2.5
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 4.9
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 3.4
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 2.9
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 7.2
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 2.3
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 2.6
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 3
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 2.2
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 4.2
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 2.5
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 3.3
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 1.2
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 3.9
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 4.5
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 0.8
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 3.4
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 5.1
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 1.9
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 4.1
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 4
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 3.5
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 3.5
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 0.8
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 3
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 5.4
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 2.2
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 3.4
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 4.2
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 4.9
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 3.6
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 4.6
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 3.8
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 2.3
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 1.5
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 4.2
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 4.2
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 1.5
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 3.8
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 3.2
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 1.8
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 1.3
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 1.2
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 4.6
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 6.9
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 1.7
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 2.1
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 2.7
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 5
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 1
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 7.4
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 3.2
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 3.1
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 3
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 6.2
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 5.9
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 3.4
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 3.1
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 1.8
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 5.8
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 4.6
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 2.4
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "days": 4.7
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

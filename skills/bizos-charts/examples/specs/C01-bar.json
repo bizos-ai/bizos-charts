@@ -1,0 +1,93 @@
+{
+ "type": "C01",
+ "title": {
+  "zh": "示例公司 2025 年净利率 7.8%，同业第 2，高于同业中位数 2.6 个百分点",
+  "en": "Example Co.'s 2025 net margin of 7.8% ranks No.2, 2.6 points above the peer median"
+ },
+ "subtitle": {
+  "zh": "2025 年净利率（%），8 家跨境电商可比公司",
+  "en": "2025 net margin (%), eight cross-border e-commerce peers"
+ },
+ "format": "percent",
+ "x": "company",
+ "y": "margin",
+ "names": {
+  "margin": {
+   "zh": "净利率",
+   "en": "Net margin"
+  }
+ },
+ "highlight": [
+  {
+   "zh": "示例公司",
+   "en": "Example Co."
+  }
+ ],
+ "refLines": [
+  {
+   "value": "median"
+  }
+ ],
+ "data": [
+  {
+   "company": {
+    "zh": "示例公司",
+    "en": "Example Co."
+   },
+   "margin": 7.8
+  },
+  {
+   "company": {
+    "zh": "同业 A",
+    "en": "Peer A"
+   },
+   "margin": 12.4
+  },
+  {
+   "company": {
+    "zh": "同业 B",
+    "en": "Peer B"
+   },
+   "margin": 7.1
+  },
+  {
+   "company": {
+    "zh": "同业 C",
+    "en": "Peer C"
+   },
+   "margin": 6.4
+  },
+  {
+   "company": {
+    "zh": "同业 D",
+    "en": "Peer D"
+   },
+   "margin": 5.2
+  },
+  {
+   "company": {
+    "zh": "同业 E",
+    "en": "Peer E"
+   },
+   "margin": 4.8
+  },
+  {
+   "company": {
+    "zh": "同业 F",
+    "en": "Peer F"
+   },
+   "margin": 3.1
+  },
+  {
+   "company": {
+    "zh": "同业 G",
+    "en": "Peer G"
+   },
+   "margin": 1.9
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

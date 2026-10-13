@@ -1,0 +1,59 @@
+{
+ "type": "S08",
+ "title": {
+  "zh": "点击率仅 0.75%，是转化路径中最大的流失环节",
+  "en": "A 0.75% click-through rate is the largest leak in the path"
+ },
+ "subtitle": {
+  "zh": "2025 年 12 月商品推广广告转化路径（次）",
+  "en": "Sponsored Products conversion path, December 2025 (count)"
+ },
+ "unit": {
+  "zh": "次",
+  "en": "count"
+ },
+ "format": "integer",
+ "x": "stage",
+ "y": "n",
+ "data": [
+  {
+   "stage": {
+    "zh": "广告曝光",
+    "en": "Impressions"
+   },
+   "n": 1284000
+  },
+  {
+   "stage": {
+    "zh": "点击",
+    "en": "Clicks"
+   },
+   "n": 9630
+  },
+  {
+   "stage": {
+    "zh": "商品详情页浏览",
+    "en": "Detail page views"
+   },
+   "n": 8920
+  },
+  {
+   "stage": {
+    "zh": "加入购物车",
+    "en": "Add to cart"
+   },
+   "n": 1460
+  },
+  {
+   "stage": {
+    "zh": "下单",
+    "en": "Orders"
+   },
+   "n": 1012
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

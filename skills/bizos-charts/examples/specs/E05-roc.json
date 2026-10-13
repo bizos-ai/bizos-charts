@@ -1,0 +1,1233 @@
+{
+ "type": "E05",
+ "title": {
+  "zh": "联合模型 AUC 0.86，高于单用标志物 A 的 0.78（配对 DeLong P = 0.0019）",
+  "en": "The combined model reaches AUC 0.86 vs 0.78 for marker A alone (paired DeLong P = 0.0019)"
+ },
+ "subtitle": {
+  "zh": "区分病例与对照的 ROC 曲线；病例 120 例，对照 120 例",
+  "en": "ROC curves separating cases from controls; 120 cases, 120 controls"
+ },
+ "outcome": "case",
+ "score": [
+  "markerA",
+  "combined"
+ ],
+ "names": {
+  "markerA": {
+   "zh": "标志物 A",
+   "en": "Marker A"
+  },
+  "combined": {
+   "zh": "联合模型（A + B）",
+   "en": "Combined model (A + B)"
+  }
+ },
+ "cutoff": "youden",
+ "data": [
+  {
+   "case": 1,
+   "markerA": 0.49,
+   "combined": 1.67
+  },
+  {
+   "case": 1,
+   "markerA": 1.94,
+   "combined": 2.64
+  },
+  {
+   "case": 1,
+   "markerA": 3.15,
+   "combined": 2.8
+  },
+  {
+   "case": 1,
+   "markerA": 1.66,
+   "combined": 2.65
+  },
+  {
+   "case": 1,
+   "markerA": 2.45,
+   "combined": 2.75
+  },
+  {
+   "case": 1,
+   "markerA": 1.16,
+   "combined": 2.63
+  },
+  {
+   "case": 1,
+   "markerA": -1.23,
+   "combined": -0.52
+  },
+  {
+   "case": 1,
+   "markerA": 1.07,
+   "combined": 2.46
+  },
+  {
+   "case": 1,
+   "markerA": 2.06,
+   "combined": 1.14
+  },
+  {
+   "case": 1,
+   "markerA": -0.1,
+   "combined": 1.12
+  },
+  {
+   "case": 1,
+   "markerA": 0.01,
+   "combined": 0.66
+  },
+  {
+   "case": 1,
+   "markerA": 0.41,
+   "combined": 1.36
+  },
+  {
+   "case": 1,
+   "markerA": 1.38,
+   "combined": 1.7
+  },
+  {
+   "case": 1,
+   "markerA": 0.01,
+   "combined": 0.52
+  },
+  {
+   "case": 1,
+   "markerA": 1.2,
+   "combined": 2.35
+  },
+  {
+   "case": 1,
+   "markerA": -0.16,
+   "combined": 0.74
+  },
+  {
+   "case": 1,
+   "markerA": 0.04,
+   "combined": -0.25
+  },
+  {
+   "case": 1,
+   "markerA": 2.85,
+   "combined": 2.41
+  },
+  {
+   "case": 1,
+   "markerA": 0.99,
+   "combined": 0.69
+  },
+  {
+   "case": 1,
+   "markerA": 1.08,
+   "combined": 2.16
+  },
+  {
+   "case": 1,
+   "markerA": 1,
+   "combined": 1.03
+  },
+  {
+   "case": 1,
+   "markerA": 0.57,
+   "combined": 0.27
+  },
+  {
+   "case": 1,
+   "markerA": 2.27,
+   "combined": 1.78
+  },
+  {
+   "case": 1,
+   "markerA": 1.7,
+   "combined": 0.46
+  },
+  {
+   "case": 1,
+   "markerA": 1.69,
+   "combined": 3.09
+  },
+  {
+   "case": 1,
+   "markerA": 0.4,
+   "combined": 0.97
+  },
+  {
+   "case": 1,
+   "markerA": 2.38,
+   "combined": 2.5
+  },
+  {
+   "case": 1,
+   "markerA": -0.1,
+   "combined": 1.47
+  },
+  {
+   "case": 1,
+   "markerA": 2.24,
+   "combined": 3.52
+  },
+  {
+   "case": 1,
+   "markerA": -1.37,
+   "combined": 0.92
+  },
+  {
+   "case": 1,
+   "markerA": 1.34,
+   "combined": 2.64
+  },
+  {
+   "case": 1,
+   "markerA": 2.55,
+   "combined": 1.86
+  },
+  {
+   "case": 1,
+   "markerA": 1.71,
+   "combined": 3.41
+  },
+  {
+   "case": 1,
+   "markerA": 0.24,
+   "combined": 0.82
+  },
+  {
+   "case": 1,
+   "markerA": 1.02,
+   "combined": 0.44
+  },
+  {
+   "case": 1,
+   "markerA": 3.84,
+   "combined": 5.04
+  },
+  {
+   "case": 1,
+   "markerA": 1.14,
+   "combined": 1.11
+  },
+  {
+   "case": 1,
+   "markerA": 0.21,
+   "combined": 0.89
+  },
+  {
+   "case": 1,
+   "markerA": 2.4,
+   "combined": 2.34
+  },
+  {
+   "case": 1,
+   "markerA": -0.7,
+   "combined": 2.21
+  },
+  {
+   "case": 1,
+   "markerA": -0.07,
+   "combined": -1.15
+  },
+  {
+   "case": 1,
+   "markerA": -0.05,
+   "combined": 2.69
+  },
+  {
+   "case": 1,
+   "markerA": 1.84,
+   "combined": 2.07
+  },
+  {
+   "case": 1,
+   "markerA": 1.43,
+   "combined": 1.3
+  },
+  {
+   "case": 1,
+   "markerA": 0.01,
+   "combined": 1.76
+  },
+  {
+   "case": 1,
+   "markerA": 1.68,
+   "combined": 2.72
+  },
+  {
+   "case": 1,
+   "markerA": 0.8,
+   "combined": 1.59
+  },
+  {
+   "case": 1,
+   "markerA": 1.89,
+   "combined": 1.72
+  },
+  {
+   "case": 1,
+   "markerA": 0.72,
+   "combined": 1.49
+  },
+  {
+   "case": 1,
+   "markerA": 1.17,
+   "combined": 1.25
+  },
+  {
+   "case": 1,
+   "markerA": 3.14,
+   "combined": 2.45
+  },
+  {
+   "case": 1,
+   "markerA": -0.24,
+   "combined": 0.25
+  },
+  {
+   "case": 1,
+   "markerA": 0.43,
+   "combined": 0.22
+  },
+  {
+   "case": 1,
+   "markerA": 1.5,
+   "combined": 1.65
+  },
+  {
+   "case": 1,
+   "markerA": 1.41,
+   "combined": 1.58
+  },
+  {
+   "case": 1,
+   "markerA": -0.04,
+   "combined": -0.4
+  },
+  {
+   "case": 1,
+   "markerA": 0.25,
+   "combined": 0.03
+  },
+  {
+   "case": 1,
+   "markerA": -0.85,
+   "combined": 1.26
+  },
+  {
+   "case": 1,
+   "markerA": 1.42,
+   "combined": 2.53
+  },
+  {
+   "case": 1,
+   "markerA": 2.6,
+   "combined": 3.78
+  },
+  {
+   "case": 1,
+   "markerA": 1.47,
+   "combined": 1.67
+  },
+  {
+   "case": 1,
+   "markerA": 3.15,
+   "combined": 2.77
+  },
+  {
+   "case": 1,
+   "markerA": 1.47,
+   "combined": 1.31
+  },
+  {
+   "case": 1,
+   "markerA": 0.69,
+   "combined": 1.6
+  },
+  {
+   "case": 1,
+   "markerA": 2.43,
+   "combined": 4.1
+  },
+  {
+   "case": 1,
+   "markerA": 1.6,
+   "combined": 4.12
+  },
+  {
+   "case": 1,
+   "markerA": 2.47,
+   "combined": 2.06
+  },
+  {
+   "case": 1,
+   "markerA": 0.17,
+   "combined": 1.54
+  },
+  {
+   "case": 1,
+   "markerA": 2.24,
+   "combined": 0.25
+  },
+  {
+   "case": 1,
+   "markerA": 0.34,
+   "combined": 1.2
+  },
+  {
+   "case": 1,
+   "markerA": -0.06,
+   "combined": 1.06
+  },
+  {
+   "case": 1,
+   "markerA": 1.93,
+   "combined": 1.87
+  },
+  {
+   "case": 1,
+   "markerA": 1.29,
+   "combined": 2.26
+  },
+  {
+   "case": 1,
+   "markerA": -0.38,
+   "combined": 0.35
+  },
+  {
+   "case": 1,
+   "markerA": 1.74,
+   "combined": 3.49
+  },
+  {
+   "case": 1,
+   "markerA": 0.69,
+   "combined": 1.16
+  },
+  {
+   "case": 1,
+   "markerA": 0.46,
+   "combined": 1.12
+  },
+  {
+   "case": 1,
+   "markerA": 0.96,
+   "combined": 1.35
+  },
+  {
+   "case": 1,
+   "markerA": 0.17,
+   "combined": 0.81
+  },
+  {
+   "case": 1,
+   "markerA": 2.33,
+   "combined": 2.43
+  },
+  {
+   "case": 1,
+   "markerA": -0.27,
+   "combined": 1.65
+  },
+  {
+   "case": 1,
+   "markerA": -0.44,
+   "combined": 0.76
+  },
+  {
+   "case": 1,
+   "markerA": 2.05,
+   "combined": 3.37
+  },
+  {
+   "case": 1,
+   "markerA": 0.3,
+   "combined": 1.71
+  },
+  {
+   "case": 1,
+   "markerA": 0.13,
+   "combined": 1.11
+  },
+  {
+   "case": 1,
+   "markerA": 2.38,
+   "combined": 1.86
+  },
+  {
+   "case": 1,
+   "markerA": 1.02,
+   "combined": 1.14
+  },
+  {
+   "case": 1,
+   "markerA": 0.18,
+   "combined": 1.59
+  },
+  {
+   "case": 1,
+   "markerA": 1.23,
+   "combined": 1.97
+  },
+  {
+   "case": 1,
+   "markerA": 2.76,
+   "combined": 2.93
+  },
+  {
+   "case": 1,
+   "markerA": 1.39,
+   "combined": 2.26
+  },
+  {
+   "case": 1,
+   "markerA": 0.9,
+   "combined": 1.35
+  },
+  {
+   "case": 1,
+   "markerA": 1.15,
+   "combined": 1.64
+  },
+  {
+   "case": 1,
+   "markerA": 1.27,
+   "combined": 1.89
+  },
+  {
+   "case": 1,
+   "markerA": 0.67,
+   "combined": 1.54
+  },
+  {
+   "case": 1,
+   "markerA": 2.35,
+   "combined": 2.72
+  },
+  {
+   "case": 1,
+   "markerA": 1.4,
+   "combined": 1.9
+  },
+  {
+   "case": 1,
+   "markerA": 1.55,
+   "combined": 1.62
+  },
+  {
+   "case": 1,
+   "markerA": 1.6,
+   "combined": 1.73
+  },
+  {
+   "case": 1,
+   "markerA": 0.09,
+   "combined": 1.93
+  },
+  {
+   "case": 1,
+   "markerA": -0.29,
+   "combined": -0.89
+  },
+  {
+   "case": 1,
+   "markerA": -0.85,
+   "combined": 0.52
+  },
+  {
+   "case": 1,
+   "markerA": 1.62,
+   "combined": 1.15
+  },
+  {
+   "case": 1,
+   "markerA": 0.75,
+   "combined": 1.28
+  },
+  {
+   "case": 1,
+   "markerA": -0.17,
+   "combined": 0.77
+  },
+  {
+   "case": 1,
+   "markerA": 1.61,
+   "combined": 2.39
+  },
+  {
+   "case": 1,
+   "markerA": 1.26,
+   "combined": -0.18
+  },
+  {
+   "case": 1,
+   "markerA": 1.98,
+   "combined": 1.52
+  },
+  {
+   "case": 1,
+   "markerA": -0.06,
+   "combined": 0.32
+  },
+  {
+   "case": 1,
+   "markerA": 0.67,
+   "combined": 1.72
+  },
+  {
+   "case": 1,
+   "markerA": 3.79,
+   "combined": 3.48
+  },
+  {
+   "case": 1,
+   "markerA": 1,
+   "combined": 1.7
+  },
+  {
+   "case": 1,
+   "markerA": -0.7,
+   "combined": 1.08
+  },
+  {
+   "case": 1,
+   "markerA": 1.95,
+   "combined": 2.53
+  },
+  {
+   "case": 1,
+   "markerA": 1.33,
+   "combined": 2.53
+  },
+  {
+   "case": 1,
+   "markerA": 2.63,
+   "combined": 2.32
+  },
+  {
+   "case": 1,
+   "markerA": 2.18,
+   "combined": 2.48
+  },
+  {
+   "case": 1,
+   "markerA": 1.98,
+   "combined": 2.31
+  },
+  {
+   "case": 1,
+   "markerA": 1.12,
+   "combined": 1.91
+  },
+  {
+   "case": 1,
+   "markerA": 0.58,
+   "combined": -0.12
+  },
+  {
+   "case": 0,
+   "markerA": 0.66,
+   "combined": 0.53
+  },
+  {
+   "case": 0,
+   "markerA": 0.33,
+   "combined": 1.83
+  },
+  {
+   "case": 0,
+   "markerA": -0.79,
+   "combined": -0.38
+  },
+  {
+   "case": 0,
+   "markerA": -1.02,
+   "combined": -0.17
+  },
+  {
+   "case": 0,
+   "markerA": -1.28,
+   "combined": -0.94
+  },
+  {
+   "case": 0,
+   "markerA": 0.18,
+   "combined": 0.05
+  },
+  {
+   "case": 0,
+   "markerA": 1.47,
+   "combined": 0.98
+  },
+  {
+   "case": 0,
+   "markerA": 0.34,
+   "combined": 1.23
+  },
+  {
+   "case": 0,
+   "markerA": -1.72,
+   "combined": 0.15
+  },
+  {
+   "case": 0,
+   "markerA": -0.6,
+   "combined": -0.78
+  },
+  {
+   "case": 0,
+   "markerA": 0.1,
+   "combined": -0.23
+  },
+  {
+   "case": 0,
+   "markerA": -0.03,
+   "combined": 0.61
+  },
+  {
+   "case": 0,
+   "markerA": -0.9,
+   "combined": -1.26
+  },
+  {
+   "case": 0,
+   "markerA": -1.32,
+   "combined": 0.61
+  },
+  {
+   "case": 0,
+   "markerA": -1.92,
+   "combined": -1.33
+  },
+  {
+   "case": 0,
+   "markerA": -1.52,
+   "combined": -0.06
+  },
+  {
+   "case": 0,
+   "markerA": -0.4,
+   "combined": -0.48
+  },
+  {
+   "case": 0,
+   "markerA": 0.45,
+   "combined": 0.45
+  },
+  {
+   "case": 0,
+   "markerA": -0.62,
+   "combined": -0.38
+  },
+  {
+   "case": 0,
+   "markerA": -2.28,
+   "combined": -1.59
+  },
+  {
+   "case": 0,
+   "markerA": 0.14,
+   "combined": -0.29
+  },
+  {
+   "case": 0,
+   "markerA": 0.23,
+   "combined": 0.59
+  },
+  {
+   "case": 0,
+   "markerA": -1.64,
+   "combined": -2.37
+  },
+  {
+   "case": 0,
+   "markerA": 0.63,
+   "combined": 0.16
+  },
+  {
+   "case": 0,
+   "markerA": 0.35,
+   "combined": 0.28
+  },
+  {
+   "case": 0,
+   "markerA": 0.88,
+   "combined": 1.49
+  },
+  {
+   "case": 0,
+   "markerA": 0.75,
+   "combined": 0.84
+  },
+  {
+   "case": 0,
+   "markerA": 0.41,
+   "combined": 0.51
+  },
+  {
+   "case": 0,
+   "markerA": 0.48,
+   "combined": 1.64
+  },
+  {
+   "case": 0,
+   "markerA": 0.08,
+   "combined": 0.94
+  },
+  {
+   "case": 0,
+   "markerA": 0.2,
+   "combined": 0.16
+  },
+  {
+   "case": 0,
+   "markerA": 0.97,
+   "combined": 0.85
+  },
+  {
+   "case": 0,
+   "markerA": -0.34,
+   "combined": 1.25
+  },
+  {
+   "case": 0,
+   "markerA": -1.53,
+   "combined": -1.31
+  },
+  {
+   "case": 0,
+   "markerA": 0.07,
+   "combined": 0.09
+  },
+  {
+   "case": 0,
+   "markerA": -1.99,
+   "combined": -1.92
+  },
+  {
+   "case": 0,
+   "markerA": 1.89,
+   "combined": 1.49
+  },
+  {
+   "case": 0,
+   "markerA": -1.44,
+   "combined": -0.58
+  },
+  {
+   "case": 0,
+   "markerA": 0.04,
+   "combined": 0.45
+  },
+  {
+   "case": 0,
+   "markerA": -0.73,
+   "combined": 0.52
+  },
+  {
+   "case": 0,
+   "markerA": 1.55,
+   "combined": 0.13
+  },
+  {
+   "case": 0,
+   "markerA": 0.56,
+   "combined": 0.04
+  },
+  {
+   "case": 0,
+   "markerA": 2.14,
+   "combined": 2.2
+  },
+  {
+   "case": 0,
+   "markerA": 0.48,
+   "combined": 0.46
+  },
+  {
+   "case": 0,
+   "markerA": 0.4,
+   "combined": -0.85
+  },
+  {
+   "case": 0,
+   "markerA": 2.08,
+   "combined": 2.02
+  },
+  {
+   "case": 0,
+   "markerA": 0.02,
+   "combined": 0.13
+  },
+  {
+   "case": 0,
+   "markerA": 1.53,
+   "combined": 1.94
+  },
+  {
+   "case": 0,
+   "markerA": 0.36,
+   "combined": 0.56
+  },
+  {
+   "case": 0,
+   "markerA": 0.96,
+   "combined": 1.1
+  },
+  {
+   "case": 0,
+   "markerA": 0.19,
+   "combined": 1.75
+  },
+  {
+   "case": 0,
+   "markerA": -0.59,
+   "combined": 0.92
+  },
+  {
+   "case": 0,
+   "markerA": -1.05,
+   "combined": 0.37
+  },
+  {
+   "case": 0,
+   "markerA": 1.29,
+   "combined": -0.1
+  },
+  {
+   "case": 0,
+   "markerA": -0.41,
+   "combined": -0.71
+  },
+  {
+   "case": 0,
+   "markerA": -0.77,
+   "combined": -0.09
+  },
+  {
+   "case": 0,
+   "markerA": -0.26,
+   "combined": -0.3
+  },
+  {
+   "case": 0,
+   "markerA": -0.35,
+   "combined": -0.07
+  },
+  {
+   "case": 0,
+   "markerA": 0.62,
+   "combined": 0.28
+  },
+  {
+   "case": 0,
+   "markerA": -0.08,
+   "combined": 1.01
+  },
+  {
+   "case": 0,
+   "markerA": 0.75,
+   "combined": 1.08
+  },
+  {
+   "case": 0,
+   "markerA": 2.27,
+   "combined": 1.16
+  },
+  {
+   "case": 0,
+   "markerA": 0.5,
+   "combined": -0.35
+  },
+  {
+   "case": 0,
+   "markerA": -1.03,
+   "combined": -0.43
+  },
+  {
+   "case": 0,
+   "markerA": -0.18,
+   "combined": 0.31
+  },
+  {
+   "case": 0,
+   "markerA": 0.08,
+   "combined": -1.1
+  },
+  {
+   "case": 0,
+   "markerA": -1.04,
+   "combined": 1.43
+  },
+  {
+   "case": 0,
+   "markerA": 0.57,
+   "combined": 0.43
+  },
+  {
+   "case": 0,
+   "markerA": 0.51,
+   "combined": -0.29
+  },
+  {
+   "case": 0,
+   "markerA": 0.96,
+   "combined": 0.99
+  },
+  {
+   "case": 0,
+   "markerA": 1.26,
+   "combined": 1.79
+  },
+  {
+   "case": 0,
+   "markerA": -0.27,
+   "combined": -0.36
+  },
+  {
+   "case": 0,
+   "markerA": 0.48,
+   "combined": -1.36
+  },
+  {
+   "case": 0,
+   "markerA": -0.14,
+   "combined": 0.9
+  },
+  {
+   "case": 0,
+   "markerA": 0.94,
+   "combined": 0.74
+  },
+  {
+   "case": 0,
+   "markerA": -1,
+   "combined": -0.34
+  },
+  {
+   "case": 0,
+   "markerA": -0.8,
+   "combined": -0.26
+  },
+  {
+   "case": 0,
+   "markerA": 0.32,
+   "combined": 1.05
+  },
+  {
+   "case": 0,
+   "markerA": -1.42,
+   "combined": 0.37
+  },
+  {
+   "case": 0,
+   "markerA": -0.29,
+   "combined": 0.54
+  },
+  {
+   "case": 0,
+   "markerA": -0.39,
+   "combined": -0.23
+  },
+  {
+   "case": 0,
+   "markerA": 1.1,
+   "combined": 0.55
+  },
+  {
+   "case": 0,
+   "markerA": 0.78,
+   "combined": 0.58
+  },
+  {
+   "case": 0,
+   "markerA": 0.47,
+   "combined": 0
+  },
+  {
+   "case": 0,
+   "markerA": 1.19,
+   "combined": 0.12
+  },
+  {
+   "case": 0,
+   "markerA": 0.69,
+   "combined": 1.02
+  },
+  {
+   "case": 0,
+   "markerA": -1.46,
+   "combined": -1.32
+  },
+  {
+   "case": 0,
+   "markerA": 0.14,
+   "combined": 0.2
+  },
+  {
+   "case": 0,
+   "markerA": -0.67,
+   "combined": -0.95
+  },
+  {
+   "case": 0,
+   "markerA": -0.62,
+   "combined": -1.24
+  },
+  {
+   "case": 0,
+   "markerA": 0.04,
+   "combined": 0.62
+  },
+  {
+   "case": 0,
+   "markerA": 0.22,
+   "combined": -0.19
+  },
+  {
+   "case": 0,
+   "markerA": 1.39,
+   "combined": -0.51
+  },
+  {
+   "case": 0,
+   "markerA": 1.52,
+   "combined": 0.6
+  },
+  {
+   "case": 0,
+   "markerA": -0.87,
+   "combined": 1.95
+  },
+  {
+   "case": 0,
+   "markerA": 0.34,
+   "combined": -0.58
+  },
+  {
+   "case": 0,
+   "markerA": -0.49,
+   "combined": -0.75
+  },
+  {
+   "case": 0,
+   "markerA": 0.52,
+   "combined": 0.13
+  },
+  {
+   "case": 0,
+   "markerA": -0.92,
+   "combined": -0.52
+  },
+  {
+   "case": 0,
+   "markerA": -0.18,
+   "combined": 0.1
+  },
+  {
+   "case": 0,
+   "markerA": -0.42,
+   "combined": -0.94
+  },
+  {
+   "case": 0,
+   "markerA": 0.02,
+   "combined": 0.67
+  },
+  {
+   "case": 0,
+   "markerA": -0.81,
+   "combined": -0.43
+  },
+  {
+   "case": 0,
+   "markerA": -2.22,
+   "combined": -3.66
+  },
+  {
+   "case": 0,
+   "markerA": -1.13,
+   "combined": 0.65
+  },
+  {
+   "case": 0,
+   "markerA": 1.38,
+   "combined": 1.04
+  },
+  {
+   "case": 0,
+   "markerA": -1.68,
+   "combined": -1.21
+  },
+  {
+   "case": 0,
+   "markerA": -0.54,
+   "combined": -2.32
+  },
+  {
+   "case": 0,
+   "markerA": -0.34,
+   "combined": -0.44
+  },
+  {
+   "case": 0,
+   "markerA": -0.24,
+   "combined": 1.61
+  },
+  {
+   "case": 0,
+   "markerA": -1.79,
+   "combined": -0.88
+  },
+  {
+   "case": 0,
+   "markerA": -0.14,
+   "combined": -1.25
+  },
+  {
+   "case": 0,
+   "markerA": -0.33,
+   "combined": -1.26
+  },
+  {
+   "case": 0,
+   "markerA": 0.3,
+   "combined": 0.18
+  },
+  {
+   "case": 0,
+   "markerA": -0.09,
+   "combined": -1.83
+  },
+  {
+   "case": 0,
+   "markerA": -2.22,
+   "combined": 1.19
+  },
+  {
+   "case": 0,
+   "markerA": 0.02,
+   "combined": -0.54
+  },
+  {
+   "case": 0,
+   "markerA": 1.09,
+   "combined": -0.13
+  },
+  {
+   "case": 0,
+   "markerA": -0.17,
+   "combined": -0.35
+  },
+  {
+   "case": 0,
+   "markerA": 0.76,
+   "combined": -1.04
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

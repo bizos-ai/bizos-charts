@@ -1,0 +1,142 @@
+{
+ "type": "P01",
+ "wide": true,
+ "title": {
+  "zh": "两年内完成从单站点到四站点的扩张，独立站在第二年上线",
+  "en": "Expanded from one to four marketplaces in two years; the DTC site launched in year two"
+ },
+ "subtitle": {
+  "zh": "关键经营节点，2024–2025 年",
+  "en": "Key milestones, 2024–2025"
+ },
+ "x": "date",
+ "label": "event",
+ "detail": "detail",
+ "category": "kind",
+ "data": [
+  {
+   "date": "2024-02-15",
+   "event": {
+    "zh": "美国站上线",
+    "en": "US launch"
+   },
+   "detail": {
+    "zh": "首批 12 个 SKU",
+    "en": "First 12 SKUs"
+   },
+   "kind": {
+    "zh": "市场",
+    "en": "Market"
+   }
+  },
+  {
+   "date": "2024-05-20",
+   "event": {
+    "zh": "品牌备案完成",
+    "en": "Brand registry"
+   },
+   "detail": {
+    "zh": "开通 A+ 与品牌推广",
+    "en": "A+ and Sponsored Brands"
+   },
+   "kind": {
+    "zh": "品牌",
+    "en": "Brand"
+   }
+  },
+  {
+   "date": "2024-09-01",
+   "event": {
+    "zh": "德国站上线",
+    "en": "Germany launch"
+   },
+   "detail": {
+    "zh": "欧洲 FBA 入仓",
+    "en": "EU FBA inbound"
+   },
+   "kind": {
+    "zh": "市场",
+    "en": "Market"
+   }
+  },
+  {
+   "date": "2024-11-29",
+   "event": {
+    "zh": "首个黑五",
+    "en": "First Black Friday"
+   },
+   "detail": {
+    "zh": "单日订单 2,100",
+    "en": "2,100 orders in a day"
+   },
+   "kind": {
+    "zh": "运营",
+    "en": "Operations"
+   }
+  },
+  {
+   "date": "2025-03-10",
+   "event": {
+    "zh": "日本站上线",
+    "en": "Japan launch"
+   },
+   "detail": {
+    "zh": "本地化包装",
+    "en": "Localised packaging"
+   },
+   "kind": {
+    "zh": "市场",
+    "en": "Market"
+   }
+  },
+  {
+   "date": "2025-06-18",
+   "event": {
+    "zh": "独立站上线",
+    "en": "DTC site launch"
+   },
+   "detail": {
+    "zh": "会员体系同步上线",
+    "en": "Loyalty programme"
+   },
+   "kind": {
+    "zh": "品牌",
+    "en": "Brand"
+   }
+  },
+  {
+   "date": "2025-07-08",
+   "event": {
+    "zh": "Prime Day",
+    "en": "Prime Day"
+   },
+   "detail": {
+    "zh": "四天销售 48 万美元",
+    "en": "US$480k in four days"
+   },
+   "kind": {
+    "zh": "运营",
+    "en": "Operations"
+   }
+  },
+  {
+   "date": "2025-10-12",
+   "event": {
+    "zh": "英国站上线",
+    "en": "UK launch"
+   },
+   "detail": {
+    "zh": "第四个站点",
+    "en": "Fourth marketplace"
+   },
+   "kind": {
+    "zh": "市场",
+    "en": "Market"
+   }
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

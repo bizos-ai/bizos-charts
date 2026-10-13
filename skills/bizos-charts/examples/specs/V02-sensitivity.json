@@ -1,0 +1,80 @@
+{
+ "type": "V02",
+ "title": {
+  "zh": "WACC 每上升 1 个百分点，每股价值平均下降约 4.2 元",
+  "en": "Each 1-point rise in WACC cuts value per share by about RMB4.2 on average"
+ },
+ "subtitle": {
+  "zh": "DCF 每股价值（元）对 WACC 与永续增长率的敏感性",
+  "en": "DCF value per share (RMB) vs WACC and terminal growth"
+ },
+ "unit": {
+  "zh": "元/股",
+  "en": "RMB per share"
+ },
+ "format": "number:1",
+ "rows": {
+  "name": "WACC",
+  "values": [
+   9,
+   9.5,
+   10,
+   10.5,
+   11
+  ],
+  "format": "percent:1"
+ },
+ "cols": {
+  "name": {
+   "zh": "永续增长率 g",
+   "en": "Terminal growth g"
+  },
+  "values": [
+   2,
+   2.5,
+   3
+  ],
+  "format": "percent:1"
+ },
+ "values": [
+  [
+   32.5,
+   35.2,
+   38.3
+  ],
+  [
+   30.3,
+   32.7,
+   35.3
+  ],
+  [
+   28.4,
+   30.5,
+   32.8
+  ],
+  [
+   26.8,
+   28.6,
+   30.6
+  ],
+  [
+   25.3,
+   26.9,
+   28.7
+  ]
+ ],
+ "base": [
+  10,
+  2.5
+ ],
+ "notes": [
+  {
+   "zh": "简化模型：价值 = FCF × (1+g) ÷ (WACC − g)，FCF = 2.23 元/股；基准情形即目标价 30.5 元",
+   "en": "Simplified: value = FCF × (1+g) ÷ (WACC − g), FCF = RMB2.23/share; the base case is the RMB30.5 target"
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

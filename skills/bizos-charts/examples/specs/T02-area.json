@@ -1,0 +1,214 @@
+{
+ "type": "T02",
+ "title": {
+  "zh": "广告流量占比两年内从 39% 升至 47%，自然流量增长落后",
+  "en": "Paid traffic rose from 39% to 47% of sessions in two years"
+ },
+ "subtitle": {
+  "zh": "店铺月度访问量按来源（万次），2024 年 1 月–2025 年 12 月",
+  "en": "Monthly sessions by source (10k), Jan 2024–Dec 2025"
+ },
+ "unit": {
+  "zh": "万次",
+  "en": "10k sessions"
+ },
+ "x": "month",
+ "y": [
+  "organic",
+  "sp",
+  "sb",
+  "ext"
+ ],
+ "names": {
+  "organic": {
+   "zh": "自然搜索",
+   "en": "Organic"
+  },
+  "sp": {
+   "zh": "商品推广",
+   "en": "Sponsored Products"
+  },
+  "sb": {
+   "zh": "品牌推广",
+   "en": "Sponsored Brands"
+  },
+  "ext": {
+   "zh": "站外引流",
+   "en": "External"
+  }
+ },
+ "data": [
+  {
+   "month": "2024-01",
+   "organic": 41,
+   "sp": 22,
+   "sb": 7,
+   "ext": 4
+  },
+  {
+   "month": "2024-02",
+   "organic": 43,
+   "sp": 23.6,
+   "sb": 7.3,
+   "ext": 4
+  },
+  {
+   "month": "2024-03",
+   "organic": 44.7,
+   "sp": 25,
+   "sb": 7.5,
+   "ext": 4
+  },
+  {
+   "month": "2024-04",
+   "organic": 45.8,
+   "sp": 26.4,
+   "sb": 7.8,
+   "ext": 4
+  },
+  {
+   "month": "2024-05",
+   "organic": 46.1,
+   "sp": 27.5,
+   "sb": 8,
+   "ext": 4
+  },
+  {
+   "month": "2024-06",
+   "organic": 45.8,
+   "sp": 28.5,
+   "sb": 8.3,
+   "ext": 4
+  },
+  {
+   "month": "2024-07",
+   "organic": 45,
+   "sp": 29.2,
+   "sb": 8.5,
+   "ext": 4
+  },
+  {
+   "month": "2024-08",
+   "organic": 44.1,
+   "sp": 29.7,
+   "sb": 8.8,
+   "ext": 4
+  },
+  {
+   "month": "2024-09",
+   "organic": 43.5,
+   "sp": 30.1,
+   "sb": 9,
+   "ext": 4
+  },
+  {
+   "month": "2024-10",
+   "organic": 43.5,
+   "sp": 30.4,
+   "sb": 9.3,
+   "ext": 4
+  },
+  {
+   "month": "2024-11",
+   "organic": 44.1,
+   "sp": 30.6,
+   "sb": 9.5,
+   "ext": 4
+  },
+  {
+   "month": "2024-12",
+   "organic": 45.5,
+   "sp": 30.9,
+   "sb": 9.8,
+   "ext": 4
+  },
+  {
+   "month": "2025-01",
+   "organic": 47.4,
+   "sp": 31.3,
+   "sb": 10,
+   "ext": 4
+  },
+  {
+   "month": "2025-02",
+   "organic": 49.4,
+   "sp": 31.8,
+   "sb": 10.3,
+   "ext": 4.7
+  },
+  {
+   "month": "2025-03",
+   "organic": 51.4,
+   "sp": 32.6,
+   "sb": 10.5,
+   "ext": 5.4
+  },
+  {
+   "month": "2025-04",
+   "organic": 52.8,
+   "sp": 33.6,
+   "sb": 10.8,
+   "ext": 6.1
+  },
+  {
+   "month": "2025-05",
+   "organic": 53.6,
+   "sp": 34.8,
+   "sb": 11,
+   "ext": 6.8
+  },
+  {
+   "month": "2025-06",
+   "organic": 53.6,
+   "sp": 36.1,
+   "sb": 11.3,
+   "ext": 7.5
+  },
+  {
+   "month": "2025-07",
+   "organic": 53,
+   "sp": 37.6,
+   "sb": 11.5,
+   "ext": 8.2
+  },
+  {
+   "month": "2025-08",
+   "organic": 52.2,
+   "sp": 39.2,
+   "sb": 11.8,
+   "ext": 8.9
+  },
+  {
+   "month": "2025-09",
+   "organic": 51.4,
+   "sp": 40.7,
+   "sb": 12,
+   "ext": 9.6
+  },
+  {
+   "month": "2025-10",
+   "organic": 51,
+   "sp": 42.2,
+   "sb": 12.3,
+   "ext": 10.3
+  },
+  {
+   "month": "2025-11",
+   "organic": 51.2,
+   "sp": 43.5,
+   "sb": 12.5,
+   "ext": 11
+  },
+  {
+   "month": "2025-12",
+   "organic": 52.2,
+   "sp": 44.7,
+   "sb": 12.8,
+   "ext": 11.7
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

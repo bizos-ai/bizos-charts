@@ -1,0 +1,3389 @@
+{
+ "type": "E02",
+ "title": {
+  "zh": "NK 细胞 GZMB 表达中位数最高（2.9）；CD8⁺ T 细胞中 14% 几乎不表达，呈双峰",
+  "en": "NK cells have the highest median GZMB (2.9); 14% of CD8⁺ T cells barely express it"
+ },
+ "notes": [
+  {
+   "zh": "“几乎不表达”指 GZMB < 0.5",
+   "en": "“Barely express” means GZMB < 0.5"
+  }
+ ],
+ "subtitle": {
+  "zh": "外周血单个核细胞单细胞测序，GZMB 表达量（log₂(CPM + 1)），每类随机抽取 120 个细胞",
+  "en": "PBMC single-cell RNA-seq, GZMB expression (log₂(CPM + 1)), 120 random cells per type"
+ },
+ "x": "cell",
+ "y": "gzmb",
+ "unit": "log₂(CPM + 1)",
+ "names": {
+  "gzmb": "GZMB"
+ },
+ "data": [
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 1.44
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 1.94
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.64
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.48
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.77
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 3.74
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.96
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 0.01
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 1.77
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.85
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.1
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 1.6
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.32
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 3.12
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 0.11
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.55
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.44
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.39
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 0.07
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.8
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.82
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 0.03
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 1.61
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 1.69
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.41
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 1.35
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.48
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 3.54
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 0.92
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.19
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 3.03
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.38
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.93
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.27
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 1.79
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.46
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.22
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.22
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.55
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 0.14
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 3
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.69
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 3.54
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.63
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.62
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 1.55
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 1.73
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 3.03
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.03
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 1.83
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 1.99
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 1.32
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 0.06
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.37
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.19
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 1.14
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 1.78
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 0.04
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 3.26
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.42
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 0.07
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 1.76
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.58
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.85
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.1
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.56
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.79
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 3.19
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.03
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 0.09
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.06
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 0.03
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.22
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.61
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.31
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.93
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.32
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.67
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.56
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 3.25
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 0.05
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.49
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.45
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 1.79
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 1.79
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 3.62
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.7
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 1.18
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.08
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 0.08
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.23
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.39
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 1.46
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.45
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.81
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.76
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.45
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 0.03
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 1.95
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 0.12
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.74
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.79
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.25
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.24
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 1.53
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 1.92
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.57
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 0.13
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.35
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.07
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 1.98
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 0.09
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.41
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.2
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.23
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.99
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.57
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 3.3
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 2.26
+  },
+  {
+   "cell": {
+    "zh": "CD8⁺ T 细胞",
+    "en": "CD8⁺ T cells"
+   },
+   "gzmb": 0.08
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.82
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.87
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 0.06
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 0.08
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.45
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.15
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.4
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.89
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.28
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.91
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.26
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.15
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.48
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.27
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 1.68
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.84
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.62
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.24
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.77
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.97
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.29
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.67
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.24
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.56
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.74
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.26
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.87
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 0.24
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.42
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.41
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.83
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.82
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.73
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.32
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.47
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.93
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.5
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.23
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.15
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.96
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.16
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.18
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.1
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.6
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.96
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.37
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.25
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.23
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.5
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.85
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.71
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.41
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.84
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 1.89
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.61
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.44
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.34
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.38
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.65
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.3
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 1.67
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.22
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.76
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 1.96
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.32
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.71
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.42
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.33
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.49
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.89
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.92
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.02
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.07
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.19
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.25
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.13
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.21
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.46
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.99
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.35
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.2
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.35
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.32
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.73
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.12
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.76
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.37
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.83
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.58
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.79
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.64
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.58
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.43
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.89
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.17
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.09
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.97
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.93
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.6
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.77
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.03
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.44
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.47
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.95
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 4.04
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.5
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.97
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.64
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.29
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.76
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.98
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.35
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.9
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 2.48
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.38
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.21
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.72
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.39
+  },
+  {
+   "cell": {
+    "zh": "NK 细胞",
+    "en": "NK cells"
+   },
+   "gzmb": 3.31
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.12
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.19
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.05
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.13
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.22
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.2
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.27
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.01
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 1.61
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 1.4
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.1
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.04
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 1.6
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.15
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.06
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.03
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.05
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 1.25
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.1
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 1.02
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.23
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.15
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.13
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.12
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.11
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 1.27
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.09
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.09
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 1.01
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.08
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 1.47
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.07
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.28
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.76
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.04
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.41
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.94
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 1.57
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.03
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.04
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.09
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.21
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.04
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 1.74
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 2
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.09
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.07
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 1.93
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.01
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 1.47
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.09
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.85
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.04
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 1.62
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.11
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.15
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.05
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 1.13
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.11
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.05
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 1.53
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 1.42
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.07
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.02
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.04
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.11
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.18
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 1.11
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.06
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.08
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.21
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.21
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.22
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.07
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.03
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.03
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.18
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.02
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 1.21
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.31
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.17
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.12
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 1.08
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.13
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.06
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.85
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.05
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.08
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.07
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.06
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.19
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.03
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.04
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.04
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.05
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.1
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.01
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.05
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.2
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 1.84
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.15
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 1.13
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.08
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.09
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.1
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.03
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.11
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.06
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 1.25
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.07
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.06
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.2
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 1.43
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.13
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.07
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.12
+  },
+  {
+   "cell": {
+    "zh": "CD4⁺ T 细胞",
+    "en": "CD4⁺ T cells"
+   },
+   "gzmb": 0.22
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.01
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.09
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.06
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.02
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.11
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.1
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.08
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.11
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.07
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.18
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.12
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.03
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.12
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.02
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.02
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.16
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.06
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.11
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.09
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.02
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.02
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.05
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.91
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.16
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.13
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.09
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.04
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.13
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.01
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.15
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.97
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.01
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.07
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.13
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.02
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.15
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.07
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.04
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.03
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.23
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.03
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.04
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.03
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.14
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.19
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.22
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.07
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.07
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.06
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.03
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.62
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.1
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.04
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.09
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.06
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.1
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.04
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.03
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.08
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.05
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.06
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.19
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.17
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.06
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.02
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.12
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.07
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.07
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.2
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.03
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.19
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.03
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.01
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.08
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.01
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.26
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.14
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.11
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.02
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.02
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.18
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.15
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.07
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.18
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.09
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.2
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.04
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.01
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.09
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.14
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.14
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.17
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.04
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.03
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.05
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.05
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.75
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.08
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.17
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.01
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.19
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.07
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.1
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.08
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.19
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.11
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.15
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.15
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.21
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.03
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.15
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.1
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.2
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.24
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.09
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.21
+  },
+  {
+   "cell": {
+    "zh": "B 细胞",
+    "en": "B cells"
+   },
+   "gzmb": 0.03
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

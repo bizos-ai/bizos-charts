@@ -1,0 +1,559 @@
+{
+ "type": "D03",
+ "title": {
+  "zh": "我方 SKU-1 定价 34.99 美元，接近头部品牌中位价 39.8 美元；SKU-2 贴近中腰部中位价",
+  "en": "SKU-1 (US$34.99) prices near the leading-brand median; SKU-2 sits mid-tier"
+ },
+ "subtitle": {
+  "zh": "前 64 名竞品与我方 2 款 SKU 售价（美元），按品牌层级",
+  "en": "Prices of 64 leading competitors and our 2 SKUs (US$), by brand tier"
+ },
+ "unit": {
+  "zh": "美元",
+  "en": "US$"
+ },
+ "format": "number:2",
+ "x": "tier",
+ "y": "price",
+ "label": "asin",
+ "names": {
+  "price": {
+   "zh": "售价",
+   "en": "Price"
+  }
+ },
+ "highlight": [
+  {
+   "zh": "我方 SKU-1",
+   "en": "Our SKU-1"
+  },
+  {
+   "zh": "我方 SKU-2",
+   "en": "Our SKU-2"
+  }
+ ],
+ "data": [
+  {
+   "tier": {
+    "zh": "头部品牌",
+    "en": "Leading brands"
+   },
+   "asin": "B01001X",
+   "price": 40.61
+  },
+  {
+   "tier": {
+    "zh": "头部品牌",
+    "en": "Leading brands"
+   },
+   "asin": "B01002X",
+   "price": 40.47
+  },
+  {
+   "tier": {
+    "zh": "头部品牌",
+    "en": "Leading brands"
+   },
+   "asin": "B01003X",
+   "price": 43.17
+  },
+  {
+   "tier": {
+    "zh": "头部品牌",
+    "en": "Leading brands"
+   },
+   "asin": "B01004X",
+   "price": 47.27
+  },
+  {
+   "tier": {
+    "zh": "头部品牌",
+    "en": "Leading brands"
+   },
+   "asin": "B01005X",
+   "price": 28.69
+  },
+  {
+   "tier": {
+    "zh": "头部品牌",
+    "en": "Leading brands"
+   },
+   "asin": "B01006X",
+   "price": 31.2
+  },
+  {
+   "tier": {
+    "zh": "头部品牌",
+    "en": "Leading brands"
+   },
+   "asin": "B01007X",
+   "price": 34.18
+  },
+  {
+   "tier": {
+    "zh": "头部品牌",
+    "en": "Leading brands"
+   },
+   "asin": "B01008X",
+   "price": 38.8
+  },
+  {
+   "tier": {
+    "zh": "头部品牌",
+    "en": "Leading brands"
+   },
+   "asin": "B01009X",
+   "price": 40.17
+  },
+  {
+   "tier": {
+    "zh": "头部品牌",
+    "en": "Leading brands"
+   },
+   "asin": "B01010X",
+   "price": 39.41
+  },
+  {
+   "tier": {
+    "zh": "头部品牌",
+    "en": "Leading brands"
+   },
+   "asin": "B01011X",
+   "price": 28.04
+  },
+  {
+   "tier": {
+    "zh": "头部品牌",
+    "en": "Leading brands"
+   },
+   "asin": "B01012X",
+   "price": 40.53
+  },
+  {
+   "tier": {
+    "zh": "头部品牌",
+    "en": "Leading brands"
+   },
+   "asin": "B01013X",
+   "price": 40.89
+  },
+  {
+   "tier": {
+    "zh": "头部品牌",
+    "en": "Leading brands"
+   },
+   "asin": "B01014X",
+   "price": 33.11
+  },
+  {
+   "tier": {
+    "zh": "中腰部品牌",
+    "en": "Mid-tier brands"
+   },
+   "asin": "B01015X",
+   "price": 35.23
+  },
+  {
+   "tier": {
+    "zh": "中腰部品牌",
+    "en": "Mid-tier brands"
+   },
+   "asin": "B01016X",
+   "price": 15.81
+  },
+  {
+   "tier": {
+    "zh": "中腰部品牌",
+    "en": "Mid-tier brands"
+   },
+   "asin": "B01017X",
+   "price": 15.71
+  },
+  {
+   "tier": {
+    "zh": "中腰部品牌",
+    "en": "Mid-tier brands"
+   },
+   "asin": "B01018X",
+   "price": 30.22
+  },
+  {
+   "tier": {
+    "zh": "中腰部品牌",
+    "en": "Mid-tier brands"
+   },
+   "asin": "B01019X",
+   "price": 17.36
+  },
+  {
+   "tier": {
+    "zh": "中腰部品牌",
+    "en": "Mid-tier brands"
+   },
+   "asin": "B01020X",
+   "price": 24.03
+  },
+  {
+   "tier": {
+    "zh": "中腰部品牌",
+    "en": "Mid-tier brands"
+   },
+   "asin": "B01021X",
+   "price": 24.83
+  },
+  {
+   "tier": {
+    "zh": "中腰部品牌",
+    "en": "Mid-tier brands"
+   },
+   "asin": "B01022X",
+   "price": 25.82
+  },
+  {
+   "tier": {
+    "zh": "中腰部品牌",
+    "en": "Mid-tier brands"
+   },
+   "asin": "B01023X",
+   "price": 20.3
+  },
+  {
+   "tier": {
+    "zh": "中腰部品牌",
+    "en": "Mid-tier brands"
+   },
+   "asin": "B01024X",
+   "price": 34.26
+  },
+  {
+   "tier": {
+    "zh": "中腰部品牌",
+    "en": "Mid-tier brands"
+   },
+   "asin": "B01025X",
+   "price": 31.87
+  },
+  {
+   "tier": {
+    "zh": "中腰部品牌",
+    "en": "Mid-tier brands"
+   },
+   "asin": "B01026X",
+   "price": 32.28
+  },
+  {
+   "tier": {
+    "zh": "中腰部品牌",
+    "en": "Mid-tier brands"
+   },
+   "asin": "B01027X",
+   "price": 27.82
+  },
+  {
+   "tier": {
+    "zh": "中腰部品牌",
+    "en": "Mid-tier brands"
+   },
+   "asin": "B01028X",
+   "price": 29.58
+  },
+  {
+   "tier": {
+    "zh": "中腰部品牌",
+    "en": "Mid-tier brands"
+   },
+   "asin": "B01029X",
+   "price": 26.98
+  },
+  {
+   "tier": {
+    "zh": "中腰部品牌",
+    "en": "Mid-tier brands"
+   },
+   "asin": "B01030X",
+   "price": 23.22
+  },
+  {
+   "tier": {
+    "zh": "中腰部品牌",
+    "en": "Mid-tier brands"
+   },
+   "asin": "B01031X",
+   "price": 26.28
+  },
+  {
+   "tier": {
+    "zh": "中腰部品牌",
+    "en": "Mid-tier brands"
+   },
+   "asin": "B01032X",
+   "price": 19
+  },
+  {
+   "tier": {
+    "zh": "中腰部品牌",
+    "en": "Mid-tier brands"
+   },
+   "asin": "B01033X",
+   "price": 23.33
+  },
+  {
+   "tier": {
+    "zh": "中腰部品牌",
+    "en": "Mid-tier brands"
+   },
+   "asin": "B01034X",
+   "price": 28
+  },
+  {
+   "tier": {
+    "zh": "中腰部品牌",
+    "en": "Mid-tier brands"
+   },
+   "asin": "B01035X",
+   "price": 34.03
+  },
+  {
+   "tier": {
+    "zh": "中腰部品牌",
+    "en": "Mid-tier brands"
+   },
+   "asin": "B01036X",
+   "price": 25.74
+  },
+  {
+   "tier": {
+    "zh": "白牌卖家",
+    "en": "Unbranded sellers"
+   },
+   "asin": "B01037X",
+   "price": 15.09
+  },
+  {
+   "tier": {
+    "zh": "白牌卖家",
+    "en": "Unbranded sellers"
+   },
+   "asin": "B01038X",
+   "price": 19.44
+  },
+  {
+   "tier": {
+    "zh": "白牌卖家",
+    "en": "Unbranded sellers"
+   },
+   "asin": "B01039X",
+   "price": 16.21
+  },
+  {
+   "tier": {
+    "zh": "白牌卖家",
+    "en": "Unbranded sellers"
+   },
+   "asin": "B01040X",
+   "price": 16.52
+  },
+  {
+   "tier": {
+    "zh": "白牌卖家",
+    "en": "Unbranded sellers"
+   },
+   "asin": "B01041X",
+   "price": 18.34
+  },
+  {
+   "tier": {
+    "zh": "白牌卖家",
+    "en": "Unbranded sellers"
+   },
+   "asin": "B01042X",
+   "price": 11.24
+  },
+  {
+   "tier": {
+    "zh": "白牌卖家",
+    "en": "Unbranded sellers"
+   },
+   "asin": "B01043X",
+   "price": 17.24
+  },
+  {
+   "tier": {
+    "zh": "白牌卖家",
+    "en": "Unbranded sellers"
+   },
+   "asin": "B01044X",
+   "price": 13.81
+  },
+  {
+   "tier": {
+    "zh": "白牌卖家",
+    "en": "Unbranded sellers"
+   },
+   "asin": "B01045X",
+   "price": 13.71
+  },
+  {
+   "tier": {
+    "zh": "白牌卖家",
+    "en": "Unbranded sellers"
+   },
+   "asin": "B01046X",
+   "price": 17
+  },
+  {
+   "tier": {
+    "zh": "白牌卖家",
+    "en": "Unbranded sellers"
+   },
+   "asin": "B01047X",
+   "price": 14.89
+  },
+  {
+   "tier": {
+    "zh": "白牌卖家",
+    "en": "Unbranded sellers"
+   },
+   "asin": "B01048X",
+   "price": 17.37
+  },
+  {
+   "tier": {
+    "zh": "白牌卖家",
+    "en": "Unbranded sellers"
+   },
+   "asin": "B01049X",
+   "price": 15.53
+  },
+  {
+   "tier": {
+    "zh": "白牌卖家",
+    "en": "Unbranded sellers"
+   },
+   "asin": "B01050X",
+   "price": 22.38
+  },
+  {
+   "tier": {
+    "zh": "白牌卖家",
+    "en": "Unbranded sellers"
+   },
+   "asin": "B01051X",
+   "price": 21.79
+  },
+  {
+   "tier": {
+    "zh": "白牌卖家",
+    "en": "Unbranded sellers"
+   },
+   "asin": "B01052X",
+   "price": 22.48
+  },
+  {
+   "tier": {
+    "zh": "白牌卖家",
+    "en": "Unbranded sellers"
+   },
+   "asin": "B01053X",
+   "price": 9.06
+  },
+  {
+   "tier": {
+    "zh": "白牌卖家",
+    "en": "Unbranded sellers"
+   },
+   "asin": "B01054X",
+   "price": 21.73
+  },
+  {
+   "tier": {
+    "zh": "白牌卖家",
+    "en": "Unbranded sellers"
+   },
+   "asin": "B01055X",
+   "price": 16.09
+  },
+  {
+   "tier": {
+    "zh": "白牌卖家",
+    "en": "Unbranded sellers"
+   },
+   "asin": "B01056X",
+   "price": 18.3
+  },
+  {
+   "tier": {
+    "zh": "白牌卖家",
+    "en": "Unbranded sellers"
+   },
+   "asin": "B01057X",
+   "price": 20.1
+  },
+  {
+   "tier": {
+    "zh": "白牌卖家",
+    "en": "Unbranded sellers"
+   },
+   "asin": "B01058X",
+   "price": 22.64
+  },
+  {
+   "tier": {
+    "zh": "白牌卖家",
+    "en": "Unbranded sellers"
+   },
+   "asin": "B01059X",
+   "price": 17.87
+  },
+  {
+   "tier": {
+    "zh": "白牌卖家",
+    "en": "Unbranded sellers"
+   },
+   "asin": "B01060X",
+   "price": 20.33
+  },
+  {
+   "tier": {
+    "zh": "白牌卖家",
+    "en": "Unbranded sellers"
+   },
+   "asin": "B01061X",
+   "price": 19.93
+  },
+  {
+   "tier": {
+    "zh": "白牌卖家",
+    "en": "Unbranded sellers"
+   },
+   "asin": "B01062X",
+   "price": 20.47
+  },
+  {
+   "tier": {
+    "zh": "中腰部品牌",
+    "en": "Mid-tier brands"
+   },
+   "asin": {
+    "zh": "我方 SKU-1",
+    "en": "Our SKU-1"
+   },
+   "price": 34.99
+  },
+  {
+   "tier": {
+    "zh": "中腰部品牌",
+    "en": "Mid-tier brands"
+   },
+   "asin": {
+    "zh": "我方 SKU-2",
+    "en": "Our SKU-2"
+   },
+   "price": 24.99
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

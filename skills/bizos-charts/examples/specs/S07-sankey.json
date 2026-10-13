@@ -1,0 +1,158 @@
+{
+ "type": "S07",
+ "wide": true,
+ "title": {
+  "zh": "每 100 美元收入中，42 美元是商品成本，25 美元是平台与物流费，经营利润留存 12 美元",
+  "en": "Of every US$100 of revenue, 42 goes to COGS, 25 to platform and fulfilment, 12 is left as operating profit"
+ },
+ "subtitle": {
+  "zh": "2025 年利润表流向（万美元）",
+  "en": "2025 income statement flow (US$ 10k)"
+ },
+ "unit": {
+  "zh": "万美元",
+  "en": "US$ 10k"
+ },
+ "format": "number:0",
+ "nodes": [
+  {
+   "id": "us",
+   "label": {
+    "zh": "美国站",
+    "en": "US"
+   }
+  },
+  {
+   "id": "eu",
+   "label": {
+    "zh": "欧洲站",
+    "en": "Europe"
+   }
+  },
+  {
+   "id": "jp",
+   "label": {
+    "zh": "日本站",
+    "en": "Japan"
+   }
+  },
+  {
+   "id": "oth",
+   "label": {
+    "zh": "其他站点",
+    "en": "Other"
+   }
+  },
+  {
+   "id": "rev",
+   "label": {
+    "zh": "营业收入",
+    "en": "Revenue"
+   }
+  },
+  {
+   "id": "cogs",
+   "label": {
+    "zh": "商品成本",
+    "en": "COGS"
+   },
+   "kind": "cost"
+  },
+  {
+   "id": "fees",
+   "label": {
+    "zh": "平台与物流费",
+    "en": "Platform & fulfilment"
+   },
+   "kind": "cost"
+  },
+  {
+   "id": "gp",
+   "label": {
+    "zh": "毛利",
+    "en": "Gross profit"
+   },
+   "kind": "profit"
+  },
+  {
+   "id": "ads",
+   "label": {
+    "zh": "广告费",
+    "en": "Advertising"
+   },
+   "kind": "cost"
+  },
+  {
+   "id": "opex",
+   "label": {
+    "zh": "运营费用",
+    "en": "Opex"
+   },
+   "kind": "cost"
+  },
+  {
+   "id": "op",
+   "label": {
+    "zh": "经营利润",
+    "en": "Operating profit"
+   },
+   "kind": "profit"
+  }
+ ],
+ "data": [
+  {
+   "source": "us",
+   "target": "rev",
+   "value": 2240
+  },
+  {
+   "source": "eu",
+   "target": "rev",
+   "value": 1010
+  },
+  {
+   "source": "jp",
+   "target": "rev",
+   "value": 371
+  },
+  {
+   "source": "oth",
+   "target": "rev",
+   "value": 475
+  },
+  {
+   "source": "rev",
+   "target": "cogs",
+   "value": 1722
+  },
+  {
+   "source": "rev",
+   "target": "fees",
+   "value": 1012
+  },
+  {
+   "source": "rev",
+   "target": "gp",
+   "value": 1362
+  },
+  {
+   "source": "gp",
+   "target": "ads",
+   "value": 574
+  },
+  {
+   "source": "gp",
+   "target": "opex",
+   "value": 279
+  },
+  {
+   "source": "gp",
+   "target": "op",
+   "value": 509
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

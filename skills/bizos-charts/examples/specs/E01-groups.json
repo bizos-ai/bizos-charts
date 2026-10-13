@@ -1,0 +1,223 @@
+{
+ "type": "E01",
+ "title": {
+  "zh": "化合物 A 10 μM 使 LPS 诱导的 IL-6 下降 56%（P < 0.001），1 μM 无显著作用",
+  "en": "10 μM compound A cut LPS-induced IL-6 by 56% (P < 0.001); 1 μM had no significant effect"
+ },
+ "subtitle": {
+  "zh": "巨噬细胞上清 IL-6 浓度（pg/mL），LPS 刺激 24 小时，每组 6 个生物学重复",
+  "en": "IL-6 in macrophage supernatant (pg/mL) after 24 h LPS stimulation, 6 biological replicates per group"
+ },
+ "x": "group",
+ "y": "il6",
+ "unit": "pg/mL",
+ "names": {
+  "il6": "IL-6"
+ },
+ "error": "sd",
+ "test": "welch",
+ "adjust": "holm",
+ "comparisons": [
+  {
+   "a": "LPS",
+   "b": {
+    "zh": "溶剂对照",
+    "en": "Vehicle"
+   }
+  },
+  {
+   "a": "LPS",
+   "b": {
+    "zh": "LPS + 化合物 A 1 μM",
+    "en": "LPS + Cmpd A 1 μM"
+   }
+  },
+  {
+   "a": "LPS",
+   "b": {
+    "zh": "LPS + 化合物 A 10 μM",
+    "en": "LPS + Cmpd A 10 μM"
+   }
+  }
+ ],
+ "data": [
+  {
+   "group": {
+    "zh": "溶剂对照",
+    "en": "Vehicle"
+   },
+   "il6": 47
+  },
+  {
+   "group": {
+    "zh": "溶剂对照",
+    "en": "Vehicle"
+   },
+   "il6": 40
+  },
+  {
+   "group": {
+    "zh": "溶剂对照",
+    "en": "Vehicle"
+   },
+   "il6": 59
+  },
+  {
+   "group": {
+    "zh": "溶剂对照",
+    "en": "Vehicle"
+   },
+   "il6": 38
+  },
+  {
+   "group": {
+    "zh": "溶剂对照",
+    "en": "Vehicle"
+   },
+   "il6": 35
+  },
+  {
+   "group": {
+    "zh": "溶剂对照",
+    "en": "Vehicle"
+   },
+   "il6": 37
+  },
+  {
+   "group": {
+    "zh": "LPS",
+    "en": "LPS"
+   },
+   "il6": 811
+  },
+  {
+   "group": {
+    "zh": "LPS",
+    "en": "LPS"
+   },
+   "il6": 566
+  },
+  {
+   "group": {
+    "zh": "LPS",
+    "en": "LPS"
+   },
+   "il6": 569
+  },
+  {
+   "group": {
+    "zh": "LPS",
+    "en": "LPS"
+   },
+   "il6": 660
+  },
+  {
+   "group": {
+    "zh": "LPS",
+    "en": "LPS"
+   },
+   "il6": 558
+  },
+  {
+   "group": {
+    "zh": "LPS",
+    "en": "LPS"
+   },
+   "il6": 636
+  },
+  {
+   "group": {
+    "zh": "LPS + 化合物 A 1 μM",
+    "en": "LPS + Cmpd A 1 μM"
+   },
+   "il6": 741
+  },
+  {
+   "group": {
+    "zh": "LPS + 化合物 A 1 μM",
+    "en": "LPS + Cmpd A 1 μM"
+   },
+   "il6": 550
+  },
+  {
+   "group": {
+    "zh": "LPS + 化合物 A 1 μM",
+    "en": "LPS + Cmpd A 1 μM"
+   },
+   "il6": 489
+  },
+  {
+   "group": {
+    "zh": "LPS + 化合物 A 1 μM",
+    "en": "LPS + Cmpd A 1 μM"
+   },
+   "il6": 467
+  },
+  {
+   "group": {
+    "zh": "LPS + 化合物 A 1 μM",
+    "en": "LPS + Cmpd A 1 μM"
+   },
+   "il6": 579
+  },
+  {
+   "group": {
+    "zh": "LPS + 化合物 A 1 μM",
+    "en": "LPS + Cmpd A 1 μM"
+   },
+   "il6": 419
+  },
+  {
+   "group": {
+    "zh": "LPS + 化合物 A 10 μM",
+    "en": "LPS + Cmpd A 10 μM"
+   },
+   "il6": 225
+  },
+  {
+   "group": {
+    "zh": "LPS + 化合物 A 10 μM",
+    "en": "LPS + Cmpd A 10 μM"
+   },
+   "il6": 363
+  },
+  {
+   "group": {
+    "zh": "LPS + 化合物 A 10 μM",
+    "en": "LPS + Cmpd A 10 μM"
+   },
+   "il6": 227
+  },
+  {
+   "group": {
+    "zh": "LPS + 化合物 A 10 μM",
+    "en": "LPS + Cmpd A 10 μM"
+   },
+   "il6": 311
+  },
+  {
+   "group": {
+    "zh": "LPS + 化合物 A 10 μM",
+    "en": "LPS + Cmpd A 10 μM"
+   },
+   "il6": 238
+  },
+  {
+   "group": {
+    "zh": "LPS + 化合物 A 10 μM",
+    "en": "LPS + Cmpd A 10 μM"
+   },
+   "il6": 305
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ },
+ "notes": [
+  {
+   "zh": "化合物 A 于 LPS 刺激前 1 小时加入",
+   "en": "Compound A added 1 h before LPS"
+  }
+ ]
+}

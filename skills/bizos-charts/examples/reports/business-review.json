@@ -1,0 +1,859 @@
+{
+ "layout": "business-review",
+ "langs": [
+  "zh",
+  "en"
+ ],
+ "meta": {
+  "kicker": {
+   "zh": "经营分析 · 2025 年 12 月",
+   "en": "Business review · December 2025"
+  },
+  "title": {
+   "zh": "12 月销售额同比增长 16%，日本站未达目标、广告效率下降",
+   "en": "December sales grew 16% YoY; Japan missed target and ad efficiency fell"
+  },
+  "date": "2026-01-06",
+  "author": {
+   "zh": "BizOS 经营分析",
+   "en": "BizOS Operations Analytics"
+  },
+  "scope": {
+   "zh": "示例店铺 · 五个站点",
+   "en": "Example store · five marketplaces"
+  }
+ },
+ "lede": {
+  "zh": "12 月销售额 551.9 万美元，环比下降 4.0%（11 月大促基数高）。美国站完成目标的 123%，日本站仅完成 55%；ACOS 同比上升 2.1 个百分点。",
+  "en": "December sales reached US$5.5mn, down 4.0% MoM against a high November promotion base. The US hit 123% of target and Japan only 55%; ACOS rose 2.1 points YoY."
+ },
+ "kpis": {
+  "type": "K01",
+  "title": {
+   "zh": "12 月销售额 551.9 万美元，同比增长 16.2%",
+   "en": "December sales of US$5.5mn, up 16.2% YoY"
+  },
+  "subtitle": {
+   "zh": "2025 年 12 月核心指标；变化为同比",
+   "en": "Key metrics, December 2025; changes are YoY"
+  },
+  "data": [
+   {
+    "label": {
+     "zh": "销售额",
+     "en": "Sales"
+    },
+    "value": 551.9,
+    "format": "number:1",
+    "unit": {
+     "zh": "万美元",
+     "en": "US$ 10k"
+    },
+    "delta": 16.2,
+    "deltaLabel": {
+     "zh": "同比",
+     "en": "YoY"
+    },
+    "spark": [
+     348.6,
+     338.9,
+     375.4,
+     385.1,
+     403,
+     417.2,
+     481.4,
+     421,
+     418.4,
+     450.4,
+     575.1,
+     551.9
+    ]
+   },
+   {
+    "label": {
+     "zh": "订单量",
+     "en": "Orders"
+    },
+    "value": 17.6,
+    "format": "number:2",
+    "unit": {
+     "zh": "万单",
+     "en": "10k"
+    },
+    "delta": 12.9,
+    "deltaLabel": {
+     "zh": "同比",
+     "en": "YoY"
+    }
+   },
+   {
+    "label": {
+     "zh": "客单价",
+     "en": "AOV"
+    },
+    "value": 31.36,
+    "format": "number:2",
+    "unit": {
+     "zh": "美元",
+     "en": "US$"
+    },
+    "delta": 2.9,
+    "deltaLabel": {
+     "zh": "同比",
+     "en": "YoY"
+    }
+   },
+   {
+    "label": "ACOS",
+    "value": 24.8,
+    "format": "percent",
+    "delta": 2.1,
+    "deltaFormat": "pp",
+    "deltaLabel": {
+     "zh": "同比",
+     "en": "YoY"
+    },
+    "goodDirection": "down"
+   },
+   {
+    "label": {
+     "zh": "退货率",
+     "en": "Return rate"
+    },
+    "value": 4.6,
+    "format": "percent",
+    "delta": -0.4,
+    "deltaFormat": "pp",
+    "deltaLabel": {
+     "zh": "同比",
+     "en": "YoY"
+    },
+    "goodDirection": "down"
+   }
+  ],
+  "source": {
+   "zh": "示例数据；BizOS 整理",
+   "en": "Illustrative data; BizOS analysis"
+  }
+ },
+ "sections": [
+  {
+   "title": {
+    "zh": "销售：美国站拉动，日本站走弱",
+    "en": "Sales: the US leads, Japan weakens"
+   },
+   "blocks": [
+    {
+     "type": "exhibits",
+     "items": [
+      {
+       "type": "T01",
+       "title": {
+        "zh": "美国站贡献全年主要增量，日本站 12 月销售额较 1 月下降 16%",
+        "en": "The US drove most of the year’s growth; Japan’s December sales were 16% below January"
+       },
+       "subtitle": {
+        "zh": "各站点月度销售额（万美元），2025 年 1–12 月",
+        "en": "Monthly sales by marketplace (US$ 10k), Jan–Dec 2025"
+       },
+       "unit": {
+        "zh": "万美元",
+        "en": "US$ 10k"
+       },
+       "format": "number:0",
+       "x": "month",
+       "y": [
+        "us",
+        "de",
+        "uk",
+        "jp",
+        "ca"
+       ],
+       "names": {
+        "us": {
+         "zh": "美国站",
+         "en": "US"
+        },
+        "de": {
+         "zh": "德国站",
+         "en": "Germany"
+        },
+        "uk": {
+         "zh": "英国站",
+         "en": "UK"
+        },
+        "jp": {
+         "zh": "日本站",
+         "en": "Japan"
+        },
+        "ca": {
+         "zh": "加拿大站",
+         "en": "Canada"
+        }
+       },
+       "data": [
+        {
+         "month": "2025-01",
+         "us": 171.1,
+         "de": 65.3,
+         "uk": 49.7,
+         "jp": 43.2,
+         "ca": 19.3
+        },
+        {
+         "month": "2025-02",
+         "us": 167.6,
+         "de": 63.5,
+         "uk": 48.5,
+         "jp": 40,
+         "ca": 19.3
+        },
+        {
+         "month": "2025-03",
+         "us": 187,
+         "de": 70.5,
+         "uk": 54,
+         "jp": 42,
+         "ca": 21.9
+        },
+        {
+         "month": "2025-04",
+         "us": 193.2,
+         "de": 72.4,
+         "uk": 55.6,
+         "jp": 40.9,
+         "ca": 23
+        },
+        {
+         "month": "2025-05",
+         "us": 203.6,
+         "de": 75.8,
+         "uk": 58.4,
+         "jp": 40.6,
+         "ca": 24.6
+        },
+        {
+         "month": "2025-06",
+         "us": 212.2,
+         "de": 78.5,
+         "uk": 60.7,
+         "jp": 39.8,
+         "ca": 26
+        },
+        {
+         "month": "2025-07",
+         "us": 246.4,
+         "de": 90.7,
+         "uk": 70.3,
+         "jp": 43.4,
+         "ca": 30.6
+        },
+        {
+         "month": "2025-08",
+         "us": 216.8,
+         "de": 79.4,
+         "uk": 61.7,
+         "jp": 35.8,
+         "ca": 27.3
+        },
+        {
+         "month": "2025-09",
+         "us": 216.8,
+         "de": 79,
+         "uk": 61.5,
+         "jp": 33.5,
+         "ca": 27.6
+        },
+        {
+         "month": "2025-10",
+         "us": 234.6,
+         "de": 85.1,
+         "uk": 66.5,
+         "jp": 33.9,
+         "ca": 30.3
+        },
+        {
+         "month": "2025-11",
+         "us": 301.3,
+         "de": 108.7,
+         "uk": 85.2,
+         "jp": 40.6,
+         "ca": 39.3
+        },
+        {
+         "month": "2025-12",
+         "us": 290.7,
+         "de": 104.4,
+         "uk": 82,
+         "jp": 36.5,
+         "ca": 38.3
+        }
+       ],
+       "source": {
+        "zh": "示例数据；BizOS 整理",
+        "en": "Illustrative data; BizOS analysis"
+       }
+      },
+      {
+       "type": "C06",
+       "title": {
+        "zh": "12 月整体完成目标的 112%，日本站仅完成 55%",
+        "en": "December reached 112% of target overall; Japan only 55%"
+       },
+       "subtitle": {
+        "zh": "2025 年 12 月各站点销售额实际 vs 目标（万美元）",
+        "en": "December 2025 sales vs target by marketplace (US$ 10k)"
+       },
+       "unit": {
+        "zh": "万美元",
+        "en": "US$ 10k"
+       },
+       "format": "number:0",
+       "x": "mk",
+       "y": "actual",
+       "target": "target",
+       "data": [
+        {
+         "mk": {
+          "zh": "美国站",
+          "en": "US"
+         },
+         "actual": 290.7,
+         "target": 236
+        },
+        {
+         "mk": {
+          "zh": "德国站",
+          "en": "Germany"
+         },
+         "actual": 104.4,
+         "target": 92
+        },
+        {
+         "mk": {
+          "zh": "英国站",
+          "en": "UK"
+         },
+         "actual": 82,
+         "target": 64
+        },
+        {
+         "mk": {
+          "zh": "日本站",
+          "en": "Japan"
+         },
+         "actual": 36.5,
+         "target": 66
+        },
+        {
+         "mk": {
+          "zh": "加拿大站",
+          "en": "Canada"
+         },
+         "actual": 38.3,
+         "target": 33
+        }
+       ],
+       "source": {
+        "zh": "示例数据；BizOS 整理",
+        "en": "Illustrative data; BizOS analysis"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": {
+    "zh": "广告与转化",
+    "en": "Advertising and conversion"
+   },
+   "blocks": [
+    {
+     "type": "exhibits",
+     "items": [
+      {
+       "type": "S08",
+       "title": {
+        "zh": "点击率仅 0.75%，是转化路径中最大的流失环节",
+        "en": "A 0.75% click-through rate is the largest leak in the path"
+       },
+       "subtitle": {
+        "zh": "2025 年 12 月商品推广广告转化路径（次）",
+        "en": "Sponsored Products conversion path, December 2025 (count)"
+       },
+       "unit": {
+        "zh": "次",
+        "en": "count"
+       },
+       "format": "integer",
+       "x": "stage",
+       "y": "n",
+       "data": [
+        {
+         "stage": {
+          "zh": "广告曝光",
+          "en": "Impressions"
+         },
+         "n": 1284000
+        },
+        {
+         "stage": {
+          "zh": "点击",
+          "en": "Clicks"
+         },
+         "n": 9630
+        },
+        {
+         "stage": {
+          "zh": "商品详情页浏览",
+          "en": "Detail page views"
+         },
+         "n": 8920
+        },
+        {
+         "stage": {
+          "zh": "加入购物车",
+          "en": "Add to cart"
+         },
+         "n": 1460
+        },
+        {
+         "stage": {
+          "zh": "下单",
+          "en": "Orders"
+         },
+         "n": 1012
+        }
+       ],
+       "source": {
+        "zh": "示例数据；BizOS 整理",
+        "en": "Illustrative data; BizOS analysis"
+       }
+      },
+      {
+       "type": "G01",
+       "title": {
+        "zh": "加州订单占全美 14%，西海岸三州合计 19%，美西仓应优先备货",
+        "en": "California takes 14% of US orders and the three West Coast states 19%; stock western warehouses first"
+       },
+       "subtitle": {
+        "zh": "2025 年美国站订单按收货州（单）",
+        "en": "US orders by ship-to state, 2025 (orders)"
+       },
+       "unit": {
+        "zh": "单",
+        "en": "orders"
+       },
+       "format": "integer",
+       "x": "state",
+       "y": "orders",
+       "names": {
+        "orders": {
+         "zh": "订单",
+         "en": "Orders"
+        }
+       },
+       "data": [
+        {
+         "state": "CA",
+         "orders": 2561
+        },
+        {
+         "state": "TX",
+         "orders": 1359
+        },
+        {
+         "state": "FL",
+         "orders": 904
+        },
+        {
+         "state": "NY",
+         "orders": 807
+        },
+        {
+         "state": "PA",
+         "orders": 807
+        },
+        {
+         "state": "IL",
+         "orders": 736
+        },
+        {
+         "state": "OH",
+         "orders": 623
+        },
+        {
+         "state": "GA",
+         "orders": 637
+        },
+        {
+         "state": "NC",
+         "orders": 678
+        },
+        {
+         "state": "MI",
+         "orders": 387
+        },
+        {
+         "state": "NJ",
+         "orders": 522
+        },
+        {
+         "state": "VA",
+         "orders": 362
+        },
+        {
+         "state": "WA",
+         "orders": 607
+        },
+        {
+         "state": "AZ",
+         "orders": 484
+        },
+        {
+         "state": "MA",
+         "orders": 437
+        },
+        {
+         "state": "TN",
+         "orders": 317
+        },
+        {
+         "state": "IN",
+         "orders": 432
+        },
+        {
+         "state": "MD",
+         "orders": 390
+        },
+        {
+         "state": "MO",
+         "orders": 335
+        },
+        {
+         "state": "WI",
+         "orders": 301
+        },
+        {
+         "state": "CO",
+         "orders": 373
+        },
+        {
+         "state": "MN",
+         "orders": 228
+        },
+        {
+         "state": "SC",
+         "orders": 263
+        },
+        {
+         "state": "AL",
+         "orders": 198
+        },
+        {
+         "state": "LA",
+         "orders": 205
+        },
+        {
+         "state": "KY",
+         "orders": 255
+        },
+        {
+         "state": "OR",
+         "orders": 305
+        },
+        {
+         "state": "OK",
+         "orders": 250
+        },
+        {
+         "state": "CT",
+         "orders": 171
+        },
+        {
+         "state": "UT",
+         "orders": 196
+        },
+        {
+         "state": "IA",
+         "orders": 188
+        },
+        {
+         "state": "NV",
+         "orders": 171
+        },
+        {
+         "state": "AR",
+         "orders": 189
+        },
+        {
+         "state": "MS",
+         "orders": 117
+        },
+        {
+         "state": "KS",
+         "orders": 149
+        },
+        {
+         "state": "NM",
+         "orders": 114
+        },
+        {
+         "state": "NE",
+         "orders": 89
+        },
+        {
+         "state": "ID",
+         "orders": 102
+        },
+        {
+         "state": "WV",
+         "orders": 73
+        },
+        {
+         "state": "HI",
+         "orders": 67
+        },
+        {
+         "state": "NH",
+         "orders": 88
+        },
+        {
+         "state": "ME",
+         "orders": 81
+        },
+        {
+         "state": "MT",
+         "orders": 66
+        },
+        {
+         "state": "RI",
+         "orders": 50
+        },
+        {
+         "state": "DE",
+         "orders": 43
+        },
+        {
+         "state": "SD",
+         "orders": 41
+        },
+        {
+         "state": "ND",
+         "orders": 40
+        },
+        {
+         "state": "AK",
+         "orders": 28
+        },
+        {
+         "state": "DC",
+         "orders": 31
+        },
+        {
+         "state": "VT",
+         "orders": 35
+        },
+        {
+         "state": "WY",
+         "orders": 34
+        }
+       ],
+       "source": {
+        "zh": "示例数据；BizOS 整理",
+        "en": "Illustrative data; BizOS analysis"
+       }
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "title": {
+      "zh": "建议",
+      "en": "Recommendation"
+     },
+     "text": {
+      "zh": "优先优化点击率：主图与价格测试；同时把广告预算向转化率高于中位数的关键词倾斜。",
+      "en": "Fix click-through first with main-image and price tests; shift budget towards keywords converting above the median."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "zh": "商品",
+    "en": "Products"
+   },
+   "blocks": [
+    {
+     "type": "exhibit",
+     "spec": {
+      "type": "K02",
+      "title": {
+       "zh": "前五大 ASIN 贡献 64% 销售额，露营灯是唯一负增长且 ACOS 最高的商品",
+       "en": "The top five ASINs contribute 64% of sales; the camping lantern alone shrank and has the highest ACOS"
+      },
+      "subtitle": {
+       "zh": "2025 年第四季度 ASIN 经营明细",
+       "en": "ASIN performance, 4Q25"
+      },
+      "columns": [
+       {
+        "key": "name",
+        "label": {
+         "zh": "商品",
+         "en": "Product"
+        }
+       },
+       {
+        "key": "asin",
+        "label": "ASIN",
+        "align": "left"
+       },
+       {
+        "key": "sales",
+        "label": {
+         "zh": "销售额",
+         "en": "Sales"
+        },
+        "unit": {
+         "zh": "万美元",
+         "en": "US$ 10k"
+        },
+        "format": "number:1",
+        "bar": true
+       },
+       {
+        "key": "yoy",
+        "label": {
+         "zh": "同比",
+         "en": "YoY"
+        },
+        "format": "percent:1",
+        "heat": "diverging"
+       },
+       {
+        "key": "margin",
+        "label": {
+         "zh": "净利率",
+         "en": "Net margin"
+        },
+        "format": "percent:1"
+       },
+       {
+        "key": "acos",
+        "label": "ACOS",
+        "format": "percent:1",
+        "negativeRed": true
+       }
+      ],
+      "data": [
+       {
+        "name": {
+         "zh": "宠物饮水机 2L",
+         "en": "Pet fountain 2L"
+        },
+        "asin": "B0C1A2",
+        "sales": 86.4,
+        "yoy": 38.2,
+        "margin": 18.6,
+        "acos": 21.4
+       },
+       {
+        "name": {
+         "zh": "厨房电子秤",
+         "en": "Kitchen scale"
+        },
+        "asin": "B0B7K9",
+        "sales": 64.1,
+        "yoy": 12.5,
+        "margin": 15.2,
+        "acos": 26.9
+       },
+       {
+        "name": {
+         "zh": "收纳盒 6 件套",
+         "en": "Storage set (6)"
+        },
+        "asin": "B0D3M1",
+        "sales": 58.8,
+        "yoy": 4.1,
+        "margin": 21.4,
+        "acos": 18.2
+       },
+       {
+        "name": {
+         "zh": "露营灯",
+         "en": "Camping lantern"
+        },
+        "asin": "B0A9X4",
+        "sales": 31.2,
+        "yoy": -14.6,
+        "margin": 6.8,
+        "acos": 34.5
+       },
+       {
+        "name": {
+         "zh": "猫抓板",
+         "en": "Cat scratcher"
+        },
+        "asin": "B0E2Q7",
+        "sales": 22.5,
+        "yoy": 27.9,
+        "margin": 12.1,
+        "acos": 22.8
+       }
+      ],
+      "total": {
+       "label": {
+        "zh": "合计",
+        "en": "Total"
+       }
+      },
+      "highlight": [
+       {
+        "zh": "露营灯",
+        "en": "Camping lantern"
+       }
+      ],
+      "notes": [
+       {
+        "zh": "前五大合计 263.0 万美元，占店铺季度销售额 411.0 万美元的 64%",
+        "en": "Top five total US$2.6mn, 64% of the store’s US$4.1mn quarterly sales"
+       }
+      ],
+      "source": {
+       "zh": "示例数据；BizOS 整理",
+       "en": "Illustrative data; BizOS analysis"
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "nextSteps": [
+  {
+   "zh": "1 月第 2 周完成日本站前 10 个 ASIN 的主图与价格 A/B 测试。",
+   "en": "Run main-image and price A/B tests on Japan’s top-10 ASINs by week 2 of January."
+  },
+  {
+   "zh": "露营灯暂停扩量，ACOS 降至 25% 以下前不追加预算。",
+   "en": "Pause scaling the camping lantern until ACOS falls below 25%."
+  },
+  {
+   "zh": "美西仓 2 月前补货至 45 天可售。",
+   "en": "Restock western US warehouses to 45 days of cover before February."
+  }
+ ],
+ "sources": [
+  {
+   "zh": "BizOS 店铺数据（订单、广告、库存）",
+   "en": "BizOS store data (orders, ads, inventory)"
+  },
+  {
+   "zh": "BizOS 广告报表",
+   "en": "BizOS advertising reports"
+  }
+ ]
+}

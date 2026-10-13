@@ -1,0 +1,153 @@
+{
+ "type": "S05",
+ "title": {
+  "zh": "厨房小家电与宠物喂食规模中等但增速最快，露营品类在收缩",
+  "en": "Kitchen appliances and pet feeding grow fastest; camping is shrinking"
+ },
+ "subtitle": {
+  "zh": "2025 年 GMV（万美元，面积）与同比增速（颜色）",
+  "en": "2025 GMV (US$ 10k, area) and YoY growth (colour)"
+ },
+ "unit": {
+  "zh": "万美元",
+  "en": "US$ 10k"
+ },
+ "format": "number:0",
+ "x": "sub",
+ "parent": "cat",
+ "y": "gmv",
+ "colorBy": "yoy",
+ "colorFormat": "percent:0",
+ "names": {
+  "yoy": {
+   "zh": "同比增速",
+   "en": "YoY growth"
+  }
+ },
+ "data": [
+  {
+   "cat": {
+    "zh": "家居",
+    "en": "Home"
+   },
+   "sub": {
+    "zh": "收纳",
+    "en": "Storage"
+   },
+   "gmv": 412,
+   "yoy": 6
+  },
+  {
+   "cat": {
+    "zh": "家居",
+    "en": "Home"
+   },
+   "sub": {
+    "zh": "清洁",
+    "en": "Cleaning"
+   },
+   "gmv": 268,
+   "yoy": 14
+  },
+  {
+   "cat": {
+    "zh": "家居",
+    "en": "Home"
+   },
+   "sub": {
+    "zh": "装饰",
+    "en": "Decor"
+   },
+   "gmv": 141,
+   "yoy": -9
+  },
+  {
+   "cat": {
+    "zh": "厨房",
+    "en": "Kitchen"
+   },
+   "sub": {
+    "zh": "厨具",
+    "en": "Cookware"
+   },
+   "gmv": 356,
+   "yoy": 22
+  },
+  {
+   "cat": {
+    "zh": "厨房",
+    "en": "Kitchen"
+   },
+   "sub": {
+    "zh": "小家电",
+    "en": "Small appliances"
+   },
+   "gmv": 298,
+   "yoy": 31
+  },
+  {
+   "cat": {
+    "zh": "厨房",
+    "en": "Kitchen"
+   },
+   "sub": {
+    "zh": "餐具",
+    "en": "Tableware"
+   },
+   "gmv": 122,
+   "yoy": 4
+  },
+  {
+   "cat": {
+    "zh": "宠物",
+    "en": "Pet"
+   },
+   "sub": {
+    "zh": "饮水喂食",
+    "en": "Feeding"
+   },
+   "gmv": 236,
+   "yoy": 38
+  },
+  {
+   "cat": {
+    "zh": "宠物",
+    "en": "Pet"
+   },
+   "sub": {
+    "zh": "玩具",
+    "en": "Toys"
+   },
+   "gmv": 97,
+   "yoy": 12
+  },
+  {
+   "cat": {
+    "zh": "户外",
+    "en": "Outdoor"
+   },
+   "sub": {
+    "zh": "露营",
+    "en": "Camping"
+   },
+   "gmv": 188,
+   "yoy": -12
+  },
+  {
+   "cat": {
+    "zh": "户外",
+    "en": "Outdoor"
+   },
+   "sub": {
+    "zh": "骑行",
+    "en": "Cycling"
+   },
+   "gmv": 84,
+   "yoy": 3
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

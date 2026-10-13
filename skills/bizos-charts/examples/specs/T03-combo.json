@@ -1,0 +1,85 @@
+{
+ "type": "T03",
+ "wide": true,
+ "title": {
+  "zh": "营收增速 2025 年见底，新品线放量后 2026 年预计回升至 18%",
+  "en": "Revenue growth troughed in 2025 and should recover to 18% in 2026E"
+ },
+ "subtitle": {
+  "zh": "年度营业收入（百万元，左轴）与同比增速（%，右轴），2020A–2027E",
+  "en": "Annual revenue (RMB mn, LHS) and YoY growth (%, RHS), 2020A–2027E"
+ },
+ "unit": {
+  "zh": "百万元",
+  "en": "RMB mn"
+ },
+ "x": "period",
+ "bars": [
+  "revenue"
+ ],
+ "line": "yoy",
+ "lineFormat": "percent",
+ "names": {
+  "revenue": {
+   "zh": "营业收入",
+   "en": "Revenue"
+  },
+  "yoy": {
+   "zh": "同比增速",
+   "en": "YoY growth"
+  }
+ },
+ "format": "number:0",
+ "data": [
+  {
+   "period": "2020A",
+   "revenue": 312,
+   "yoy": null
+  },
+  {
+   "period": "2021A",
+   "revenue": 418,
+   "yoy": 34
+  },
+  {
+   "period": "2022A",
+   "revenue": 506,
+   "yoy": 21.1
+  },
+  {
+   "period": "2023A",
+   "revenue": 571,
+   "yoy": 12.8
+  },
+  {
+   "period": "2024A",
+   "revenue": 618,
+   "yoy": 8.2
+  },
+  {
+   "period": "2025A",
+   "revenue": 664,
+   "yoy": 7.4
+  },
+  {
+   "period": "2026E",
+   "revenue": 784,
+   "yoy": 18.1
+  },
+  {
+   "period": "2027E",
+   "revenue": 902,
+   "yoy": 15.1
+  }
+ ],
+ "notes": [
+  {
+   "zh": "2026E–2027E 为 BizOS 预测",
+   "en": "2026E–2027E are BizOS estimates"
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

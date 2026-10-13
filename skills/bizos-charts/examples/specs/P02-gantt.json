@@ -1,0 +1,115 @@
+{
+ "type": "P02",
+ "wide": true,
+ "title": {
+  "zh": "上市计划：头程运输已标记延期，是 3 月 12 日上市前的关键环节",
+  "en": "Launch plan: inbound freight is flagged late and is the critical step before the 12 March launch"
+ },
+ "subtitle": {
+  "zh": "2026 年春季新品上市排期",
+  "en": "Spring 2026 product launch schedule"
+ },
+ "x": "task",
+ "start": "start",
+ "end": "end",
+ "group": "phase",
+ "status": "status",
+ "today": "2026-01-20",
+ "data": [
+  {
+   "phase": {
+    "zh": "产品",
+    "en": "Product"
+   },
+   "task": {
+    "zh": "打样定稿",
+    "en": "Sample sign-off"
+   },
+   "start": "2025-12-01",
+   "end": "2025-12-20",
+   "status": "done"
+  },
+  {
+   "phase": {
+    "zh": "产品",
+    "en": "Product"
+   },
+   "task": {
+    "zh": "认证测试",
+    "en": "Certification"
+   },
+   "start": "2025-12-15",
+   "end": "2026-01-10",
+   "status": "done"
+  },
+  {
+   "phase": {
+    "zh": "供应链",
+    "en": "Supply chain"
+   },
+   "task": {
+    "zh": "大货生产",
+    "en": "Mass production"
+   },
+   "start": "2026-01-05",
+   "end": "2026-01-31",
+   "status": "active"
+  },
+  {
+   "phase": {
+    "zh": "供应链",
+    "en": "Supply chain"
+   },
+   "task": {
+    "zh": "头程运输入仓",
+    "en": "Inbound freight"
+   },
+   "start": "2026-02-01",
+   "end": "2026-03-06",
+   "status": "late"
+  },
+  {
+   "phase": {
+    "zh": "营销",
+    "en": "Marketing"
+   },
+   "task": {
+    "zh": "Listing 与 A+ 制作",
+    "en": "Listing and A+"
+   },
+   "start": "2026-01-12",
+   "end": "2026-02-10",
+   "status": "active"
+  },
+  {
+   "phase": {
+    "zh": "营销",
+    "en": "Marketing"
+   },
+   "task": {
+    "zh": "站外预热",
+    "en": "Pre-launch outreach"
+   },
+   "start": "2026-02-15",
+   "end": "2026-03-10",
+   "status": "planned"
+  },
+  {
+   "phase": {
+    "zh": "营销",
+    "en": "Marketing"
+   },
+   "task": {
+    "zh": "正式上市",
+    "en": "Launch day"
+   },
+   "start": "2026-03-12",
+   "end": "2026-03-12",
+   "status": "planned"
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

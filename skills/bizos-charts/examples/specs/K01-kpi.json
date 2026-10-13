@@ -1,0 +1,159 @@
+{
+ "type": "K01",
+ "wide": true,
+ "title": {
+  "zh": "12 月销售额同比增长 18%，但广告花费增速更快，ACOS 上升 2.1 个百分点",
+  "en": "December sales grew 18% YoY, but ad spend grew faster and ACOS rose 2.1 points"
+ },
+ "subtitle": {
+  "zh": "2025 年 12 月核心经营指标，变化为同比",
+  "en": "Key operating metrics, December 2025; changes are YoY"
+ },
+ "data": [
+  {
+   "label": {
+    "zh": "销售额",
+    "en": "Sales"
+   },
+   "value": 362.4,
+   "format": "number:1",
+   "unit": {
+    "zh": "万美元",
+    "en": "US$ 10k"
+   },
+   "delta": 18.2,
+   "deltaLabel": {
+    "zh": "同比",
+    "en": "YoY"
+   },
+   "spark": [
+    241,
+    255,
+    262,
+    248,
+    270,
+    281,
+    296,
+    288,
+    301,
+    316,
+    344,
+    362.4
+   ]
+  },
+  {
+   "label": {
+    "zh": "订单量",
+    "en": "Orders"
+   },
+   "value": 11.46,
+   "format": "number:2",
+   "unit": {
+    "zh": "万单",
+    "en": "10k"
+   },
+   "delta": 14.6,
+   "deltaLabel": {
+    "zh": "同比",
+    "en": "YoY"
+   },
+   "spark": [
+    8.1,
+    8.4,
+    8.6,
+    8.2,
+    8.9,
+    9.2,
+    9.6,
+    9.5,
+    9.9,
+    10.3,
+    11,
+    11.46
+   ]
+  },
+  {
+   "label": {
+    "zh": "客单价",
+    "en": "AOV"
+   },
+   "value": 31.62,
+   "format": "number:2",
+   "unit": {
+    "zh": "美元",
+    "en": "US$"
+   },
+   "delta": 3.1,
+   "deltaLabel": {
+    "zh": "同比",
+    "en": "YoY"
+   }
+  },
+  {
+   "label": "ACOS",
+   "value": 24.8,
+   "format": "percent",
+   "delta": 2.1,
+   "deltaFormat": "pp",
+   "deltaLabel": {
+    "zh": "同比",
+    "en": "YoY"
+   },
+   "goodDirection": "down",
+   "spark": [
+    21.5,
+    22,
+    22.4,
+    22.1,
+    22.9,
+    23,
+    23.4,
+    23.2,
+    23.9,
+    24.1,
+    24.6,
+    24.8
+   ]
+  },
+  {
+   "label": {
+    "zh": "退货率",
+    "en": "Return rate"
+   },
+   "value": 4.6,
+   "format": "percent",
+   "delta": -0.4,
+   "deltaFormat": "pp",
+   "deltaLabel": {
+    "zh": "同比",
+    "en": "YoY"
+   },
+   "goodDirection": "down"
+  },
+  {
+   "label": {
+    "zh": "可售天数",
+    "en": "Days of cover"
+   },
+   "value": 41,
+   "format": "integer",
+   "unit": {
+    "zh": "天",
+    "en": "days"
+   },
+   "delta": -9,
+   "deltaLabel": {
+    "zh": "同比",
+    "en": "YoY"
+   },
+   "note": {
+    "zh": "安全线 30 天",
+    "en": "Safety level 30 days"
+   }
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

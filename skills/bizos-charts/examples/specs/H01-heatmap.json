@@ -1,0 +1,473 @@
+{
+ "type": "H01",
+ "title": {
+  "zh": "晚间 18–21 点是全周订单高峰，周末上午也明显走强",
+  "en": "Evenings 6–9pm are the weekly peak; weekend mornings are also strong"
+ },
+ "subtitle": {
+  "zh": "美国站按星期与时段的平均小时订单量（单），2025 年第四季度，美东时间",
+  "en": "Average hourly orders by weekday and time band (orders), US marketplace, 4Q25, ET"
+ },
+ "unit": {
+  "zh": "单",
+  "en": "orders"
+ },
+ "format": "integer",
+ "x": "hour",
+ "row": "day",
+ "y": "orders",
+ "data": [
+  {
+   "day": {
+    "zh": "周一",
+    "en": "Mon"
+   },
+   "hour": "0-3",
+   "orders": 42
+  },
+  {
+   "day": {
+    "zh": "周一",
+    "en": "Mon"
+   },
+   "hour": "3-6",
+   "orders": 21
+  },
+  {
+   "day": {
+    "zh": "周一",
+    "en": "Mon"
+   },
+   "hour": "6-9",
+   "orders": 61
+  },
+  {
+   "day": {
+    "zh": "周一",
+    "en": "Mon"
+   },
+   "hour": "9-12",
+   "orders": 128
+  },
+  {
+   "day": {
+    "zh": "周一",
+    "en": "Mon"
+   },
+   "hour": "12-15",
+   "orders": 121
+  },
+  {
+   "day": {
+    "zh": "周一",
+    "en": "Mon"
+   },
+   "hour": "15-18",
+   "orders": 133
+  },
+  {
+   "day": {
+    "zh": "周一",
+    "en": "Mon"
+   },
+   "hour": "18-21",
+   "orders": 167
+  },
+  {
+   "day": {
+    "zh": "周一",
+    "en": "Mon"
+   },
+   "hour": "21-24",
+   "orders": 119
+  },
+  {
+   "day": {
+    "zh": "周二",
+    "en": "Tue"
+   },
+   "hour": "0-3",
+   "orders": 42
+  },
+  {
+   "day": {
+    "zh": "周二",
+    "en": "Tue"
+   },
+   "hour": "3-6",
+   "orders": 21
+  },
+  {
+   "day": {
+    "zh": "周二",
+    "en": "Tue"
+   },
+   "hour": "6-9",
+   "orders": 68
+  },
+  {
+   "day": {
+    "zh": "周二",
+    "en": "Tue"
+   },
+   "hour": "9-12",
+   "orders": 125
+  },
+  {
+   "day": {
+    "zh": "周二",
+    "en": "Tue"
+   },
+   "hour": "12-15",
+   "orders": 130
+  },
+  {
+   "day": {
+    "zh": "周二",
+    "en": "Tue"
+   },
+   "hour": "15-18",
+   "orders": 127
+  },
+  {
+   "day": {
+    "zh": "周二",
+    "en": "Tue"
+   },
+   "hour": "18-21",
+   "orders": 169
+  },
+  {
+   "day": {
+    "zh": "周二",
+    "en": "Tue"
+   },
+   "hour": "21-24",
+   "orders": 124
+  },
+  {
+   "day": {
+    "zh": "周三",
+    "en": "Wed"
+   },
+   "hour": "0-3",
+   "orders": 41
+  },
+  {
+   "day": {
+    "zh": "周三",
+    "en": "Wed"
+   },
+   "hour": "3-6",
+   "orders": 22
+  },
+  {
+   "day": {
+    "zh": "周三",
+    "en": "Wed"
+   },
+   "hour": "6-9",
+   "orders": 61
+  },
+  {
+   "day": {
+    "zh": "周三",
+    "en": "Wed"
+   },
+   "hour": "9-12",
+   "orders": 120
+  },
+  {
+   "day": {
+    "zh": "周三",
+    "en": "Wed"
+   },
+   "hour": "12-15",
+   "orders": 127
+  },
+  {
+   "day": {
+    "zh": "周三",
+    "en": "Wed"
+   },
+   "hour": "15-18",
+   "orders": 141
+  },
+  {
+   "day": {
+    "zh": "周三",
+    "en": "Wed"
+   },
+   "hour": "18-21",
+   "orders": 182
+  },
+  {
+   "day": {
+    "zh": "周三",
+    "en": "Wed"
+   },
+   "hour": "21-24",
+   "orders": 129
+  },
+  {
+   "day": {
+    "zh": "周四",
+    "en": "Thu"
+   },
+   "hour": "0-3",
+   "orders": 43
+  },
+  {
+   "day": {
+    "zh": "周四",
+    "en": "Thu"
+   },
+   "hour": "3-6",
+   "orders": 23
+  },
+  {
+   "day": {
+    "zh": "周四",
+    "en": "Thu"
+   },
+   "hour": "6-9",
+   "orders": 71
+  },
+  {
+   "day": {
+    "zh": "周四",
+    "en": "Thu"
+   },
+   "hour": "9-12",
+   "orders": 126
+  },
+  {
+   "day": {
+    "zh": "周四",
+    "en": "Thu"
+   },
+   "hour": "12-15",
+   "orders": 126
+  },
+  {
+   "day": {
+    "zh": "周四",
+    "en": "Thu"
+   },
+   "hour": "15-18",
+   "orders": 138
+  },
+  {
+   "day": {
+    "zh": "周四",
+    "en": "Thu"
+   },
+   "hour": "18-21",
+   "orders": 183
+  },
+  {
+   "day": {
+    "zh": "周四",
+    "en": "Thu"
+   },
+   "hour": "21-24",
+   "orders": 120
+  },
+  {
+   "day": {
+    "zh": "周五",
+    "en": "Fri"
+   },
+   "hour": "0-3",
+   "orders": 40
+  },
+  {
+   "day": {
+    "zh": "周五",
+    "en": "Fri"
+   },
+   "hour": "3-6",
+   "orders": 22
+  },
+  {
+   "day": {
+    "zh": "周五",
+    "en": "Fri"
+   },
+   "hour": "6-9",
+   "orders": 63
+  },
+  {
+   "day": {
+    "zh": "周五",
+    "en": "Fri"
+   },
+   "hour": "9-12",
+   "orders": 121
+  },
+  {
+   "day": {
+    "zh": "周五",
+    "en": "Fri"
+   },
+   "hour": "12-15",
+   "orders": 136
+  },
+  {
+   "day": {
+    "zh": "周五",
+    "en": "Fri"
+   },
+   "hour": "15-18",
+   "orders": 137
+  },
+  {
+   "day": {
+    "zh": "周五",
+    "en": "Fri"
+   },
+   "hour": "18-21",
+   "orders": 179
+  },
+  {
+   "day": {
+    "zh": "周五",
+    "en": "Fri"
+   },
+   "hour": "21-24",
+   "orders": 127
+  },
+  {
+   "day": {
+    "zh": "周六",
+    "en": "Sat"
+   },
+   "hour": "0-3",
+   "orders": 48
+  },
+  {
+   "day": {
+    "zh": "周六",
+    "en": "Sat"
+   },
+   "hour": "3-6",
+   "orders": 24
+  },
+  {
+   "day": {
+    "zh": "周六",
+    "en": "Sat"
+   },
+   "hour": "6-9",
+   "orders": 83
+  },
+  {
+   "day": {
+    "zh": "周六",
+    "en": "Sat"
+   },
+   "hour": "9-12",
+   "orders": 171
+  },
+  {
+   "day": {
+    "zh": "周六",
+    "en": "Sat"
+   },
+   "hour": "12-15",
+   "orders": 142
+  },
+  {
+   "day": {
+    "zh": "周六",
+    "en": "Sat"
+   },
+   "hour": "15-18",
+   "orders": 155
+  },
+  {
+   "day": {
+    "zh": "周六",
+    "en": "Sat"
+   },
+   "hour": "18-21",
+   "orders": 198
+  },
+  {
+   "day": {
+    "zh": "周六",
+    "en": "Sat"
+   },
+   "hour": "21-24",
+   "orders": 150
+  },
+  {
+   "day": {
+    "zh": "周日",
+    "en": "Sun"
+   },
+   "hour": "0-3",
+   "orders": 52
+  },
+  {
+   "day": {
+    "zh": "周日",
+    "en": "Sun"
+   },
+   "hour": "3-6",
+   "orders": 25
+  },
+  {
+   "day": {
+    "zh": "周日",
+    "en": "Sun"
+   },
+   "hour": "6-9",
+   "orders": 73
+  },
+  {
+   "day": {
+    "zh": "周日",
+    "en": "Sun"
+   },
+   "hour": "9-12",
+   "orders": 191
+  },
+  {
+   "day": {
+    "zh": "周日",
+    "en": "Sun"
+   },
+   "hour": "12-15",
+   "orders": 143
+  },
+  {
+   "day": {
+    "zh": "周日",
+    "en": "Sun"
+   },
+   "hour": "15-18",
+   "orders": 169
+  },
+  {
+   "day": {
+    "zh": "周日",
+    "en": "Sun"
+   },
+   "hour": "18-21",
+   "orders": 190
+  },
+  {
+   "day": {
+    "zh": "周日",
+    "en": "Sun"
+   },
+   "hour": "21-24",
+   "orders": 160
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

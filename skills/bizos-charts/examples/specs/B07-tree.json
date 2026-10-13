@@ -1,0 +1,106 @@
+{
+ "type": "B07",
+ "title": {
+  "zh": "12 株临床分离株聚为一个高支持分支（自展值 98），与环境株及参考株分开",
+  "en": "All 12 clinical isolates form one clade (bootstrap 98), apart from the other strains"
+ },
+ "subtitle": {
+  "zh": "核心基因组 SNP 最大似然树（20 株），节点为 1,000 次自展支持率",
+  "en": "Maximum-likelihood core-genome SNP tree (20 strains); node labels are bootstrap support from 1,000 replicates"
+ },
+ "newick": "((((CL-01:0.004,CL-02:0.006)88:0.003,(CL-03:0.005,CL-04:0.004)92:0.002)95:0.006,((CL-05:0.007,CL-06:0.003)76:0.004,(CL-07:0.002,(CL-08:0.003,CL-09:0.004)81:0.002)90:0.003)85:0.005,(CL-10:0.006,(CL-11:0.004,CL-12:0.005)94:0.003)89:0.004)98:0.021,(((EN-01:0.011,EN-02:0.009)99:0.008,(EN-03:0.013,EN-04:0.010)72:0.006)84:0.012,((EN-05:0.014,EN-06:0.012)91:0.009,(Ref-1:0.018,Ref-2:0.016)100:0.011)67:0.007)100:0.015);",
+ "groups": {
+  "CL-01": {
+   "zh": "临床分离株",
+   "en": "Clinical"
+  },
+  "CL-02": {
+   "zh": "临床分离株",
+   "en": "Clinical"
+  },
+  "CL-03": {
+   "zh": "临床分离株",
+   "en": "Clinical"
+  },
+  "CL-04": {
+   "zh": "临床分离株",
+   "en": "Clinical"
+  },
+  "CL-05": {
+   "zh": "临床分离株",
+   "en": "Clinical"
+  },
+  "CL-06": {
+   "zh": "临床分离株",
+   "en": "Clinical"
+  },
+  "CL-07": {
+   "zh": "临床分离株",
+   "en": "Clinical"
+  },
+  "CL-08": {
+   "zh": "临床分离株",
+   "en": "Clinical"
+  },
+  "CL-09": {
+   "zh": "临床分离株",
+   "en": "Clinical"
+  },
+  "CL-10": {
+   "zh": "临床分离株",
+   "en": "Clinical"
+  },
+  "CL-11": {
+   "zh": "临床分离株",
+   "en": "Clinical"
+  },
+  "CL-12": {
+   "zh": "临床分离株",
+   "en": "Clinical"
+  },
+  "EN-01": {
+   "zh": "环境分离株",
+   "en": "Environmental"
+  },
+  "EN-02": {
+   "zh": "环境分离株",
+   "en": "Environmental"
+  },
+  "EN-03": {
+   "zh": "环境分离株",
+   "en": "Environmental"
+  },
+  "EN-04": {
+   "zh": "环境分离株",
+   "en": "Environmental"
+  },
+  "EN-05": {
+   "zh": "环境分离株",
+   "en": "Environmental"
+  },
+  "EN-06": {
+   "zh": "环境分离株",
+   "en": "Environmental"
+  },
+  "Ref-1": {
+   "zh": "参考株",
+   "en": "Reference"
+  },
+  "Ref-2": {
+   "zh": "参考株",
+   "en": "Reference"
+  }
+ },
+ "clade": [
+  "CL-01",
+  "CL-12"
+ ],
+ "unit": {
+  "zh": "替换/位点",
+  "en": "substitutions/site"
+ },
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "type": "T09",
+ "title": {
+  "zh": "宠物与厨房品类份额上升，美妆工具份额收缩近两个百分点",
+  "en": "Pet and kitchen gained share; beauty tools lost almost two points"
+ },
+ "subtitle": {
+  "zh": "各品类占店铺销售额比重（%），2024 年 vs 2025 年",
+  "en": "Category share of store sales (%), 2024 vs 2025"
+ },
+ "format": "percent",
+ "x": "category",
+ "from": "y2024",
+ "to": "y2025",
+ "periods": [
+  "2024",
+  "2025"
+ ],
+ "data": [
+  {
+   "category": {
+    "zh": "厨房用品",
+    "en": "Kitchen"
+   },
+   "y2024": 18.2,
+   "y2025": 21.6
+  },
+  {
+   "category": {
+    "zh": "家居收纳",
+    "en": "Home storage"
+   },
+   "y2024": 15.1,
+   "y2025": 13.4
+  },
+  {
+   "category": {
+    "zh": "宠物用品",
+    "en": "Pet supplies"
+   },
+   "y2024": 9.6,
+   "y2025": 12.9
+  },
+  {
+   "category": {
+    "zh": "户外",
+    "en": "Outdoor"
+   },
+   "y2024": 12.4,
+   "y2025": 11.8
+  },
+  {
+   "category": {
+    "zh": "美妆工具",
+    "en": "Beauty tools"
+   },
+   "y2024": 8.1,
+   "y2025": 6.2
+  },
+  {
+   "category": {
+    "zh": "玩具",
+    "en": "Toys"
+   },
+   "y2024": 7.2,
+   "y2025": 7.5
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

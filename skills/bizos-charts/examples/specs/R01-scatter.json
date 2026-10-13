@@ -1,0 +1,138 @@
+{
+ "type": "R01",
+ "title": {
+  "zh": "估值与增速正相关，示例公司 9.6 倍低于回归线隐含的 13.5 倍",
+  "en": "Valuation tracks growth; Example Co. at 9.6x sits below the 13.5x the fit implies"
+ },
+ "subtitle": {
+  "zh": "可比公司 EV/EBITDA（2026E，倍）与 2025–2027E 收入复合增速（%）",
+  "en": "Peers’ EV/EBITDA (2026E, x) vs 2025–2027E revenue CAGR (%)"
+ },
+ "x": "growth",
+ "y": "ev",
+ "label": "co",
+ "xFormat": "percent:0",
+ "format": "multiple",
+ "xTitle": {
+  "zh": "收入复合增速",
+  "en": "Revenue CAGR"
+ },
+ "yTitle": "EV/EBITDA",
+ "fit": true,
+ "highlight": [
+  {
+   "zh": "示例公司",
+   "en": "Example Co."
+  }
+ ],
+ "data": [
+  {
+   "co": {
+    "zh": "示例公司",
+    "en": "Example Co."
+   },
+   "growth": 24,
+   "ev": 9.6
+  },
+  {
+   "co": {
+    "zh": "同业 A",
+    "en": "Peer A"
+   },
+   "growth": 11.6,
+   "ev": 10.3
+  },
+  {
+   "co": {
+    "zh": "同业 B",
+    "en": "Peer B"
+   },
+   "growth": 19,
+   "ev": 14.2
+  },
+  {
+   "co": {
+    "zh": "同业 C",
+    "en": "Peer C"
+   },
+   "growth": 18.2,
+   "ev": 13.1
+  },
+  {
+   "co": {
+    "zh": "同业 D",
+    "en": "Peer D"
+   },
+   "growth": 27.4,
+   "ev": 14.7
+  },
+  {
+   "co": {
+    "zh": "同业 E",
+    "en": "Peer E"
+   },
+   "growth": 21.7,
+   "ev": 12.2
+  },
+  {
+   "co": {
+    "zh": "同业 F",
+    "en": "Peer F"
+   },
+   "growth": 33.1,
+   "ev": 15.9
+  },
+  {
+   "co": {
+    "zh": "同业 G",
+    "en": "Peer G"
+   },
+   "growth": 7.2,
+   "ev": 7.4
+  },
+  {
+   "co": {
+    "zh": "同业 H",
+    "en": "Peer H"
+   },
+   "growth": 21.6,
+   "ev": 12.8
+  },
+  {
+   "co": {
+    "zh": "同业 I",
+    "en": "Peer I"
+   },
+   "growth": 26.8,
+   "ev": 14
+  },
+  {
+   "co": {
+    "zh": "同业 J",
+    "en": "Peer J"
+   },
+   "growth": 4.9,
+   "ev": 6.4
+  },
+  {
+   "co": {
+    "zh": "同业 K",
+    "en": "Peer K"
+   },
+   "growth": 27.7,
+   "ev": 15.6
+  },
+  {
+   "co": {
+    "zh": "同业 L",
+    "en": "Peer L"
+   },
+   "growth": 29.9,
+   "ev": 16.8
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

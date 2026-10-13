@@ -1,0 +1,214 @@
+{
+ "type": "T11",
+ "title": {
+  "zh": "2025 年 1–10 月每月销售均高于上年同期，7 月同比增长 14%",
+  "en": "Every month of Jan–Oct 2025 beat the prior year; July rose 14% YoY"
+ },
+ "subtitle": {
+  "zh": "月度销售额（万美元），2022–2025 年（2025 年截至 10 月）",
+  "en": "Monthly sales (US$ 10k), 2022–2025 (2025 to October)"
+ },
+ "unit": {
+  "zh": "万美元",
+  "en": "US$ 10k"
+ },
+ "x": "month",
+ "y": "sales",
+ "range": true,
+ "names": {
+  "sales": {
+   "zh": "销售额",
+   "en": "Sales"
+  }
+ },
+ "data": [
+  {
+   "month": "2022-01",
+   "sales": 40.6
+  },
+  {
+   "month": "2022-02",
+   "sales": 39
+  },
+  {
+   "month": "2022-03",
+   "sales": 45.7
+  },
+  {
+   "month": "2022-04",
+   "sales": 47.9
+  },
+  {
+   "month": "2022-05",
+   "sales": 50
+  },
+  {
+   "month": "2022-06",
+   "sales": 51.8
+  },
+  {
+   "month": "2022-07",
+   "sales": 61.5
+  },
+  {
+   "month": "2022-08",
+   "sales": 51.3
+  },
+  {
+   "month": "2022-09",
+   "sales": 48.6
+  },
+  {
+   "month": "2022-10",
+   "sales": 54.9
+  },
+  {
+   "month": "2022-11",
+   "sales": 73.3
+  },
+  {
+   "month": "2022-12",
+   "sales": 72
+  },
+  {
+   "month": "2023-01",
+   "sales": 46.9
+  },
+  {
+   "month": "2023-02",
+   "sales": 45.8
+  },
+  {
+   "month": "2023-03",
+   "sales": 51.3
+  },
+  {
+   "month": "2023-04",
+   "sales": 53.6
+  },
+  {
+   "month": "2023-05",
+   "sales": 59.1
+  },
+  {
+   "month": "2023-06",
+   "sales": 61.8
+  },
+  {
+   "month": "2023-07",
+   "sales": 71.8
+  },
+  {
+   "month": "2023-08",
+   "sales": 59.6
+  },
+  {
+   "month": "2023-09",
+   "sales": 56.7
+  },
+  {
+   "month": "2023-10",
+   "sales": 62.1
+  },
+  {
+   "month": "2023-11",
+   "sales": 85.4
+  },
+  {
+   "month": "2023-12",
+   "sales": 81.7
+  },
+  {
+   "month": "2024-01",
+   "sales": 53.1
+  },
+  {
+   "month": "2024-02",
+   "sales": 50.5
+  },
+  {
+   "month": "2024-03",
+   "sales": 61.3
+  },
+  {
+   "month": "2024-04",
+   "sales": 62.3
+  },
+  {
+   "month": "2024-05",
+   "sales": 67
+  },
+  {
+   "month": "2024-06",
+   "sales": 69.1
+  },
+  {
+   "month": "2024-07",
+   "sales": 84.5
+  },
+  {
+   "month": "2024-08",
+   "sales": 69.5
+  },
+  {
+   "month": "2024-09",
+   "sales": 64.1
+  },
+  {
+   "month": "2024-10",
+   "sales": 71.8
+  },
+  {
+   "month": "2024-11",
+   "sales": 96.9
+  },
+  {
+   "month": "2024-12",
+   "sales": 94
+  },
+  {
+   "month": "2025-01",
+   "sales": 60.8
+  },
+  {
+   "month": "2025-02",
+   "sales": 58.5
+  },
+  {
+   "month": "2025-03",
+   "sales": 69
+  },
+  {
+   "month": "2025-04",
+   "sales": 69.1
+  },
+  {
+   "month": "2025-05",
+   "sales": 74.1
+  },
+  {
+   "month": "2025-06",
+   "sales": 76.7
+  },
+  {
+   "month": "2025-07",
+   "sales": 96
+  },
+  {
+   "month": "2025-08",
+   "sales": 77.9
+  },
+  {
+   "month": "2025-09",
+   "sales": 75.2
+  },
+  {
+   "month": "2025-10",
+   "sales": 81.3
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

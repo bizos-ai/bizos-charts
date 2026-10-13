@@ -1,0 +1,123 @@
+{
+ "type": "R02",
+ "title": {
+  "zh": "宠物饮水机兼具最高增速与最高利润率，收纳规模最大但增速仅 6%",
+  "en": "Pet fountains lead on both growth and margin; storage is largest but grew only 6%"
+ },
+ "subtitle": {
+  "zh": "各子类目 2025 年同比增速（%）、净利率（%）与销售额（气泡面积，万美元）",
+  "en": "Sub-category YoY growth (%), net margin (%) and sales (bubble area, US$ 10k), 2025"
+ },
+ "x": "growth",
+ "y": "margin",
+ "size": "sales",
+ "label": "cat",
+ "xFormat": "percent:0",
+ "format": "percent",
+ "sizeFormat": "number:0",
+ "sizeUnit": {
+  "zh": "万美元",
+  "en": "US$ 10k"
+ },
+ "xTitle": {
+  "zh": "同比增速",
+  "en": "YoY growth"
+ },
+ "yTitle": {
+  "zh": "净利率",
+  "en": "Net margin"
+ },
+ "names": {
+  "sales": {
+   "zh": "销售额",
+   "en": "Sales"
+  }
+ },
+ "data": [
+  {
+   "cat": {
+    "zh": "宠物饮水机",
+    "en": "Pet fountains"
+   },
+   "growth": 38,
+   "margin": 18.2,
+   "sales": 236
+  },
+  {
+   "cat": {
+    "zh": "厨房小家电",
+    "en": "Kitchen appliances"
+   },
+   "growth": 31,
+   "margin": 12.4,
+   "sales": 298
+  },
+  {
+   "cat": {
+    "zh": "厨具",
+    "en": "Cookware"
+   },
+   "growth": 22,
+   "margin": 15.1,
+   "sales": 356
+  },
+  {
+   "cat": {
+    "zh": "清洁用品",
+    "en": "Cleaning"
+   },
+   "growth": 14,
+   "margin": 11.2,
+   "sales": 268
+  },
+  {
+   "cat": {
+    "zh": "收纳",
+    "en": "Storage"
+   },
+   "growth": 6,
+   "margin": 16.8,
+   "sales": 412
+  },
+  {
+   "cat": {
+    "zh": "餐具",
+    "en": "Tableware"
+   },
+   "growth": 4,
+   "margin": 9.4,
+   "sales": 122
+  },
+  {
+   "cat": {
+    "zh": "装饰",
+    "en": "Decor"
+   },
+   "growth": -9,
+   "margin": 7.1,
+   "sales": 141
+  },
+  {
+   "cat": {
+    "zh": "露营",
+    "en": "Camping"
+   },
+   "growth": -12,
+   "margin": 5.2,
+   "sales": 188
+  },
+  {
+   "cat": {
+    "zh": "骑行",
+    "en": "Cycling"
+   },
+   "growth": 3,
+   "margin": 8.8,
+   "sales": 84
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

@@ -1,0 +1,167 @@
+{
+ "type": "G02",
+ "title": {
+  "zh": "头部 100 家卖家中，广东与浙江合计 59 家，供应链高度集中于东南沿海",
+  "en": "Guangdong and Zhejiang host 59 of the top-100 sellers; supply is concentrated on the southeast coast"
+ },
+ "subtitle": {
+  "zh": "品类前 100 名卖家按公司注册省份（家）",
+  "en": "Top-100 sellers by registered province (count)"
+ },
+ "unit": {
+  "zh": "家",
+  "en": "sellers"
+ },
+ "format": "integer",
+ "x": "province",
+ "y": "sellers",
+ "scale": "linear",
+ "names": {
+  "sellers": {
+   "zh": "卖家数",
+   "en": "Sellers"
+  }
+ },
+ "data": [
+  {
+   "province": "黑龙江",
+   "sellers": 0
+  },
+  {
+   "province": "吉林",
+   "sellers": 0
+  },
+  {
+   "province": "内蒙古",
+   "sellers": 0
+  },
+  {
+   "province": "辽宁",
+   "sellers": 0
+  },
+  {
+   "province": "北京",
+   "sellers": 1
+  },
+  {
+   "province": "天津",
+   "sellers": 0
+  },
+  {
+   "province": "河北",
+   "sellers": 0
+  },
+  {
+   "province": "山西",
+   "sellers": 0
+  },
+  {
+   "province": "宁夏",
+   "sellers": 0
+  },
+  {
+   "province": "新疆",
+   "sellers": 0
+  },
+  {
+   "province": "青海",
+   "sellers": 0
+  },
+  {
+   "province": "甘肃",
+   "sellers": 0
+  },
+  {
+   "province": "陕西",
+   "sellers": 0
+  },
+  {
+   "province": "河南",
+   "sellers": 2
+  },
+  {
+   "province": "山东",
+   "sellers": 4
+  },
+  {
+   "province": "西藏",
+   "sellers": 0
+  },
+  {
+   "province": "四川",
+   "sellers": 1
+  },
+  {
+   "province": "重庆",
+   "sellers": 0
+  },
+  {
+   "province": "湖北",
+   "sellers": 2
+  },
+  {
+   "province": "安徽",
+   "sellers": 1
+  },
+  {
+   "province": "江苏",
+   "sellers": 8
+  },
+  {
+   "province": "上海",
+   "sellers": 5
+  },
+  {
+   "province": "云南",
+   "sellers": 0
+  },
+  {
+   "province": "贵州",
+   "sellers": 0
+  },
+  {
+   "province": "湖南",
+   "sellers": 3
+  },
+  {
+   "province": "江西",
+   "sellers": 2
+  },
+  {
+   "province": "浙江",
+   "sellers": 18
+  },
+  {
+   "province": "广西",
+   "sellers": 0
+  },
+  {
+   "province": "广东",
+   "sellers": 41
+  },
+  {
+   "province": "福建",
+   "sellers": 11
+  },
+  {
+   "province": "台湾",
+   "sellers": 0
+  },
+  {
+   "province": "海南",
+   "sellers": 0
+  },
+  {
+   "province": "澳门",
+   "sellers": 0
+  },
+  {
+   "province": "香港",
+   "sellers": 1
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

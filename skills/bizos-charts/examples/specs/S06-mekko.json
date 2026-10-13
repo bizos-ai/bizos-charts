@@ -1,0 +1,168 @@
+{
+ "type": "S06",
+ "wide": true,
+ "title": {
+  "zh": "示例品牌 A 在大众价位份额 23% 居首，但在入门价位仅 8%",
+  "en": "Brand A leads the mid tier with 23% but holds only 8% of entry level"
+ },
+ "subtitle": {
+  "zh": "细分价位段规模（列宽）与品牌份额（高度），2025 年销售额（万美元）",
+  "en": "Price-tier size (width) and brand share (height), 2025 sales (US$ 10k)"
+ },
+ "unit": {
+  "zh": "万美元",
+  "en": "US$ 10k"
+ },
+ "format": "number:0",
+ "x": "seg",
+ "seriesBy": "brand",
+ "y": "sales",
+ "otherLabel": {
+  "zh": "其他",
+  "en": "Other"
+ },
+ "highlight": [
+  {
+   "zh": "示例品牌 A",
+   "en": "Brand A"
+  }
+ ],
+ "data": [
+  {
+   "seg": {
+    "zh": "中高端（>40 美元）",
+    "en": "Premium (>$40)"
+   },
+   "brand": {
+    "zh": "示例品牌 A",
+    "en": "Brand A"
+   },
+   "sales": 96
+  },
+  {
+   "seg": {
+    "zh": "中高端（>40 美元）",
+    "en": "Premium (>$40)"
+   },
+   "brand": {
+    "zh": "品牌 B",
+    "en": "Brand B"
+   },
+   "sales": 141
+  },
+  {
+   "seg": {
+    "zh": "中高端（>40 美元）",
+    "en": "Premium (>$40)"
+   },
+   "brand": {
+    "zh": "品牌 C",
+    "en": "Brand C"
+   },
+   "sales": 48
+  },
+  {
+   "seg": {
+    "zh": "中高端（>40 美元）",
+    "en": "Premium (>$40)"
+   },
+   "brand": {
+    "zh": "其他",
+    "en": "Other"
+   },
+   "sales": 115
+  },
+  {
+   "seg": {
+    "zh": "大众（20–40 美元）",
+    "en": "Mid ($20–40)"
+   },
+   "brand": {
+    "zh": "示例品牌 A",
+    "en": "Brand A"
+   },
+   "sales": 182
+  },
+  {
+   "seg": {
+    "zh": "大众（20–40 美元）",
+    "en": "Mid ($20–40)"
+   },
+   "brand": {
+    "zh": "品牌 B",
+    "en": "Brand B"
+   },
+   "sales": 118
+  },
+  {
+   "seg": {
+    "zh": "大众（20–40 美元）",
+    "en": "Mid ($20–40)"
+   },
+   "brand": {
+    "zh": "品牌 C",
+    "en": "Brand C"
+   },
+   "sales": 156
+  },
+  {
+   "seg": {
+    "zh": "大众（20–40 美元）",
+    "en": "Mid ($20–40)"
+   },
+   "brand": {
+    "zh": "其他",
+    "en": "Other"
+   },
+   "sales": 344
+  },
+  {
+   "seg": {
+    "zh": "入门（<20 美元）",
+    "en": "Entry (<$20)"
+   },
+   "brand": {
+    "zh": "示例品牌 A",
+    "en": "Brand A"
+   },
+   "sales": 31
+  },
+  {
+   "seg": {
+    "zh": "入门（<20 美元）",
+    "en": "Entry (<$20)"
+   },
+   "brand": {
+    "zh": "品牌 B",
+    "en": "Brand B"
+   },
+   "sales": 22
+  },
+  {
+   "seg": {
+    "zh": "入门（<20 美元）",
+    "en": "Entry (<$20)"
+   },
+   "brand": {
+    "zh": "品牌 C",
+    "en": "Brand C"
+   },
+   "sales": 88
+  },
+  {
+   "seg": {
+    "zh": "入门（<20 美元）",
+    "en": "Entry (<$20)"
+   },
+   "brand": {
+    "zh": "其他",
+    "en": "Other"
+   },
+   "sales": 259
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

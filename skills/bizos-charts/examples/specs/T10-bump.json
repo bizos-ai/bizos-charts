@@ -1,0 +1,424 @@
+{
+ "type": "T10",
+ "title": {
+  "zh": "示例品牌 A 八个季度从第 4 名升至第 1 名",
+  "en": "Brand A climbed from No.4 to No.1 in eight quarters"
+ },
+ "subtitle": {
+  "zh": "品类前 6 品牌按季度销售额排名",
+  "en": "Top-6 brands in the category ranked by quarterly sales"
+ },
+ "unit": {
+  "zh": "百万美元",
+  "en": "US$ mn"
+ },
+ "x": "quarter",
+ "seriesBy": "brand",
+ "y": "sales",
+ "names": {
+  "sales": {
+   "zh": "销售额",
+   "en": "sales"
+  }
+ },
+ "highlight": [
+  {
+   "zh": "示例品牌 A",
+   "en": "Brand A"
+  },
+  {
+   "zh": "品牌 B",
+   "en": "Brand B"
+  }
+ ],
+ "data": [
+  {
+   "quarter": "2024Q1",
+   "brand": {
+    "zh": "示例品牌 A",
+    "en": "Brand A"
+   },
+   "sales": 41.4
+  },
+  {
+   "quarter": "2024Q1",
+   "brand": {
+    "zh": "品牌 B",
+    "en": "Brand B"
+   },
+   "sales": 63.6
+  },
+  {
+   "quarter": "2024Q1",
+   "brand": {
+    "zh": "品牌 C",
+    "en": "Brand C"
+   },
+   "sales": 54.4
+  },
+  {
+   "quarter": "2024Q1",
+   "brand": {
+    "zh": "品牌 D",
+    "en": "Brand D"
+   },
+   "sales": 48.8
+  },
+  {
+   "quarter": "2024Q1",
+   "brand": {
+    "zh": "品牌 E",
+    "en": "Brand E"
+   },
+   "sales": 33.2
+  },
+  {
+   "quarter": "2024Q1",
+   "brand": {
+    "zh": "品牌 F",
+    "en": "Brand F"
+   },
+   "sales": 31
+  },
+  {
+   "quarter": "2024Q2",
+   "brand": {
+    "zh": "示例品牌 A",
+    "en": "Brand A"
+   },
+   "sales": 44.8
+  },
+  {
+   "quarter": "2024Q2",
+   "brand": {
+    "zh": "品牌 B",
+    "en": "Brand B"
+   },
+   "sales": 62
+  },
+  {
+   "quarter": "2024Q2",
+   "brand": {
+    "zh": "品牌 C",
+    "en": "Brand C"
+   },
+   "sales": 54.5
+  },
+  {
+   "quarter": "2024Q2",
+   "brand": {
+    "zh": "品牌 D",
+    "en": "Brand D"
+   },
+   "sales": 47.8
+  },
+  {
+   "quarter": "2024Q2",
+   "brand": {
+    "zh": "品牌 E",
+    "en": "Brand E"
+   },
+   "sales": 39.3
+  },
+  {
+   "quarter": "2024Q2",
+   "brand": {
+    "zh": "品牌 F",
+    "en": "Brand F"
+   },
+   "sales": 28.5
+  },
+  {
+   "quarter": "2024Q3",
+   "brand": {
+    "zh": "示例品牌 A",
+    "en": "Brand A"
+   },
+   "sales": 48.7
+  },
+  {
+   "quarter": "2024Q3",
+   "brand": {
+    "zh": "品牌 B",
+    "en": "Brand B"
+   },
+   "sales": 60
+  },
+  {
+   "quarter": "2024Q3",
+   "brand": {
+    "zh": "品牌 C",
+    "en": "Brand C"
+   },
+   "sales": 54.9
+  },
+  {
+   "quarter": "2024Q3",
+   "brand": {
+    "zh": "品牌 D",
+    "en": "Brand D"
+   },
+   "sales": 51.2
+  },
+  {
+   "quarter": "2024Q3",
+   "brand": {
+    "zh": "品牌 E",
+    "en": "Brand E"
+   },
+   "sales": 39.7
+  },
+  {
+   "quarter": "2024Q3",
+   "brand": {
+    "zh": "品牌 F",
+    "en": "Brand F"
+   },
+   "sales": 30.7
+  },
+  {
+   "quarter": "2024Q4",
+   "brand": {
+    "zh": "示例品牌 A",
+    "en": "Brand A"
+   },
+   "sales": 51.8
+  },
+  {
+   "quarter": "2024Q4",
+   "brand": {
+    "zh": "品牌 B",
+    "en": "Brand B"
+   },
+   "sales": 57.5
+  },
+  {
+   "quarter": "2024Q4",
+   "brand": {
+    "zh": "品牌 C",
+    "en": "Brand C"
+   },
+   "sales": 55.7
+  },
+  {
+   "quarter": "2024Q4",
+   "brand": {
+    "zh": "品牌 D",
+    "en": "Brand D"
+   },
+   "sales": 50.3
+  },
+  {
+   "quarter": "2024Q4",
+   "brand": {
+    "zh": "品牌 E",
+    "en": "Brand E"
+   },
+   "sales": 41.9
+  },
+  {
+   "quarter": "2024Q4",
+   "brand": {
+    "zh": "品牌 F",
+    "en": "Brand F"
+   },
+   "sales": 29.8
+  },
+  {
+   "quarter": "2025Q1",
+   "brand": {
+    "zh": "示例品牌 A",
+    "en": "Brand A"
+   },
+   "sales": 56.5
+  },
+  {
+   "quarter": "2025Q1",
+   "brand": {
+    "zh": "品牌 B",
+    "en": "Brand B"
+   },
+   "sales": 57.5
+  },
+  {
+   "quarter": "2025Q1",
+   "brand": {
+    "zh": "品牌 C",
+    "en": "Brand C"
+   },
+   "sales": 55.6
+  },
+  {
+   "quarter": "2025Q1",
+   "brand": {
+    "zh": "品牌 D",
+    "en": "Brand D"
+   },
+   "sales": 52.9
+  },
+  {
+   "quarter": "2025Q1",
+   "brand": {
+    "zh": "品牌 E",
+    "en": "Brand E"
+   },
+   "sales": 46.1
+  },
+  {
+   "quarter": "2025Q1",
+   "brand": {
+    "zh": "品牌 F",
+    "en": "Brand F"
+   },
+   "sales": 27.3
+  },
+  {
+   "quarter": "2025Q2",
+   "brand": {
+    "zh": "示例品牌 A",
+    "en": "Brand A"
+   },
+   "sales": 61.6
+  },
+  {
+   "quarter": "2025Q2",
+   "brand": {
+    "zh": "品牌 B",
+    "en": "Brand B"
+   },
+   "sales": 54.3
+  },
+  {
+   "quarter": "2025Q2",
+   "brand": {
+    "zh": "品牌 C",
+    "en": "Brand C"
+   },
+   "sales": 55.9
+  },
+  {
+   "quarter": "2025Q2",
+   "brand": {
+    "zh": "品牌 D",
+    "en": "Brand D"
+   },
+   "sales": 52.3
+  },
+  {
+   "quarter": "2025Q2",
+   "brand": {
+    "zh": "品牌 E",
+    "en": "Brand E"
+   },
+   "sales": 48.7
+  },
+  {
+   "quarter": "2025Q2",
+   "brand": {
+    "zh": "品牌 F",
+    "en": "Brand F"
+   },
+   "sales": 27
+  },
+  {
+   "quarter": "2025Q3",
+   "brand": {
+    "zh": "示例品牌 A",
+    "en": "Brand A"
+   },
+   "sales": 65.3
+  },
+  {
+   "quarter": "2025Q3",
+   "brand": {
+    "zh": "品牌 B",
+    "en": "Brand B"
+   },
+   "sales": 50.7
+  },
+  {
+   "quarter": "2025Q3",
+   "brand": {
+    "zh": "品牌 C",
+    "en": "Brand C"
+   },
+   "sales": 58.7
+  },
+  {
+   "quarter": "2025Q3",
+   "brand": {
+    "zh": "品牌 D",
+    "en": "Brand D"
+   },
+   "sales": 54.3
+  },
+  {
+   "quarter": "2025Q3",
+   "brand": {
+    "zh": "品牌 E",
+    "en": "Brand E"
+   },
+   "sales": 49.7
+  },
+  {
+   "quarter": "2025Q3",
+   "brand": {
+    "zh": "品牌 F",
+    "en": "Brand F"
+   },
+   "sales": 28
+  },
+  {
+   "quarter": "2025Q4",
+   "brand": {
+    "zh": "示例品牌 A",
+    "en": "Brand A"
+   },
+   "sales": 70.8
+  },
+  {
+   "quarter": "2025Q4",
+   "brand": {
+    "zh": "品牌 B",
+    "en": "Brand B"
+   },
+   "sales": 52.3
+  },
+  {
+   "quarter": "2025Q4",
+   "brand": {
+    "zh": "品牌 C",
+    "en": "Brand C"
+   },
+   "sales": 56
+  },
+  {
+   "quarter": "2025Q4",
+   "brand": {
+    "zh": "品牌 D",
+    "en": "Brand D"
+   },
+   "sales": 55.3
+  },
+  {
+   "quarter": "2025Q4",
+   "brand": {
+    "zh": "品牌 E",
+    "en": "Brand E"
+   },
+   "sales": 54.3
+  },
+  {
+   "quarter": "2025Q4",
+   "brand": {
+    "zh": "品牌 F",
+    "en": "Brand F"
+   },
+   "sales": 24.8
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

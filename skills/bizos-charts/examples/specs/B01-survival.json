@@ -1,0 +1,2454 @@
+{
+ "type": "B01",
+ "title": {
+  "zh": "治疗组中位总生存期 23.8 个月，较对照组延长 11.8 个月（log-rank P < 0.001）",
+  "en": "Treatment extended median survival by 11.8 months to 23.8 (log-rank P < 0.001)"
+ },
+ "subtitle": {
+  "zh": "总生存 Kaplan–Meier 曲线，意向治疗人群，每组 150 例",
+  "en": "Kaplan–Meier overall survival, intention-to-treat population, 150 patients per arm"
+ },
+ "time": "months",
+ "event": "death",
+ "group": "arm",
+ "order": [
+  {
+   "zh": "治疗组",
+   "en": "Treatment"
+  },
+  {
+   "zh": "对照组",
+   "en": "Control"
+  }
+ ],
+ "timeUnit": {
+  "zh": "月",
+  "en": "months"
+ },
+ "tickStep": 6,
+ "ci": true,
+ "landmarks": [
+  12,
+  24
+ ],
+ "hr": {
+  "value": 0.57,
+  "lo": 0.43,
+  "hi": 0.74,
+  "label": "HR",
+  "method": {
+   "zh": "Cox 比例风险模型，治疗组 vs 对照组",
+   "en": "Cox proportional hazards, treatment vs control"
+  }
+ },
+ "data": [
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 38,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 8.1,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 5.4,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 30.6,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 3.9,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 3.2,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 20.8,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 0.5,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 20,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 18.3,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 7.1,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 10.8,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 6.7,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 0.1,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 17.4,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 3.6,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 6.2,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 16,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 17.4,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 29.9,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 6.4,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 5.4,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 6.4,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 22.3,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 1,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 7.9,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 14,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 36.2,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 33.8,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 22.4,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 10.6,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 5.6,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 1.4,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 21.9,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 21.8,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 55.6,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 12.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 8.8,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 2.4,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 1.7,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 12,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 9.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 45.9,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 29.9,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 10.9,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 25.1,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 54.5,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 31,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 10.6,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 1.1,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 7.6,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 28.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 4.2,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 11.5,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 11.8,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 18.6,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 6.8,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 17.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 31.1,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 15.8,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 30.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 22.7,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 17.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 1.6,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 0.1,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 0.4,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 1.4,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 6.7,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 5.2,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 4.2,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 27.8,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 1.8,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 0.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 15.9,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 1.6,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 16.2,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 1.2,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 20.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 4.5,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 12.1,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 36,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 1.2,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 5.6,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 12,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 33.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 10,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 20.9,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 15.4,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 9.4,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 25.2,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 2.1,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 5.9,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 26.9,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 13.6,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 23.3,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 35.9,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 9.3,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 42,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 5.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 2.3,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 6.5,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 35.1,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 4.1,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 4.3,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 9.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 21.4,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 20.3,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 2,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 22.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 5.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 8.5,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 32.2,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 11.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 9.5,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 4,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 14.6,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 18.5,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 31.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 42.7,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 7.1,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 9.1,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 5.8,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 29.6,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 15.8,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 7.4,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 5.8,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 2.4,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 5.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 3.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 26,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 37.6,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 4.9,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 4.2,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 22.5,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 30.9,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 22.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 17,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 3.6,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 9.4,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 7.1,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 3.3,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 2.3,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 26,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 2.4,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 2.2,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 44.9,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 4,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 38.6,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 0.3,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "对照组",
+    "en": "Control"
+   },
+   "months": 0.1,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 1.5,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 40.2,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 27.9,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 14.6,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 2.1,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 8.5,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 42.3,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 11.3,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 23.8,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 51.4,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 39.1,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 17.2,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 26.8,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 27.9,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 10.5,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 37.6,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 49.8,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 17.5,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 56.1,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 35.6,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 20.9,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 45.9,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 3.3,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 24.2,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 52.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 13.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 42.4,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 19.9,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 3.1,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 7.9,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 32.2,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 38.4,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 18.2,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 24.2,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 4.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 51.4,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 51.6,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 36,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 53.1,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 25,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 14.3,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 23.2,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 59.6,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 19.4,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 13.7,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 42.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 4.2,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 4.5,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 5.9,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 21.3,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 6.2,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 20.8,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 39.2,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 6.1,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 33.3,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 36.3,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 4.1,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 40,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 1.4,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 16.9,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 43.4,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 24.9,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 28.2,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 33.9,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 51.5,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 13,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 6,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 1.2,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 19.6,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 38.6,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 15.1,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 38.2,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 25.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 3.1,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 4.2,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 8.2,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 27.3,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 18.3,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 33.8,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 6.2,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 6.8,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 30.6,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 6,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 21.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 19,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 5.1,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 8.1,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 32,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 4.9,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 7.3,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 42.6,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 23,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 10.5,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 6.6,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 9,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 28.6,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 17.8,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 12.6,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 2.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 19.6,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 12.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 9.9,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 42.4,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 10.6,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 10.1,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 20.9,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 1.5,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 30.5,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 35.6,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 12.5,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 0.6,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 56.1,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 8.4,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 22.1,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 12.8,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 37.1,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 5.8,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 16.5,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 37.7,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 16.1,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 14,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 23.9,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 42.6,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 3.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 17.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 24.3,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 8.9,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 42.9,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 1,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 1.9,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 6.1,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 41.3,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 38.9,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 16.5,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 28.5,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 3.9,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 45,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 12.4,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 22.7,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 28.2,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 40.9,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 5.8,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 2.9,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 9.2,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 57.9,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 30.6,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 3,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 9.9,
+   "death": 1
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 6,
+   "death": 0
+  },
+  {
+   "arm": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   },
+   "months": 0.6,
+   "death": 1
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ },
+ "medianName": {
+  "zh": "总生存期",
+  "en": "overall survival"
+ }
+}

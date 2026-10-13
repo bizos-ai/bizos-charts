@@ -1,0 +1,4869 @@
+{
+ "schema": "bizos.chart-index.v2",
+ "engine": "2.1.0",
+ "families": {
+  "T": {
+   "zh": "趋势与时间",
+   "en": "Trend & time"
+  },
+  "C": {
+   "zh": "比较与排名",
+   "en": "Comparison & ranking"
+  },
+  "S": {
+   "zh": "构成与桥接",
+   "en": "Composition & bridges"
+  },
+  "D": {
+   "zh": "分布",
+   "en": "Distribution"
+  },
+  "R": {
+   "zh": "相关与定位",
+   "en": "Relationship & positioning"
+  },
+  "V": {
+   "zh": "估值与敏感性",
+   "en": "Valuation & sensitivity"
+  },
+  "H": {
+   "zh": "矩阵与同期群",
+   "en": "Matrix & cohort"
+  },
+  "G": {
+   "zh": "地理",
+   "en": "Geography"
+  },
+  "K": {
+   "zh": "指标与表格",
+   "en": "KPIs & tables"
+  },
+  "P": {
+   "zh": "进程与时间线",
+   "en": "Process & timeline"
+  },
+  "M": {
+   "zh": "小多图",
+   "en": "Small multiples"
+  },
+  "E": {
+   "zh": "实验与统计",
+   "en": "Experiments & statistics"
+  },
+  "B": {
+   "zh": "生物医学与组学",
+   "en": "Biomedicine & omics"
+  }
+ },
+ "charts": [
+  {
+   "id": "T01",
+   "family": "T",
+   "familyName": {
+    "zh": "趋势与时间",
+    "en": "Trend & time"
+   },
+   "name": {
+    "zh": "折线图",
+    "en": "Line chart"
+   },
+   "question": {
+    "zh": "指标随时间怎样变化？多条序列谁快谁慢、何时拐头？",
+    "en": "How does a metric move over time, and which series turns first?"
+   },
+   "use": {
+    "zh": "连续期间的走势、多序列对比（≤6 条）、实际与预测衔接。",
+    "en": "Trends over continuous periods, up to 6 series, actual-to-forecast continuity."
+   },
+   "avoid": {
+    "zh": "不连续的类别比较（用 C01/C02）；序列 >6 条且无主角（用 M01 小多图或高亮）。",
+    "en": "Unordered categories (use C01/C02); >6 series without a focus (use M01 or highlight)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "time",
+     "required": true,
+     "desc": {
+      "zh": "期间：YYYY / YYYY-MM / YYYY-MM-DD / 2025Q1 / 2026E",
+      "en": "Period: YYYY / YYYY-MM / YYYY-MM-DD / 2025Q1 / 2026E"
+     }
+    },
+    {
+     "key": "y | series",
+     "role": "measure[]",
+     "required": true,
+     "desc": {
+      "zh": "一个或多个数值字段（宽表）；或 seriesBy + y（长表）",
+      "en": "One or more numeric fields (wide), or seriesBy + y (long)"
+     }
+    }
+   ],
+   "options": [
+    "highlight",
+    "endLabels",
+    "markers",
+    "zero",
+    "scale:\"log\"",
+    "refLines",
+    "bands",
+    "annotations",
+    "estimateFrom"
+   ],
+   "keywords": {
+    "zh": [
+     "趋势",
+     "走势",
+     "变化",
+     "折线",
+     "时间序列",
+     "月度",
+     "日度",
+     "周度",
+     "增长",
+     "波动",
+     "拐点",
+     "预测"
+    ],
+    "en": [
+     "trend",
+     "over time",
+     "line",
+     "time series",
+     "monthly",
+     "daily",
+     "growth",
+     "turning point",
+     "forecast"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "T02",
+   "family": "T",
+   "familyName": {
+    "zh": "趋势与时间",
+    "en": "Trend & time"
+   },
+   "name": {
+    "zh": "面积图 / 堆积面积",
+    "en": "Area / stacked area"
+   },
+   "question": {
+    "zh": "总量如何随时间变化，各组成部分各贡献多少？结构是否迁移？",
+    "en": "How does a total evolve and which components drive it; is the mix shifting?"
+   },
+   "use": {
+    "zh": "单一存量走势；2–6 个组成部分随时间的堆积；percent:true 看结构占比迁移。",
+    "en": "A single stock over time; 2–6 stacked components; percent:true for mix shift."
+   },
+   "avoid": {
+    "zh": "组成部分有负值（用 S01 或 C04）；需精确比较中间层（用 T01 或 M01）。",
+    "en": "Components with negatives (use S01/C04); precise reading of middle layers (use T01/M01)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "time",
+     "required": true,
+     "desc": {
+      "zh": "期间或日期",
+      "en": "Period or date"
+     }
+    },
+    {
+     "key": "y | series",
+     "role": "measure[]",
+     "required": true,
+     "desc": {
+      "zh": "组成部分字段（非负）",
+      "en": "Component fields (non-negative)"
+     }
+    }
+   ],
+   "options": [
+    "stack(默认多序列堆积)",
+    "percent",
+    "refLines",
+    "bands"
+   ],
+   "keywords": {
+    "zh": [
+     "面积",
+     "堆积",
+     "构成变化",
+     "结构迁移",
+     "占比变化",
+     "存量"
+    ],
+    "en": [
+     "area",
+     "stacked area",
+     "mix shift",
+     "composition over time"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "T03",
+   "family": "T",
+   "familyName": {
+    "zh": "趋势与时间",
+    "en": "Trend & time"
+   },
+   "name": {
+    "zh": "柱线组合（规模 + 增速）",
+    "en": "Bars + rate line (dual axis)"
+   },
+   "question": {
+    "zh": "规模在增长吗？增速/利润率在加速还是放缓？",
+    "en": "Is the business growing, and is growth or margin accelerating?"
+   },
+   "use": {
+    "zh": "研报标准“营收及同比增速”“利润及利润率”。左轴绝对额（柱），右轴比率（线）。",
+    "en": "The standard “revenue and YoY growth” or “profit and margin” exhibit: absolute bars on the left axis, a rate on the right."
+   },
+   "avoid": {
+    "zh": "两个同单位指标（用 C03 或 T01）；右轴不是比率/倍数/指数。",
+    "en": "Two metrics in the same unit (use C03/T01); a right-axis metric that is not a rate, multiple or index."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "time",
+     "required": true,
+     "desc": {
+      "zh": "期间，可含 E 预测期",
+      "en": "Period, estimates allowed (E)"
+     }
+    },
+    {
+     "key": "bars",
+     "role": "measure[]",
+     "required": true,
+     "desc": {
+      "zh": "1–3 个绝对额字段（左轴，单位 unit）",
+      "en": "1–3 absolute fields (left axis, unit)"
+     }
+    },
+    {
+     "key": "line | lines",
+     "role": "measure[]",
+     "required": true,
+     "desc": {
+      "zh": "1–2 个比率字段（右轴，lineFormat: percent/pp/multiple/index）",
+      "en": "1–2 rate fields (right axis, lineFormat percent/pp/multiple/index)"
+     }
+    }
+   ],
+   "options": [
+    "lineFormat",
+    "lineUnit",
+    "barLabels",
+    "lineLabels",
+    "estimateFrom"
+   ],
+   "keywords": {
+    "zh": [
+     "营收及增速",
+     "同比增速",
+     "利润率",
+     "双轴",
+     "柱线",
+     "规模与增速",
+     "毛利率",
+     "营业收入",
+     "净利润"
+    ],
+    "en": [
+     "revenue and growth",
+     "yoy",
+     "margin",
+     "dual axis",
+     "combo",
+     "bar and line"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "T04",
+   "family": "T",
+   "familyName": {
+    "zh": "趋势与时间",
+    "en": "Trend & time"
+   },
+   "name": {
+    "zh": "指数化表现（基期=100）",
+    "en": "Indexed performance (rebased = 100)"
+   },
+   "question": {
+    "zh": "量级不同的序列，从同一起点出发谁跑得更好？",
+    "en": "From a common start, which series of different scale performed better?"
+   },
+   "use": {
+    "zh": "股价相对指数、各站点/品类 GMV 的相对增长、价格指数对比。",
+    "en": "Share price vs index, relative growth of marketplaces or categories, price indices."
+   },
+   "avoid": {
+    "zh": "需要读取绝对值（用 T01）；基期值 ≤0。",
+    "en": "When absolute levels matter (use T01); base values ≤ 0."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "time",
+     "required": true,
+     "desc": {
+      "zh": "日期或期间",
+      "en": "Date or period"
+     }
+    },
+    {
+     "key": "y | series",
+     "role": "measure[]",
+     "required": true,
+     "desc": {
+      "zh": "原始水平值（引擎自动换算为基期=100）",
+      "en": "Raw levels; the engine rebases to 100"
+     }
+    }
+   ],
+   "options": [
+    "base（基期，默认第一期）",
+    "highlight",
+    "refLines"
+   ],
+   "keywords": {
+    "zh": [
+     "指数化",
+     "基期100",
+     "相对表现",
+     "跑赢",
+     "跑输",
+     "股价表现",
+     "相对收益",
+     "归一化"
+    ],
+    "en": [
+     "indexed",
+     "rebased",
+     "relative performance",
+     "outperform",
+     "share price",
+     "normalised"
+    ]
+   },
+   "needsUnit": false,
+   "output": "svg"
+  },
+  {
+   "id": "T05",
+   "family": "T",
+   "familyName": {
+    "zh": "趋势与时间",
+    "en": "Trend & time"
+   },
+   "name": {
+    "zh": "区间预测（扇形图）",
+    "en": "Fan / range chart"
+   },
+   "question": {
+    "zh": "预测的中枢在哪里，不确定性有多大？历史分位区间如何？",
+    "en": "Where is the central forecast and how wide is the uncertainty?"
+   },
+   "use": {
+    "zh": "销量/价格预测带置信区间；竞品价格 P10–P90 分位带；情景上下限。",
+    "en": "Forecasts with intervals; competitor price P10–P90 bands; scenario bounds."
+   },
+   "avoid": {
+    "zh": "区间不是真实统计量或情景时（不要编造区间）。",
+    "en": "When the interval is not a real statistic or scenario (never invent bands)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "time",
+     "required": true,
+     "desc": {
+      "zh": "期间或日期",
+      "en": "Period or date"
+     }
+    },
+    {
+     "key": "y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "中枢值（实际 + 预测）",
+      "en": "Central value (actual + forecast)"
+     }
+    },
+    {
+     "key": "bands",
+     "role": "interval[]",
+     "required": true,
+     "desc": {
+      "zh": "[{low, high, name}] 由宽到窄，如 90%、50% 区间",
+      "en": "[{low, high, name}] widest first, e.g. 90% then 50%"
+     }
+    }
+   ],
+   "options": [
+    "estimateFrom",
+    "refLines"
+   ],
+   "keywords": {
+    "zh": [
+     "区间",
+     "置信区间",
+     "预测区间",
+     "扇形图",
+     "不确定性",
+     "分位数",
+     "上下限",
+     "情景"
+    ],
+    "en": [
+     "fan chart",
+     "confidence interval",
+     "forecast range",
+     "uncertainty",
+     "percentile band"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "T06",
+   "family": "T",
+   "familyName": {
+    "zh": "趋势与时间",
+    "en": "Trend & time"
+   },
+   "name": {
+    "zh": "K 线图（含成交量）",
+    "en": "Candlestick with volume"
+   },
+   "question": {
+    "zh": "价格在每个周期的开高低收如何？量价是否配合？",
+    "en": "What were open, high, low and close each period, and did volume confirm?"
+   },
+   "use": {
+    "zh": "股票、商品、币价的日/周 K；可叠加均线与成交量。",
+    "en": "Daily or weekly OHLC for stocks, commodities or tokens; optional moving averages and volume."
+   },
+   "avoid": {
+    "zh": "只有收盘价（用 T01）；非价格类业务数据。",
+    "en": "Close-only data (use T01); non-price business data."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "time",
+     "required": true,
+     "desc": {
+      "zh": "交易日（按交易日等距排列，不留周末空档）",
+      "en": "Trading day (evenly spaced, no weekend gaps)"
+     }
+    },
+    {
+     "key": "open/high/low/close",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "字段名默认 open/high/low/close，可用 ohlc:{} 改名",
+      "en": "Defaults open/high/low/close; rename via ohlc:{}"
+     }
+    },
+    {
+     "key": "volume",
+     "role": "measure",
+     "required": false,
+     "desc": {
+      "zh": "成交量（可选，下方副图）",
+      "en": "Volume (optional, lower panel)"
+     }
+    }
+   ],
+   "options": [
+    "ma:[5,20]",
+    "market:\"cn\"|\"intl\"（默认中文 cn 红涨绿跌）",
+    "volumeUnit"
+   ],
+   "keywords": {
+    "zh": [
+     "K线",
+     "蜡烛图",
+     "开高低收",
+     "OHLC",
+     "股价",
+     "行情",
+     "成交量",
+     "均线"
+    ],
+    "en": [
+     "candlestick",
+     "ohlc",
+     "share price",
+     "volume",
+     "moving average"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "T07",
+   "family": "T",
+   "familyName": {
+    "zh": "趋势与时间",
+    "en": "Trend & time"
+   },
+   "name": {
+    "zh": "估值通道（PE/PB Band）",
+    "en": "Valuation band (PE / PB band)"
+   },
+   "question": {
+    "zh": "当前股价对应历史上多少倍估值？处在通道的什么位置？",
+    "en": "Which historical multiple does the current price imply; where in the band is it?"
+   },
+   "use": {
+    "zh": "股价与“每股收益/净资产 × 不同倍数”的平行通道对比。",
+    "en": "Price against parallel lines of EPS/BVPS × fixed multiples."
+   },
+   "avoid": {
+    "zh": "每股收益为负或波动极大（倍数无意义，标 n.m.）。",
+    "en": "Negative or volatile per-share earnings (multiples are not meaningful)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "time",
+     "required": true,
+     "desc": {
+      "zh": "日期（月度或周度）",
+      "en": "Date (monthly or weekly)"
+     }
+    },
+    {
+     "key": "price",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "股价字段",
+      "en": "Price field"
+     }
+    },
+    {
+     "key": "base",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "每股指标字段（EPS 或 BVPS，滚动或预测）",
+      "en": "Per-share base (EPS or BVPS, trailing or forward)"
+     }
+    },
+    {
+     "key": "multiples",
+     "role": "list",
+     "required": true,
+     "desc": {
+      "zh": "倍数列表，如 [10,15,20,25]",
+      "en": "Multiples, e.g. [10,15,20,25]"
+     }
+    }
+   ],
+   "options": [
+    "multipleLabel（如 \"x PE\"）"
+   ],
+   "keywords": {
+    "zh": [
+     "PE Band",
+     "PB Band",
+     "估值通道",
+     "估值带",
+     "市盈率通道",
+     "历史估值",
+     "倍数"
+    ],
+    "en": [
+     "pe band",
+     "pb band",
+     "valuation band",
+     "multiple band",
+     "historical valuation"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "T08",
+   "family": "T",
+   "familyName": {
+    "zh": "趋势与时间",
+    "en": "Trend & time"
+   },
+   "name": {
+    "zh": "日历热力图",
+    "en": "Calendar heatmap"
+   },
+   "question": {
+    "zh": "一年中每天的量有什么周内/季节规律，哪些日子异常？",
+    "en": "What weekday and seasonal patterns show up day by day, and which days are outliers?"
+   },
+   "use": {
+    "zh": "日销量、日订单、日广告花费等 3–24 个月的逐日数据。",
+    "en": "Daily sales, orders or ad spend over 3–24 months."
+   },
+   "avoid": {
+    "zh": "需要精确读数或少于 60 天（用 T01/C02）。",
+    "en": "Precise reading or fewer than 60 days (use T01/C02)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "date",
+     "required": true,
+     "desc": {
+      "zh": "YYYY-MM-DD",
+      "en": "YYYY-MM-DD"
+     }
+    },
+    {
+     "key": "y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "当日数值（缺失日留空，不补 0）",
+      "en": "Daily value (leave missing days empty; never fill 0)"
+     }
+    }
+   ],
+   "options": [
+    "weekStart:\"mon\"|\"sun\""
+   ],
+   "keywords": {
+    "zh": [
+     "日历",
+     "逐日",
+     "热力",
+     "每天",
+     "周内规律",
+     "日销量",
+     "日订单"
+    ],
+    "en": [
+     "calendar",
+     "daily",
+     "heatmap",
+     "day of week",
+     "daily sales"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "T09",
+   "family": "T",
+   "familyName": {
+    "zh": "趋势与时间",
+    "en": "Trend & time"
+   },
+   "name": {
+    "zh": "斜率图（两期对比）",
+    "en": "Slope chart (two periods)"
+   },
+   "question": {
+    "zh": "两个时点之间，各项目升降方向与幅度如何，排名有无交叉？",
+    "en": "Between two points in time, which items rose or fell and did ranks cross?"
+   },
+   "use": {
+    "zh": "3–12 个项目的前后两期对比（份额、利润率、价格）。",
+    "en": "Before/after comparison for 3–12 items (share, margin, price)."
+   },
+   "avoid": {
+    "zh": "超过两期（用 T01/T10）；项目 >12。",
+    "en": "More than two periods (use T01/T10); more than 12 items."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "项目名",
+      "en": "Item"
+     }
+    },
+    {
+     "key": "from / to",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "两期字段名，periods 给出两期标签",
+      "en": "Fields for the two periods; periods gives their labels"
+     }
+    }
+   ],
+   "options": [
+    "periods:[\"2024\",\"2025\"]",
+    "highlight",
+    "colorBy:\"direction\"|\"series\"",
+    "goodDirection:\"up\"|\"down\""
+   ],
+   "keywords": {
+    "zh": [
+     "斜率图",
+     "两期对比",
+     "前后对比",
+     "升降",
+     "变化方向",
+     "排名交叉"
+    ],
+    "en": [
+     "slope chart",
+     "before and after",
+     "two periods",
+     "change direction"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "T10",
+   "family": "T",
+   "familyName": {
+    "zh": "趋势与时间",
+    "en": "Trend & time"
+   },
+   "name": {
+    "zh": "排名变化图",
+    "en": "Bump chart (rank over time)"
+   },
+   "question": {
+    "zh": "各实体的名次如何随时间变化，谁在上升谁在掉队？",
+    "en": "How do ranks change over time; who is climbing and who is slipping?"
+   },
+   "use": {
+    "zh": "品牌/ASIN 的 BSR 或销售额排名、市场份额排名的多期变化（≤10 个实体、≤12 期）。",
+    "en": "Brand or ASIN rank, sales or share rank across periods (≤10 entities, ≤12 periods)."
+   },
+   "avoid": {
+    "zh": "排名背后的差距很重要时（名次掩盖差距，用 T01 或 C03）。",
+    "en": "When the gaps behind ranks matter (ranks hide gaps; use T01 or C03)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "time",
+     "required": true,
+     "desc": {
+      "zh": "期间",
+      "en": "Period"
+     }
+    },
+    {
+     "key": "seriesBy",
+     "role": "dimension",
+     "required": true,
+     "desc": {
+      "zh": "实体字段",
+      "en": "Entity field"
+     }
+    },
+    {
+     "key": "y | rank",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "数值（引擎按降序计算名次）或直接给 rank 字段",
+      "en": "Value (ranked descending) or a rank field"
+     }
+    }
+   ],
+   "options": [
+    "rank（名次字段）",
+    "ascending（数值越小名次越高，如 BSR）",
+    "highlight"
+   ],
+   "keywords": {
+    "zh": [
+     "排名",
+     "名次",
+     "排名变化",
+     "BSR",
+     "位次",
+     "赛马"
+    ],
+    "en": [
+     "rank",
+     "ranking",
+     "bump chart",
+     "bsr",
+     "position change"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "T11",
+   "family": "T",
+   "familyName": {
+    "zh": "趋势与时间",
+    "en": "Trend & time"
+   },
+   "name": {
+    "zh": "季节性对比（逐年叠加）",
+    "en": "Seasonality overlay"
+   },
+   "question": {
+    "zh": "今年与往年同期相比如何？季节性高峰在哪几个月？",
+    "en": "How does this year compare with prior years at the same point; where are seasonal peaks?"
+   },
+   "use": {
+    "zh": "月度/周度销量、搜索量、广告花费的多年同期对比，可加往年区间带。",
+    "en": "Monthly or weekly sales, search volume or ad spend across years, with an optional prior-year range."
+   },
+   "avoid": {
+    "zh": "少于两年数据；不规则期间。",
+    "en": "Less than two years of data; irregular periods."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "date",
+     "required": true,
+     "desc": {
+      "zh": "YYYY-MM（月度）或 YYYY-MM-DD（按 ISO 周聚合）",
+      "en": "YYYY-MM (monthly) or YYYY-MM-DD (ISO-week)"
+     }
+    },
+    {
+     "key": "y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "数值",
+      "en": "Value"
+     }
+    }
+   ],
+   "options": [
+    "range:true（往年最小–最大区间带）",
+    "years（指定年份）"
+   ],
+   "keywords": {
+    "zh": [
+     "季节性",
+     "同期对比",
+     "逐年",
+     "旺季",
+     "淡季",
+     "年度叠加",
+     "同比"
+    ],
+    "en": [
+     "seasonality",
+     "year over year",
+     "seasonal",
+     "peak season",
+     "same period"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "C01",
+   "family": "C",
+   "familyName": {
+    "zh": "比较与排名",
+    "en": "Comparison & ranking"
+   },
+   "name": {
+    "zh": "条形图（排序）",
+    "en": "Bar chart (ranked)"
+   },
+   "question": {
+    "zh": "谁最大、谁最小？主角在同业中排第几、离中位数多远？",
+    "en": "Who is largest or smallest; where does the subject rank against the median?"
+   },
+   "use": {
+    "zh": "3–20 个类别的排序比较，类别名较长；同业对标（主角高亮 + 中位数线）。",
+    "en": "Ranking 3–20 categories with long names; peer benchmarking (highlight + median line)."
+   },
+   "avoid": {
+    "zh": "时间序列（用 C02/T01）；正负混合（用 C04）。",
+    "en": "Time series (use C02/T01); mixed signs (use C04)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "类别名",
+      "en": "Category"
+     }
+    },
+    {
+     "key": "y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "数值",
+      "en": "Value"
+     }
+    }
+   ],
+   "options": [
+    "sort:\"desc\"|\"asc\"|\"none\"",
+    "highlight",
+    "top（只显示前 N，自动加注）",
+    "refLines:[{value:\"median\"|\"mean\"|数值}]"
+   ],
+   "keywords": {
+    "zh": [
+     "排名",
+     "排序",
+     "对比",
+     "条形图",
+     "同业对标",
+     "TOP",
+     "前十",
+     "中位数",
+     "份额排名"
+    ],
+    "en": [
+     "ranking",
+     "bar chart",
+     "top 10",
+     "peer comparison",
+     "benchmark",
+     "median"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "C02",
+   "family": "C",
+   "familyName": {
+    "zh": "比较与排名",
+    "en": "Comparison & ranking"
+   },
+   "name": {
+    "zh": "柱状图",
+    "en": "Column chart"
+   },
+   "question": {
+    "zh": "各期/各类的规模是多少，哪一期最高，预测期如何？",
+    "en": "How large is each period or category, which is highest, what do estimates show?"
+   },
+   "use": {
+    "zh": "≤16 个期间或短名称类别；年度/季度规模，支持 A/E 区分。",
+    "en": "Up to 16 periods or short-named categories; annual/quarterly size with actual/estimate split."
+   },
+   "avoid": {
+    "zh": "类别名长（用 C01）；需要看连续走势（用 T01）。",
+    "en": "Long category names (use C01); continuous trends (use T01)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "category|time",
+     "required": true,
+     "desc": {
+      "zh": "期间或类别",
+      "en": "Period or category"
+     }
+    },
+    {
+     "key": "y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "数值",
+      "en": "Value"
+     }
+    }
+   ],
+   "options": [
+    "highlight",
+    "labels:\"all\"|\"ends\"|\"none\"",
+    "refLines",
+    "estimateFrom",
+    "cagr:{from,to}（在图上标注复合增速）"
+   ],
+   "keywords": {
+    "zh": [
+     "柱状图",
+     "年度",
+     "季度",
+     "规模",
+     "各期",
+     "CAGR",
+     "复合增速",
+     "预测"
+    ],
+    "en": [
+     "column chart",
+     "annual",
+     "quarterly",
+     "size",
+     "cagr",
+     "estimates"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "C03",
+   "family": "C",
+   "familyName": {
+    "zh": "比较与排名",
+    "en": "Comparison & ranking"
+   },
+   "name": {
+    "zh": "分组柱/条形图",
+    "en": "Grouped bars"
+   },
+   "question": {
+    "zh": "同一类别下，两到四个系列（今年 vs 去年、我方 vs 竞品）谁高谁低？",
+    "en": "Within each category, how do 2–4 series (this year vs last, us vs peers) compare?"
+   },
+   "use": {
+    "zh": "类别 ≤10、系列 2–4 的并列比较；horizontal:true 用于长类别名。",
+    "en": "Side-by-side comparison of 2–4 series across ≤10 categories; horizontal:true for long names."
+   },
+   "avoid": {
+    "zh": "系列 >4（用 M01 或表格）；关心组成合计（用 S01）。",
+    "en": "More than 4 series (use M01 or a table); when totals matter (use S01)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "类别",
+      "en": "Category"
+     }
+    },
+    {
+     "key": "y | series",
+     "role": "measure[]",
+     "required": true,
+     "desc": {
+      "zh": "2–4 个系列（宽表）或 seriesBy + y（长表）",
+      "en": "2–4 series (wide) or seriesBy + y (long)"
+     }
+    }
+   ],
+   "options": [
+    "horizontal",
+    "labels",
+    "highlight（系列名）"
+   ],
+   "keywords": {
+    "zh": [
+     "分组柱状图",
+     "并列",
+     "同比对比",
+     "今年去年",
+     "我方竞品",
+     "多系列对比"
+    ],
+    "en": [
+     "grouped bar",
+     "clustered",
+     "side by side",
+     "this year vs last"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "C04",
+   "family": "C",
+   "familyName": {
+    "zh": "比较与排名",
+    "en": "Comparison & ranking"
+   },
+   "name": {
+    "zh": "正负条形图",
+    "en": "Diverging bar"
+   },
+   "question": {
+    "zh": "哪些项目增长、哪些下滑，幅度各多大？",
+    "en": "Which items grew and which declined, and by how much?"
+   },
+   "use": {
+    "zh": "同比变化、利润贡献、价格变动等有正有负的类别数值。",
+    "en": "YoY changes, profit contribution, price moves — category values with both signs."
+   },
+   "avoid": {
+    "zh": "全部同号（用 C01）。",
+    "en": "All values with the same sign (use C01)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "类别",
+      "en": "Category"
+     }
+    },
+    {
+     "key": "y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "有正有负的数值",
+      "en": "Signed value"
+     }
+    }
+   ],
+   "options": [
+    "goodDirection:\"up\"|\"down\"（成本类设 down）",
+    "sort"
+   ],
+   "keywords": {
+    "zh": [
+     "正负",
+     "增减",
+     "涨跌",
+     "同比变化",
+     "贡献",
+     "盈亏",
+     "变化幅度"
+    ],
+    "en": [
+     "diverging",
+     "positive negative",
+     "change",
+     "gainers losers",
+     "contribution"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "C05",
+   "family": "C",
+   "familyName": {
+    "zh": "比较与排名",
+    "en": "Comparison & ranking"
+   },
+   "name": {
+    "zh": "哑铃图（前后对比）",
+    "en": "Dumbbell (before / after)"
+   },
+   "question": {
+    "zh": "每个类别从 A 到 B 变了多少？差距在扩大还是收窄？",
+    "en": "How far did each category move from A to B; is the gap widening?"
+   },
+   "use": {
+    "zh": "类别 ≤15 的两期/两组对比（改版前后、我方 vs 行业）；强调差值。",
+    "en": "Two-state comparison for up to 15 categories (before/after, us vs market), emphasising the gap."
+   },
+   "avoid": {
+    "zh": "超过两期（用 T01/T09）。",
+    "en": "More than two states (use T01/T09)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "类别",
+      "en": "Category"
+     }
+    },
+    {
+     "key": "from / to",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "起点与终点字段；names 给出两期名称",
+      "en": "Start and end fields; names gives their labels"
+     }
+    }
+   ],
+   "options": [
+    "sort:\"to\"|\"change\"|\"none\"",
+    "goodDirection"
+   ],
+   "keywords": {
+    "zh": [
+     "哑铃图",
+     "前后对比",
+     "改版前后",
+     "差距",
+     "两期",
+     "提升幅度"
+    ],
+    "en": [
+     "dumbbell",
+     "before after",
+     "gap",
+     "two states"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "C06",
+   "family": "C",
+   "familyName": {
+    "zh": "比较与排名",
+    "en": "Comparison & ranking"
+   },
+   "name": {
+    "zh": "子弹图（实际 vs 目标）",
+    "en": "Bullet chart (actual vs target)"
+   },
+   "question": {
+    "zh": "各项指标完成了目标的多少，处于差/中/好哪个区间？",
+    "en": "How far is each metric against target, and in which performance band?"
+   },
+   "use": {
+    "zh": "预算达成、KPI 完成率、库存周转对标；同一单位的多行指标。",
+    "en": "Budget attainment, KPI completion, benchmarks — several rows in one unit."
+   },
+   "avoid": {
+    "zh": "各行单位不同（拆成多张或用 K01）。",
+    "en": "Rows in different units (split, or use K01)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "指标名",
+      "en": "Metric"
+     }
+    },
+    {
+     "key": "y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "实际值",
+      "en": "Actual"
+     }
+    },
+    {
+     "key": "target",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "目标值字段",
+      "en": "Target field"
+     }
+    },
+    {
+     "key": "bands",
+     "role": "list",
+     "required": false,
+     "desc": {
+      "zh": "区间阈值字段数组，如 [\"poor\",\"ok\"]（第三档至轴末）",
+      "en": "Threshold fields, e.g. [\"poor\",\"ok\"] (last band runs to axis end)"
+     }
+    }
+   ],
+   "options": [
+    "bands",
+    "goodDirection"
+   ],
+   "keywords": {
+    "zh": [
+     "子弹图",
+     "目标达成",
+     "预算完成",
+     "KPI",
+     "完成率",
+     "实际与目标"
+    ],
+    "en": [
+     "bullet chart",
+     "target",
+     "budget attainment",
+     "kpi",
+     "actual vs plan"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "C07",
+   "family": "C",
+   "familyName": {
+    "zh": "比较与排名",
+    "en": "Comparison & ranking"
+   },
+   "name": {
+    "zh": "区间条形图",
+    "en": "Range bar"
+   },
+   "question": {
+    "zh": "各对象的取值范围（最低–最高）在哪里，典型值和我方位置在哪？",
+    "en": "Where does each item’s range sit, where is the typical value and our position?"
+   },
+   "use": {
+    "zh": "竞品价格带、各站点配送时效区间、预测分歧（最低–最高 + 中位数）。",
+    "en": "Competitor price ranges, delivery-time spans, forecast dispersion (min–max + median)."
+   },
+   "avoid": {
+    "zh": "估值方法汇总（用 V01 足球场图）；只有单点值（用 C01）。",
+    "en": "Valuation summaries (use V01); single values (use C01)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "对象",
+      "en": "Item"
+     }
+    },
+    {
+     "key": "low / high",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "下限与上限字段",
+      "en": "Low and high fields"
+     }
+    },
+    {
+     "key": "mid",
+     "role": "measure",
+     "required": false,
+     "desc": {
+      "zh": "典型值（中位数/均值）字段",
+      "en": "Typical value (median/mean)"
+     }
+    }
+   ],
+   "options": [
+    "refLines:[{value, label}]（如我方价格）",
+    "sort"
+   ],
+   "keywords": {
+    "zh": [
+     "区间",
+     "价格带",
+     "最低最高",
+     "范围",
+     "分歧",
+     "价格区间"
+    ],
+    "en": [
+     "range",
+     "price band",
+     "min max",
+     "spread",
+     "dispersion"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "S01",
+   "family": "S",
+   "familyName": {
+    "zh": "构成与桥接",
+    "en": "Composition & bridges"
+   },
+   "name": {
+    "zh": "堆积柱/条形图",
+    "en": "Stacked bars"
+   },
+   "question": {
+    "zh": "总量是多少，由哪些部分组成，哪一部分在变化？",
+    "en": "How big is the total, what is it made of, and which part is changing?"
+   },
+   "use": {
+    "zh": "各期/各类的总额与 2–6 个组成部分（按渠道、按站点、按产品线）。",
+    "en": "Totals and 2–6 components across periods or categories (by channel, marketplace, product line)."
+   },
+   "avoid": {
+    "zh": "只关心占比（用 S02）；组成部分有负值（用 S03/C04）。",
+    "en": "When only shares matter (use S02); negative components (use S03/C04)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "category|time",
+     "required": true,
+     "desc": {
+      "zh": "期间或类别",
+      "en": "Period or category"
+     }
+    },
+    {
+     "key": "y | series",
+     "role": "measure[]",
+     "required": true,
+     "desc": {
+      "zh": "组成部分（非负）",
+      "en": "Components (non-negative)"
+     }
+    }
+   ],
+   "options": [
+    "horizontal",
+    "totals（默认显示合计）",
+    "estimateFrom"
+   ],
+   "keywords": {
+    "zh": [
+     "堆积柱状图",
+     "组成",
+     "构成",
+     "分渠道",
+     "分站点",
+     "合计",
+     "拆分"
+    ],
+    "en": [
+     "stacked bar",
+     "composition",
+     "breakdown",
+     "by channel",
+     "total"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "S02",
+   "family": "S",
+   "familyName": {
+    "zh": "构成与桥接",
+    "en": "Composition & bridges"
+   },
+   "name": {
+    "zh": "百分比堆积图（结构）",
+    "en": "100% stacked (mix)"
+   },
+   "question": {
+    "zh": "结构（占比）在各期/各组之间如何变化？",
+    "en": "How does the mix (share) differ across periods or groups?"
+   },
+   "use": {
+    "zh": "渠道结构、价格段结构、评分结构的跨期/跨组比较；每根柱合计 100%，并标注基数。",
+    "en": "Channel, price-tier or rating mix across periods or groups; each bar sums to 100% with its base shown."
+   },
+   "avoid": {
+    "zh": "多选题（各项独立 0–100%，用 C01）；需要绝对额（用 S01）。",
+    "en": "Multi-select survey answers (independent shares, use C01); absolute sizes (use S01)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "category|time",
+     "required": true,
+     "desc": {
+      "zh": "期间或组别",
+      "en": "Period or group"
+     }
+    },
+    {
+     "key": "y | series",
+     "role": "measure[]",
+     "required": true,
+     "desc": {
+      "zh": "组成部分绝对值（引擎换算占比）",
+      "en": "Component values (engine computes shares)"
+     }
+    }
+   ],
+   "options": [
+    "horizontal",
+    "showBase（默认显示每组合计）"
+   ],
+   "keywords": {
+    "zh": [
+     "占比",
+     "结构",
+     "构成比例",
+     "百分比堆积",
+     "份额变化",
+     "mix",
+     "渠道结构"
+    ],
+    "en": [
+     "share",
+     "mix",
+     "100% stacked",
+     "composition",
+     "proportion"
+    ]
+   },
+   "needsUnit": false,
+   "output": "svg"
+  },
+  {
+   "id": "S03",
+   "family": "S",
+   "familyName": {
+    "zh": "构成与桥接",
+    "en": "Composition & bridges"
+   },
+   "name": {
+    "zh": "瀑布图 / 桥接图",
+    "en": "Waterfall / bridge"
+   },
+   "question": {
+    "zh": "从起点到终点，各因素分别贡献（增加或扣减）了多少？",
+    "en": "From start to end, how much did each driver add or subtract?"
+   },
+   "use": {
+    "zh": "利润桥（收入→毛利→经营利润）、同比变动归因（量价结构）、费用拆解、分部加总估值。",
+    "en": "Profit bridges, YoY variance attribution (price/volume/mix), cost build-ups, sum-of-the-parts."
+   },
+   "avoid": {
+    "zh": "各步之间没有加减关系；超过 12 步（合并小项）。",
+    "en": "Steps that do not add up; more than 12 steps (merge small items)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "步骤名（默认字段 label）",
+      "en": "Step label (default field \"label\")"
+     }
+    },
+    {
+     "key": "y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "数值（默认字段 value）：total 为水平值，delta 为增减",
+      "en": "Value (default \"value\"): level for totals, change for deltas"
+     }
+    },
+    {
+     "key": "kind",
+     "role": "enum",
+     "required": true,
+     "desc": {
+      "zh": "total | subtotal | delta；首行为起点，subtotal/total 必须等于累计值",
+      "en": "total | subtotal | delta; first row is the start; subtotals must equal the running sum"
+     }
+    }
+   ],
+   "options": [
+    "goodDirection:\"down\"（成本桥）",
+    "horizontal"
+   ],
+   "keywords": {
+    "zh": [
+     "瀑布图",
+     "桥接图",
+     "利润桥",
+     "归因",
+     "增减分解",
+     "从收入到利润",
+     "量价分析",
+     "分部估值",
+     "SOTP"
+    ],
+    "en": [
+     "waterfall",
+     "bridge",
+     "profit bridge",
+     "variance",
+     "attribution",
+     "sum of the parts"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "S04",
+   "family": "S",
+   "familyName": {
+    "zh": "构成与桥接",
+    "en": "Composition & bridges"
+   },
+   "name": {
+    "zh": "环形图（≤6 项）",
+    "en": "Donut (≤6 parts)"
+   },
+   "question": {
+    "zh": "一个整体由哪几部分组成，最大的部分占多少？",
+    "en": "What makes up one whole, and how big is the largest part?"
+   },
+   "use": {
+    "zh": "单一整体的 2–6 个互斥部分（收入构成、渠道占比），中心显示合计。",
+    "en": "A single whole split into 2–6 mutually exclusive parts, with the total in the centre."
+   },
+   "avoid": {
+    "zh": "部分 >6、需要精确比较相近份额、跨期比较（用 C01/S02）。",
+    "en": "More than 6 parts, close shares to compare, or several periods (use C01/S02)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "部分名称",
+      "en": "Part"
+     }
+    },
+    {
+     "key": "y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "数值（非负，引擎计算占比）",
+      "en": "Value (non-negative; shares computed)"
+     }
+    }
+   ],
+   "options": [
+    "centerLabel",
+    "otherLabel（“其他”排最后）"
+   ],
+   "keywords": {
+    "zh": [
+     "环形图",
+     "饼图",
+     "占比",
+     "构成",
+     "收入结构",
+     "份额"
+    ],
+    "en": [
+     "donut",
+     "pie",
+     "share",
+     "composition",
+     "breakdown"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "S05",
+   "family": "S",
+   "familyName": {
+    "zh": "构成与桥接",
+    "en": "Composition & bridges"
+   },
+   "name": {
+    "zh": "矩形树图",
+    "en": "Treemap"
+   },
+   "question": {
+    "zh": "在一个大盘子里，哪些类别/子类占得最多？",
+    "en": "Within one total, which categories and sub-categories take the most?"
+   },
+   "use": {
+    "zh": "两层层级的规模分布（品类→子类目、站点→店铺），面积 = 数值；可按增速着色。",
+    "en": "Two-level size distribution (category → sub-category); area = value; optional growth colouring."
+   },
+   "avoid": {
+    "zh": "有负值；需要精确比较（用 C01）；叶子 >40 个（合并长尾）。",
+    "en": "Negative values; precise comparison (use C01); more than 40 leaves (merge the tail)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "叶子名称",
+      "en": "Leaf name"
+     }
+    },
+    {
+     "key": "y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "面积数值（非负）",
+      "en": "Area value (non-negative)"
+     }
+    },
+    {
+     "key": "parent",
+     "role": "category",
+     "required": false,
+     "desc": {
+      "zh": "父级字段（两层时）",
+      "en": "Parent field (two levels)"
+     }
+    },
+    {
+     "key": "colorBy",
+     "role": "measure",
+     "required": false,
+     "desc": {
+      "zh": "着色指标（如同比增速，发散色）",
+      "en": "Colour metric (e.g. growth, diverging)"
+     }
+    }
+   ],
+   "options": [
+    "parent",
+    "colorBy",
+    "colorFormat"
+   ],
+   "keywords": {
+    "zh": [
+     "矩形树图",
+     "树图",
+     "层级",
+     "规模分布",
+     "类目结构",
+     "面积图"
+    ],
+    "en": [
+     "treemap",
+     "hierarchy",
+     "size distribution",
+     "category structure"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "S06",
+   "family": "S",
+   "familyName": {
+    "zh": "构成与桥接",
+    "en": "Composition & bridges"
+   },
+   "name": {
+    "zh": "马赛克图（Marimekko）",
+    "en": "Marimekko (market map)"
+   },
+   "question": {
+    "zh": "各细分市场有多大，每个细分里谁占多少份额？",
+    "en": "How large is each segment, and who holds what share within it?"
+   },
+   "use": {
+    "zh": "市场地图：列宽 = 细分市场规模，列内高度 = 玩家份额；定位我方在哪些细分有优势。",
+    "en": "Market map: column width = segment size, height = player share; shows where the subject is strong."
+   },
+   "avoid": {
+    "zh": "细分 >8 或玩家 >6（合并为“其他”）。",
+    "en": "More than 8 segments or 6 players (merge into “Other”)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "细分市场",
+      "en": "Segment"
+     }
+    },
+    {
+     "key": "seriesBy",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "玩家/品牌字段",
+      "en": "Player field"
+     }
+    },
+    {
+     "key": "y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "销售额（非负）",
+      "en": "Sales (non-negative)"
+     }
+    }
+   ],
+   "options": [
+    "highlight（玩家名）",
+    "otherLabel"
+   ],
+   "keywords": {
+    "zh": [
+     "马赛克图",
+     "Marimekko",
+     "市场地图",
+     "细分市场",
+     "市场份额",
+     "竞争格局"
+    ],
+    "en": [
+     "marimekko",
+     "mekko",
+     "market map",
+     "segment share",
+     "competitive landscape"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "S07",
+   "family": "S",
+   "familyName": {
+    "zh": "构成与桥接",
+    "en": "Composition & bridges"
+   },
+   "name": {
+    "zh": "桑基图（流向）",
+    "en": "Sankey (flows)"
+   },
+   "question": {
+    "zh": "总量从哪里来、流向哪里、在每一层分成多少？",
+    "en": "Where does the total come from, where does it go, and how does it split at each stage?"
+   },
+   "use": {
+    "zh": "利润表流向（收入→成本/毛利→费用/利润）、流量来源→落地页→转化、预算分配。",
+    "en": "Income-statement flows, traffic source → landing → conversion, budget allocation."
+   },
+   "avoid": {
+    "zh": "流不守恒且无法解释；节点 >20（聚合）；需要逐路径查询。",
+    "en": "Flows that do not conserve; more than 20 nodes (aggregate)."
+   },
+   "fields": [
+    {
+     "key": "source / target / value",
+     "role": "link",
+     "required": true,
+     "desc": {
+      "zh": "data 为连线数组：{source, target, value}",
+      "en": "data is a link list: {source, target, value}"
+     }
+    },
+    {
+     "key": "nodes",
+     "role": "list",
+     "required": false,
+     "desc": {
+      "zh": "可选 [{id, label, kind:\"cost\"|\"profit\"}] 控制顺序与配色",
+      "en": "Optional [{id, label, kind:\"cost\"|\"profit\"}] for order and colour"
+     }
+    }
+   ],
+   "options": [
+    "nodes",
+    "nodeColors"
+   ],
+   "keywords": {
+    "zh": [
+     "桑基图",
+     "流向",
+     "利润表拆解",
+     "收入流向",
+     "转化路径",
+     "资金流向",
+     "预算分配"
+    ],
+    "en": [
+     "sankey",
+     "flow",
+     "income statement",
+     "where the money goes",
+     "allocation"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "S08",
+   "family": "S",
+   "familyName": {
+    "zh": "构成与桥接",
+    "en": "Composition & bridges"
+   },
+   "name": {
+    "zh": "转化漏斗",
+    "en": "Conversion funnel"
+   },
+   "question": {
+    "zh": "从曝光到成交每一步流失多少，哪一环转化率最低？",
+    "en": "How much is lost at each step from impression to order; which step converts worst?"
+   },
+   "use": {
+    "zh": "广告/店铺转化路径（曝光→点击→加购→下单），注明环节转化率与整体转化率。",
+    "en": "Ad or store conversion paths (impressions → clicks → add-to-cart → orders) with stage and overall rates."
+   },
+   "avoid": {
+    "zh": "各步不是同一批对象的递进（不同口径不能串成漏斗）。",
+    "en": "Steps that are not a nested sequence of the same population."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "环节名称（按顺序）",
+      "en": "Stage (in order)"
+     }
+    },
+    {
+     "key": "y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "该环节数量（应逐级不增）",
+      "en": "Count at stage (non-increasing)"
+     }
+    }
+   ],
+   "options": [],
+   "keywords": {
+    "zh": [
+     "漏斗",
+     "转化率",
+     "转化路径",
+     "流失",
+     "曝光点击",
+     "加购",
+     "下单"
+    ],
+    "en": [
+     "funnel",
+     "conversion",
+     "drop-off",
+     "click through",
+     "add to cart"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "D01",
+   "family": "D",
+   "familyName": {
+    "zh": "分布",
+    "en": "Distribution"
+   },
+   "name": {
+    "zh": "直方图",
+    "en": "Histogram"
+   },
+   "question": {
+    "zh": "数值集中在哪个区间，分布是否偏斜、有无长尾？",
+    "en": "Where do values cluster; is the distribution skewed or long-tailed?"
+   },
+   "use": {
+    "zh": "单变量分布：竞品价格、订单金额、配送时长、评分数（≥30 个样本）。",
+    "en": "One-variable distributions: competitor prices, order values, delivery times (n ≥ 30)."
+   },
+   "avoid": {
+    "zh": "样本 <30（用 D03 逐点）；多组比较（用 D02）。",
+    "en": "Fewer than 30 observations (use D03); several groups (use D02)."
+   },
+   "fields": [
+    {
+     "key": "y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "原始观测值字段（每行一个样本）",
+      "en": "Raw observation field (one row per observation)"
+     }
+    }
+   ],
+   "options": [
+    "binWidth",
+    "bins（箱数）",
+    "marks:[\"median\",\"mean\"]"
+   ],
+   "keywords": {
+    "zh": [
+     "直方图",
+     "分布",
+     "频数",
+     "集中度",
+     "偏态",
+     "价格分布",
+     "区间分布"
+    ],
+    "en": [
+     "histogram",
+     "distribution",
+     "frequency",
+     "skew",
+     "price distribution"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "D02",
+   "family": "D",
+   "familyName": {
+    "zh": "分布",
+    "en": "Distribution"
+   },
+   "name": {
+    "zh": "箱线图",
+    "en": "Box plot"
+   },
+   "question": {
+    "zh": "几组数据的中位数、离散程度和异常值有何差异？",
+    "en": "How do medians, spread and outliers differ across groups?"
+   },
+   "use": {
+    "zh": "2–12 组的分布比较：各品类价格、各站点时效、各广告组 ACOS。",
+    "en": "Comparing 2–12 group distributions: category prices, delivery times, ad-group ACOS."
+   },
+   "avoid": {
+    "zh": "每组样本 <10（用 D03 展示每个点）。",
+    "en": "Groups with fewer than 10 observations (use D03)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "组别",
+      "en": "Group"
+     }
+    },
+    {
+     "key": "y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "原始观测值（长表，每行一个样本）",
+      "en": "Raw observations (long format)"
+     }
+    }
+   ],
+   "options": [
+    "horizontal",
+    "highlight",
+    "sort:\"median\""
+   ],
+   "keywords": {
+    "zh": [
+     "箱线图",
+     "分布比较",
+     "中位数",
+     "四分位",
+     "离散",
+     "异常值",
+     "盒须图"
+    ],
+    "en": [
+     "box plot",
+     "quartiles",
+     "median",
+     "spread",
+     "outliers"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "D03",
+   "family": "D",
+   "familyName": {
+    "zh": "分布",
+    "en": "Distribution"
+   },
+   "name": {
+    "zh": "点分布图（蜂群）",
+    "en": "Strip / beeswarm"
+   },
+   "question": {
+    "zh": "每个样本落在哪里？我方/重点对象在分布中的位置如何？",
+    "en": "Where does every observation fall, and where do the highlighted items sit?"
+   },
+   "use": {
+    "zh": "小到中等样本（≤300/组）的逐点分布，可标注我方产品或异常点。",
+    "en": "Point-level distributions for small to medium samples (≤300 per group), labelling our products or outliers."
+   },
+   "avoid": {
+    "zh": "样本很大（用 D01/D02）。",
+    "en": "Very large samples (use D01/D02)."
+   },
+   "fields": [
+    {
+     "key": "y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "数值",
+      "en": "Value"
+     }
+    },
+    {
+     "key": "x",
+     "role": "category",
+     "required": false,
+     "desc": {
+      "zh": "组别（可选）",
+      "en": "Group (optional)"
+     }
+    },
+    {
+     "key": "label",
+     "role": "category",
+     "required": false,
+     "desc": {
+      "zh": "点名称字段（用于 highlight 标注）",
+      "en": "Point label field (for highlights)"
+     }
+    }
+   ],
+   "options": [
+    "highlight（点名称）",
+    "label"
+   ],
+   "keywords": {
+    "zh": [
+     "点分布",
+     "蜂群图",
+     "散点分布",
+     "逐点",
+     "我方位置",
+     "竞品分布"
+    ],
+    "en": [
+     "beeswarm",
+     "strip plot",
+     "dot distribution",
+     "where we sit"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "R01",
+   "family": "R",
+   "familyName": {
+    "zh": "相关与定位",
+    "en": "Relationship & positioning"
+   },
+   "name": {
+    "zh": "散点图（含回归）",
+    "en": "Scatter (with fit)"
+   },
+   "question": {
+    "zh": "两个指标是否相关？谁偏离了整体规律？",
+    "en": "Are two metrics related, and who deviates from the pattern?"
+   },
+   "use": {
+    "zh": "估值与增速（EV/EBITDA vs 增速）、价格与销量、评分与转化等两指标关系；fit:true 给出回归线与 R²。",
+    "en": "Valuation vs growth, price vs volume, rating vs conversion; fit:true adds an OLS line and R²."
+   },
+   "avoid": {
+    "zh": "时间序列（用 T01）；点 <5。",
+    "en": "Time series (use T01); fewer than 5 points."
+   },
+   "fields": [
+    {
+     "key": "x / y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "横轴与纵轴指标（xUnit / unit 必填）",
+      "en": "X and Y metrics (xUnit / unit required)"
+     }
+    },
+    {
+     "key": "label",
+     "role": "category",
+     "required": false,
+     "desc": {
+      "zh": "点名称",
+      "en": "Point label"
+     }
+    },
+    {
+     "key": "group",
+     "role": "category",
+     "required": false,
+     "desc": {
+      "zh": "分组着色（≤6 组）",
+      "en": "Colour group (≤6)"
+     }
+    }
+   ],
+   "options": [
+    "fit",
+    "highlight",
+    "xFormat",
+    "labels:\"all\"",
+    "xZero/yZero"
+   ],
+   "keywords": {
+    "zh": [
+     "散点图",
+     "相关性",
+     "回归",
+     "估值与增速",
+     "价格与销量",
+     "关系",
+     "R方"
+    ],
+    "en": [
+     "scatter",
+     "correlation",
+     "regression",
+     "valuation vs growth",
+     "relationship"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "R02",
+   "family": "R",
+   "familyName": {
+    "zh": "相关与定位",
+    "en": "Relationship & positioning"
+   },
+   "name": {
+    "zh": "气泡图",
+    "en": "Bubble chart"
+   },
+   "question": {
+    "zh": "在两个指标定位之外，第三个指标（规模）有多大？",
+    "en": "Beyond position on two metrics, how big is each item on a third?"
+   },
+   "use": {
+    "zh": "品牌/类目在“增速 × 利润率”上的位置 + 规模（面积 = 销售额）。",
+    "en": "Brands or categories by growth × margin with size (area = sales)."
+   },
+   "avoid": {
+    "zh": "规模差异需要精确比较（面积难精读，配表格）；点 >30。",
+    "en": "When sizes need precise comparison (areas read poorly); more than 30 points."
+   },
+   "fields": [
+    {
+     "key": "x / y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "定位指标（xUnit / unit 必填）",
+      "en": "Position metrics (xUnit / unit required)"
+     }
+    },
+    {
+     "key": "size",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "气泡面积指标（非负，面积 ∝ 数值）",
+      "en": "Size metric (non-negative; area ∝ value)"
+     }
+    },
+    {
+     "key": "label",
+     "role": "category",
+     "required": false,
+     "desc": {
+      "zh": "名称",
+      "en": "Label"
+     }
+    }
+   ],
+   "options": [
+    "sizeUnit",
+    "sizeFormat",
+    "highlight",
+    "group"
+   ],
+   "keywords": {
+    "zh": [
+     "气泡图",
+     "三维",
+     "规模",
+     "增速与利润率",
+     "品类定位"
+    ],
+    "en": [
+     "bubble chart",
+     "three variables",
+     "size",
+     "growth vs margin"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "R03",
+   "family": "R",
+   "familyName": {
+    "zh": "相关与定位",
+    "en": "Relationship & positioning"
+   },
+   "name": {
+    "zh": "四象限矩阵（2×2）",
+    "en": "Quadrant matrix (2×2)"
+   },
+   "question": {
+    "zh": "按两个维度把对象分成四类，各自该采取什么策略？",
+    "en": "Which of four strategic quadrants does each item fall into on two dimensions?"
+   },
+   "use": {
+    "zh": "产品组合（增速 × 份额）、关键词（搜索量 × 转化）、SKU（毛利 × 动销）的分层管理；分界线默认取中位数。",
+    "en": "Portfolio triage: growth × share, keyword volume × conversion, SKU margin × velocity; splits default to medians."
+   },
+   "avoid": {
+    "zh": "分界线没有业务含义且未说明；点 <8。",
+    "en": "Unjustified split lines; fewer than 8 items."
+   },
+   "fields": [
+    {
+     "key": "x / y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "两个分类维度",
+      "en": "Two dimensions"
+     }
+    },
+    {
+     "key": "label",
+     "role": "category",
+     "required": false,
+     "desc": {
+      "zh": "名称",
+      "en": "Label"
+     }
+    },
+    {
+     "key": "size",
+     "role": "measure",
+     "required": false,
+     "desc": {
+      "zh": "可选气泡大小",
+      "en": "Optional bubble size"
+     }
+    }
+   ],
+   "options": [
+    "xSplit / ySplit（数值、\"mean\" 或默认中位数）",
+    "quadrants:[右上, 左上, 左下, 右下]",
+    "highlight"
+   ],
+   "keywords": {
+    "zh": [
+     "四象限",
+     "2x2",
+     "矩阵",
+     "波士顿矩阵",
+     "分层",
+     "象限分析",
+     "SKU分层",
+     "关键词分层"
+    ],
+    "en": [
+     "quadrant",
+     "2x2 matrix",
+     "growth share matrix",
+     "segmentation",
+     "triage"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "V01",
+   "family": "V",
+   "familyName": {
+    "zh": "估值与敏感性",
+    "en": "Valuation & sensitivity"
+   },
+   "name": {
+    "zh": "估值区间图（足球场图）",
+    "en": "Valuation football field"
+   },
+   "question": {
+    "zh": "不同估值方法给出的价值区间是多少，与当前价格/报价相比如何？",
+    "en": "What value range does each method imply, and how does it compare with the current price or offer?"
+   },
+   "use": {
+    "zh": "可比公司、可比交易、DCF、52 周区间等方法的估值汇总；情景（悲观/中性/乐观）区间。",
+    "en": "Summary of trading comps, precedent transactions, DCF and 52-week range; bear/base/bull scenarios."
+   },
+   "avoid": {
+    "zh": "没有区间只有点估计（用 C01）。",
+    "en": "Point estimates without ranges (use C01)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "方法/情景名称",
+      "en": "Method or scenario"
+     }
+    },
+    {
+     "key": "low / high",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "区间下限与上限（同一口径，如每股价值或企业价值）",
+      "en": "Range low and high (same basis, e.g. value per share)"
+     }
+    },
+    {
+     "key": "basis",
+     "role": "text",
+     "required": false,
+     "desc": {
+      "zh": "方法依据字段，如“EV/EBITDA 9–12x”",
+      "en": "Basis text, e.g. “EV/EBITDA 9–12x”"
+     }
+    }
+   ],
+   "options": [
+    "current（当前价格）",
+    "refLines（报价、目标价）",
+    "groupBy（方法类别着色）"
+   ],
+   "keywords": {
+    "zh": [
+     "足球场图",
+     "估值区间",
+     "估值汇总",
+     "DCF",
+     "可比公司",
+     "可比交易",
+     "目标价",
+     "情景分析",
+     "牛熊"
+    ],
+    "en": [
+     "football field",
+     "valuation range",
+     "dcf",
+     "trading comps",
+     "precedent transactions",
+     "target price",
+     "scenario"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "V02",
+   "family": "V",
+   "familyName": {
+    "zh": "估值与敏感性",
+    "en": "Valuation & sensitivity"
+   },
+   "name": {
+    "zh": "敏感性分析表（双因素）",
+    "en": "Sensitivity table (two-way)"
+   },
+   "question": {
+    "zh": "两个关键假设同时变化时，结果（估值/利润）落在什么范围？",
+    "en": "When two key assumptions move together, where does the outcome land?"
+   },
+   "use": {
+    "zh": "WACC × 永续增长率对估值；售价 × 广告花费率对利润；基准情形加框。",
+    "en": "WACC × terminal growth on value; price × ad-spend ratio on profit; base case boxed."
+   },
+   "avoid": {
+    "zh": "只有一个变量（用 V03 龙卷风图）。",
+    "en": "A single variable (use V03 tornado)."
+   },
+   "fields": [
+    {
+     "key": "rows / cols",
+     "role": "axis",
+     "required": true,
+     "desc": {
+      "zh": "{name, values:[…], format} 行变量与列变量",
+      "en": "{name, values:[…], format} for the row and column variables"
+     }
+    },
+    {
+     "key": "values",
+     "role": "matrix",
+     "required": true,
+     "desc": {
+      "zh": "结果矩阵 values[i][j]，行数 = rows.values 数",
+      "en": "Outcome matrix values[i][j]"
+     }
+    },
+    {
+     "key": "base",
+     "role": "pair",
+     "required": true,
+     "desc": {
+      "zh": "[行基准值, 列基准值]，加框标出",
+      "en": "[row base, column base], boxed"
+     }
+    }
+   ],
+   "options": [
+    "shade:\"diverging\"|\"sequential\"|\"none\"",
+    "goodDirection"
+   ],
+   "keywords": {
+    "zh": [
+     "敏感性分析",
+     "敏感性测试",
+     "WACC",
+     "永续增长率",
+     "双因素",
+     "假设变化",
+     "情景矩阵"
+    ],
+    "en": [
+     "sensitivity table",
+     "sensitivity analysis",
+     "wacc",
+     "terminal growth",
+     "two-way table",
+     "data table"
+    ]
+   },
+   "needsUnit": true,
+   "output": "html"
+  },
+  {
+   "id": "V03",
+   "family": "V",
+   "familyName": {
+    "zh": "估值与敏感性",
+    "en": "Valuation & sensitivity"
+   },
+   "name": {
+    "zh": "龙卷风图（单因素敏感性）",
+    "en": "Tornado (one-way sensitivity)"
+   },
+   "question": {
+    "zh": "哪个假设对结果影响最大？各假设上下浮动时结果变化多少？",
+    "en": "Which assumption moves the outcome most when each is flexed up and down?"
+   },
+   "use": {
+    "zh": "利润/估值对售价、销量、广告费率、汇率、头程成本等单因素 ±x% 的敏感性排序。",
+    "en": "Ranking the outcome’s sensitivity to price, volume, ad ratio, FX, freight … each flexed ±x%."
+   },
+   "avoid": {
+    "zh": "因素之间相互依赖且需联动分析（用 V02）。",
+    "en": "Interdependent drivers that must move together (use V02)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "因素名（含浮动幅度，如“售价 ±10%”）",
+      "en": "Driver (with flex, e.g. “Price ±10%”)"
+     }
+    },
+    {
+     "key": "low / high",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "因素取低值/高值时的结果",
+      "en": "Outcome when the driver is at its low / high value"
+     }
+    }
+   ],
+   "options": [
+    "base（基准结果，必填）",
+    "lowLabel / highLabel"
+   ],
+   "keywords": {
+    "zh": [
+     "龙卷风图",
+     "敏感性",
+     "单因素",
+     "影响排序",
+     "假设",
+     "弹性"
+    ],
+    "en": [
+     "tornado chart",
+     "sensitivity",
+     "one-way",
+     "drivers",
+     "elasticity"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "V04",
+   "family": "V",
+   "familyName": {
+    "zh": "估值与敏感性",
+    "en": "Valuation & sensitivity"
+   },
+   "name": {
+    "zh": "指标拆解树（驱动因素树）",
+    "en": "Driver tree"
+   },
+   "question": {
+    "zh": "结果指标由哪些驱动因素相乘/相加得到，变化来自哪一项？",
+    "en": "Which drivers multiply or add up to the outcome, and where did the change come from?"
+   },
+   "use": {
+    "zh": "杜邦分析（ROE = 净利率 × 周转率 × 杠杆）、GMV = 流量 × 转化率 × 客单价、利润树；可显示同比。",
+    "en": "DuPont (ROE = margin × turnover × leverage), GMV = traffic × conversion × AOV, profit trees; optional YoY."
+   },
+   "avoid": {
+    "zh": "各层之间没有确定的运算关系。",
+    "en": "Levels without a definite arithmetic relationship."
+   },
+   "fields": [
+    {
+     "key": "tree",
+     "role": "tree",
+     "required": true,
+     "desc": {
+      "zh": "{label, value, prior?, format, op:\"×\"|\"+\"|\"−\"|\"÷\", children:[…]}；父值必须等于 op(子值)",
+      "en": "{label, value, prior?, format, op, children}; parent must equal op(children)"
+     }
+    }
+   ],
+   "options": [
+    "tolerance（默认 1%）"
+   ],
+   "keywords": {
+    "zh": [
+     "指标拆解",
+     "驱动因素",
+     "杜邦分析",
+     "ROE拆解",
+     "GMV拆解",
+     "利润树",
+     "因素分解"
+    ],
+    "en": [
+     "driver tree",
+     "dupont",
+     "kpi tree",
+     "decomposition",
+     "value driver"
+    ]
+   },
+   "needsUnit": false,
+   "output": "svg"
+  },
+  {
+   "id": "H01",
+   "family": "H",
+   "familyName": {
+    "zh": "矩阵与同期群",
+    "en": "Matrix & cohort"
+   },
+   "name": {
+    "zh": "热力矩阵",
+    "en": "Heatmap matrix"
+   },
+   "question": {
+    "zh": "两个维度交叉后，哪些组合的数值最高/最低？有无规律？",
+    "en": "Across two dimensions, which combinations are highest or lowest, and is there a pattern?"
+   },
+   "use": {
+    "zh": "星期 × 小时订单、站点 × 品类增速、相关系数矩阵（center:0）、价格段 × 评分。",
+    "en": "Weekday × hour orders, marketplace × category growth, correlation matrices (center:0)."
+   },
+   "avoid": {
+    "zh": "需要精确比较少数数值（用 C03）；格子 >400。",
+    "en": "Precise comparison of a few values (use C03); more than 400 cells."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "列维度",
+      "en": "Column dimension"
+     }
+    },
+    {
+     "key": "row",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "行维度字段",
+      "en": "Row dimension field"
+     }
+    },
+    {
+     "key": "y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "格子数值",
+      "en": "Cell value"
+     }
+    }
+   ],
+   "options": [
+    "center（发散色中点，如 0）",
+    "labels:\"auto\"|\"all\"|\"none\"",
+    "rowOrder / colOrder"
+   ],
+   "keywords": {
+    "zh": [
+     "热力图",
+     "热力矩阵",
+     "交叉分析",
+     "星期小时",
+     "相关矩阵",
+     "相关系数",
+     "矩阵"
+    ],
+    "en": [
+     "heatmap",
+     "matrix",
+     "cross-tab",
+     "weekday hour",
+     "correlation matrix"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "H02",
+   "family": "H",
+   "familyName": {
+    "zh": "矩阵与同期群",
+    "en": "Matrix & cohort"
+   },
+   "name": {
+    "zh": "同期群留存三角",
+    "en": "Cohort retention triangle"
+   },
+   "question": {
+    "zh": "不同月份获得的客户，此后各期还剩多少（复购/留存）？新客质量在变好吗？",
+    "en": "Of customers acquired each month, how many remain or repurchase later; is cohort quality improving?"
+   },
+   "use": {
+    "zh": "复购率、会员留存、订阅续费的同期群分析；每行一个获客期。",
+    "en": "Repeat-purchase, membership or subscription retention by acquisition cohort."
+   },
+   "avoid": {
+    "zh": "没有按获客期追踪的个体数据（不能用总量反推）。",
+    "en": "Without cohort-tracked customer data (cannot be reverse-engineered from totals)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "获客期（同期群）",
+      "en": "Cohort (acquisition period)"
+     }
+    },
+    {
+     "key": "offset",
+     "role": "ordinal",
+     "required": true,
+     "desc": {
+      "zh": "距获客期的期数（0、1、2…）字段",
+      "en": "Periods since acquisition (0, 1, 2 …)"
+     }
+    },
+    {
+     "key": "y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "留存率/复购率（%）",
+      "en": "Retention or repeat rate (%)"
+     }
+    },
+    {
+     "key": "size",
+     "role": "measure",
+     "required": false,
+     "desc": {
+      "zh": "同期群规模（首期人数）字段",
+      "en": "Cohort size field"
+     }
+    }
+   ],
+   "options": [
+    "size"
+   ],
+   "keywords": {
+    "zh": [
+     "同期群",
+     "cohort",
+     "留存",
+     "复购",
+     "复购率",
+     "客户留存",
+     "会员"
+    ],
+    "en": [
+     "cohort",
+     "retention",
+     "repeat purchase",
+     "churn",
+     "triangle"
+    ]
+   },
+   "needsUnit": false,
+   "output": "svg"
+  },
+  {
+   "id": "G01",
+   "family": "G",
+   "familyName": {
+    "zh": "地理",
+    "en": "Geography"
+   },
+   "name": {
+    "zh": "美国分州瓦片地图",
+    "en": "US state tile map"
+   },
+   "question": {
+    "zh": "各州数值（销量、订单、渗透率）高低如何分布，有无区域集中？",
+    "en": "How do state-level values (sales, orders, penetration) vary, and are they regionally concentrated?"
+   },
+   "use": {
+    "zh": "美国站按收货州的销售/订单/客单价；每州等面积方块，避免大州在视觉上被夸大。",
+    "en": "US sales, orders or AOV by ship-to state; equal tiles avoid over-weighting large states."
+   },
+   "avoid": {
+    "zh": "需要精确地理位置或城市级数据。",
+    "en": "Exact geography or city-level data."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "geo",
+     "required": true,
+     "desc": {
+      "zh": "州代码（CA）或英文州名",
+      "en": "State code (CA) or name"
+     }
+    },
+    {
+     "key": "y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "数值",
+      "en": "Value"
+     }
+    }
+   ],
+   "options": [
+    "scale:\"quantile\"(默认)|\"linear\"",
+    "center"
+   ],
+   "keywords": {
+    "zh": [
+     "美国地图",
+     "分州",
+     "州",
+     "地域分布",
+     "收货地",
+     "区域"
+    ],
+    "en": [
+     "us map",
+     "state",
+     "tile map",
+     "geography",
+     "regional"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "G02",
+   "family": "G",
+   "familyName": {
+    "zh": "地理",
+    "en": "Geography"
+   },
+   "name": {
+    "zh": "中国省级瓦片地图",
+    "en": "China province tile map"
+   },
+   "question": {
+    "zh": "各省份数值（卖家数、工厂、销量）如何分布，集中在哪些省？",
+    "en": "How do province-level values (sellers, factories, sales) vary, and where do they concentrate?"
+   },
+   "use": {
+    "zh": "卖家/供应商所在地、各省销量；等面积方块，含港澳台。",
+    "en": "Seller or supplier locations, provincial sales; equal tiles, including HK, Macao and Taiwan."
+   },
+   "avoid": {
+    "zh": "城市级或需要精确边界的分析。",
+    "en": "City-level analysis or exact boundaries."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "geo",
+     "required": true,
+     "desc": {
+      "zh": "省份名（广东/广东省/Guangdong）",
+      "en": "Province name (广东 / Guangdong)"
+     }
+    },
+    {
+     "key": "y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "数值",
+      "en": "Value"
+     }
+    }
+   ],
+   "options": [
+    "scale:\"quantile\"(默认)|\"linear\"",
+    "center"
+   ],
+   "keywords": {
+    "zh": [
+     "中国地图",
+     "省份",
+     "分省",
+     "卖家所在地",
+     "地域分布",
+     "区域"
+    ],
+    "en": [
+     "china map",
+     "province",
+     "tile map",
+     "seller location",
+     "regional"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "K01",
+   "family": "K",
+   "familyName": {
+    "zh": "指标与表格",
+    "en": "KPIs & tables"
+   },
+   "name": {
+    "zh": "关键指标卡",
+    "en": "KPI tiles"
+   },
+   "question": {
+    "zh": "本期核心指标是多少，较上期/去年同期变化多少，方向好坏？",
+    "en": "What are the headline metrics this period, how did they change, and is that good or bad?"
+   },
+   "use": {
+    "zh": "报告首屏的 3–8 个核心指标；每个指标带口径（期间）、变化与可选迷你走势。",
+    "en": "The 3–8 headline metrics at the top of a report, each with period, change and optional sparkline."
+   },
+   "avoid": {
+    "zh": "指标超过 8 个（用 K02 表格）；没有比较基准的孤立数字。",
+    "en": "More than 8 metrics (use K02); isolated numbers without a comparison."
+   },
+   "fields": [
+    {
+     "key": "data[]",
+     "role": "items",
+     "required": true,
+     "desc": {
+      "zh": "{label, value, format, unit, delta, deltaFormat, deltaLabel, goodDirection, spark:[…], note}",
+      "en": "{label, value, format, unit, delta, deltaFormat, deltaLabel, goodDirection, spark, note}"
+     }
+    }
+   ],
+   "options": [
+    "columns"
+   ],
+   "keywords": {
+    "zh": [
+     "KPI",
+     "指标卡",
+     "核心指标",
+     "关键数据",
+     "首屏",
+     "看板",
+     "概览"
+    ],
+    "en": [
+     "kpi",
+     "headline metrics",
+     "scorecard",
+     "summary tiles",
+     "dashboard"
+    ]
+   },
+   "needsUnit": false,
+   "output": "html"
+  },
+  {
+   "id": "K02",
+   "family": "K",
+   "familyName": {
+    "zh": "指标与表格",
+    "en": "KPIs & tables"
+   },
+   "name": {
+    "zh": "数据表（带条形/色阶/迷你图）",
+    "en": "Data table (bars, heat, sparklines)"
+   },
+   "question": {
+    "zh": "需要逐项查数、对比多个指标时，如何一次给全且有重点？",
+    "en": "How to give exact values across many metrics at once, with emphasis?"
+   },
+   "use": {
+    "zh": "SKU/ASIN 明细、站点经营表、关键词表；列可加内嵌条形、色阶或迷你走势。",
+    "en": "SKU/ASIN detail, marketplace P&L, keyword tables; columns can carry inline bars, heat or sparklines."
+   },
+   "avoid": {
+    "zh": "只有一两个数（写进正文或 K01）。",
+    "en": "One or two numbers (put them in text or K01)."
+   },
+   "fields": [
+    {
+     "key": "columns",
+     "role": "list",
+     "required": true,
+     "desc": {
+      "zh": "[{key,label,format,unit,bar,heat,spark,align,href}]，第一列为行名；href 指向存放 http(s) 链接的字段（如 ASIN 详情页）",
+      "en": "[{key,label,format,unit,bar,heat,spark,align,href}]; first column is the row label; href names a field holding an http(s) link"
+     }
+    },
+    {
+     "key": "data",
+     "role": "rows",
+     "required": true,
+     "desc": {
+      "zh": "行数据",
+      "en": "Rows"
+     }
+    }
+   ],
+   "options": [
+    "total（合计行）",
+    "highlight（行名）",
+    "sortBy（\"-sales\"）",
+    "groups（表头分组）",
+    "finance:true（负数括号）"
+   ],
+   "keywords": {
+    "zh": [
+     "表格",
+     "数据表",
+     "明细",
+     "清单",
+     "经营表",
+     "SKU明细",
+     "对比表"
+    ],
+    "en": [
+     "table",
+     "data table",
+     "detail",
+     "listing",
+     "league table"
+    ]
+   },
+   "needsUnit": false,
+   "output": "html"
+  },
+  {
+   "id": "K03",
+   "family": "K",
+   "familyName": {
+    "zh": "指标与表格",
+    "en": "KPIs & tables"
+   },
+   "name": {
+    "zh": "可比公司估值表",
+    "en": "Comparable companies table"
+   },
+   "question": {
+    "zh": "主角的估值倍数、增速和利润率相对同业均值/中位数处于什么水平？",
+    "en": "Where do the subject’s multiples, growth and margins sit against the peer mean and median?"
+   },
+   "use": {
+    "zh": "可比公司估值（P/E、EV/EBITDA、P/S）、经营指标对标；自动计算同业均值与中位数（不含主角）。",
+    "en": "Trading comps (P/E, EV/EBITDA, P/S) and operating benchmarks; peer mean/median computed excluding the subject."
+   },
+   "avoid": {
+    "zh": "同业不可比（业务结构差异大时需说明筛选标准）。",
+    "en": "Non-comparable peers (state the screening criteria)."
+   },
+   "fields": [
+    {
+     "key": "columns",
+     "role": "list",
+     "required": true,
+     "desc": {
+      "zh": "同 K02；倍数列 format:\"multiple\"，≤0 或缺失显示 n.m.",
+      "en": "As K02; multiple columns show n.m. for ≤0"
+     }
+    },
+    {
+     "key": "subject",
+     "role": "text",
+     "required": true,
+     "desc": {
+      "zh": "主角名称（首列值），置顶并加粗",
+      "en": "Subject name (first-column value), pinned and bold"
+     }
+    }
+   ],
+   "options": [
+    "stats:[\"mean\",\"median\"]"
+   ],
+   "keywords": {
+    "zh": [
+     "可比公司",
+     "估值表",
+     "同业对比",
+     "倍数",
+     "市盈率",
+     "EV/EBITDA",
+     "comps",
+     "对标"
+    ],
+    "en": [
+     "comparable companies",
+     "trading comps",
+     "peer table",
+     "multiples",
+     "p/e",
+     "ev/ebitda"
+    ]
+   },
+   "needsUnit": false,
+   "output": "html"
+  },
+  {
+   "id": "K04",
+   "family": "K",
+   "familyName": {
+    "zh": "指标与表格",
+    "en": "KPIs & tables"
+   },
+   "name": {
+    "zh": "财务预测表（A/E）",
+    "en": "Financial forecast table (A/E)"
+   },
+   "question": {
+    "zh": "历史与预测期的收入、利润、利润率和估值指标是多少？",
+    "en": "What are revenue, profit, margins and valuation metrics across actual and estimate years?"
+   },
+   "use": {
+    "zh": "研报“盈利预测与估值”表：实际期（A）与预测期（E）并列，自动计算同比，预测列加底色。",
+    "en": "The “earnings forecast and valuation” table: actual and estimate columns, automatic YoY, shaded estimates."
+   },
+   "avoid": {
+    "zh": "没有预测期的普通明细（用 K02）。",
+    "en": "Plain detail without estimates (use K02)."
+   },
+   "fields": [
+    {
+     "key": "periods",
+     "role": "list",
+     "required": true,
+     "desc": {
+      "zh": "期间列，如 [\"2023A\",\"2024A\",\"2025E\",\"2026E\"]",
+      "en": "Period columns, e.g. [\"2023A\",\"2024A\",\"2025E\",\"2026E\"]"
+     }
+    },
+    {
+     "key": "rows",
+     "role": "list",
+     "required": true,
+     "desc": {
+      "zh": "[{label, values:[…], format, yoy:true, bold, indent}]",
+      "en": "[{label, values, format, yoy, bold, indent}]"
+     }
+    }
+   ],
+   "options": [
+    "unit（表注单位）"
+   ],
+   "keywords": {
+    "zh": [
+     "盈利预测",
+     "财务预测",
+     "预测表",
+     "估值表",
+     "EPS",
+     "净利润",
+     "营业收入",
+     "主要财务指标"
+    ],
+    "en": [
+     "earnings forecast",
+     "financial summary",
+     "estimates table",
+     "eps",
+     "key financials"
+    ]
+   },
+   "needsUnit": true,
+   "output": "html"
+  },
+  {
+   "id": "P01",
+   "family": "P",
+   "familyName": {
+    "zh": "进程与时间线",
+    "en": "Process & timeline"
+   },
+   "name": {
+    "zh": "事件时间线",
+    "en": "Event timeline"
+   },
+   "question": {
+    "zh": "关键事件按什么顺序发生，间隔多长？",
+    "en": "In what order did key events happen, and how far apart?"
+   },
+   "use": {
+    "zh": "产品上市节点、政策/平台规则变化、融资与并购历程；≤16 个事件，可按类型着色。",
+    "en": "Launch milestones, policy or platform rule changes, funding and M&A history; ≤16 events, coloured by type."
+   },
+   "avoid": {
+    "zh": "事件需要与数值走势对照（在 T01 中用 annotations）。",
+    "en": "When events must be read against a metric (use T01 annotations)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "date",
+     "required": true,
+     "desc": {
+      "zh": "日期（YYYY-MM-DD / YYYY-MM / YYYY）",
+      "en": "Date (YYYY-MM-DD / YYYY-MM / YYYY)"
+     }
+    },
+    {
+     "key": "label",
+     "role": "text",
+     "required": true,
+     "desc": {
+      "zh": "事件标题字段",
+      "en": "Event title field"
+     }
+    },
+    {
+     "key": "category",
+     "role": "category",
+     "required": false,
+     "desc": {
+      "zh": "事件类别字段（≤4 类着色）",
+      "en": "Event category field (≤4 colours)"
+     }
+    }
+   ],
+   "options": [
+    "detail（说明字段）"
+   ],
+   "keywords": {
+    "zh": [
+     "时间线",
+     "大事记",
+     "里程碑",
+     "事件",
+     "发展历程",
+     "节点"
+    ],
+    "en": [
+     "timeline",
+     "milestones",
+     "events",
+     "history",
+     "chronology"
+    ]
+   },
+   "needsUnit": false,
+   "output": "svg"
+  },
+  {
+   "id": "P02",
+   "family": "P",
+   "familyName": {
+    "zh": "进程与时间线",
+    "en": "Process & timeline"
+   },
+   "name": {
+    "zh": "甘特图",
+    "en": "Gantt chart"
+   },
+   "question": {
+    "zh": "各项工作何时开始、何时结束，哪些并行、哪些延期？",
+    "en": "When does each workstream start and finish; what overlaps or slips?"
+   },
+   "use": {
+    "zh": "新品上市计划、大促备货排期、项目里程碑；可标注今日线与状态。",
+    "en": "Launch plans, peak-season stocking schedules, project milestones; with a today line and status."
+   },
+   "avoid": {
+    "zh": "任务 >25 条（按阶段汇总）。",
+    "en": "More than 25 tasks (summarise by phase)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "text",
+     "required": true,
+     "desc": {
+      "zh": "任务名字段",
+      "en": "Task field"
+     }
+    },
+    {
+     "key": "start / end",
+     "role": "date",
+     "required": true,
+     "desc": {
+      "zh": "开始与结束日期字段（YYYY-MM-DD）；里程碑 start = end",
+      "en": "Start and end dates; milestone when start = end"
+     }
+    },
+    {
+     "key": "group / status",
+     "role": "category",
+     "required": false,
+     "desc": {
+      "zh": "阶段分组与状态（done/active/planned/late）",
+      "en": "Phase group and status (done/active/planned/late)"
+     }
+    }
+   ],
+   "options": [
+    "today",
+    "group",
+    "status"
+   ],
+   "keywords": {
+    "zh": [
+     "甘特图",
+     "排期",
+     "项目计划",
+     "时间表",
+     "里程碑",
+     "上市计划",
+     "备货计划"
+    ],
+    "en": [
+     "gantt",
+     "schedule",
+     "project plan",
+     "timeline",
+     "roadmap"
+    ]
+   },
+   "needsUnit": false,
+   "output": "svg"
+  },
+  {
+   "id": "M01",
+   "family": "M",
+   "familyName": {
+    "zh": "小多图",
+    "en": "Small multiples"
+   },
+   "name": {
+    "zh": "小多图（分面）",
+    "en": "Small multiples"
+   },
+   "question": {
+    "zh": "同一指标在多个对象（站点、品类、SKU）上的走势/结构是否一致？",
+    "en": "Does the same metric behave alike across many items (marketplaces, categories, SKUs)?"
+   },
+   "use": {
+    "zh": "超过 6 条序列时替代“意大利面”折线；默认共享纵轴，便于横向比较。",
+    "en": "Replaces spaghetti lines beyond 6 series; shared y-axis by default for honest comparison."
+   },
+   "avoid": {
+    "zh": "面板 >12（筛选重点）；需要看各自细节且量级差异巨大时设 sharedScale:false 并注明。",
+    "en": "More than 12 panels; when scales differ wildly use sharedScale:false and say so."
+   },
+   "fields": [
+    {
+     "key": "base",
+     "role": "type",
+     "required": true,
+     "desc": {
+      "zh": "底图类型：T01 / T02 / C02",
+      "en": "Base chart: T01 / T02 / C02"
+     }
+    },
+    {
+     "key": "facet",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "分面字段",
+      "en": "Facet field"
+     }
+    },
+    {
+     "key": "x / y",
+     "role": "fields",
+     "required": true,
+     "desc": {
+      "zh": "同底图字段",
+      "en": "As the base chart"
+     }
+    }
+   ],
+   "options": [
+    "columns",
+    "sharedScale（默认 true）",
+    "highlight（面板名）"
+   ],
+   "keywords": {
+    "zh": [
+     "小多图",
+     "分面",
+     "多面板",
+     "逐个对比",
+     "每个站点",
+     "每个品类"
+    ],
+    "en": [
+     "small multiples",
+     "facet",
+     "trellis",
+     "panel",
+     "per market"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "E01",
+   "family": "E",
+   "familyName": {
+    "zh": "实验与统计",
+    "en": "Experiments & statistics"
+   },
+   "name": {
+    "zh": "组间比较（逐点 + 误差线）",
+    "en": "Group comparison (dots + error bars)"
+   },
+   "question": {
+    "zh": "几组实验结果的差异有多大，在统计上是否成立？",
+    "en": "How large are the differences between experimental groups, and do they hold statistically?"
+   },
+   "use": {
+    "zh": "小样本实验（每组 3–50 个重复）：处理与对照、剂量组、基因型；显示每个样本、均值或中位数与误差线，可由引擎计算并标注组间 P 值。",
+    "en": "Small experiments (3–50 replicates per group): treatment vs control, dose groups, genotypes; every replicate, mean or median with error bars, engine-computed P values."
+   },
+   "avoid": {
+    "zh": "每组 >50 个样本（用 E02 或 D02）；只有汇总值、没有重复数据。",
+    "en": "More than 50 per group (use E02 or D02); summary values without replicates."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "组别（长表，每行一个样本）",
+      "en": "Group (long format, one row per replicate)"
+     }
+    },
+    {
+     "key": "y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "测量值（unit 必填）",
+      "en": "Measured value (unit required)"
+     }
+    },
+    {
+     "key": "pair",
+     "role": "category",
+     "required": false,
+     "desc": {
+      "zh": "配对 ID：同一受试对象跨组连线，用于 paired-t",
+      "en": "Subject ID: links paired observations; used by paired-t"
+     }
+    }
+   ],
+   "options": [
+    "summary:\"mean\"|\"median\"",
+    "error:\"sd\"|\"sem\"|\"ci95\"|\"iqr\"|\"range\"",
+    "comparisons:[{a, b, p?}]",
+    "test:\"welch\"|\"student\"|\"mannwhitney\"|\"paired-t\"|说明文字",
+    "adjust:\"holm\"|\"bonferroni\"|\"bh\"",
+    "pStyle:\"exact\"|\"stars\"",
+    "bars",
+    "order",
+    "highlight"
+   ],
+   "keywords": {
+    "zh": [
+     "组间比较",
+     "误差线",
+     "显著性",
+     "t检验",
+     "均值标准差",
+     "处理组",
+     "对照组",
+     "P值",
+     "实验分组",
+     "重复"
+    ],
+    "en": [
+     "group comparison",
+     "error bars",
+     "significance",
+     "t-test",
+     "mean sd",
+     "treatment control",
+     "p value",
+     "replicates"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "E02",
+   "family": "E",
+   "familyName": {
+    "zh": "实验与统计",
+    "en": "Experiments & statistics"
+   },
+   "name": {
+    "zh": "小提琴图 / 云雨图",
+    "en": "Violin / raincloud plot"
+   },
+   "question": {
+    "zh": "几组数据的分布形状（双峰、偏态、长尾）有何不同？",
+    "en": "How do distribution shapes (bimodality, skew, tails) differ across groups?"
+   },
+   "use": {
+    "zh": "每组 ≥20 个观测的分布比较：单细胞表达、患者指标、各批次测量；内嵌四分位箱与中位数，可叠加逐点或改为云雨图。",
+    "en": "Distributions with ≥20 observations per group: single-cell expression, patient measures, batches; inner quartile box and median, optional points or raincloud."
+   },
+   "avoid": {
+    "zh": "每组 <20 个（密度估计不稳，用 E01）；只需比较中位数（用 D02）。",
+    "en": "Fewer than 20 per group (use E01); only medians matter (use D02)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "组别（长表）",
+      "en": "Group (long format)"
+     }
+    },
+    {
+     "key": "y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "观测值（unit 必填）",
+      "en": "Observed value (unit required)"
+     }
+    }
+   ],
+   "options": [
+    "style:\"violin\"|\"raincloud\"",
+    "points",
+    "scale:\"width\"|\"area\"",
+    "bwAdjust",
+    "comparisons / test / adjust / pStyle（同 E01）",
+    "order",
+    "highlight"
+   ],
+   "keywords": {
+    "zh": [
+     "小提琴图",
+     "云雨图",
+     "分布形状",
+     "密度",
+     "双峰",
+     "单细胞表达",
+     "核密度"
+    ],
+    "en": [
+     "violin plot",
+     "raincloud",
+     "distribution shape",
+     "density",
+     "bimodal",
+     "kde"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "E03",
+   "family": "E",
+   "familyName": {
+    "zh": "实验与统计",
+    "en": "Experiments & statistics"
+   },
+   "name": {
+    "zh": "实验曲线（均值 ± 误差）",
+    "en": "Experimental curves (mean ± error)"
+   },
+   "question": {
+    "zh": "各处理组的测量值随时间、剂量或温度如何变化，差异从何时出现？",
+    "en": "How does a measurement change with time, dose or temperature in each group, and when do groups diverge?"
+   },
+   "use": {
+    "zh": "数值型横轴的重复测量：肿瘤生长、细菌生长曲线、药代动力学、标准曲线；引擎按组和横轴值汇总重复，误差线或误差带，可加线性拟合。",
+    "en": "Replicated measurements over a numeric axis: tumour growth, growth curves, pharmacokinetics, standard curves; replicates are summarised per group and x, error bars or bands, optional linear fit."
+   },
+   "avoid": {
+    "zh": "横轴为日期期间（用 T01）；剂量反应拟合 IC50（用 B02）。",
+    "en": "Calendar periods (use T01); dose–response with IC50 (use B02)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "数值横轴：时间、剂量、温度（xUnit 必填）",
+      "en": "Numeric x: time, dose, temperature (xUnit required)"
+     }
+    },
+    {
+     "key": "y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "测量值：每行一个重复，或配合 err 字段的组均值",
+      "en": "Measurement: one row per replicate, or group means with an err field"
+     }
+    },
+    {
+     "key": "group",
+     "role": "category",
+     "required": false,
+     "desc": {
+      "zh": "处理组",
+      "en": "Treatment group"
+     }
+    },
+    {
+     "key": "err",
+     "role": "measure",
+     "required": false,
+     "desc": {
+      "zh": "已汇总数据的误差半宽字段（须同时写明 error 含义）",
+      "en": "Error half-width field for pre-summarised data (state error type)"
+     }
+    }
+   ],
+   "options": [
+    "error:\"sd\"|\"sem\"|\"ci95\"",
+    "errorStyle:\"bar\"|\"band\"",
+    "points",
+    "xLog / yLog",
+    "fit:\"linear\"",
+    "xUnit",
+    "refLines / bands（数值横轴）",
+    "highlight"
+   ],
+   "keywords": {
+    "zh": [
+     "生长曲线",
+     "时间进程",
+     "肿瘤体积",
+     "药代动力学",
+     "标准曲线",
+     "均值误差",
+     "重复测量",
+     "实验曲线"
+    ],
+    "en": [
+     "growth curve",
+     "time course",
+     "tumour volume",
+     "pharmacokinetics",
+     "standard curve",
+     "mean sem",
+     "repeated measures"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "E04",
+   "family": "E",
+   "familyName": {
+    "zh": "实验与统计",
+    "en": "Experiments & statistics"
+   },
+   "name": {
+    "zh": "森林图",
+    "en": "Forest plot"
+   },
+   "question": {
+    "zh": "各研究或亚组的效应量及其置信区间是多少，合并后效应是否成立、是否一致？",
+    "en": "What are the effect sizes and confidence intervals across studies or subgroups, and does the pooled effect hold consistently?"
+   },
+   "use": {
+    "zh": "Meta 分析、临床试验亚组分析、多因素回归结果（HR / OR / RR 对数刻度，MD 线性）；pool 由引擎按逆方差法合并并给出异质性。",
+    "en": "Meta-analyses, trial subgroups, regression estimates (HR/OR/RR on log scale, MD linear); pool lets the engine combine studies by inverse variance with heterogeneity."
+   },
+   "avoid": {
+    "zh": "没有置信区间的点估计（用 C01）；效应量口径不一致的研究混在一起。",
+    "en": "Point estimates without CIs (use C01); mixing incompatible effect measures."
+   },
+   "fields": [
+    {
+     "key": "label",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "研究或亚组名称；只有名称、没有估计值的行作为分组标题",
+      "en": "Study or subgroup; rows without an estimate become headers"
+     }
+    },
+    {
+     "key": "est / lo / hi",
+     "role": "interval",
+     "required": true,
+     "desc": {
+      "zh": "效应量与 95% CI 字段（默认 est、lo、hi）",
+      "en": "Estimate and 95% CI fields (default est, lo, hi)"
+     }
+    },
+    {
+     "key": "weight",
+     "role": "measure",
+     "required": false,
+     "desc": {
+      "zh": "权重（%）；pool 时自动计算",
+      "en": "Weight (%); computed when pooling"
+     }
+    }
+   ],
+   "options": [
+    "measure:\"HR\"|\"OR\"|\"RR\"|\"IRR\"|\"MD\"|\"SMD\"|\"RD\"",
+    "pool:\"fixed\"|\"random\"",
+    "columns:[{field, title}]",
+    "favors:[左侧含义, 右侧含义]",
+    "nullValue",
+    "decimals",
+    "labelTitle",
+    "行字段 pooled:true / indent"
+   ],
+   "keywords": {
+    "zh": [
+     "森林图",
+     "meta分析",
+     "荟萃分析",
+     "亚组分析",
+     "风险比",
+     "比值比",
+     "置信区间",
+     "效应量",
+     "异质性"
+    ],
+    "en": [
+     "forest plot",
+     "meta-analysis",
+     "subgroup analysis",
+     "hazard ratio",
+     "odds ratio",
+     "confidence interval",
+     "effect size",
+     "heterogeneity"
+    ]
+   },
+   "needsUnit": false,
+   "output": "svg"
+  },
+  {
+   "id": "E05",
+   "family": "E",
+   "familyName": {
+    "zh": "实验与统计",
+    "en": "Experiments & statistics"
+   },
+   "name": {
+    "zh": "ROC / PR 曲线",
+    "en": "ROC / precision–recall curve"
+   },
+   "question": {
+    "zh": "诊断指标或预测模型区分阳性与阴性的能力有多强，哪个模型更好？",
+    "en": "How well does a test or model separate positives from negatives, and which model is better?"
+   },
+   "use": {
+    "zh": "生物标志物、诊断试验、风险模型的判别力：引擎由原始得分计算 ROC、AUC 与 DeLong 95% CI，两模型可做配对 DeLong 检验；curve:\"pr\" 画精确率–召回率（阳性稀少时更合适）。",
+    "en": "Discrimination of biomarkers, diagnostic tests or risk models: ROC, AUC and DeLong 95% CI from raw scores; paired DeLong test for two models; curve:\"pr\" for precision–recall when positives are rare."
+   },
+   "avoid": {
+    "zh": "只有一个灵敏度/特异度点（用表格）；需要校准度评价（另画校准曲线）。",
+    "en": "A single sensitivity/specificity pair (use a table); calibration questions."
+   },
+   "fields": [
+    {
+     "key": "outcome",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "真实结局字段：1/0，或用 positive 指定阳性取值",
+      "en": "True outcome: 1/0, or set positive"
+     }
+    },
+    {
+     "key": "score",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "得分字段，或多个字段数组（每个一条曲线）；得分越高越倾向阳性",
+      "en": "Score field or array of fields (one curve each); higher = more likely positive"
+     }
+    }
+   ],
+   "options": [
+    "curve:\"roc\"|\"pr\"",
+    "positive",
+    "cutoff:\"youden\"",
+    "names",
+    "highlight"
+   ],
+   "keywords": {
+    "zh": [
+     "ROC曲线",
+     "AUC",
+     "诊断效能",
+     "灵敏度",
+     "特异度",
+     "生物标志物",
+     "模型区分度",
+     "PR曲线",
+     "精确率召回率"
+    ],
+    "en": [
+     "roc curve",
+     "auc",
+     "diagnostic accuracy",
+     "sensitivity specificity",
+     "biomarker",
+     "discrimination",
+     "precision recall"
+    ]
+   },
+   "needsUnit": false,
+   "output": "svg"
+  },
+  {
+   "id": "E06",
+   "family": "E",
+   "familyName": {
+    "zh": "实验与统计",
+    "en": "Experiments & statistics"
+   },
+   "name": {
+    "zh": "一致性分析（Bland–Altman）",
+    "en": "Bland–Altman agreement"
+   },
+   "question": {
+    "zh": "两种测量方法的结果是否一致：平均偏倚多大，95% 的差值落在什么范围？",
+    "en": "Do two measurement methods agree: how large is the mean bias and where do 95% of differences fall?"
+   },
+   "use": {
+    "zh": "新旧检测方法、仪器、评分者之间的一致性；引擎计算偏倚、95% 一致性界限及其置信区间，并检验比例偏倚。",
+    "en": "Agreement between assays, devices or raters: bias, 95% limits of agreement with CIs, and a proportional-bias check."
+   },
+   "avoid": {
+    "zh": "用相关系数判断一致性（相关高不代表一致）；两种方法单位不同。",
+    "en": "Judging agreement by correlation; methods on different scales."
+   },
+   "fields": [
+    {
+     "key": "a",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "方法 A 测量值字段（names 写方法名）",
+      "en": "Method A field (name it via names)"
+     }
+    },
+    {
+     "key": "b",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "方法 B 测量值字段（同一样本同一行）",
+      "en": "Method B field (same subject, same row)"
+     }
+    }
+   ],
+   "options": [
+    "diff:\"absolute\"|\"percent\"",
+    "limits:[下限, 上限]（临床可接受范围）",
+    "names"
+   ],
+   "keywords": {
+    "zh": [
+     "一致性",
+     "Bland-Altman",
+     "方法比较",
+     "偏倚",
+     "一致性界限",
+     "仪器比对",
+     "检测方法"
+    ],
+    "en": [
+     "bland altman",
+     "agreement",
+     "method comparison",
+     "bias",
+     "limits of agreement",
+     "assay comparison"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "E07",
+   "family": "E",
+   "familyName": {
+    "zh": "实验与统计",
+    "en": "Experiments & statistics"
+   },
+   "name": {
+    "zh": "Q-Q 图",
+    "en": "Q-Q plot"
+   },
+   "question": {
+    "zh": "数据（或残差）是否服从正态？关联检验的 P 值是否整体膨胀？",
+    "en": "Are data (or residuals) normal; are association P values inflated overall?"
+   },
+   "use": {
+    "zh": "mode:\"normal\" 检查正态性（残差、测量值）；mode:\"pvalue\" 检查全基因组或高通量检验的 P 值分布，给出 λGC 与 95% 置信带。",
+    "en": "mode:\"normal\" for normality of values or residuals; mode:\"pvalue\" for genome-wide or high-throughput P values with λGC and a 95% band."
+   },
+   "avoid": {
+    "zh": "比较两组分布（用 E02）；样本 <10。",
+    "en": "Comparing two groups (use E02); fewer than 10 values."
+   },
+   "fields": [
+    {
+     "key": "y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "观测值（normal）或 P 值字段（pvalue）",
+      "en": "Values (normal) or P-value field (pvalue)"
+     }
+    }
+   ],
+   "options": [
+    "mode:\"normal\"|\"pvalue\"",
+    "threshold（pvalue 模式高亮阈值，默认 5e-8）"
+   ],
+   "keywords": {
+    "zh": [
+     "QQ图",
+     "Q-Q",
+     "正态性检验",
+     "残差",
+     "P值膨胀",
+     "λGC",
+     "基因组膨胀因子"
+    ],
+    "en": [
+     "qq plot",
+     "quantile quantile",
+     "normality",
+     "residuals",
+     "p value inflation",
+     "genomic control lambda"
+    ]
+   },
+   "needsUnit": false,
+   "output": "svg"
+  },
+  {
+   "id": "E08",
+   "family": "E",
+   "familyName": {
+    "zh": "实验与统计",
+    "en": "Experiments & statistics"
+   },
+   "name": {
+    "zh": "相关矩阵",
+    "en": "Correlation matrix"
+   },
+   "question": {
+    "zh": "多个变量两两之间的相关方向与强度如何，哪些相关在统计上成立？",
+    "en": "How strongly and in which direction are variables pairwise correlated, and which correlations hold statistically?"
+   },
+   "use": {
+    "zh": "由原始观测（每行一个样本）计算 Pearson 或 Spearman 相关与 P 值，下三角色阶展示；可做多重比较校正，不显著的格子留白。",
+    "en": "Pearson or Spearman correlations and P values computed from raw rows, lower-triangle colour matrix; optional multiple-testing correction, non-significant cells left blank."
+   },
+   "avoid": {
+    "zh": "只关心两个变量（用 R01）；变量 >16 个（先筛选）。",
+    "en": "Only two variables (use R01); more than 16 variables."
+   },
+   "fields": [
+    {
+     "key": "vars",
+     "role": "measure[]",
+     "required": true,
+     "desc": {
+      "zh": "参与计算的数值字段数组（3–16 个）",
+      "en": "Numeric fields to correlate (3–16)"
+     }
+    }
+   ],
+   "options": [
+    "method:\"pearson\"|\"spearman\"",
+    "sig（显著性阈值，默认 0.05；false 关闭）",
+    "adjust:\"none\"|\"holm\"|\"bh\"",
+    "names"
+   ],
+   "keywords": {
+    "zh": [
+     "相关矩阵",
+     "相关系数",
+     "皮尔逊",
+     "斯皮尔曼",
+     "变量相关",
+     "共线性",
+     "相关性热图"
+    ],
+    "en": [
+     "correlation matrix",
+     "pearson",
+     "spearman",
+     "pairwise correlation",
+     "collinearity"
+    ]
+   },
+   "needsUnit": false,
+   "output": "svg"
+  },
+  {
+   "id": "E09",
+   "family": "E",
+   "familyName": {
+    "zh": "实验与统计",
+    "en": "Experiments & statistics"
+   },
+   "name": {
+    "zh": "交集图（UpSet）",
+    "en": "Set intersections (UpSet)"
+   },
+   "question": {
+    "zh": "多个集合之间各种交集（如几组差异基因的重叠）各有多少元素？",
+    "en": "How many elements fall in each intersection of several sets (e.g. overlapping gene lists)?"
+   },
+   "use": {
+    "zh": "3–8 个集合的重叠：差异基因、突变、客户群、关键词；精确的互斥交集计数，替代面积不准的韦恩图。",
+    "en": "Overlaps of 3–8 sets: gene lists, mutations, customer groups, keywords; exact exclusive counts instead of inexact Venn areas."
+   },
+   "avoid": {
+    "zh": "只有两个集合（用文字或 C03）；交集数量太多且都很小（先过滤）。",
+    "en": "Only two sets (use text or C03); many tiny intersections."
+   },
+   "fields": [
+    {
+     "key": "set / item",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "长表：每行一个“集合–元素”归属（默认字段 set、item）；或 intersections 预计算",
+      "en": "Long rows of set–item membership (default fields set, item); or precomputed intersections"
+     }
+    }
+   ],
+   "options": [
+    "intersections:[{sets:[…], count}] + setSizes",
+    "top（显示交集数，默认 16）",
+    "order（集合顺序）"
+   ],
+   "keywords": {
+    "zh": [
+     "交集",
+     "UpSet",
+     "韦恩图",
+     "集合重叠",
+     "差异基因重叠",
+     "共有",
+     "特有"
+    ],
+    "en": [
+     "upset plot",
+     "venn",
+     "set intersection",
+     "overlap",
+     "shared genes",
+     "unique"
+    ]
+   },
+   "needsUnit": false,
+   "output": "svg"
+  },
+  {
+   "id": "B01",
+   "family": "B",
+   "familyName": {
+    "zh": "生物医学与组学",
+    "en": "Biomedicine & omics"
+   },
+   "name": {
+    "zh": "生存曲线（Kaplan–Meier）",
+    "en": "Survival curve (Kaplan–Meier)"
+   },
+   "question": {
+    "zh": "随访期间各组的生存（或无事件）比例如何下降，中位生存期相差多少？",
+    "en": "How does the survival (or event-free) proportion fall by group, and how far apart are the median times?"
+   },
+   "use": {
+    "zh": "临床与动物实验的时间–事件数据（总生存、无进展生存、复发、设备故障、客户流失）；引擎由逐例随访时间与结局计算 KM 曲线、删失标记、风险人数表、中位生存期与 log-rank 检验。",
+    "en": "Time-to-event data (overall or progression-free survival, relapse, failure, churn): KM curves, censor marks, number-at-risk table, medians and log-rank test from per-subject follow-up."
+   },
+   "avoid": {
+    "zh": "只有各时点汇总生存率（无法计算删失与检验，用 T01 并注明）；竞争风险明显时（需累积发生率曲线）。",
+    "en": "Only aggregated survival rates (use T01 and say so); strong competing risks (needs cumulative incidence)."
+   },
+   "fields": [
+    {
+     "key": "time",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "随访时间字段（timeUnit 必填）",
+      "en": "Follow-up time field (timeUnit required)"
+     }
+    },
+    {
+     "key": "event",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "结局字段：1 = 发生事件，0 = 删失",
+      "en": "Event field: 1 = event, 0 = censored"
+     }
+    },
+    {
+     "key": "group",
+     "role": "category",
+     "required": false,
+     "desc": {
+      "zh": "分组（≤6 组）",
+      "en": "Group (≤6)"
+     }
+    }
+   ],
+   "options": [
+    "timeUnit",
+    "ci",
+    "riskTable",
+    "medianLines",
+    "landmarks:[12, 24]",
+    "hr:{value, lo, hi, label}",
+    "tickStep",
+    "xMax",
+    "yTitle",
+    "order",
+    "highlight"
+   ],
+   "keywords": {
+    "zh": [
+     "生存曲线",
+     "Kaplan-Meier",
+     "KM曲线",
+     "总生存",
+     "无进展生存",
+     "中位生存期",
+     "风险人数",
+     "log-rank",
+     "删失",
+     "随访"
+    ],
+    "en": [
+     "survival curve",
+     "kaplan meier",
+     "overall survival",
+     "progression-free survival",
+     "median survival",
+     "number at risk",
+     "log-rank",
+     "censoring",
+     "time to event"
+    ]
+   },
+   "needsUnit": false,
+   "output": "svg"
+  },
+  {
+   "id": "B02",
+   "family": "B",
+   "familyName": {
+    "zh": "生物医学与组学",
+    "en": "Biomedicine & omics"
+   },
+   "name": {
+    "zh": "剂量反应曲线（IC50 / EC50）",
+    "en": "Dose–response curve (IC50 / EC50)"
+   },
+   "question": {
+    "zh": "化合物的效力如何（IC50 / EC50 是多少），几种化合物谁更强？",
+    "en": "How potent is each compound (IC50 / EC50), and which is strongest?"
+   },
+   "use": {
+    "zh": "细胞活力、酶抑制、受体激动等浓度梯度实验：引擎对全部重复做四参数 logistic 拟合，给出 IC50/EC50 与 95% CI、Hill 斜率，对数浓度轴。",
+    "en": "Viability, enzyme inhibition or agonist titrations: four-parameter logistic fit on all replicates, IC50/EC50 with 95% CI and Hill slope on a log-concentration axis."
+   },
+   "avoid": {
+    "zh": "浓度点 <5 个或未覆盖上下平台（IC50 不可靠）；时间进程（用 E03）。",
+    "en": "Fewer than 5 concentrations or no plateaus (IC50 unreliable); time courses (use E03)."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "浓度字段（>0；concUnit 必填）",
+      "en": "Concentration (>0; concUnit required)"
+     }
+    },
+    {
+     "key": "y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "响应值（每行一个重复；unit 必填，如 %）",
+      "en": "Response, one row per replicate (unit required, e.g. %)"
+     }
+    },
+    {
+     "key": "group",
+     "role": "category",
+     "required": false,
+     "desc": {
+      "zh": "化合物 / 条件",
+      "en": "Compound / condition"
+     }
+    }
+   ],
+   "options": [
+    "concUnit",
+    "metric:\"IC50\"|\"EC50\"",
+    "constrain:{bottom, top}",
+    "error:\"sd\"|\"sem\"",
+    "fit:false",
+    "highlight"
+   ],
+   "keywords": {
+    "zh": [
+     "剂量反应",
+     "IC50",
+     "EC50",
+     "半数抑制浓度",
+     "四参数",
+     "量效曲线",
+     "药效",
+     "细胞活力",
+     "抑制曲线"
+    ],
+    "en": [
+     "dose response",
+     "ic50",
+     "ec50",
+     "four parameter logistic",
+     "4pl",
+     "potency",
+     "inhibition curve",
+     "viability"
+    ]
+   },
+   "needsUnit": true,
+   "output": "svg"
+  },
+  {
+   "id": "B03",
+   "family": "B",
+   "familyName": {
+    "zh": "生物医学与组学",
+    "en": "Biomedicine & omics"
+   },
+   "name": {
+    "zh": "火山图 / MA 图",
+    "en": "Volcano / MA plot"
+   },
+   "question": {
+    "zh": "处理前后哪些基因（蛋白、代谢物）显著上调或下调，幅度多大？",
+    "en": "Which genes (proteins, metabolites) are significantly up- or down-regulated, and by how much?"
+   },
+   "use": {
+    "zh": "差异表达、差异蛋白与代谢物：log₂ 倍数变化 × −log₁₀ P，阈值虚线、上下调计数、自动标注最显著的条目；mode:\"ma\" 画平均表达 × 倍数变化。",
+    "en": "Differential expression, proteomics or metabolomics: log₂ fold change × −log₁₀ P with threshold lines, up/down counts and labels for the top hits; mode:\"ma\" plots mean expression × fold change."
+   },
+   "avoid": {
+    "zh": "没有 P 值的倍数变化（用 C04）；条目 <30。",
+    "en": "Fold changes without P values (use C04); fewer than 30 features."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "log₂ 倍数变化字段",
+      "en": "log₂ fold-change field"
+     }
+    },
+    {
+     "key": "p",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "P 值字段（建议校正 P；pType 说明）",
+      "en": "P-value field (adjusted preferred; see pType)"
+     }
+    },
+    {
+     "key": "label",
+     "role": "category",
+     "required": false,
+     "desc": {
+      "zh": "基因 / 蛋白名称字段",
+      "en": "Gene / protein name field"
+     }
+    },
+    {
+     "key": "mean",
+     "role": "measure",
+     "required": false,
+     "desc": {
+      "zh": "MA 模式的平均表达字段",
+      "en": "Mean expression field for MA mode"
+     }
+    }
+   ],
+   "options": [
+    "mode:\"volcano\"|\"ma\"",
+    "fcCut（默认 1）",
+    "pCut（默认 0.05）",
+    "pType:\"adjusted\"|\"raw\"",
+    "top（标注个数）",
+    "highlight（必标注的名称）",
+    "italic",
+    "xLog（MA）"
+   ],
+   "keywords": {
+    "zh": [
+     "火山图",
+     "差异表达",
+     "差异基因",
+     "上调",
+     "下调",
+     "倍数变化",
+     "log2FC",
+     "MA图",
+     "转录组",
+     "蛋白组"
+    ],
+    "en": [
+     "volcano plot",
+     "differential expression",
+     "deg",
+     "upregulated",
+     "downregulated",
+     "fold change",
+     "log2fc",
+     "ma plot",
+     "rna-seq"
+    ]
+   },
+   "needsUnit": false,
+   "output": "svg"
+  },
+  {
+   "id": "B04",
+   "family": "B",
+   "familyName": {
+    "zh": "生物医学与组学",
+    "en": "Biomedicine & omics"
+   },
+   "name": {
+    "zh": "曼哈顿图（GWAS）",
+    "en": "Manhattan plot (GWAS)"
+   },
+   "question": {
+    "zh": "全基因组范围内哪些位点与性状显著关联，信号集中在哪些染色体？",
+    "en": "Which loci across the genome are significantly associated with the trait, and on which chromosomes?"
+   },
+   "use": {
+    "zh": "全基因组关联分析、eQTL、全外显子负担检验：按染色体位置排列 −log₁₀ P，全基因组显著与提示性阈值线，自动标注各染色体的领头位点。",
+    "en": "GWAS, eQTL or burden tests: −log₁₀ P by genomic position with genome-wide and suggestive thresholds and lead variants labelled per locus."
+   },
+   "avoid": {
+    "zh": "少量候选位点（用 C01 或表格）；P 值未经质量控制。",
+    "en": "A handful of candidate variants (use C01 or a table); unfiltered P values."
+   },
+   "fields": [
+    {
+     "key": "chr",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "染色体（1–22、X、Y、MT，可带 chr 前缀）",
+      "en": "Chromosome (1–22, X, Y, MT; chr prefix allowed)"
+     }
+    },
+    {
+     "key": "pos",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "位置（bp）",
+      "en": "Position (bp)"
+     }
+    },
+    {
+     "key": "p",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "P 值",
+      "en": "P value"
+     }
+    },
+    {
+     "key": "label",
+     "role": "category",
+     "required": false,
+     "desc": {
+      "zh": "位点 ID 或基因名（领头位点标注用）",
+      "en": "Variant ID or gene (for lead labels)"
+     }
+    }
+   ],
+   "options": [
+    "threshold（默认 5e-8）",
+    "suggestive（默认 1e-5；false 关闭）",
+    "window（领头位点合并窗口 bp，默认 1,000,000）",
+    "build（参考基因组版本，写入注释）"
+   ],
+   "keywords": {
+    "zh": [
+     "曼哈顿图",
+     "GWAS",
+     "全基因组关联",
+     "SNP",
+     "显著位点",
+     "染色体",
+     "eQTL",
+     "遗传关联"
+    ],
+    "en": [
+     "manhattan plot",
+     "gwas",
+     "genome-wide association",
+     "snp",
+     "loci",
+     "chromosome",
+     "eqtl"
+    ]
+   },
+   "needsUnit": false,
+   "output": "svg"
+  },
+  {
+   "id": "B05",
+   "family": "B",
+   "familyName": {
+    "zh": "生物医学与组学",
+    "en": "Biomedicine & omics"
+   },
+   "name": {
+    "zh": "聚类热图",
+    "en": "Clustered heatmap"
+   },
+   "question": {
+    "zh": "样本和基因按表达谱如何聚类，哪些基因在哪组样本中高表达？",
+    "en": "How do samples and genes cluster by expression profile, and which genes are high in which samples?"
+   },
+   "use": {
+    "zh": "表达矩阵（基因 × 样本）：按行 z 分数标准化，行列层次聚类并画树状图，顶部标注样本分组；也适用于蛋白、代谢物、患者特征矩阵。",
+    "en": "Expression matrices (genes × samples): row z-scores, hierarchical clustering of rows and columns with dendrograms and sample annotation; also proteins, metabolites, patient features."
+   },
+   "avoid": {
+    "zh": "行数 >300（先按方差筛选）；行列有固定顺序且不需聚类（用 H01）。",
+    "en": "More than 300 rows (filter by variance first); fixed orders without clustering (use H01)."
+   },
+   "fields": [
+    {
+     "key": "row",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "行（基因）字段",
+      "en": "Row (gene) field"
+     }
+    },
+    {
+     "key": "x",
+     "role": "category",
+     "required": true,
+     "desc": {
+      "zh": "列（样本）字段",
+      "en": "Column (sample) field"
+     }
+    },
+    {
+     "key": "y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "数值（表达量，建议已 log 转换）",
+      "en": "Value (expression, preferably log-transformed)"
+     }
+    },
+    {
+     "key": "colGroup",
+     "role": "category",
+     "required": false,
+     "desc": {
+      "zh": "样本分组字段（顶部注释色条）",
+      "en": "Sample group field (annotation bar)"
+     }
+    }
+   ],
+   "options": [
+    "scale:\"row\"|\"none\"",
+    "cluster:\"both\"|\"rows\"|\"cols\"|\"none\"",
+    "distance:\"euclidean\"|\"correlation\"",
+    "linkage:\"average\"|\"complete\"",
+    "clip（z 分数色阶截断，默认 2）"
+   ],
+   "keywords": {
+    "zh": [
+     "聚类热图",
+     "表达热图",
+     "层次聚类",
+     "树状图",
+     "基因表达",
+     "z分数",
+     "转录组热图",
+     "样本聚类"
+    ],
+    "en": [
+     "clustered heatmap",
+     "expression heatmap",
+     "hierarchical clustering",
+     "dendrogram",
+     "gene expression",
+     "z-score"
+    ]
+   },
+   "needsUnit": false,
+   "output": "svg"
+  },
+  {
+   "id": "B06",
+   "family": "B",
+   "familyName": {
+    "zh": "生物医学与组学",
+    "en": "Biomedicine & omics"
+   },
+   "name": {
+    "zh": "降维图（PCA / UMAP / t-SNE）",
+    "en": "Embedding (PCA / UMAP / t-SNE)"
+   },
+   "question": {
+    "zh": "样本或细胞按整体特征如何分群，处理组与对照组是否分开？",
+    "en": "How do samples or cells group by overall profile, and do treatment and control separate?"
+   },
+   "use": {
+    "zh": "转录组样本 PCA（轴上写解释方差，可加 95% 置信椭圆）、单细胞 UMAP / t-SNE（无坐标刻度，簇标签直接标在簇上）。坐标由分析软件计算后传入。",
+    "en": "Sample PCA with explained variance on the axes and optional 95% ellipses; single-cell UMAP/t-SNE without tick values and labels on clusters. Coordinates come from the analysis software."
+   },
+   "avoid": {
+    "zh": "用 UMAP 簇间距离或簇大小下结论；只有两个原始变量（用 R01）。",
+    "en": "Reading distances or sizes between UMAP clusters; two raw variables (use R01)."
+   },
+   "fields": [
+    {
+     "key": "x / y",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "第 1、2 维坐标字段",
+      "en": "Dimension 1 and 2 fields"
+     }
+    },
+    {
+     "key": "group",
+     "role": "category",
+     "required": false,
+     "desc": {
+      "zh": "分组或细胞类型",
+      "en": "Group or cell type"
+     }
+    },
+    {
+     "key": "label",
+     "role": "category",
+     "required": false,
+     "desc": {
+      "zh": "样本名（少量样本时可标注）",
+      "en": "Sample name (for small n)"
+     }
+    }
+   ],
+   "options": [
+    "method:\"pca\"|\"umap\"|\"tsne\"|\"other\"",
+    "variance:[PC1%, PC2%]（PCA 必填）",
+    "ellipse",
+    "labelGroups",
+    "axisNames",
+    "highlight"
+   ],
+   "keywords": {
+    "zh": [
+     "PCA",
+     "主成分分析",
+     "UMAP",
+     "t-SNE",
+     "降维",
+     "单细胞",
+     "细胞分群",
+     "样本聚类",
+     "主成分"
+    ],
+    "en": [
+     "pca",
+     "principal component",
+     "umap",
+     "tsne",
+     "dimensionality reduction",
+     "single cell",
+     "clusters",
+     "embedding"
+    ]
+   },
+   "needsUnit": false,
+   "output": "svg"
+  },
+  {
+   "id": "B07",
+   "family": "B",
+   "familyName": {
+    "zh": "生物医学与组学",
+    "en": "Biomedicine & omics"
+   },
+   "name": {
+    "zh": "系统发育树 / 聚类树",
+    "en": "Phylogenetic tree / dendrogram"
+   },
+   "question": {
+    "zh": "各物种、菌株或样本的亲缘关系如何，哪些聚为一支，支持度多高？",
+    "en": "How are species, strains or samples related, which form clades, and how well supported are they?"
+   },
+   "use": {
+    "zh": "由 Newick 字符串绘制矩形系统发育树：有枝长时按进化距离（附比例尺），节点显示自展支持率，叶片可按分组着色、可高亮一个分支；也可画样本聚类树。",
+    "en": "Rectangular trees from a Newick string: branch lengths with a scale bar, bootstrap support at nodes, tips coloured by group, one clade highlighted; also sample dendrograms."
+   },
+   "avoid": {
+    "zh": "叶片 >150 个（拆分或折叠分支）；需要无根树的径向布局。",
+    "en": "More than 150 tips (split or collapse); unrooted radial layouts."
+   },
+   "fields": [
+    {
+     "key": "newick",
+     "role": "tree",
+     "required": true,
+     "desc": {
+      "zh": "Newick 字符串（内部节点标签为数字时视为支持率）",
+      "en": "Newick string (numeric internal labels = support)"
+     }
+    }
+   ],
+   "options": [
+    "groups:{叶片: 分组}",
+    "clade:[叶片…]（阴影标出这些叶片最近共同祖先所在的分支）",
+    "supportMin（默认 70）",
+    "italic（物种名斜体）",
+    "unit（枝长单位，如“替换/位点”）",
+    "branchLengths:false（等深度聚类树）"
+   ],
+   "keywords": {
+    "zh": [
+     "系统发育树",
+     "进化树",
+     "系统树",
+     "Newick",
+     "自展值",
+     "亲缘关系",
+     "菌株",
+     "聚类树",
+     "分支"
+    ],
+    "en": [
+     "phylogenetic tree",
+     "phylogeny",
+     "newick",
+     "bootstrap",
+     "clade",
+     "strains",
+     "dendrogram",
+     "evolution"
+    ]
+   },
+   "needsUnit": false,
+   "output": "svg"
+  },
+  {
+   "id": "B08",
+   "family": "B",
+   "familyName": {
+    "zh": "生物医学与组学",
+    "en": "Biomedicine & omics"
+   },
+   "name": {
+    "zh": "突变棒棒糖图",
+    "en": "Mutation lollipop"
+   },
+   "question": {
+    "zh": "突变沿蛋白序列分布在哪里，是否集中在某个结构域或热点位点？",
+    "en": "Where do mutations fall along the protein, and do they cluster in a domain or hotspot?"
+   },
+   "use": {
+    "zh": "肿瘤测序、遗传病变异、定点突变筛选：按氨基酸位置画突变数，下方为蛋白结构域，颜色区分突变类型，自动标注热点。",
+    "en": "Tumour sequencing, disease variants or mutagenesis screens: mutation counts by residue above the domain track, coloured by type, hotspots labelled."
+   },
+   "avoid": {
+    "zh": "比较多个基因的突变负荷（用 C01）；缺少蛋白长度与结构域坐标。",
+    "en": "Comparing burden across genes (use C01); missing protein length or domain coordinates."
+   },
+   "fields": [
+    {
+     "key": "x",
+     "role": "measure",
+     "required": true,
+     "desc": {
+      "zh": "氨基酸位置字段（1…length）",
+      "en": "Residue position (1…length)"
+     }
+    },
+    {
+     "key": "y",
+     "role": "measure",
+     "required": false,
+     "desc": {
+      "zh": "该行突变数（缺省时每行计 1）",
+      "en": "Mutation count per row (default 1 per row)"
+     }
+    },
+    {
+     "key": "mutType",
+     "role": "category",
+     "required": false,
+     "desc": {
+      "zh": "突变类型字段（错义、截断、框内、剪接…）",
+      "en": "Mutation type field (missense, truncating, in-frame, splice…)"
+     }
+    },
+    {
+     "key": "label",
+     "role": "category",
+     "required": false,
+     "desc": {
+      "zh": "氨基酸改变，如 R175H",
+      "en": "Protein change, e.g. R175H"
+     }
+    }
+   ],
+   "options": [
+    "length（蛋白长度 aa，必填）",
+    "domains:[{name, start, end}]",
+    "top（标注热点数，默认 5）",
+    "protein（蛋白名）"
+   ],
+   "keywords": {
+    "zh": [
+     "棒棒糖图",
+     "突变分布",
+     "蛋白结构域",
+     "热点突变",
+     "肿瘤测序",
+     "错义突变",
+     "变异位点"
+    ],
+    "en": [
+     "lollipop plot",
+     "mutation map",
+     "protein domains",
+     "hotspot",
+     "tumour sequencing",
+     "missense",
+     "variants"
+    ]
+   },
+   "needsUnit": false,
+   "output": "svg"
+  }
+ ]
+}

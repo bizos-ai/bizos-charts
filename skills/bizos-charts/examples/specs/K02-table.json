@@ -1,0 +1,141 @@
+{
+ "type": "K02",
+ "wide": true,
+ "title": {
+  "zh": "前五大 ASIN 贡献 64% 销售额，露营灯是唯一负增长且 ACOS 最高的商品",
+  "en": "The top five ASINs contribute 64% of sales; the camping lantern alone shrank and has the highest ACOS"
+ },
+ "subtitle": {
+  "zh": "2025 年第四季度 ASIN 经营明细",
+  "en": "ASIN performance, 4Q25"
+ },
+ "columns": [
+  {
+   "key": "name",
+   "label": {
+    "zh": "商品",
+    "en": "Product"
+   }
+  },
+  {
+   "key": "asin",
+   "label": "ASIN",
+   "align": "left"
+  },
+  {
+   "key": "sales",
+   "label": {
+    "zh": "销售额",
+    "en": "Sales"
+   },
+   "unit": {
+    "zh": "万美元",
+    "en": "US$ 10k"
+   },
+   "format": "number:1",
+   "bar": true
+  },
+  {
+   "key": "yoy",
+   "label": {
+    "zh": "同比",
+    "en": "YoY"
+   },
+   "format": "percent:1",
+   "heat": "diverging"
+  },
+  {
+   "key": "margin",
+   "label": {
+    "zh": "净利率",
+    "en": "Net margin"
+   },
+   "format": "percent:1"
+  },
+  {
+   "key": "acos",
+   "label": "ACOS",
+   "format": "percent:1",
+   "negativeRed": true
+  }
+ ],
+ "data": [
+  {
+   "name": {
+    "zh": "宠物饮水机 2L",
+    "en": "Pet fountain 2L"
+   },
+   "asin": "B0C1A2",
+   "sales": 86.4,
+   "yoy": 38.2,
+   "margin": 18.6,
+   "acos": 21.4
+  },
+  {
+   "name": {
+    "zh": "厨房电子秤",
+    "en": "Kitchen scale"
+   },
+   "asin": "B0B7K9",
+   "sales": 64.1,
+   "yoy": 12.5,
+   "margin": 15.2,
+   "acos": 26.9
+  },
+  {
+   "name": {
+    "zh": "收纳盒 6 件套",
+    "en": "Storage set (6)"
+   },
+   "asin": "B0D3M1",
+   "sales": 58.8,
+   "yoy": 4.1,
+   "margin": 21.4,
+   "acos": 18.2
+  },
+  {
+   "name": {
+    "zh": "露营灯",
+    "en": "Camping lantern"
+   },
+   "asin": "B0A9X4",
+   "sales": 31.2,
+   "yoy": -14.6,
+   "margin": 6.8,
+   "acos": 34.5
+  },
+  {
+   "name": {
+    "zh": "猫抓板",
+    "en": "Cat scratcher"
+   },
+   "asin": "B0E2Q7",
+   "sales": 22.5,
+   "yoy": 27.9,
+   "margin": 12.1,
+   "acos": 22.8
+  }
+ ],
+ "total": {
+  "label": {
+   "zh": "合计",
+   "en": "Total"
+  }
+ },
+ "highlight": [
+  {
+   "zh": "露营灯",
+   "en": "Camping lantern"
+  }
+ ],
+ "notes": [
+  {
+   "zh": "前五大合计 263.0 万美元，占店铺季度销售额 411.0 万美元的 64%",
+   "en": "Top five total US$2.6mn, 64% of the store’s US$4.1mn quarterly sales"
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "type": "V04",
+ "title": {
+  "zh": "GMV 增长 12.6% 来自流量与客单价，转化率下降 0.6 个百分点拖累增长",
+  "en": "GMV grew 12.6% on traffic and basket size; a 0.6-point conversion drop held it back"
+ },
+ "subtitle": {
+  "zh": "2025 年 vs 2024 年 GMV 拆解：GMV = 访客 × 转化率 × 客单价",
+  "en": "FY25 vs FY24 GMV decomposition: GMV = sessions × conversion × AOV"
+ },
+ "format": "number:1",
+ "tree": {
+  "label": {
+   "zh": "GMV（万美元）",
+   "en": "GMV (US$ 10k)"
+  },
+  "value": 1536.3,
+  "prior": 1364.4,
+  "op": "×",
+  "children": [
+   {
+    "label": {
+     "zh": "订单量（万单）",
+     "en": "Orders (10k)"
+    },
+    "value": 48.6,
+    "prior": 45.6,
+    "op": "×",
+    "children": [
+     {
+      "label": {
+       "zh": "访客（万人次）",
+       "en": "Sessions (10k)"
+      },
+      "value": 412,
+      "prior": 368
+     },
+     {
+      "label": {
+       "zh": "转化率",
+       "en": "Conversion"
+      },
+      "value": 0.11800000000000001,
+      "prior": 0.124,
+      "format": {
+       "type": "percent",
+       "decimals": 1,
+       "scale": 0.01
+      }
+     }
+    ]
+   },
+   {
+    "label": {
+     "zh": "客单价（美元）",
+     "en": "AOV (US$)"
+    },
+    "value": 31.6,
+    "prior": 29.9,
+    "format": "number:2"
+   }
+  ]
+ },
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ },
+ "notes": [
+  {
+   "zh": "订单量 = 访客 × 转化率；数值四舍五入，拆解误差 ≤1%",
+   "en": "Orders = sessions × conversion; rounding differences ≤1%"
+  }
+ ]
+}

@@ -1,0 +1,244 @@
+{
+ "type": "H02",
+ "title": {
+  "zh": "5 月起新客的次月复购率平均提升 2.4 个百分点，会员计划见效",
+  "en": "Month-1 repurchase rose 2.4 points on average for cohorts from May, after the loyalty launch"
+ },
+ "subtitle": {
+  "zh": "按首购月份的复购客户占比（%），2025 年 1–8 月同期群",
+  "en": "Share of customers repurchasing by first-purchase month (%), Jan–Aug 2025 cohorts"
+ },
+ "format": "percent:0",
+ "x": "cohort",
+ "offset": "offset",
+ "y": "rate",
+ "size": "size",
+ "names": {
+  "rate": {
+   "zh": "复购率",
+   "en": "Repeat rate"
+  }
+ },
+ "data": [
+  {
+   "cohort": "2025-01",
+   "offset": 0,
+   "rate": 100,
+   "size": 1940
+  },
+  {
+   "cohort": "2025-01",
+   "offset": 1,
+   "rate": 28.7,
+   "size": 1940
+  },
+  {
+   "cohort": "2025-01",
+   "offset": 2,
+   "rate": 24.6,
+   "size": 1940
+  },
+  {
+   "cohort": "2025-01",
+   "offset": 3,
+   "rate": 21.1,
+   "size": 1940
+  },
+  {
+   "cohort": "2025-01",
+   "offset": 4,
+   "rate": 17.7,
+   "size": 1940
+  },
+  {
+   "cohort": "2025-01",
+   "offset": 5,
+   "rate": 15.9,
+   "size": 1940
+  },
+  {
+   "cohort": "2025-01",
+   "offset": 6,
+   "rate": 14.7,
+   "size": 1940
+  },
+  {
+   "cohort": "2025-01",
+   "offset": 7,
+   "rate": 12.2,
+   "size": 1940
+  },
+  {
+   "cohort": "2025-02",
+   "offset": 0,
+   "rate": 100,
+   "size": 2449
+  },
+  {
+   "cohort": "2025-02",
+   "offset": 1,
+   "rate": 28.2,
+   "size": 2449
+  },
+  {
+   "cohort": "2025-02",
+   "offset": 2,
+   "rate": 23.9,
+   "size": 2449
+  },
+  {
+   "cohort": "2025-02",
+   "offset": 3,
+   "rate": 21.3,
+   "size": 2449
+  },
+  {
+   "cohort": "2025-02",
+   "offset": 4,
+   "rate": 18.6,
+   "size": 2449
+  },
+  {
+   "cohort": "2025-02",
+   "offset": 5,
+   "rate": 16.4,
+   "size": 2449
+  },
+  {
+   "cohort": "2025-02",
+   "offset": 6,
+   "rate": 13.2,
+   "size": 2449
+  },
+  {
+   "cohort": "2025-03",
+   "offset": 0,
+   "rate": 100,
+   "size": 2480
+  },
+  {
+   "cohort": "2025-03",
+   "offset": 1,
+   "rate": 28.7,
+   "size": 2480
+  },
+  {
+   "cohort": "2025-03",
+   "offset": 2,
+   "rate": 23.8,
+   "size": 2480
+  },
+  {
+   "cohort": "2025-03",
+   "offset": 3,
+   "rate": 20.5,
+   "size": 2480
+  },
+  {
+   "cohort": "2025-03",
+   "offset": 4,
+   "rate": 17.8,
+   "size": 2480
+  },
+  {
+   "cohort": "2025-03",
+   "offset": 5,
+   "rate": 15.3,
+   "size": 2480
+  },
+  {
+   "cohort": "2025-04",
+   "offset": 0,
+   "rate": 100,
+   "size": 2011
+  },
+  {
+   "cohort": "2025-04",
+   "offset": 1,
+   "rate": 29.3,
+   "size": 2011
+  },
+  {
+   "cohort": "2025-04",
+   "offset": 2,
+   "rate": 24.4,
+   "size": 2011
+  },
+  {
+   "cohort": "2025-04",
+   "offset": 3,
+   "rate": 20.5,
+   "size": 2011
+  },
+  {
+   "cohort": "2025-04",
+   "offset": 4,
+   "rate": 17.7,
+   "size": 2011
+  },
+  {
+   "cohort": "2025-05",
+   "offset": 0,
+   "rate": 100,
+   "size": 2562
+  },
+  {
+   "cohort": "2025-05",
+   "offset": 1,
+   "rate": 30.7,
+   "size": 2562
+  },
+  {
+   "cohort": "2025-05",
+   "offset": 2,
+   "rate": 26.4,
+   "size": 2562
+  },
+  {
+   "cohort": "2025-05",
+   "offset": 3,
+   "rate": 21.6,
+   "size": 2562
+  },
+  {
+   "cohort": "2025-06",
+   "offset": 0,
+   "rate": 100,
+   "size": 2157
+  },
+  {
+   "cohort": "2025-06",
+   "offset": 1,
+   "rate": 31.2,
+   "size": 2157
+  },
+  {
+   "cohort": "2025-06",
+   "offset": 2,
+   "rate": 26.6,
+   "size": 2157
+  },
+  {
+   "cohort": "2025-07",
+   "offset": 0,
+   "rate": 100,
+   "size": 2460
+  },
+  {
+   "cohort": "2025-07",
+   "offset": 1,
+   "rate": 31.4,
+   "size": 2460
+  },
+  {
+   "cohort": "2025-08",
+   "offset": 0,
+   "rate": 100,
+   "size": 1916
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

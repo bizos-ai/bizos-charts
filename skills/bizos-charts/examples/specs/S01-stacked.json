@@ -1,0 +1,78 @@
+{
+ "type": "S01",
+ "title": {
+  "zh": "FBA 贡献约 79% 销售，独立站占比从 5% 升至 11%（预测）",
+  "en": "FBA drives about 79% of sales; the DTC site rises from 5% to 11% (estimate)"
+ },
+ "subtitle": {
+  "zh": "季度销售额按渠道（万美元），2025Q1–2026Q2E",
+  "en": "Quarterly sales by channel (US$ 10k), 1Q25–2Q26E"
+ },
+ "unit": {
+  "zh": "万美元",
+  "en": "US$ 10k"
+ },
+ "format": "number:0",
+ "x": "quarter",
+ "y": [
+  "fba",
+  "fbm",
+  "dtc"
+ ],
+ "names": {
+  "fba": "FBA",
+  "fbm": "FBM",
+  "dtc": {
+   "zh": "独立站",
+   "en": "DTC site"
+  }
+ },
+ "data": [
+  {
+   "quarter": "2025Q1",
+   "fba": 182,
+   "fbm": 41,
+   "dtc": 12
+  },
+  {
+   "quarter": "2025Q2",
+   "fba": 196,
+   "fbm": 38,
+   "dtc": 15
+  },
+  {
+   "quarter": "2025Q3",
+   "fba": 214,
+   "fbm": 36,
+   "dtc": 19
+  },
+  {
+   "quarter": "2025Q4",
+   "fba": 268,
+   "fbm": 39,
+   "dtc": 26
+  },
+  {
+   "quarter": "2026Q1E",
+   "fba": 228,
+   "fbm": 33,
+   "dtc": 28
+  },
+  {
+   "quarter": "2026Q2E",
+   "fba": 240,
+   "fbm": 31,
+   "dtc": 33
+  }
+ ],
+ "notes": [
+  {
+   "zh": "2026Q1E–Q2E 为预测",
+   "en": "1Q26E–2Q26E are estimates"
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

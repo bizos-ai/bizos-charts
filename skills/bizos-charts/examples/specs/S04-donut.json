@@ -1,0 +1,70 @@
+{
+ "type": "S04",
+ "title": {
+  "zh": "美国站贡献 55% 收入，单一市场集中度偏高",
+  "en": "The US contributes 55% of revenue — a high single-market concentration"
+ },
+ "subtitle": {
+  "zh": "2025 年收入按站点构成",
+  "en": "2025 revenue by marketplace"
+ },
+ "unit": {
+  "zh": "万美元",
+  "en": "US$ 10k"
+ },
+ "format": "number:0",
+ "x": "market",
+ "y": "revenue",
+ "otherLabel": {
+  "zh": "其他",
+  "en": "Other"
+ },
+ "data": [
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "revenue": 2240
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "revenue": 542
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "revenue": 468
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "revenue": 371
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "revenue": 279
+  },
+  {
+   "market": {
+    "zh": "其他",
+    "en": "Other"
+   },
+   "revenue": 196
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

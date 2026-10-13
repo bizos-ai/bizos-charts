@@ -1,0 +1,110 @@
+{
+ "type": "V01",
+ "wide": true,
+ "title": {
+  "zh": "当前股价 24.6 元低于 4 种方法的估值下限，各方法中值 25.5–32.9 元",
+  "en": "At RMB24.6 the share price is below the low end of 4 methods; midpoints span RMB25.5–32.9"
+ },
+ "subtitle": {
+  "zh": "每股价值区间（元），按估值方法",
+  "en": "Value per share (RMB) by valuation method"
+ },
+ "unit": {
+  "zh": "元/股",
+  "en": "RMB per share"
+ },
+ "format": "number:1",
+ "x": "method",
+ "low": "low",
+ "high": "high",
+ "basis": "basis",
+ "current": 24.6,
+ "refLines": [
+  {
+   "value": 30.5,
+   "label": {
+    "zh": "目标价",
+    "en": "Target"
+   },
+   "color": "#16365C"
+  }
+ ],
+ "data": [
+  {
+   "method": {
+    "zh": "52 周股价区间",
+    "en": "52-week range"
+   },
+   "low": 19.8,
+   "high": 31.2,
+   "basis": {
+    "zh": "最低–最高",
+    "en": "Low–high"
+   }
+  },
+  {
+   "method": {
+    "zh": "分析师目标价",
+    "en": "Analyst targets"
+   },
+   "low": 25,
+   "high": 36,
+   "basis": {
+    "zh": "9 家机构",
+    "en": "9 brokers"
+   }
+  },
+  {
+   "method": {
+    "zh": "可比公司 P/E",
+    "en": "Trading comps P/E"
+   },
+   "low": 24.1,
+   "high": 32.1,
+   "basis": {
+    "zh": "2026E 15–20x",
+    "en": "2026E 15–20x"
+   }
+  },
+  {
+   "method": {
+    "zh": "可比公司 EV/EBITDA",
+    "en": "Trading comps EV/EBITDA"
+   },
+   "low": 26.3,
+   "high": 34.8,
+   "basis": {
+    "zh": "2026E 9–12x",
+    "en": "2026E 9–12x"
+   }
+  },
+  {
+   "method": {
+    "zh": "可比交易",
+    "en": "Precedent transactions"
+   },
+   "low": 28.2,
+   "high": 37.5,
+   "basis": {
+    "zh": "EV/EBITDA 10–13x",
+    "en": "EV/EBITDA 10–13x"
+   }
+  },
+  {
+   "method": {
+    "zh": "DCF",
+    "en": "DCF"
+   },
+   "low": 25.3,
+   "high": 38.3,
+   "basis": {
+    "zh": "WACC 9–11%，g 2–3%",
+    "en": "WACC 9–11%, g 2–3%"
+   }
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

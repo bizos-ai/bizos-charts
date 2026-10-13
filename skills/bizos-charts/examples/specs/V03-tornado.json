@@ -1,0 +1,82 @@
+{
+ "type": "V03",
+ "title": {
+  "zh": "售价是利润最敏感的因素：±5% 售价对应 ±29% 经营利润",
+  "en": "Price is the most sensitive driver: ±5% price moves operating profit ±29%"
+ },
+ "subtitle": {
+  "zh": "2026 年经营利润（万美元）对单一因素变化的敏感性",
+  "en": "2026E operating profit (US$ 10k) under one-at-a-time changes"
+ },
+ "unit": {
+  "zh": "万美元",
+  "en": "US$ 10k"
+ },
+ "format": "number:0",
+ "x": "driver",
+ "low": "low",
+ "high": "high",
+ "base": 186,
+ "lowLabel": {
+  "zh": "因素向不利方向",
+  "en": "Driver moves adversely"
+ },
+ "highLabel": {
+  "zh": "因素向有利方向",
+  "en": "Driver moves favourably"
+ },
+ "data": [
+  {
+   "driver": {
+    "zh": "售价 ±5%",
+    "en": "Price ±5%"
+   },
+   "low": 132,
+   "high": 240
+  },
+  {
+   "driver": {
+    "zh": "销量 ±10%",
+    "en": "Volume ±10%"
+   },
+   "low": 151,
+   "high": 221
+  },
+  {
+   "driver": {
+    "zh": "广告费率 ±2pct",
+    "en": "Ad ratio ±2pts"
+   },
+   "low": 158,
+   "high": 214
+  },
+  {
+   "driver": {
+    "zh": "头程运费 ±20%",
+    "en": "Freight ±20%"
+   },
+   "low": 167,
+   "high": 205
+  },
+  {
+   "driver": {
+    "zh": "汇率 ±3%",
+    "en": "FX ±3%"
+   },
+   "low": 172,
+   "high": 200
+  },
+  {
+   "driver": {
+    "zh": "退货率 ±1pct",
+    "en": "Return rate ±1pt"
+   },
+   "low": 177,
+   "high": 195
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

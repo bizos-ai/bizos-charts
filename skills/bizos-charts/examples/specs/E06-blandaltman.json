@@ -1,0 +1,281 @@
+{
+ "type": "E06",
+ "title": {
+  "zh": "血糖仪平均偏高 0.13 mmol/L，95% 一致性界限 −0.58 至 0.84 mmol/L，在 ±1.0 可接受范围内",
+  "en": "Meter reads 0.13 mmol/L high; 95% limits −0.58 to 0.84 mmol/L, within ±1.0"
+ },
+ "subtitle": {
+  "zh": "同一静脉血样本的血糖仪与实验室分析仪读数差值（mmol/L），60 份样本",
+  "en": "Difference between meter and laboratory readings on the same venous samples (mmol/L), n = 60"
+ },
+ "a": "meter",
+ "b": "lab",
+ "unit": "mmol/L",
+ "format": "number:2",
+ "names": {
+  "meter": {
+   "zh": "血糖仪",
+   "en": "Meter"
+  },
+  "lab": {
+   "zh": "实验室分析仪",
+   "en": "Lab analyser"
+  }
+ },
+ "limits": [
+  -1,
+  1
+ ],
+ "data": [
+  {
+   "meter": 13.8,
+   "lab": 13.7
+  },
+  {
+   "meter": 16.6,
+   "lab": 16.1
+  },
+  {
+   "meter": 11.5,
+   "lab": 12
+  },
+  {
+   "meter": 12.6,
+   "lab": 11.9
+  },
+  {
+   "meter": 9.4,
+   "lab": 9.3
+  },
+  {
+   "meter": 4.9,
+   "lab": 4.8
+  },
+  {
+   "meter": 6,
+   "lab": 5.6
+  },
+  {
+   "meter": 6.9,
+   "lab": 7
+  },
+  {
+   "meter": 15.9,
+   "lab": 15.9
+  },
+  {
+   "meter": 16.1,
+   "lab": 16.1
+  },
+  {
+   "meter": 7.6,
+   "lab": 7.3
+  },
+  {
+   "meter": 16.2,
+   "lab": 15.6
+  },
+  {
+   "meter": 11,
+   "lab": 11.1
+  },
+  {
+   "meter": 13.4,
+   "lab": 13.5
+  },
+  {
+   "meter": 13.7,
+   "lab": 13.6
+  },
+  {
+   "meter": 7.2,
+   "lab": 7.4
+  },
+  {
+   "meter": 8.9,
+   "lab": 9.1
+  },
+  {
+   "meter": 17.5,
+   "lab": 16.7
+  },
+  {
+   "meter": 8.7,
+   "lab": 8.1
+  },
+  {
+   "meter": 15.2,
+   "lab": 14.7
+  },
+  {
+   "meter": 18.1,
+   "lab": 17.5
+  },
+  {
+   "meter": 14,
+   "lab": 14
+  },
+  {
+   "meter": 7.4,
+   "lab": 7.6
+  },
+  {
+   "meter": 11.9,
+   "lab": 11.8
+  },
+  {
+   "meter": 6.7,
+   "lab": 7.1
+  },
+  {
+   "meter": 13.5,
+   "lab": 13.5
+  },
+  {
+   "meter": 8.3,
+   "lab": 7.8
+  },
+  {
+   "meter": 4.1,
+   "lab": 3.8
+  },
+  {
+   "meter": 6.1,
+   "lab": 5.2
+  },
+  {
+   "meter": 7.6,
+   "lab": 7.3
+  },
+  {
+   "meter": 6.3,
+   "lab": 6.1
+  },
+  {
+   "meter": 3,
+   "lab": 3.7
+  },
+  {
+   "meter": 14.4,
+   "lab": 14.2
+  },
+  {
+   "meter": 14.3,
+   "lab": 13.3
+  },
+  {
+   "meter": 4,
+   "lab": 4.1
+  },
+  {
+   "meter": 4.9,
+   "lab": 5.2
+  },
+  {
+   "meter": 7.4,
+   "lab": 7.3
+  },
+  {
+   "meter": 11.7,
+   "lab": 11.1
+  },
+  {
+   "meter": 16.8,
+   "lab": 16.8
+  },
+  {
+   "meter": 5,
+   "lab": 4.8
+  },
+  {
+   "meter": 7.2,
+   "lab": 7.3
+  },
+  {
+   "meter": 14.6,
+   "lab": 14.6
+  },
+  {
+   "meter": 7.6,
+   "lab": 7.3
+  },
+  {
+   "meter": 5.3,
+   "lab": 5.2
+  },
+  {
+   "meter": 10.7,
+   "lab": 11
+  },
+  {
+   "meter": 7.6,
+   "lab": 6.9
+  },
+  {
+   "meter": 13,
+   "lab": 13.1
+  },
+  {
+   "meter": 16.3,
+   "lab": 16.3
+  },
+  {
+   "meter": 8.5,
+   "lab": 8.2
+  },
+  {
+   "meter": 15.9,
+   "lab": 15.9
+  },
+  {
+   "meter": 12.6,
+   "lab": 12.8
+  },
+  {
+   "meter": 5,
+   "lab": 4.9
+  },
+  {
+   "meter": 6.8,
+   "lab": 7.3
+  },
+  {
+   "meter": 15.2,
+   "lab": 15.4
+  },
+  {
+   "meter": 18.1,
+   "lab": 17.9
+  },
+  {
+   "meter": 11.1,
+   "lab": 11
+  },
+  {
+   "meter": 5.2,
+   "lab": 4.5
+  },
+  {
+   "meter": 7.6,
+   "lab": 8
+  },
+  {
+   "meter": 4.2,
+   "lab": 3.9
+  },
+  {
+   "meter": 15.5,
+   "lab": 15.4
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ },
+ "notes": [
+  {
+   "zh": "可接受范围 ±1.0 mmol/L 为示例设定",
+   "en": "The ±1.0 mmol/L acceptable range is an illustrative assumption"
+  }
+ ]
+}

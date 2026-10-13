@@ -1,0 +1,3268 @@
+{
+ "type": "B05",
+ "title": {
+  "zh": "层次聚类第一层把 4 个对照样本与 8 个处理样本完全分开",
+  "en": "The first split of the clustering separates all 4 control samples from the 8 treated ones"
+ },
+ "subtitle": {
+  "zh": "30 个差异基因在 12 个样本中的表达（行 z 分数）",
+  "en": "Expression of 30 differentially expressed genes across 12 samples (row z-scores)"
+ },
+ "row": "gene",
+ "x": "sample",
+ "y": "expr",
+ "colGroup": "cond",
+ "names": {
+  "expr": {
+   "zh": "表达量 log₂",
+   "en": "Expression (log₂)"
+  }
+ },
+ "data": [
+  {
+   "gene": "G01",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 8.26
+  },
+  {
+   "gene": "G01",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 8.42
+  },
+  {
+   "gene": "G01",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 6.98
+  },
+  {
+   "gene": "G01",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.21
+  },
+  {
+   "gene": "G01",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 7.92
+  },
+  {
+   "gene": "G01",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.1
+  },
+  {
+   "gene": "G01",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.22
+  },
+  {
+   "gene": "G01",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.49
+  },
+  {
+   "gene": "G01",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 9.94
+  },
+  {
+   "gene": "G01",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 10.03
+  },
+  {
+   "gene": "G01",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 10.18
+  },
+  {
+   "gene": "G01",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 9.85
+  },
+  {
+   "gene": "G02",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 8.43
+  },
+  {
+   "gene": "G02",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.52
+  },
+  {
+   "gene": "G02",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.81
+  },
+  {
+   "gene": "G02",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.99
+  },
+  {
+   "gene": "G02",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.79
+  },
+  {
+   "gene": "G02",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.87
+  },
+  {
+   "gene": "G02",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 10.02
+  },
+  {
+   "gene": "G02",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 10.24
+  },
+  {
+   "gene": "G02",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8.94
+  },
+  {
+   "gene": "G02",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8.66
+  },
+  {
+   "gene": "G02",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8.05
+  },
+  {
+   "gene": "G02",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8.89
+  },
+  {
+   "gene": "G03",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 11.13
+  },
+  {
+   "gene": "G03",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 10.31
+  },
+  {
+   "gene": "G03",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 10.69
+  },
+  {
+   "gene": "G03",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 10.09
+  },
+  {
+   "gene": "G03",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 10.56
+  },
+  {
+   "gene": "G03",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.92
+  },
+  {
+   "gene": "G03",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.7
+  },
+  {
+   "gene": "G03",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.78
+  },
+  {
+   "gene": "G03",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8.85
+  },
+  {
+   "gene": "G03",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 9.49
+  },
+  {
+   "gene": "G03",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 9.43
+  },
+  {
+   "gene": "G03",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8.97
+  },
+  {
+   "gene": "G04",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.91
+  },
+  {
+   "gene": "G04",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.71
+  },
+  {
+   "gene": "G04",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.96
+  },
+  {
+   "gene": "G04",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.5
+  },
+  {
+   "gene": "G04",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.26
+  },
+  {
+   "gene": "G04",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 7.94
+  },
+  {
+   "gene": "G04",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.14
+  },
+  {
+   "gene": "G04",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.39
+  },
+  {
+   "gene": "G04",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 10.33
+  },
+  {
+   "gene": "G04",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 9.84
+  },
+  {
+   "gene": "G04",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 10.04
+  },
+  {
+   "gene": "G04",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 9.94
+  },
+  {
+   "gene": "G05",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.63
+  },
+  {
+   "gene": "G05",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.07
+  },
+  {
+   "gene": "G05",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.52
+  },
+  {
+   "gene": "G05",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.22
+  },
+  {
+   "gene": "G05",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.8
+  },
+  {
+   "gene": "G05",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.92
+  },
+  {
+   "gene": "G05",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.13
+  },
+  {
+   "gene": "G05",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.26
+  },
+  {
+   "gene": "G05",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 7.81
+  },
+  {
+   "gene": "G05",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 7.6
+  },
+  {
+   "gene": "G05",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 7.67
+  },
+  {
+   "gene": "G05",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 7.89
+  },
+  {
+   "gene": "G06",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 6.59
+  },
+  {
+   "gene": "G06",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 6.26
+  },
+  {
+   "gene": "G06",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.05
+  },
+  {
+   "gene": "G06",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.01
+  },
+  {
+   "gene": "G06",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 6.05
+  },
+  {
+   "gene": "G06",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 5.67
+  },
+  {
+   "gene": "G06",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 6.19
+  },
+  {
+   "gene": "G06",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 6.01
+  },
+  {
+   "gene": "G06",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 5.01
+  },
+  {
+   "gene": "G06",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 4.86
+  },
+  {
+   "gene": "G06",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 5.72
+  },
+  {
+   "gene": "G06",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 4.5
+  },
+  {
+   "gene": "G07",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 8.58
+  },
+  {
+   "gene": "G07",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 9.02
+  },
+  {
+   "gene": "G07",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 8.54
+  },
+  {
+   "gene": "G07",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 8.9
+  },
+  {
+   "gene": "G07",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.06
+  },
+  {
+   "gene": "G07",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.88
+  },
+  {
+   "gene": "G07",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.52
+  },
+  {
+   "gene": "G07",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.24
+  },
+  {
+   "gene": "G07",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 10.55
+  },
+  {
+   "gene": "G07",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 11
+  },
+  {
+   "gene": "G07",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 10.45
+  },
+  {
+   "gene": "G07",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 10.97
+  },
+  {
+   "gene": "G08",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 6.93
+  },
+  {
+   "gene": "G08",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 5.99
+  },
+  {
+   "gene": "G08",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 6.45
+  },
+  {
+   "gene": "G08",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7
+  },
+  {
+   "gene": "G08",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.43
+  },
+  {
+   "gene": "G08",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.32
+  },
+  {
+   "gene": "G08",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.54
+  },
+  {
+   "gene": "G08",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.1
+  },
+  {
+   "gene": "G08",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 7.24
+  },
+  {
+   "gene": "G08",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 7.58
+  },
+  {
+   "gene": "G08",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 6.84
+  },
+  {
+   "gene": "G08",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 7.1
+  },
+  {
+   "gene": "G09",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 10.33
+  },
+  {
+   "gene": "G09",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 9.77
+  },
+  {
+   "gene": "G09",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 10.44
+  },
+  {
+   "gene": "G09",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 10.09
+  },
+  {
+   "gene": "G09",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.89
+  },
+  {
+   "gene": "G09",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.05
+  },
+  {
+   "gene": "G09",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.53
+  },
+  {
+   "gene": "G09",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.15
+  },
+  {
+   "gene": "G09",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8.55
+  },
+  {
+   "gene": "G09",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8.66
+  },
+  {
+   "gene": "G09",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8.92
+  },
+  {
+   "gene": "G09",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8.65
+  },
+  {
+   "gene": "G10",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 8.78
+  },
+  {
+   "gene": "G10",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 9.61
+  },
+  {
+   "gene": "G10",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 8.79
+  },
+  {
+   "gene": "G10",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 8.88
+  },
+  {
+   "gene": "G10",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.39
+  },
+  {
+   "gene": "G10",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.41
+  },
+  {
+   "gene": "G10",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 10.35
+  },
+  {
+   "gene": "G10",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.96
+  },
+  {
+   "gene": "G10",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 11.24
+  },
+  {
+   "gene": "G10",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 10.68
+  },
+  {
+   "gene": "G10",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 11.94
+  },
+  {
+   "gene": "G10",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 10.85
+  },
+  {
+   "gene": "G11",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 5.92
+  },
+  {
+   "gene": "G11",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 5.91
+  },
+  {
+   "gene": "G11",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 6.51
+  },
+  {
+   "gene": "G11",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 6.52
+  },
+  {
+   "gene": "G11",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.15
+  },
+  {
+   "gene": "G11",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 7.46
+  },
+  {
+   "gene": "G11",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.57
+  },
+  {
+   "gene": "G11",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 7.84
+  },
+  {
+   "gene": "G11",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 6.74
+  },
+  {
+   "gene": "G11",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 6.93
+  },
+  {
+   "gene": "G11",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 7.13
+  },
+  {
+   "gene": "G11",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 6.35
+  },
+  {
+   "gene": "G12",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.43
+  },
+  {
+   "gene": "G12",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.81
+  },
+  {
+   "gene": "G12",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.65
+  },
+  {
+   "gene": "G12",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.65
+  },
+  {
+   "gene": "G12",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 6.8
+  },
+  {
+   "gene": "G12",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 6.12
+  },
+  {
+   "gene": "G12",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 6.67
+  },
+  {
+   "gene": "G12",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 6.33
+  },
+  {
+   "gene": "G12",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 5.21
+  },
+  {
+   "gene": "G12",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 5.36
+  },
+  {
+   "gene": "G12",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 5.38
+  },
+  {
+   "gene": "G12",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 5.86
+  },
+  {
+   "gene": "G13",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 6.98
+  },
+  {
+   "gene": "G13",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 6.23
+  },
+  {
+   "gene": "G13",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 6.65
+  },
+  {
+   "gene": "G13",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 6.36
+  },
+  {
+   "gene": "G13",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 7.11
+  },
+  {
+   "gene": "G13",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 7.36
+  },
+  {
+   "gene": "G13",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 7.71
+  },
+  {
+   "gene": "G13",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 7.58
+  },
+  {
+   "gene": "G13",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8.88
+  },
+  {
+   "gene": "G13",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8.14
+  },
+  {
+   "gene": "G13",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8.51
+  },
+  {
+   "gene": "G13",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8.9
+  },
+  {
+   "gene": "G14",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.85
+  },
+  {
+   "gene": "G14",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.8
+  },
+  {
+   "gene": "G14",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.02
+  },
+  {
+   "gene": "G14",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 6.85
+  },
+  {
+   "gene": "G14",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.94
+  },
+  {
+   "gene": "G14",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.88
+  },
+  {
+   "gene": "G14",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.04
+  },
+  {
+   "gene": "G14",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.51
+  },
+  {
+   "gene": "G14",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 7.6
+  },
+  {
+   "gene": "G14",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 7.6
+  },
+  {
+   "gene": "G14",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 7.9
+  },
+  {
+   "gene": "G14",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 7.66
+  },
+  {
+   "gene": "G15",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 9.74
+  },
+  {
+   "gene": "G15",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 9.23
+  },
+  {
+   "gene": "G15",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 9.62
+  },
+  {
+   "gene": "G15",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 8.95
+  },
+  {
+   "gene": "G15",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.56
+  },
+  {
+   "gene": "G15",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.71
+  },
+  {
+   "gene": "G15",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.23
+  },
+  {
+   "gene": "G15",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.02
+  },
+  {
+   "gene": "G15",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 7.13
+  },
+  {
+   "gene": "G15",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 7.6
+  },
+  {
+   "gene": "G15",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8.14
+  },
+  {
+   "gene": "G15",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8.16
+  },
+  {
+   "gene": "G16",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 8.74
+  },
+  {
+   "gene": "G16",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 8.07
+  },
+  {
+   "gene": "G16",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 8.65
+  },
+  {
+   "gene": "G16",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 8.81
+  },
+  {
+   "gene": "G16",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.22
+  },
+  {
+   "gene": "G16",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.27
+  },
+  {
+   "gene": "G16",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.12
+  },
+  {
+   "gene": "G16",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.67
+  },
+  {
+   "gene": "G16",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 10.77
+  },
+  {
+   "gene": "G16",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 11.13
+  },
+  {
+   "gene": "G16",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 10.76
+  },
+  {
+   "gene": "G16",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 10.58
+  },
+  {
+   "gene": "G17",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 11.33
+  },
+  {
+   "gene": "G17",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 10.73
+  },
+  {
+   "gene": "G17",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 10.66
+  },
+  {
+   "gene": "G17",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 10.36
+  },
+  {
+   "gene": "G17",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 11.88
+  },
+  {
+   "gene": "G17",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 12.22
+  },
+  {
+   "gene": "G17",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 12.83
+  },
+  {
+   "gene": "G17",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 12.74
+  },
+  {
+   "gene": "G17",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 11.18
+  },
+  {
+   "gene": "G17",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 11.91
+  },
+  {
+   "gene": "G17",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 11.35
+  },
+  {
+   "gene": "G17",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 11.49
+  },
+  {
+   "gene": "G18",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 6.1
+  },
+  {
+   "gene": "G18",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 5.78
+  },
+  {
+   "gene": "G18",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 5.83
+  },
+  {
+   "gene": "G18",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 6.05
+  },
+  {
+   "gene": "G18",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 5.16
+  },
+  {
+   "gene": "G18",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 4.77
+  },
+  {
+   "gene": "G18",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 4.98
+  },
+  {
+   "gene": "G18",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 4.63
+  },
+  {
+   "gene": "G18",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 3.95
+  },
+  {
+   "gene": "G18",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 3.72
+  },
+  {
+   "gene": "G18",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 3.84
+  },
+  {
+   "gene": "G18",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 4.42
+  },
+  {
+   "gene": "G19",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 8.27
+  },
+  {
+   "gene": "G19",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 8.09
+  },
+  {
+   "gene": "G19",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.89
+  },
+  {
+   "gene": "G19",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 8.57
+  },
+  {
+   "gene": "G19",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.37
+  },
+  {
+   "gene": "G19",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.77
+  },
+  {
+   "gene": "G19",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.42
+  },
+  {
+   "gene": "G19",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.03
+  },
+  {
+   "gene": "G19",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 10.11
+  },
+  {
+   "gene": "G19",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 10.37
+  },
+  {
+   "gene": "G19",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 10.4
+  },
+  {
+   "gene": "G19",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 10.56
+  },
+  {
+   "gene": "G20",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.37
+  },
+  {
+   "gene": "G20",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 8.35
+  },
+  {
+   "gene": "G20",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.32
+  },
+  {
+   "gene": "G20",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 8
+  },
+  {
+   "gene": "G20",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.14
+  },
+  {
+   "gene": "G20",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.95
+  },
+  {
+   "gene": "G20",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.38
+  },
+  {
+   "gene": "G20",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.14
+  },
+  {
+   "gene": "G20",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8.81
+  },
+  {
+   "gene": "G20",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8
+  },
+  {
+   "gene": "G20",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 9.41
+  },
+  {
+   "gene": "G20",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8.35
+  },
+  {
+   "gene": "G21",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.66
+  },
+  {
+   "gene": "G21",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.87
+  },
+  {
+   "gene": "G21",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.85
+  },
+  {
+   "gene": "G21",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.36
+  },
+  {
+   "gene": "G21",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 7.28
+  },
+  {
+   "gene": "G21",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 6.36
+  },
+  {
+   "gene": "G21",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 6.82
+  },
+  {
+   "gene": "G21",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 6.56
+  },
+  {
+   "gene": "G21",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 6.17
+  },
+  {
+   "gene": "G21",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 5.93
+  },
+  {
+   "gene": "G21",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 5.58
+  },
+  {
+   "gene": "G21",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 6.1
+  },
+  {
+   "gene": "G22",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 8.52
+  },
+  {
+   "gene": "G22",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 8.27
+  },
+  {
+   "gene": "G22",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 9.13
+  },
+  {
+   "gene": "G22",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 8.98
+  },
+  {
+   "gene": "G22",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.38
+  },
+  {
+   "gene": "G22",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.38
+  },
+  {
+   "gene": "G22",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.17
+  },
+  {
+   "gene": "G22",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.81
+  },
+  {
+   "gene": "G22",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 11.39
+  },
+  {
+   "gene": "G22",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 10.97
+  },
+  {
+   "gene": "G22",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 11.11
+  },
+  {
+   "gene": "G22",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 10.75
+  },
+  {
+   "gene": "G23",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 9.69
+  },
+  {
+   "gene": "G23",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 9.46
+  },
+  {
+   "gene": "G23",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 9.96
+  },
+  {
+   "gene": "G23",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 9.93
+  },
+  {
+   "gene": "G23",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 11.79
+  },
+  {
+   "gene": "G23",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 11.67
+  },
+  {
+   "gene": "G23",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 12.16
+  },
+  {
+   "gene": "G23",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 11.54
+  },
+  {
+   "gene": "G23",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 9.81
+  },
+  {
+   "gene": "G23",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 9.83
+  },
+  {
+   "gene": "G23",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 10.09
+  },
+  {
+   "gene": "G23",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 10.66
+  },
+  {
+   "gene": "G24",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.72
+  },
+  {
+   "gene": "G24",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.22
+  },
+  {
+   "gene": "G24",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.42
+  },
+  {
+   "gene": "G24",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.21
+  },
+  {
+   "gene": "G24",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 5.88
+  },
+  {
+   "gene": "G24",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 5.57
+  },
+  {
+   "gene": "G24",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 5.96
+  },
+  {
+   "gene": "G24",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 5.7
+  },
+  {
+   "gene": "G24",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 5.37
+  },
+  {
+   "gene": "G24",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 5.57
+  },
+  {
+   "gene": "G24",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 5.23
+  },
+  {
+   "gene": "G24",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 5.23
+  },
+  {
+   "gene": "G25",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 6.52
+  },
+  {
+   "gene": "G25",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 6.99
+  },
+  {
+   "gene": "G25",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 6.5
+  },
+  {
+   "gene": "G25",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 6.5
+  },
+  {
+   "gene": "G25",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 7.03
+  },
+  {
+   "gene": "G25",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 7.11
+  },
+  {
+   "gene": "G25",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 7.03
+  },
+  {
+   "gene": "G25",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 7.17
+  },
+  {
+   "gene": "G25",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8.48
+  },
+  {
+   "gene": "G25",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8.97
+  },
+  {
+   "gene": "G25",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 7.92
+  },
+  {
+   "gene": "G25",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8.79
+  },
+  {
+   "gene": "G26",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.07
+  },
+  {
+   "gene": "G26",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 6.96
+  },
+  {
+   "gene": "G26",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 8.17
+  },
+  {
+   "gene": "G26",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.63
+  },
+  {
+   "gene": "G26",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.37
+  },
+  {
+   "gene": "G26",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.43
+  },
+  {
+   "gene": "G26",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.17
+  },
+  {
+   "gene": "G26",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.13
+  },
+  {
+   "gene": "G26",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8.26
+  },
+  {
+   "gene": "G26",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 7.48
+  },
+  {
+   "gene": "G26",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 7.81
+  },
+  {
+   "gene": "G26",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8.37
+  },
+  {
+   "gene": "G27",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 10.06
+  },
+  {
+   "gene": "G27",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 9.81
+  },
+  {
+   "gene": "G27",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 9.75
+  },
+  {
+   "gene": "G27",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 9.72
+  },
+  {
+   "gene": "G27",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.68
+  },
+  {
+   "gene": "G27",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.66
+  },
+  {
+   "gene": "G27",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.68
+  },
+  {
+   "gene": "G27",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.92
+  },
+  {
+   "gene": "G27",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8.23
+  },
+  {
+   "gene": "G27",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 7.99
+  },
+  {
+   "gene": "G27",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 7.89
+  },
+  {
+   "gene": "G27",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8.16
+  },
+  {
+   "gene": "G28",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 8.35
+  },
+  {
+   "gene": "G28",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.31
+  },
+  {
+   "gene": "G28",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.76
+  },
+  {
+   "gene": "G28",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.16
+  },
+  {
+   "gene": "G28",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.27
+  },
+  {
+   "gene": "G28",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.57
+  },
+  {
+   "gene": "G28",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 7.56
+  },
+  {
+   "gene": "G28",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.37
+  },
+  {
+   "gene": "G28",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 9.34
+  },
+  {
+   "gene": "G28",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 9.46
+  },
+  {
+   "gene": "G28",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 9.43
+  },
+  {
+   "gene": "G28",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 10.33
+  },
+  {
+   "gene": "G29",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.65
+  },
+  {
+   "gene": "G29",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.53
+  },
+  {
+   "gene": "G29",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 8.29
+  },
+  {
+   "gene": "G29",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.78
+  },
+  {
+   "gene": "G29",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 10.15
+  },
+  {
+   "gene": "G29",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 8.76
+  },
+  {
+   "gene": "G29",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.57
+  },
+  {
+   "gene": "G29",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 9.13
+  },
+  {
+   "gene": "G29",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 7.89
+  },
+  {
+   "gene": "G29",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8.4
+  },
+  {
+   "gene": "G29",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 8.15
+  },
+  {
+   "gene": "G29",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 7.87
+  },
+  {
+   "gene": "G30",
+   "sample": "C-1",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.62
+  },
+  {
+   "gene": "G30",
+   "sample": "C-2",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 8.07
+  },
+  {
+   "gene": "G30",
+   "sample": "C-3",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.36
+  },
+  {
+   "gene": "G30",
+   "sample": "C-4",
+   "cond": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "expr": 7.17
+  },
+  {
+   "gene": "G30",
+   "sample": "T6-1",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 6.23
+  },
+  {
+   "gene": "G30",
+   "sample": "T6-2",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 6.25
+  },
+  {
+   "gene": "G30",
+   "sample": "T6-3",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 6.28
+  },
+  {
+   "gene": "G30",
+   "sample": "T6-4",
+   "cond": {
+    "zh": "处理 6 h",
+    "en": "Treated 6 h"
+   },
+   "expr": 6.17
+  },
+  {
+   "gene": "G30",
+   "sample": "T24-1",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 5.78
+  },
+  {
+   "gene": "G30",
+   "sample": "T24-2",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 5.36
+  },
+  {
+   "gene": "G30",
+   "sample": "T24-3",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 6.17
+  },
+  {
+   "gene": "G30",
+   "sample": "T24-4",
+   "cond": {
+    "zh": "处理 24 h",
+    "en": "Treated 24 h"
+   },
+   "expr": 6.17
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ },
+ "italic": true
+}

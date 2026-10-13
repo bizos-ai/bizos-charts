@@ -1,0 +1,109 @@
+{
+ "type": "S02",
+ "horizontal": true,
+ "title": {
+  "zh": "露营灯一星评价占 13%，是其他产品线的三倍以上",
+  "en": "One-star reviews are 13% for camping lights, over 3× any other line"
+ },
+ "subtitle": {
+  "zh": "近 12 个月评论星级结构（%），柱右为评论总数（条）",
+  "en": "Review star mix over the last 12 months (%); totals at right are review counts"
+ },
+ "unit": {
+  "zh": "条",
+  "en": "reviews"
+ },
+ "format": "integer",
+ "x": "line",
+ "y": [
+  "s5",
+  "s4",
+  "s3",
+  "s2",
+  "s1"
+ ],
+ "names": {
+  "s5": {
+   "zh": "5 星",
+   "en": "5★"
+  },
+  "s4": {
+   "zh": "4 星",
+   "en": "4★"
+  },
+  "s3": {
+   "zh": "3 星",
+   "en": "3★"
+  },
+  "s2": {
+   "zh": "2 星",
+   "en": "2★"
+  },
+  "s1": {
+   "zh": "1 星",
+   "en": "1★"
+  }
+ },
+ "colors": {
+  "5 星": "#16365C",
+  "4 星": "#4F86C6",
+  "3 星": "#B8C0CA",
+  "2 星": "#D89A8E",
+  "1 星": "#B83B3B",
+  "5★": "#16365C",
+  "4★": "#4F86C6",
+  "3★": "#B8C0CA",
+  "2★": "#D89A8E",
+  "1★": "#B83B3B"
+ },
+ "data": [
+  {
+   "line": {
+    "zh": "收纳盒",
+    "en": "Storage boxes"
+   },
+   "s5": 612,
+   "s4": 214,
+   "s3": 61,
+   "s2": 28,
+   "s1": 35
+  },
+  {
+   "line": {
+    "zh": "厨房秤",
+    "en": "Kitchen scales"
+   },
+   "s5": 388,
+   "s4": 142,
+   "s3": 52,
+   "s2": 26,
+   "s1": 24
+  },
+  {
+   "line": {
+    "zh": "宠物饮水机",
+    "en": "Pet fountains"
+   },
+   "s5": 702,
+   "s4": 168,
+   "s3": 44,
+   "s2": 26,
+   "s1": 30
+  },
+  {
+   "line": {
+    "zh": "露营灯",
+    "en": "Camping lights"
+   },
+   "s5": 241,
+   "s4": 96,
+   "s3": 41,
+   "s2": 29,
+   "s1": 63
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

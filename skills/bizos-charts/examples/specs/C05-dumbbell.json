@@ -1,0 +1,77 @@
+{
+ "type": "C05",
+ "title": {
+  "zh": "主图优化后转化率提升 3.6 个百分点，未改动 SKU 基本持平",
+  "en": "Main-image redesigns lifted conversion by 3.6 points; unchanged SKUs were flat"
+ },
+ "subtitle": {
+  "zh": "改版前后 30 天平均转化率（%），按改版类型",
+  "en": "Average 30-day conversion rate before and after redesign (%), by change type"
+ },
+ "format": "percent",
+ "x": "group",
+ "from": "before",
+ "to": "after",
+ "names": {
+  "before": {
+   "zh": "改版前",
+   "en": "Before"
+  },
+  "after": {
+   "zh": "改版后",
+   "en": "After"
+  }
+ },
+ "data": [
+  {
+   "group": {
+    "zh": "主图优化 SKU",
+    "en": "Main-image SKUs"
+   },
+   "before": 9.2,
+   "after": 12.8
+  },
+  {
+   "group": {
+    "zh": "A+ 页面 SKU",
+    "en": "A+ content SKUs"
+   },
+   "before": 10.4,
+   "after": 12.1
+  },
+  {
+   "group": {
+    "zh": "视频 SKU",
+    "en": "Video SKUs"
+   },
+   "before": 11.6,
+   "after": 13
+  },
+  {
+   "group": {
+    "zh": "仅标题优化 SKU",
+    "en": "Title-only SKUs"
+   },
+   "before": 8.9,
+   "after": 9.3
+  },
+  {
+   "group": {
+    "zh": "未改动 SKU",
+    "en": "Unchanged SKUs"
+   },
+   "before": 9.7,
+   "after": 9.4
+  }
+ ],
+ "notes": [
+  {
+   "zh": "前后各 30 天，剔除大促日",
+   "en": "30 days on each side, promotion days excluded"
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

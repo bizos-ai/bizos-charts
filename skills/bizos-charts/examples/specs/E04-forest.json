@@ -1,0 +1,127 @@
+{
+ "type": "E04",
+ "title": {
+  "zh": "合并 7 项试验，治疗使不良结局的比值降低 46%（OR 0.54，95% CI 0.42–0.70）",
+  "en": "Across 7 trials treatment lowered the odds of a poor outcome by 46% (OR 0.54, 95% CI 0.42–0.70)"
+ },
+ "subtitle": {
+  "zh": "各试验不良结局比值比（OR）及 95% CI；列为事件数/随机化人数",
+  "en": "Odds ratio (OR) of a poor outcome with 95% CI by trial; columns show events/randomised"
+ },
+ "label": "study",
+ "measure": "OR",
+ "pool": "random",
+ "columns": [
+  {
+   "field": "trt",
+   "title": {
+    "zh": "治疗组",
+    "en": "Treatment"
+   }
+  },
+  {
+   "field": "ctl",
+   "title": {
+    "zh": "对照组",
+    "en": "Control"
+   }
+  }
+ ],
+ "favors": [
+  {
+   "zh": "偏向治疗组",
+   "en": "Favours treatment"
+  },
+  {
+   "zh": "偏向对照组",
+   "en": "Favours control"
+  }
+ ],
+ "labelTitle": {
+  "zh": "研究",
+  "en": "Study"
+ },
+ "data": [
+  {
+   "study": {
+    "zh": "示例研究 A（2016）",
+    "en": "Study A (2016)"
+   },
+   "est": 0.93,
+   "lo": 0.48,
+   "hi": 1.78,
+   "trt": "20/163",
+   "ctl": "21/160"
+  },
+  {
+   "study": {
+    "zh": "示例研究 B（2017）",
+    "en": "Study B (2017)"
+   },
+   "est": 0.4,
+   "lo": 0.28,
+   "hi": 0.59,
+   "trt": "47/425",
+   "ctl": "99/420"
+  },
+  {
+   "study": {
+    "zh": "示例研究 C（2018）",
+    "en": "Study C (2018)"
+   },
+   "est": 0.59,
+   "lo": 0.28,
+   "hi": 1.24,
+   "trt": "14/85",
+   "ctl": "24/96"
+  },
+  {
+   "study": {
+    "zh": "示例研究 D（2019）",
+    "en": "Study D (2019)"
+   },
+   "est": 0.68,
+   "lo": 0.51,
+   "hi": 0.9,
+   "trt": "105/610",
+   "ctl": "143/610"
+  },
+  {
+   "study": {
+    "zh": "示例研究 E（2020）",
+    "en": "Study E (2020)"
+   },
+   "est": 0.34,
+   "lo": 0.2,
+   "hi": 0.57,
+   "trt": "23/242",
+   "ctl": "57/240"
+  },
+  {
+   "study": {
+    "zh": "示例研究 F（2022）",
+    "en": "Study F (2022)"
+   },
+   "est": 0.65,
+   "lo": 0.42,
+   "hi": 1,
+   "trt": "41/345",
+   "ctl": "60/350"
+  },
+  {
+   "study": {
+    "zh": "示例研究 G（2023）",
+    "en": "Study G (2023)"
+   },
+   "est": 0.41,
+   "lo": 0.21,
+   "hi": 0.82,
+   "trt": "14/125",
+   "ctl": "30/128"
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

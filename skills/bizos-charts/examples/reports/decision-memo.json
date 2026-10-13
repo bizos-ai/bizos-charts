@@ -1,0 +1,833 @@
+{
+ "layout": "decision-memo",
+ "langs": [
+  "zh",
+  "en"
+ ],
+ "meta": {
+  "kicker": {
+   "zh": "决策备忘录 · 日本站",
+   "en": "Decision memo · Japan"
+  },
+  "title": {
+   "zh": "暂不加投日本站广告：先修复转化，再按 ACOS 门槛分批加投",
+   "en": "Hold extra Japan ad spend: fix conversion first, then scale in steps against an ACOS gate"
+  },
+  "date": "2026-01-08",
+  "author": {
+   "zh": "BizOS 经营分析",
+   "en": "BizOS Operations Analytics"
+  }
+ },
+ "question": {
+  "zh": "2026 年上半年是否把日本站广告预算提高 50%？",
+  "en": "Should we raise Japan’s ad budget by 50% in H1 2026?"
+ },
+ "recommendation": {
+  "zh": "暂不加投。先用 6 周修复前五 ASIN 的转化率；转化率恢复到 2024 年水平且 ACOS ≤ 22% 后，按每月 +15% 分批加投。",
+  "en": "Not yet. Spend six weeks restoring conversion on the top five ASINs; once it is back to 2024 levels and ACOS ≤ 22%, scale up 15% a month."
+ },
+ "summary": [
+  {
+   "zh": "日本站月销售额 2025 年下降 8%，是六个站点中唯一下滑的市场（图表 1）。",
+   "en": "Japan’s monthly sales fell 8% over 2025, the only declining marketplace of six (Exhibit 1)."
+  },
+  {
+   "zh": "下滑来自转化：前五 ASIN 转化率全部下降，最多 2.7 个百分点（图表 2）。",
+   "en": "The decline is conversion-led: all five top ASINs converted worse, by up to 2.7 points (Exhibit 2)."
+  },
+  {
+   "zh": "在当前转化率下加投 50% 预算会使利润下降约 12 万美元；转化率每提升 1 个百分点则增加约 17 万美元（图表 3）。",
+   "en": "At today’s conversion, +50% budget would cut profit by about US$120k; each conversion point adds about US$170k (Exhibit 3)."
+  }
+ ],
+ "sections": [
+  {
+   "title": {
+    "zh": "证据",
+    "en": "Evidence"
+   },
+   "blocks": [
+    {
+     "type": "exhibit",
+     "spec": {
+      "type": "M01",
+      "base": "T01",
+      "facet": "market",
+      "x": "month",
+      "y": "sales",
+      "title": {
+       "zh": "六个站点中五个全年走高，日本站是唯一下滑的市场",
+       "en": "Five of six marketplaces trended up in 2025; Japan was the only decline"
+      },
+      "subtitle": {
+       "zh": "各站点月度销售额（万美元），2025 年；纵轴刻度相同",
+       "en": "Monthly sales by marketplace (US$ 10k), 2025; common y-axis"
+      },
+      "unit": {
+       "zh": "万美元",
+       "en": "US$ 10k"
+      },
+      "format": "number:0",
+      "names": {
+       "sales": {
+        "zh": "销售额",
+        "en": "Sales"
+       }
+      },
+      "highlight": [
+       {
+        "zh": "日本",
+        "en": "Japan"
+       }
+      ],
+      "data": [
+       {
+        "market": {
+         "zh": "美国",
+         "en": "US"
+        },
+        "month": "2025-01",
+        "sales": 180
+       },
+       {
+        "market": {
+         "zh": "美国",
+         "en": "US"
+        },
+        "month": "2025-02",
+        "sales": 192.3
+       },
+       {
+        "market": {
+         "zh": "美国",
+         "en": "US"
+        },
+        "month": "2025-03",
+        "sales": 202.2
+       },
+       {
+        "market": {
+         "zh": "美国",
+         "en": "US"
+        },
+        "month": "2025-04",
+        "sales": 208.3
+       },
+       {
+        "market": {
+         "zh": "美国",
+         "en": "US"
+        },
+        "month": "2025-05",
+        "sales": 210.5
+       },
+       {
+        "market": {
+         "zh": "美国",
+         "en": "US"
+        },
+        "month": "2025-06",
+        "sales": 210.2
+       },
+       {
+        "market": {
+         "zh": "美国",
+         "en": "US"
+        },
+        "month": "2025-07",
+        "sales": 209.8
+       },
+       {
+        "market": {
+         "zh": "美国",
+         "en": "US"
+        },
+        "month": "2025-08",
+        "sales": 211.8
+       },
+       {
+        "market": {
+         "zh": "美国",
+         "en": "US"
+        },
+        "month": "2025-09",
+        "sales": 217.6
+       },
+       {
+        "market": {
+         "zh": "美国",
+         "en": "US"
+        },
+        "month": "2025-10",
+        "sales": 227.4
+       },
+       {
+        "market": {
+         "zh": "美国",
+         "en": "US"
+        },
+        "month": "2025-11",
+        "sales": 284.6
+       },
+       {
+        "market": {
+         "zh": "美国",
+         "en": "US"
+        },
+        "month": "2025-12",
+        "sales": 252
+       },
+       {
+        "market": {
+         "zh": "德国",
+         "en": "Germany"
+        },
+        "month": "2025-01",
+        "sales": 74
+       },
+       {
+        "market": {
+         "zh": "德国",
+         "en": "Germany"
+        },
+        "month": "2025-02",
+        "sales": 78.4
+       },
+       {
+        "market": {
+         "zh": "德国",
+         "en": "Germany"
+        },
+        "month": "2025-03",
+        "sales": 81.8
+       },
+       {
+        "market": {
+         "zh": "德国",
+         "en": "Germany"
+        },
+        "month": "2025-04",
+        "sales": 83.6
+       },
+       {
+        "market": {
+         "zh": "德国",
+         "en": "Germany"
+        },
+        "month": "2025-05",
+        "sales": 83.9
+       },
+       {
+        "market": {
+         "zh": "德国",
+         "en": "Germany"
+        },
+        "month": "2025-06",
+        "sales": 83.1
+       },
+       {
+        "market": {
+         "zh": "德国",
+         "en": "Germany"
+        },
+        "month": "2025-07",
+        "sales": 82.3
+       },
+       {
+        "market": {
+         "zh": "德国",
+         "en": "Germany"
+        },
+        "month": "2025-08",
+        "sales": 82.4
+       },
+       {
+        "market": {
+         "zh": "德国",
+         "en": "Germany"
+        },
+        "month": "2025-09",
+        "sales": 84.1
+       },
+       {
+        "market": {
+         "zh": "德国",
+         "en": "Germany"
+        },
+        "month": "2025-10",
+        "sales": 87.5
+       },
+       {
+        "market": {
+         "zh": "德国",
+         "en": "Germany"
+        },
+        "month": "2025-11",
+        "sales": 110.4
+       },
+       {
+        "market": {
+         "zh": "德国",
+         "en": "Germany"
+        },
+        "month": "2025-12",
+        "sales": 96.3
+       },
+       {
+        "market": {
+         "zh": "英国",
+         "en": "UK"
+        },
+        "month": "2025-01",
+        "sales": 62
+       },
+       {
+        "market": {
+         "zh": "英国",
+         "en": "UK"
+        },
+        "month": "2025-02",
+        "sales": 65.4
+       },
+       {
+        "market": {
+         "zh": "英国",
+         "en": "UK"
+        },
+        "month": "2025-03",
+        "sales": 67.9
+       },
+       {
+        "market": {
+         "zh": "英国",
+         "en": "UK"
+        },
+        "month": "2025-04",
+        "sales": 69.1
+       },
+       {
+        "market": {
+         "zh": "英国",
+         "en": "UK"
+        },
+        "month": "2025-05",
+        "sales": 69
+       },
+       {
+        "market": {
+         "zh": "英国",
+         "en": "UK"
+        },
+        "month": "2025-06",
+        "sales": 68.1
+       },
+       {
+        "market": {
+         "zh": "英国",
+         "en": "UK"
+        },
+        "month": "2025-07",
+        "sales": 67.1
+       },
+       {
+        "market": {
+         "zh": "英国",
+         "en": "UK"
+        },
+        "month": "2025-08",
+        "sales": 66.9
+       },
+       {
+        "market": {
+         "zh": "英国",
+         "en": "UK"
+        },
+        "month": "2025-09",
+        "sales": 68
+       },
+       {
+        "market": {
+         "zh": "英国",
+         "en": "UK"
+        },
+        "month": "2025-10",
+        "sales": 70.5
+       },
+       {
+        "market": {
+         "zh": "英国",
+         "en": "UK"
+        },
+        "month": "2025-11",
+        "sales": 89.4
+       },
+       {
+        "market": {
+         "zh": "英国",
+         "en": "UK"
+        },
+        "month": "2025-12",
+        "sales": 77.3
+       },
+       {
+        "market": {
+         "zh": "日本",
+         "en": "Japan"
+        },
+        "month": "2025-01",
+        "sales": 58
+       },
+       {
+        "market": {
+         "zh": "日本",
+         "en": "Japan"
+        },
+        "month": "2025-02",
+        "sales": 59.4
+       },
+       {
+        "market": {
+         "zh": "日本",
+         "en": "Japan"
+        },
+        "month": "2025-03",
+        "sales": 60.1
+       },
+       {
+        "market": {
+         "zh": "日本",
+         "en": "Japan"
+        },
+        "month": "2025-04",
+        "sales": 59.5
+       },
+       {
+        "market": {
+         "zh": "日本",
+         "en": "Japan"
+        },
+        "month": "2025-05",
+        "sales": 57.7
+       },
+       {
+        "market": {
+         "zh": "日本",
+         "en": "Japan"
+        },
+        "month": "2025-06",
+        "sales": 55.1
+       },
+       {
+        "market": {
+         "zh": "日本",
+         "en": "Japan"
+        },
+        "month": "2025-07",
+        "sales": 52.4
+       },
+       {
+        "market": {
+         "zh": "日本",
+         "en": "Japan"
+        },
+        "month": "2025-08",
+        "sales": 50.5
+       },
+       {
+        "market": {
+         "zh": "日本",
+         "en": "Japan"
+        },
+        "month": "2025-09",
+        "sales": 49.9
+       },
+       {
+        "market": {
+         "zh": "日本",
+         "en": "Japan"
+        },
+        "month": "2025-10",
+        "sales": 50.5
+       },
+       {
+        "market": {
+         "zh": "日本",
+         "en": "Japan"
+        },
+        "month": "2025-11",
+        "sales": 66.4
+       },
+       {
+        "market": {
+         "zh": "日本",
+         "en": "Japan"
+        },
+        "month": "2025-12",
+        "sales": 53.3
+       },
+       {
+        "market": {
+         "zh": "加拿大",
+         "en": "Canada"
+        },
+        "month": "2025-01",
+        "sales": 30
+       },
+       {
+        "market": {
+         "zh": "加拿大",
+         "en": "Canada"
+        },
+        "month": "2025-02",
+        "sales": 32.6
+       },
+       {
+        "market": {
+         "zh": "加拿大",
+         "en": "Canada"
+        },
+        "month": "2025-03",
+        "sales": 34.7
+       },
+       {
+        "market": {
+         "zh": "加拿大",
+         "en": "Canada"
+        },
+        "month": "2025-04",
+        "sales": 36.2
+       },
+       {
+        "market": {
+         "zh": "加拿大",
+         "en": "Canada"
+        },
+        "month": "2025-05",
+        "sales": 37.1
+       },
+       {
+        "market": {
+         "zh": "加拿大",
+         "en": "Canada"
+        },
+        "month": "2025-06",
+        "sales": 37.5
+       },
+       {
+        "market": {
+         "zh": "加拿大",
+         "en": "Canada"
+        },
+        "month": "2025-07",
+        "sales": 38
+       },
+       {
+        "market": {
+         "zh": "加拿大",
+         "en": "Canada"
+        },
+        "month": "2025-08",
+        "sales": 38.8
+       },
+       {
+        "market": {
+         "zh": "加拿大",
+         "en": "Canada"
+        },
+        "month": "2025-09",
+        "sales": 40.3
+       },
+       {
+        "market": {
+         "zh": "加拿大",
+         "en": "Canada"
+        },
+        "month": "2025-10",
+        "sales": 42.4
+       },
+       {
+        "market": {
+         "zh": "加拿大",
+         "en": "Canada"
+        },
+        "month": "2025-11",
+        "sales": 52.4
+       },
+       {
+        "market": {
+         "zh": "加拿大",
+         "en": "Canada"
+        },
+        "month": "2025-12",
+        "sales": 47.5
+       },
+       {
+        "market": {
+         "zh": "法国",
+         "en": "France"
+        },
+        "month": "2025-01",
+        "sales": 26
+       },
+       {
+        "market": {
+         "zh": "法国",
+         "en": "France"
+        },
+        "month": "2025-02",
+        "sales": 27.8
+       },
+       {
+        "market": {
+         "zh": "法国",
+         "en": "France"
+        },
+        "month": "2025-03",
+        "sales": 29.3
+       },
+       {
+        "market": {
+         "zh": "法国",
+         "en": "France"
+        },
+        "month": "2025-04",
+        "sales": 30.2
+       },
+       {
+        "market": {
+         "zh": "法国",
+         "en": "France"
+        },
+        "month": "2025-05",
+        "sales": 30.5
+       },
+       {
+        "market": {
+         "zh": "法国",
+         "en": "France"
+        },
+        "month": "2025-06",
+        "sales": 30.5
+       },
+       {
+        "market": {
+         "zh": "法国",
+         "en": "France"
+        },
+        "month": "2025-07",
+        "sales": 30.5
+       },
+       {
+        "market": {
+         "zh": "法国",
+         "en": "France"
+        },
+        "month": "2025-08",
+        "sales": 30.8
+       },
+       {
+        "market": {
+         "zh": "法国",
+         "en": "France"
+        },
+        "month": "2025-09",
+        "sales": 31.7
+       },
+       {
+        "market": {
+         "zh": "法国",
+         "en": "France"
+        },
+        "month": "2025-10",
+        "sales": 33.1
+       },
+       {
+        "market": {
+         "zh": "法国",
+         "en": "France"
+        },
+        "month": "2025-11",
+        "sales": 41.4
+       },
+       {
+        "market": {
+         "zh": "法国",
+         "en": "France"
+        },
+        "month": "2025-12",
+        "sales": 36.8
+       }
+      ],
+      "source": {
+       "zh": "示例数据；BizOS 整理",
+       "en": "Illustrative data; BizOS analysis"
+      }
+     }
+    },
+    {
+     "type": "exhibits",
+     "items": [
+      {
+       "type": "C05",
+       "title": {
+        "zh": "日本站前五 ASIN 的转化率全部下滑，最多下降 2.7 个百分点",
+        "en": "Conversion fell for all five top Japan ASINs, by up to 2.7 points"
+       },
+       "subtitle": {
+        "zh": "日本站前五 ASIN 转化率（%），2024 年 vs 2025 年",
+        "en": "Conversion rate of Japan’s top-5 ASINs (%), 2024 vs 2025"
+       },
+       "format": "percent",
+       "x": "asin",
+       "from": "y24",
+       "to": "y25",
+       "sort": "change",
+       "names": {
+        "y24": "2024",
+        "y25": "2025"
+       },
+       "data": [
+        {
+         "asin": "B0J-101",
+         "y24": 7.9,
+         "y25": 6.1
+        },
+        {
+         "asin": "B0J-114",
+         "y24": 9.4,
+         "y25": 7.2
+        },
+        {
+         "asin": "B0J-122",
+         "y24": 6.8,
+         "y25": 6.5
+        },
+        {
+         "asin": "B0J-130",
+         "y24": 8.6,
+         "y25": 5.9
+        },
+        {
+         "asin": "B0J-141",
+         "y24": 5.2,
+         "y25": 4.8
+        }
+       ],
+       "source": {
+        "zh": "示例数据；BizOS 整理",
+        "en": "Illustrative data; BizOS analysis"
+       }
+      },
+      {
+       "type": "V03",
+       "title": {
+        "zh": "转化率是日本站利润最敏感的因素，加投广告的回报取决于转化修复",
+        "en": "Conversion drives Japan’s profit most; extra ad spend pays only if conversion recovers"
+       },
+       "subtitle": {
+        "zh": "2026 年上半年日本站经营利润（万美元）对单一因素变化的敏感性",
+        "en": "Japan operating profit, H1 2026E (US$ 10k), one-at-a-time changes"
+       },
+       "unit": {
+        "zh": "万美元",
+        "en": "US$ 10k"
+       },
+       "format": "number:0",
+       "x": "driver",
+       "low": "low",
+       "high": "high",
+       "base": 38,
+       "lowLabel": {
+        "zh": "不利情形",
+        "en": "Adverse"
+       },
+       "highLabel": {
+        "zh": "有利情形",
+        "en": "Favourable"
+       },
+       "data": [
+        {
+         "driver": {
+          "zh": "转化率 ±1pct",
+          "en": "Conversion ±1pt"
+         },
+         "low": 21,
+         "high": 55
+        },
+        {
+         "driver": {
+          "zh": "广告预算 +50% / 不变",
+          "en": "Ad budget +50% / flat"
+         },
+         "low": 26,
+         "high": 44
+        },
+        {
+         "driver": {
+          "zh": "售价 ±5%",
+          "en": "Price ±5%"
+         },
+         "low": 29,
+         "high": 47
+        },
+        {
+         "driver": {
+          "zh": "汇率 ±5%",
+          "en": "FX ±5%"
+         },
+         "low": 32,
+         "high": 44
+        },
+        {
+         "driver": {
+          "zh": "退货率 ±1pct",
+          "en": "Return rate ±1pt"
+         },
+         "low": 35,
+         "high": 41
+        }
+       ],
+       "notes": [
+        {
+         "zh": "“广告预算 +50%”在当前转化率下为不利情形（ACOS 上升），预算不变为基准",
+         "en": "“Ad budget +50%” is the adverse case at today’s conversion (ACOS rises); flat budget is the base"
+        }
+       ],
+       "source": {
+        "zh": "示例数据；BizOS 整理",
+        "en": "Illustrative data; BizOS analysis"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "zh": "修复期间可能丢失部分搜索排名，需保留核心词的基础出价。",
+   "en": "Rank may slip during the fix; keep base bids on core keywords."
+  },
+  {
+   "zh": "若竞品在 Q1 大幅降价，需重新评估价格假设。",
+   "en": "If competitors cut prices sharply in Q1, revisit the price assumptions."
+  }
+ ],
+ "nextSteps": [
+  {
+   "zh": "第 1–2 周：前五 ASIN 主图、标题与价格 A/B 测试。",
+   "en": "Weeks 1–2: main-image, title and price A/B tests on the top five ASINs."
+  },
+  {
+   "zh": "第 3–6 周：评估转化率与 ACOS，达标后开启第一档 +15% 预算。",
+   "en": "Weeks 3–6: review conversion and ACOS; unlock the first +15% if the gate is met."
+  }
+ ],
+ "sources": [
+  {
+   "zh": "BizOS 店铺与广告数据",
+   "en": "BizOS store and advertising data"
+  }
+ ]
+}

@@ -1,0 +1,1169 @@
+{
+ "layout": "research-note",
+ "langs": [
+  "zh",
+  "en"
+ ],
+ "meta": {
+  "kicker": {
+   "zh": "公司研究 · 跨境电商",
+   "en": "Company research · Cross-border e-commerce"
+  },
+  "title": {
+   "zh": "示例公司：增长重新提速，估值低于同业，目标价 30.5 元",
+   "en": "Example Co.: growth re-accelerates, valuation lags peers; target RMB30.5"
+  },
+  "subtitle": {
+   "zh": "新品线放量带动 2026 年收入增速回升至 18%，DCF 与可比估值均指向当前股价被低估",
+   "en": "New lines lift 2026E revenue growth to 18%; DCF and comparables both suggest the shares are undervalued"
+  },
+  "date": "2026-10-11",
+  "author": {
+   "zh": "BizOS 研究",
+   "en": "BizOS Research"
+  }
+ },
+ "summary": [
+  {
+   "zh": "收入增速 2025 年见底（7.4%），新品线放量后 2026E 回升至 18.1%（图表 1）。",
+   "en": "Revenue growth troughed at 7.4% in 2025 and should recover to 18.1% in 2026E as new lines ramp (Exhibit 1)."
+  },
+  {
+   "zh": "2025 年净利润增长 16%，销量贡献 9.8 百万元，足以覆盖物流与广告费用上升（图表 2）。",
+   "en": "FY25 net profit rose 16%; volume added RMB9.8mn, more than offsetting higher logistics and ad costs (Exhibit 2)."
+  },
+  {
+   "zh": "净利率 7.8% 列同业第 2，但 2026E P/E 15.6 倍低于同业中位数约四分之一（图表 3、5）。",
+   "en": "A 7.8% net margin ranks second among peers, yet 2026E P/E of 15.6x is about a quarter below the peer median (Exhibits 3 and 5)."
+  },
+  {
+   "zh": "DCF 基准情形对应 30.5 元；WACC 每升 1 个百分点，价值约降 4.2 元（图表 8）。",
+   "en": "The DCF base case gives RMB30.5; each 1-point rise in WACC lowers value by about RMB4.2 (Exhibit 8)."
+  }
+ ],
+ "keyData": [
+  {
+   "label": {
+    "zh": "当前股价",
+    "en": "Share price"
+   },
+   "value": {
+    "zh": "24.6 元",
+    "en": "RMB24.6"
+   }
+  },
+  {
+   "label": {
+    "zh": "目标价",
+    "en": "Target price"
+   },
+   "value": {
+    "zh": "30.5 元（+24%）",
+    "en": "RMB30.5 (+24%)"
+   }
+  },
+  {
+   "label": {
+    "zh": "总股本",
+    "en": "Shares outstanding"
+   },
+   "value": {
+    "zh": "0.42 亿股",
+    "en": "42mn"
+   }
+  },
+  {
+   "label": {
+    "zh": "总市值",
+    "en": "Market cap"
+   },
+   "value": {
+    "zh": "10.3 亿元",
+    "en": "RMB1033mn"
+   }
+  },
+  {
+   "label": {
+    "zh": "2026E P/E",
+    "en": "2026E P/E"
+   },
+   "value": {
+    "zh": "15.6 倍",
+    "en": "15.6x"
+   }
+  },
+  {
+   "label": {
+    "zh": "2025A 净利率",
+    "en": "2025A net margin"
+   },
+   "value": {
+    "zh": "7.8%",
+    "en": "7.8%"
+   }
+  },
+  {
+   "label": {
+    "zh": "2025–2027E 净利润 CAGR",
+    "en": "2025–27E net profit CAGR"
+   },
+   "value": {
+    "zh": "24%",
+    "en": "24%"
+   }
+  }
+ ],
+ "keyDataNote": {
+  "zh": "股价截至 2026-10-10；E 为 BizOS 预测",
+  "en": "Price as of 2026-10-10; E = BizOS estimates"
+ },
+ "sections": [
+  {
+   "title": {
+    "zh": "增长：新品线带动收入重新提速",
+    "en": "Growth: new lines re-accelerate revenue"
+   },
+   "lead": {
+    "zh": "2023–2025 年增速连续放缓的主因是老品线渗透见顶；2026 年两条新品线贡献主要增量。",
+    "en": "Growth slowed in 2023–2025 as legacy lines matured; two new lines drive most of the 2026E increase."
+   },
+   "blocks": [
+    {
+     "type": "exhibit",
+     "spec": {
+      "type": "T03",
+      "title": {
+       "zh": "营收增速 2025 年见底，新品线放量后 2026 年预计回升至 18%",
+       "en": "Revenue growth troughed in 2025 and should recover to 18% in 2026E"
+      },
+      "subtitle": {
+       "zh": "年度营业收入（百万元，左轴）与同比增速（%，右轴），2020A–2027E",
+       "en": "Annual revenue (RMB mn, LHS) and YoY growth (%, RHS), 2020A–2027E"
+      },
+      "unit": {
+       "zh": "百万元",
+       "en": "RMB mn"
+      },
+      "x": "period",
+      "bars": [
+       "revenue"
+      ],
+      "line": "yoy",
+      "lineFormat": "percent",
+      "names": {
+       "revenue": {
+        "zh": "营业收入",
+        "en": "Revenue"
+       },
+       "yoy": {
+        "zh": "同比增速",
+        "en": "YoY growth"
+       }
+      },
+      "format": "number:0",
+      "data": [
+       {
+        "period": "2020A",
+        "revenue": 312,
+        "yoy": null
+       },
+       {
+        "period": "2021A",
+        "revenue": 418,
+        "yoy": 34
+       },
+       {
+        "period": "2022A",
+        "revenue": 506,
+        "yoy": 21.1
+       },
+       {
+        "period": "2023A",
+        "revenue": 571,
+        "yoy": 12.8
+       },
+       {
+        "period": "2024A",
+        "revenue": 618,
+        "yoy": 8.2
+       },
+       {
+        "period": "2025A",
+        "revenue": 664,
+        "yoy": 7.4
+       },
+       {
+        "period": "2026E",
+        "revenue": 784,
+        "yoy": 18.1
+       },
+       {
+        "period": "2027E",
+        "revenue": 902,
+        "yoy": 15.1
+       }
+      ],
+      "notes": [
+       {
+        "zh": "2026E–2027E 为 BizOS 预测",
+        "en": "2026E–2027E are BizOS estimates"
+       }
+      ],
+      "source": {
+       "zh": "示例数据；BizOS 整理",
+       "en": "Illustrative data; BizOS analysis"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "zh": "盈利：规模效应覆盖费用上升",
+    "en": "Profitability: scale offsets rising costs"
+   },
+   "blocks": [
+    {
+     "type": "exhibits",
+     "items": [
+      {
+       "type": "S03",
+       "title": {
+        "zh": "销量增长贡献 9.8 百万元，覆盖了物流与广告费用上升，净利润增长 16%",
+        "en": "Volume added RMB9.8mn, covering higher logistics and ad costs; net profit rose 16%"
+       },
+       "subtitle": {
+        "zh": "归母净利润变动拆解（百万元），2024A → 2025A",
+        "en": "Net profit bridge (RMB mn), FY24A → FY25A"
+       },
+       "unit": {
+        "zh": "百万元",
+        "en": "RMB mn"
+       },
+       "format": "number:1",
+       "x": "label",
+       "y": "value",
+       "kind": "kind",
+       "data": [
+        {
+         "kind": "total",
+         "label": {
+          "zh": "2024 年归母净利润",
+          "en": "FY24 net profit"
+         },
+         "value": 44.6
+        },
+        {
+         "kind": "delta",
+         "label": {
+          "zh": "销量增长",
+          "en": "Volume"
+         },
+         "value": 9.8
+        },
+        {
+         "kind": "delta",
+         "label": {
+          "zh": "价格",
+          "en": "Price"
+         },
+         "value": 2.1
+        },
+        {
+         "kind": "delta",
+         "label": {
+          "zh": "产品结构",
+          "en": "Mix"
+         },
+         "value": -1.4
+        },
+        {
+         "kind": "delta",
+         "label": {
+          "zh": "物流费用",
+          "en": "Logistics"
+         },
+         "value": -3.2
+        },
+        {
+         "kind": "delta",
+         "label": {
+          "zh": "广告费用",
+          "en": "Advertising"
+         },
+         "value": -2.9
+        },
+        {
+         "kind": "delta",
+         "label": {
+          "zh": "汇率",
+          "en": "FX"
+         },
+         "value": 1.6
+        },
+        {
+         "kind": "delta",
+         "label": {
+          "zh": "所得税",
+          "en": "Tax"
+         },
+         "value": 1.2
+        },
+        {
+         "kind": "total",
+         "label": {
+          "zh": "2025 年归母净利润",
+          "en": "FY25 net profit"
+         },
+         "value": 51.8
+        }
+       ],
+       "source": {
+        "zh": "示例数据；BizOS 整理",
+        "en": "Illustrative data; BizOS analysis"
+       }
+      },
+      {
+       "type": "C01",
+       "title": {
+        "zh": "示例公司 2025 年净利率 7.8%，同业第 2，高于同业中位数 2.6 个百分点",
+        "en": "Example Co.'s 2025 net margin of 7.8% ranks No.2, 2.6 points above the peer median"
+       },
+       "subtitle": {
+        "zh": "2025 年净利率（%），8 家跨境电商可比公司",
+        "en": "2025 net margin (%), eight cross-border e-commerce peers"
+       },
+       "format": "percent",
+       "x": "company",
+       "y": "margin",
+       "names": {
+        "margin": {
+         "zh": "净利率",
+         "en": "Net margin"
+        }
+       },
+       "highlight": [
+        {
+         "zh": "示例公司",
+         "en": "Example Co."
+        }
+       ],
+       "refLines": [
+        {
+         "value": "median"
+        }
+       ],
+       "data": [
+        {
+         "company": {
+          "zh": "示例公司",
+          "en": "Example Co."
+         },
+         "margin": 7.8
+        },
+        {
+         "company": {
+          "zh": "同业 A",
+          "en": "Peer A"
+         },
+         "margin": 12.4
+        },
+        {
+         "company": {
+          "zh": "同业 B",
+          "en": "Peer B"
+         },
+         "margin": 7.1
+        },
+        {
+         "company": {
+          "zh": "同业 C",
+          "en": "Peer C"
+         },
+         "margin": 6.4
+        },
+        {
+         "company": {
+          "zh": "同业 D",
+          "en": "Peer D"
+         },
+         "margin": 5.2
+        },
+        {
+         "company": {
+          "zh": "同业 E",
+          "en": "Peer E"
+         },
+         "margin": 4.8
+        },
+        {
+         "company": {
+          "zh": "同业 F",
+          "en": "Peer F"
+         },
+         "margin": 3.1
+        },
+        {
+         "company": {
+          "zh": "同业 G",
+          "en": "Peer G"
+         },
+         "margin": 1.9
+        }
+       ],
+       "source": {
+        "zh": "示例数据；BizOS 整理",
+        "en": "Illustrative data; BizOS analysis"
+       }
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": {
+      "zh": "物流与广告费用合计拖累 6.1 百万元，但销量与价格贡献 11.9 百万元。净利率在同业中处于上游，盈利质量稳定。",
+      "en": "Logistics and advertising cost RMB6.1mn combined, while volume and price added RMB11.9mn. Margins sit in the upper half of the peer group."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "zh": "盈利预测",
+    "en": "Earnings forecast"
+   },
+   "blocks": [
+    {
+     "type": "exhibit",
+     "spec": {
+      "type": "K04",
+      "title": {
+       "zh": "预计 2025–2027 年净利润复合增速 24%，2027 年 EPS 1.89 元",
+       "en": "Net profit should compound 24% over 2025–2027E, reaching EPS of RMB1.89 in 2027E"
+      },
+      "subtitle": {
+       "zh": "盈利预测与估值",
+       "en": "Earnings forecast and valuation"
+      },
+      "unit": {
+       "zh": "百万元",
+       "en": "RMB mn"
+      },
+      "periods": [
+       "2023A",
+       "2024A",
+       "2025A",
+       "2026E",
+       "2027E"
+      ],
+      "rows": [
+       {
+        "label": {
+         "zh": "营业收入",
+         "en": "Revenue"
+        },
+        "values": [
+         571,
+         618,
+         664,
+         784,
+         902
+        ],
+        "format": "number:0",
+        "yoy": true,
+        "bold": true
+       },
+       {
+        "label": {
+         "zh": "毛利",
+         "en": "Gross profit"
+        },
+        "values": [
+         228,
+         241,
+         263,
+         318,
+         371
+        ],
+        "format": "number:0"
+       },
+       {
+        "label": {
+         "zh": "毛利率",
+         "en": "Gross margin"
+        },
+        "values": [
+         39.9,
+         39,
+         39.6,
+         40.6,
+         41.1
+        ],
+        "format": "percent:1",
+        "indent": 1
+       },
+       {
+        "label": {
+         "zh": "归母净利润",
+         "en": "Net profit"
+        },
+        "values": [
+         41.2,
+         44.6,
+         51.8,
+         66.1,
+         79.4
+        ],
+        "format": "number:1",
+        "yoy": true,
+        "bold": true
+       },
+       {
+        "label": {
+         "zh": "每股收益（元）",
+         "en": "EPS (RMB)"
+        },
+        "values": [
+         0.98,
+         1.06,
+         1.23,
+         1.57,
+         1.89
+        ],
+        "format": "number:2"
+       },
+       {
+        "label": "P/E",
+        "values": [
+         25.1,
+         23.2,
+         19.9,
+         15.6,
+         13
+        ],
+        "format": "multiple"
+       }
+      ],
+      "notes": [
+       {
+        "zh": "P/E 基于当前股价 24.6 元；总股本 0.42 亿股",
+        "en": "P/E at the current RMB24.6 share price; 42mn shares"
+       }
+      ],
+      "source": {
+       "zh": "示例数据；BizOS 整理",
+       "en": "Illustrative data; BizOS analysis"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "zh": "估值：多种方法指向低估",
+    "en": "Valuation: several methods point to upside"
+   },
+   "blocks": [
+    {
+     "type": "exhibit",
+     "spec": {
+      "type": "K03",
+      "title": {
+       "zh": "示例公司增速 18.1% 高于同业中位数，P/E 与 EV/EBITDA 分别低 26% 和 23%",
+       "en": "Example Co. grows 18.1%, above the peer median, yet trades 26% and 23% lower on P/E and EV/EBITDA"
+      },
+      "subtitle": {
+       "zh": "跨境电商可比公司估值，2026E",
+       "en": "Cross-border e-commerce trading comparables, 2026E"
+      },
+      "subject": {
+       "zh": "示例公司",
+       "en": "Example Co."
+      },
+      "columns": [
+       {
+        "key": "co",
+        "label": {
+         "zh": "公司",
+         "en": "Company"
+        }
+       },
+       {
+        "key": "mcap",
+        "label": {
+         "zh": "市值",
+         "en": "Market cap"
+        },
+        "unit": {
+         "zh": "亿元",
+         "en": "RMB 100mn"
+        },
+        "format": "number:0"
+       },
+       {
+        "key": "g",
+        "label": {
+         "zh": "收入增速",
+         "en": "Revenue growth"
+        },
+        "format": "percent:1"
+       },
+       {
+        "key": "pe",
+        "label": "P/E",
+        "format": "multiple"
+       },
+       {
+        "key": "ev",
+        "label": "EV/EBITDA",
+        "format": "multiple"
+       },
+       {
+        "key": "ps",
+        "label": "P/S",
+        "format": "multiple"
+       },
+       {
+        "key": "nm",
+        "label": {
+         "zh": "净利率",
+         "en": "Net margin"
+        },
+        "format": "percent:1"
+       }
+      ],
+      "data": [
+       {
+        "co": {
+         "zh": "示例公司",
+         "en": "Example Co."
+        },
+        "mcap": 10.3,
+        "g": 18.1,
+        "pe": 15.6,
+        "ev": 9.1,
+        "ps": 1.3,
+        "nm": 8.4
+       },
+       {
+        "co": {
+         "zh": "同业 A",
+         "en": "Peer A"
+        },
+        "mcap": 52,
+        "g": 12,
+        "pe": 24.5,
+        "ev": 14.2,
+        "ps": 2.4,
+        "nm": 12.4
+       },
+       {
+        "co": {
+         "zh": "同业 B",
+         "en": "Peer B"
+        },
+        "mcap": 20,
+        "g": 18.5,
+        "pe": 19.2,
+        "ev": 11.8,
+        "ps": 1.6,
+        "nm": 7.1
+       },
+       {
+        "co": {
+         "zh": "同业 C",
+         "en": "Peer C"
+        },
+        "mcap": 12,
+        "g": 9.4,
+        "pe": 15.1,
+        "ev": 8.9,
+        "ps": 0.9,
+        "nm": 6.4
+       },
+       {
+        "co": {
+         "zh": "同业 D",
+         "en": "Peer D"
+        },
+        "mcap": 8,
+        "g": 21.6,
+        "pe": -1,
+        "ev": 10.4,
+        "ps": 1.1,
+        "nm": -2.3
+       },
+       {
+        "co": {
+         "zh": "同业 E",
+         "en": "Peer E"
+        },
+        "mcap": 29,
+        "g": 14.8,
+        "pe": 22.9,
+        "ev": 13.1,
+        "ps": 1.9,
+        "nm": 4.8
+       }
+      ],
+      "source": {
+       "zh": "示例数据；BizOS 整理",
+       "en": "Illustrative data; BizOS analysis"
+      }
+     }
+    },
+    {
+     "type": "exhibits",
+     "items": [
+      {
+       "type": "T07",
+       "title": {
+        "zh": "当前股价对应 15.7 倍预测市盈率，处于近三年 11–19 倍区间的中部",
+        "en": "The price implies 15.7x forward P/E, mid-way in its 11–19x three-year range"
+       },
+       "subtitle": {
+        "zh": "月末股价（元）与“预测 EPS × 倍数”通道，2023 年 1 月–2025 年 12 月",
+        "en": "Month-end price (RMB) and forward EPS × multiple lines, Jan 2023–Dec 2025"
+       },
+       "unit": {
+        "zh": "元",
+        "en": "RMB"
+       },
+       "format": "number:1",
+       "x": "month",
+       "price": "price",
+       "base": "eps",
+       "multiples": [
+        12,
+        15,
+        18,
+        21
+       ],
+       "multipleLabel": "PE",
+       "names": {
+        "price": {
+         "zh": "股价",
+         "en": "Share price"
+        },
+        "eps": {
+         "zh": "预测 EPS",
+         "en": "Forward EPS"
+        }
+       },
+       "data": [
+        {
+         "month": "2023-01",
+         "price": 16.46,
+         "eps": 1.04
+        },
+        {
+         "month": "2023-02",
+         "price": 17.67,
+         "eps": 1.05
+        },
+        {
+         "month": "2023-03",
+         "price": 17.71,
+         "eps": 1.06
+        },
+        {
+         "month": "2023-04",
+         "price": 19.22,
+         "eps": 1.07
+        },
+        {
+         "month": "2023-05",
+         "price": 20.01,
+         "eps": 1.09
+        },
+        {
+         "month": "2023-06",
+         "price": 19.78,
+         "eps": 1.1
+        },
+        {
+         "month": "2023-07",
+         "price": 20.65,
+         "eps": 1.11
+        },
+        {
+         "month": "2023-08",
+         "price": 20.87,
+         "eps": 1.13
+        },
+        {
+         "month": "2023-09",
+         "price": 21.67,
+         "eps": 1.14
+        },
+        {
+         "month": "2023-10",
+         "price": 22.01,
+         "eps": 1.15
+        },
+        {
+         "month": "2023-11",
+         "price": 21.19,
+         "eps": 1.17
+        },
+        {
+         "month": "2023-12",
+         "price": 21.11,
+         "eps": 1.18
+        },
+        {
+         "month": "2024-01",
+         "price": 19.96,
+         "eps": 1.2
+        },
+        {
+         "month": "2024-02",
+         "price": 19.96,
+         "eps": 1.21
+        },
+        {
+         "month": "2024-03",
+         "price": 18.8,
+         "eps": 1.23
+        },
+        {
+         "month": "2024-04",
+         "price": 17.83,
+         "eps": 1.24
+        },
+        {
+         "month": "2024-05",
+         "price": 16.21,
+         "eps": 1.25
+        },
+        {
+         "month": "2024-06",
+         "price": 16.95,
+         "eps": 1.27
+        },
+        {
+         "month": "2024-07",
+         "price": 15.7,
+         "eps": 1.28
+        },
+        {
+         "month": "2024-08",
+         "price": 15.51,
+         "eps": 1.3
+        },
+        {
+         "month": "2024-09",
+         "price": 14.65,
+         "eps": 1.32
+        },
+        {
+         "month": "2024-10",
+         "price": 15.09,
+         "eps": 1.33
+        },
+        {
+         "month": "2024-11",
+         "price": 15.56,
+         "eps": 1.35
+        },
+        {
+         "month": "2024-12",
+         "price": 16.01,
+         "eps": 1.36
+        },
+        {
+         "month": "2025-01",
+         "price": 16.94,
+         "eps": 1.38
+        },
+        {
+         "month": "2025-02",
+         "price": 17.56,
+         "eps": 1.4
+        },
+        {
+         "month": "2025-03",
+         "price": 18.13,
+         "eps": 1.41
+        },
+        {
+         "month": "2025-04",
+         "price": 19.61,
+         "eps": 1.43
+        },
+        {
+         "month": "2025-05",
+         "price": 21.28,
+         "eps": 1.45
+        },
+        {
+         "month": "2025-06",
+         "price": 21.6,
+         "eps": 1.47
+        },
+        {
+         "month": "2025-07",
+         "price": 22.95,
+         "eps": 1.48
+        },
+        {
+         "month": "2025-08",
+         "price": 25.2,
+         "eps": 1.5
+        },
+        {
+         "month": "2025-09",
+         "price": 25.65,
+         "eps": 1.52
+        },
+        {
+         "month": "2025-10",
+         "price": 27.51,
+         "eps": 1.54
+        },
+        {
+         "month": "2025-11",
+         "price": 27.94,
+         "eps": 1.56
+        },
+        {
+         "month": "2025-12",
+         "price": 24.6,
+         "eps": 1.57
+        }
+       ],
+       "source": {
+        "zh": "示例数据；BizOS 整理",
+        "en": "Illustrative data; BizOS analysis"
+       }
+      },
+      {
+       "type": "V01",
+       "title": {
+        "zh": "当前股价 24.6 元低于 4 种方法的估值下限，各方法中值 25.5–32.9 元",
+        "en": "At RMB24.6 the share price is below the low end of 4 methods; midpoints span RMB25.5–32.9"
+       },
+       "subtitle": {
+        "zh": "每股价值区间（元），按估值方法",
+        "en": "Value per share (RMB) by valuation method"
+       },
+       "unit": {
+        "zh": "元/股",
+        "en": "RMB per share"
+       },
+       "format": "number:1",
+       "x": "method",
+       "low": "low",
+       "high": "high",
+       "basis": "basis",
+       "current": 24.6,
+       "refLines": [
+        {
+         "value": 30.5,
+         "label": {
+          "zh": "目标价",
+          "en": "Target"
+         },
+         "color": "#16365C"
+        }
+       ],
+       "data": [
+        {
+         "method": {
+          "zh": "52 周股价区间",
+          "en": "52-week range"
+         },
+         "low": 19.8,
+         "high": 31.2,
+         "basis": {
+          "zh": "最低–最高",
+          "en": "Low–high"
+         }
+        },
+        {
+         "method": {
+          "zh": "分析师目标价",
+          "en": "Analyst targets"
+         },
+         "low": 25,
+         "high": 36,
+         "basis": {
+          "zh": "9 家机构",
+          "en": "9 brokers"
+         }
+        },
+        {
+         "method": {
+          "zh": "可比公司 P/E",
+          "en": "Trading comps P/E"
+         },
+         "low": 24.1,
+         "high": 32.1,
+         "basis": {
+          "zh": "2026E 15–20x",
+          "en": "2026E 15–20x"
+         }
+        },
+        {
+         "method": {
+          "zh": "可比公司 EV/EBITDA",
+          "en": "Trading comps EV/EBITDA"
+         },
+         "low": 26.3,
+         "high": 34.8,
+         "basis": {
+          "zh": "2026E 9–12x",
+          "en": "2026E 9–12x"
+         }
+        },
+        {
+         "method": {
+          "zh": "可比交易",
+          "en": "Precedent transactions"
+         },
+         "low": 28.2,
+         "high": 37.5,
+         "basis": {
+          "zh": "EV/EBITDA 10–13x",
+          "en": "EV/EBITDA 10–13x"
+         }
+        },
+        {
+         "method": {
+          "zh": "DCF",
+          "en": "DCF"
+         },
+         "low": 25.3,
+         "high": 38.3,
+         "basis": {
+          "zh": "WACC 9–11%，g 2–3%",
+          "en": "WACC 9–11%, g 2–3%"
+         }
+        }
+       ],
+       "source": {
+        "zh": "示例数据；BizOS 整理",
+        "en": "Illustrative data; BizOS analysis"
+       }
+      }
+     ]
+    },
+    {
+     "type": "exhibit",
+     "spec": {
+      "type": "V02",
+      "title": {
+       "zh": "WACC 每上升 1 个百分点，每股价值平均下降约 4.2 元",
+       "en": "Each 1-point rise in WACC cuts value per share by about RMB4.2 on average"
+      },
+      "subtitle": {
+       "zh": "DCF 每股价值（元）对 WACC 与永续增长率的敏感性",
+       "en": "DCF value per share (RMB) vs WACC and terminal growth"
+      },
+      "unit": {
+       "zh": "元/股",
+       "en": "RMB per share"
+      },
+      "format": "number:1",
+      "rows": {
+       "name": "WACC",
+       "values": [
+        9,
+        9.5,
+        10,
+        10.5,
+        11
+       ],
+       "format": "percent:1"
+      },
+      "cols": {
+       "name": {
+        "zh": "永续增长率 g",
+        "en": "Terminal growth g"
+       },
+       "values": [
+        2,
+        2.5,
+        3
+       ],
+       "format": "percent:1"
+      },
+      "values": [
+       [
+        32.5,
+        35.2,
+        38.3
+       ],
+       [
+        30.3,
+        32.7,
+        35.3
+       ],
+       [
+        28.4,
+        30.5,
+        32.8
+       ],
+       [
+        26.8,
+        28.6,
+        30.6
+       ],
+       [
+        25.3,
+        26.9,
+        28.7
+       ]
+      ],
+      "base": [
+       10,
+       2.5
+      ],
+      "notes": [
+       {
+        "zh": "简化模型：价值 = FCF × (1+g) ÷ (WACC − g)，FCF = 2.23 元/股；基准情形即目标价 30.5 元",
+        "en": "Simplified: value = FCF × (1+g) ÷ (WACC − g), FCF = RMB2.23/share; the base case is the RMB30.5 target"
+       }
+      ],
+      "source": {
+       "zh": "示例数据；BizOS 整理",
+       "en": "Illustrative data; BizOS analysis"
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "zh": "新品放量不及预期：2026E 增速依赖两条新品线，若上市延期，收入增速可能低于 12%。",
+   "en": "Slower new-line ramp: 2026E growth relies on two new lines; delays could cut growth below 12%."
+  },
+  {
+   "zh": "平台费用与物流成本上升：头程运费每上升 20%，经营利润约下降 10%。",
+   "en": "Platform and freight costs: a 20% rise in inbound freight cuts operating profit by about 10%."
+  },
+  {
+   "zh": "汇率波动：收入以美元结算，人民币升值将压缩利润。",
+   "en": "FX: USD revenue means RMB appreciation compresses profit."
+  }
+ ],
+ "method": {
+  "zh": "盈利预测基于分产品线销量与单价假设；可比公司为 5 家跨境电商上市公司，倍数采用 2026E 一致预期口径；DCF 采用两阶段模型的简化表示。",
+  "en": "Forecasts build from unit and price assumptions by product line; comparables are five listed cross-border e-commerce companies on 2026E consensus; the DCF is shown in simplified two-stage form."
+ },
+ "sources": [
+  {
+   "zh": "公司公告与年度报告（示例）",
+   "en": "Company filings and annual reports (illustrative)"
+  },
+  {
+   "zh": "BizOS 店铺数据与市场数据",
+   "en": "BizOS store and market data"
+  },
+  {
+   "zh": "BizOS 研究预测",
+   "en": "BizOS Research estimates"
+  }
+ ]
+}

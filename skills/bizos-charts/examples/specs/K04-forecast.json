@@ -1,0 +1,121 @@
+{
+ "type": "K04",
+ "wide": true,
+ "title": {
+  "zh": "预计 2025–2027 年净利润复合增速 24%，2027 年 EPS 1.89 元",
+  "en": "Net profit should compound 24% over 2025–2027E, reaching EPS of RMB1.89 in 2027E"
+ },
+ "subtitle": {
+  "zh": "盈利预测与估值",
+  "en": "Earnings forecast and valuation"
+ },
+ "unit": {
+  "zh": "百万元",
+  "en": "RMB mn"
+ },
+ "periods": [
+  "2023A",
+  "2024A",
+  "2025A",
+  "2026E",
+  "2027E"
+ ],
+ "rows": [
+  {
+   "label": {
+    "zh": "营业收入",
+    "en": "Revenue"
+   },
+   "values": [
+    571,
+    618,
+    664,
+    784,
+    902
+   ],
+   "format": "number:0",
+   "yoy": true,
+   "bold": true
+  },
+  {
+   "label": {
+    "zh": "毛利",
+    "en": "Gross profit"
+   },
+   "values": [
+    228,
+    241,
+    263,
+    318,
+    371
+   ],
+   "format": "number:0"
+  },
+  {
+   "label": {
+    "zh": "毛利率",
+    "en": "Gross margin"
+   },
+   "values": [
+    39.9,
+    39,
+    39.6,
+    40.6,
+    41.1
+   ],
+   "format": "percent:1",
+   "indent": 1
+  },
+  {
+   "label": {
+    "zh": "归母净利润",
+    "en": "Net profit"
+   },
+   "values": [
+    41.2,
+    44.6,
+    51.8,
+    66.1,
+    79.4
+   ],
+   "format": "number:1",
+   "yoy": true,
+   "bold": true
+  },
+  {
+   "label": {
+    "zh": "每股收益（元）",
+    "en": "EPS (RMB)"
+   },
+   "values": [
+    0.98,
+    1.06,
+    1.23,
+    1.57,
+    1.89
+   ],
+   "format": "number:2"
+  },
+  {
+   "label": "P/E",
+   "values": [
+    25.1,
+    23.2,
+    19.9,
+    15.6,
+    13
+   ],
+   "format": "multiple"
+  }
+ ],
+ "notes": [
+  {
+   "zh": "P/E 基于当前股价 24.6 元；总股本 0.42 亿股",
+   "en": "P/E at the current RMB24.6 share price; 42mn shares"
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

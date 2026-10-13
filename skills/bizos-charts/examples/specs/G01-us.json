@@ -1,0 +1,234 @@
+{
+ "type": "G01",
+ "title": {
+  "zh": "加州订单占全美 14%，西海岸三州合计 19%，美西仓应优先备货",
+  "en": "California takes 14% of US orders and the three West Coast states 19%; stock western warehouses first"
+ },
+ "subtitle": {
+  "zh": "2025 年美国站订单按收货州（单）",
+  "en": "US orders by ship-to state, 2025 (orders)"
+ },
+ "unit": {
+  "zh": "单",
+  "en": "orders"
+ },
+ "format": "integer",
+ "x": "state",
+ "y": "orders",
+ "names": {
+  "orders": {
+   "zh": "订单",
+   "en": "Orders"
+  }
+ },
+ "data": [
+  {
+   "state": "CA",
+   "orders": 2561
+  },
+  {
+   "state": "TX",
+   "orders": 1359
+  },
+  {
+   "state": "FL",
+   "orders": 904
+  },
+  {
+   "state": "NY",
+   "orders": 807
+  },
+  {
+   "state": "PA",
+   "orders": 807
+  },
+  {
+   "state": "IL",
+   "orders": 736
+  },
+  {
+   "state": "OH",
+   "orders": 623
+  },
+  {
+   "state": "GA",
+   "orders": 637
+  },
+  {
+   "state": "NC",
+   "orders": 678
+  },
+  {
+   "state": "MI",
+   "orders": 387
+  },
+  {
+   "state": "NJ",
+   "orders": 522
+  },
+  {
+   "state": "VA",
+   "orders": 362
+  },
+  {
+   "state": "WA",
+   "orders": 607
+  },
+  {
+   "state": "AZ",
+   "orders": 484
+  },
+  {
+   "state": "MA",
+   "orders": 437
+  },
+  {
+   "state": "TN",
+   "orders": 317
+  },
+  {
+   "state": "IN",
+   "orders": 432
+  },
+  {
+   "state": "MD",
+   "orders": 390
+  },
+  {
+   "state": "MO",
+   "orders": 335
+  },
+  {
+   "state": "WI",
+   "orders": 301
+  },
+  {
+   "state": "CO",
+   "orders": 373
+  },
+  {
+   "state": "MN",
+   "orders": 228
+  },
+  {
+   "state": "SC",
+   "orders": 263
+  },
+  {
+   "state": "AL",
+   "orders": 198
+  },
+  {
+   "state": "LA",
+   "orders": 205
+  },
+  {
+   "state": "KY",
+   "orders": 255
+  },
+  {
+   "state": "OR",
+   "orders": 305
+  },
+  {
+   "state": "OK",
+   "orders": 250
+  },
+  {
+   "state": "CT",
+   "orders": 171
+  },
+  {
+   "state": "UT",
+   "orders": 196
+  },
+  {
+   "state": "IA",
+   "orders": 188
+  },
+  {
+   "state": "NV",
+   "orders": 171
+  },
+  {
+   "state": "AR",
+   "orders": 189
+  },
+  {
+   "state": "MS",
+   "orders": 117
+  },
+  {
+   "state": "KS",
+   "orders": 149
+  },
+  {
+   "state": "NM",
+   "orders": 114
+  },
+  {
+   "state": "NE",
+   "orders": 89
+  },
+  {
+   "state": "ID",
+   "orders": 102
+  },
+  {
+   "state": "WV",
+   "orders": 73
+  },
+  {
+   "state": "HI",
+   "orders": 67
+  },
+  {
+   "state": "NH",
+   "orders": 88
+  },
+  {
+   "state": "ME",
+   "orders": 81
+  },
+  {
+   "state": "MT",
+   "orders": 66
+  },
+  {
+   "state": "RI",
+   "orders": 50
+  },
+  {
+   "state": "DE",
+   "orders": 43
+  },
+  {
+   "state": "SD",
+   "orders": 41
+  },
+  {
+   "state": "ND",
+   "orders": 40
+  },
+  {
+   "state": "AK",
+   "orders": 28
+  },
+  {
+   "state": "DC",
+   "orders": 31
+  },
+  {
+   "state": "VT",
+   "orders": 35
+  },
+  {
+   "state": "WY",
+   "orders": 34
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

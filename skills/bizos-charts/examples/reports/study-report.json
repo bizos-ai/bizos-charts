@@ -1,0 +1,195 @@
+{
+ "layout": "study-report",
+ "langs": [
+  "zh",
+  "en"
+ ],
+ "meta": {
+  "kicker": {
+   "zh": "临床前研究 · 肿瘤药理",
+   "en": "Preclinical study · Oncology pharmacology"
+  },
+  "title": {
+   "zh": "示例研究：化合物 B 体外效力最强，体内剂量依赖地抑制肿瘤生长",
+   "en": "Example study: compound B is the most potent in vitro and slows tumour growth dose-dependently in vivo"
+  },
+  "subtitle": {
+   "zh": "细胞活力、异种移植与转录组三部分证据",
+   "en": "Evidence from viability assays, xenografts and transcriptomics"
+  },
+  "date": "2026-10-11",
+  "author": {
+   "zh": "BizOS 研究",
+   "en": "BizOS Research"
+  }
+ },
+ "abstract": {
+  "zh": "我们比较了 3 个化合物对肿瘤细胞系 72 小时活力的抑制作用，并在皮下异种移植模型中评估化合物 B 的药效与转录组应答。化合物 B 的 IC50 为 7.38 nM，效力约为参照药的 7.6 倍（图表 1）。第 21 天，30 mg/kg 与 10 mg/kg 组平均肿瘤体积分别较溶剂组低 68% 与 44%（图表 2）。给药组与对照组的表达谱沿第一主成分完全分开（图表 3），77 个基因显著上调、65 个显著下调（图表 4）。数据为示例，用于展示科研报告规范。",
+  "en": "We compared three compounds for inhibition of tumour-cell viability at 72 h and assessed compound B’s efficacy and transcriptomic response in a subcutaneous xenograft model. Compound B had an IC50 of 7.38 nM, about 7.6× the reference (Exhibit 1). By day 21, mean tumour volume was 68% lower at 30 mg/kg and 44% lower at 10 mg/kg than with vehicle (Exhibit 2). Treated and control profiles separated completely on the first principal component (Exhibit 3), with 77 genes significantly up- and 65 down-regulated (Exhibit 4). The data are illustrative and show the study-report format."
+ },
+ "summary": [
+  {
+   "zh": "化合物 B 的 IC50 为 7.38 nM（95% CI 6.18–8.80），效力约为参照药的 7.6 倍（图表 1）。",
+   "en": "Compound B’s IC50 is 7.38 nM (95% CI 6.18–8.80), about 7.6× the reference (Exhibit 1)."
+  },
+  {
+   "zh": "抑瘤呈剂量依赖：第 21 天 30 mg/kg 组肿瘤体积较溶剂组低 68%，10 mg/kg 组低 44%（图表 2）。",
+   "en": "Inhibition is dose-dependent: day-21 tumour volume is 68% lower at 30 mg/kg and 44% lower at 10 mg/kg than vehicle (Exhibit 2)."
+  },
+  {
+   "zh": "转录组整体应答明确：PC1（41.3% 方差）把对照组与两个剂量组完全分开（图表 3）。",
+   "en": "The transcriptome responds clearly: PC1 (41.3% of variance) fully separates control from both dose groups (Exhibit 3)."
+  },
+  {
+   "zh": "77 个基因显著上调、65 个显著下调；聚类第一层即把对照与处理样本分开（图表 4、5）。",
+   "en": "77 genes are significantly up- and 65 down-regulated; the first clustering split separates control from treated samples (Exhibits 4 and 5)."
+  }
+ ],
+ "keyData": [
+  {
+   "label": {
+    "zh": "研究设计",
+    "en": "Design"
+   },
+   "value": {
+    "zh": "体外 + 异种移植 + 转录组",
+    "en": "In vitro + xenograft + transcriptome"
+   }
+  },
+  {
+   "label": {
+    "zh": "细胞实验",
+    "en": "Cell assay"
+   },
+   "value": {
+    "zh": "3 个化合物 × 10 个浓度 × 3 复孔",
+    "en": "3 compounds × 10 doses × 3 wells"
+   }
+  },
+  {
+   "label": {
+    "zh": "动物实验",
+    "en": "Animals"
+   },
+   "value": {
+    "zh": "3 组 × 8 只，给药 21 天",
+    "en": "3 groups × 8 mice, 21 days"
+   }
+  },
+  {
+   "label": {
+    "zh": "转录组",
+    "en": "Transcriptome"
+   },
+   "value": {
+    "zh": "24 个样本，1,500 个基因",
+    "en": "24 samples, 1,500 genes"
+   }
+  },
+  {
+   "label": {
+    "zh": "主要终点",
+    "en": "Primary endpoint"
+   },
+   "value": {
+    "zh": "第 21 天肿瘤体积",
+    "en": "Day-21 tumour volume"
+   }
+  }
+ ],
+ "sections": [
+  {
+   "title": {
+    "zh": "体外效力",
+    "en": "In-vitro potency"
+   },
+   "lead": {
+    "zh": "三个化合物均呈 S 形浓度–效应关系，化合物 B 的曲线明显左移（IC50 更低）。",
+    "en": "All three compounds show sigmoidal concentration–response curves; compound B’s curve is shifted left (lower IC50)."
+   },
+   "blocks": [
+    {
+     "type": "exhibit",
+     "spec": {
+      "ref": "B02-dose"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "zh": "体内药效",
+    "en": "In-vivo efficacy"
+   },
+   "lead": {
+    "zh": "两个剂量组的平均肿瘤体积随给药时间与溶剂组逐渐拉开差距，高剂量组差距更大。",
+    "en": "Mean tumour volume in both dose groups falls increasingly behind vehicle over time, more so at the high dose."
+   },
+   "blocks": [
+    {
+     "type": "exhibit",
+     "spec": {
+      "ref": "E03-curve"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "zh": "转录组应答",
+    "en": "Transcriptomic response"
+   },
+   "lead": {
+    "zh": "给药改变了大量基因的表达，样本按处理组聚类。",
+    "en": "Treatment shifts the expression of many genes, and samples cluster by treatment group."
+   },
+   "blocks": [
+    {
+     "type": "exhibits",
+     "items": [
+      {
+       "ref": "B06-embedding"
+      },
+      {
+       "ref": "B03-volcano"
+      }
+     ]
+    },
+    {
+     "type": "exhibit",
+     "spec": {
+      "ref": "B05-heatmap"
+     }
+    }
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "zh": "动物实验每组 8 只，未做事先的样本量计算；效应量估计的不确定性较大。",
+   "en": "Eight mice per group without a prior sample-size calculation; effect estimates are uncertain."
+  },
+  {
+   "zh": "转录组只覆盖单一时间点，不能区分直接作用与继发效应。",
+   "en": "The transcriptome covers a single time point and cannot separate direct from secondary effects."
+  },
+  {
+   "zh": "全部为示例数据，结论不可用于实际研究或临床决策。",
+   "en": "All data are illustrative and must not inform real research or clinical decisions."
+  }
+ ],
+ "method": {
+  "zh": "IC50：四参数 logistic 模型对全部复孔最小二乘拟合，95% CI 由 logIC50 标准误按 t 分布计算。肿瘤体积：长 × 宽² / 2，点为均值 ± SEM。差异表达：Wald 检验，Benjamini–Hochberg 校正，显著标准 |log₂FC| ≥ 1 且校正 P < 0.05。聚类：行 z 分数，平均连接，欧氏距离。主成分分析基于前 2,000 个高变基因。",
+  "en": "IC50: four-parameter logistic least-squares fit on all wells, 95% CI from the standard error of log IC50 (t distribution). Tumour volume: length × width² / 2, points are mean ± SEM. Differential expression: Wald test, Benjamini–Hochberg adjusted, significant at |log₂FC| ≥ 1 and adjusted P < 0.05. Clustering: row z-scores, average linkage, Euclidean distance. PCA on the top 2,000 variable genes."
+ },
+ "dataAvailability": {
+  "zh": "各图数据随报告规格一同提供，可在每张图的“查看数据”中核对或导出 CSV。",
+  "en": "The data for every exhibit ship with the report spec and can be checked or exported as CSV under “Show data”."
+ },
+ "sources": [
+  {
+   "zh": "示例数据；BizOS 整理",
+   "en": "Illustrative data; BizOS analysis"
+  }
+ ]
+}

@@ -1,0 +1,377 @@
+{
+ "type": "B08",
+ "title": {
+  "zh": "80% 的突变位于激酶结构域；R145 位点最多（34 例，其中 R145H 28 例）",
+  "en": "80% of mutations fall in the kinase domain; residue R145 is the top hotspot (34 cases, 28 R145H)"
+ },
+ "subtitle": {
+  "zh": "示例队列 130 个体细胞突变沿 EXP1 蛋白（480 aa）的分布",
+  "en": "130 somatic mutations along EXP1 (480 aa) in an example cohort"
+ },
+ "x": "pos",
+ "y": "n",
+ "mutType": "type",
+ "label": "change",
+ "length": 480,
+ "protein": {
+  "zh": "示例蛋白 EXP1",
+  "en": "Example protein EXP1"
+ },
+ "domains": [
+  {
+   "name": {
+    "zh": "激酶结构域",
+    "en": "Kinase domain"
+   },
+   "start": 60,
+   "end": 300
+  },
+  {
+   "name": {
+    "zh": "调节结构域",
+    "en": "Regulatory domain"
+   },
+   "start": 340,
+   "end": 420
+  }
+ ],
+ "data": [
+  {
+   "pos": 30,
+   "change": "Q30*",
+   "n": 3,
+   "type": {
+    "zh": "截断",
+    "en": "Truncating"
+   }
+  },
+  {
+   "pos": 31,
+   "change": "p.31",
+   "n": 1,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 78,
+   "change": "p.78",
+   "n": 2,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 92,
+   "change": "E92K",
+   "n": 5,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 109,
+   "change": "p.109",
+   "n": 2,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 119,
+   "change": "p.119",
+   "n": 1,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 142,
+   "change": "p.142",
+   "n": 2,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 145,
+   "change": "R145H",
+   "n": 28,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 145,
+   "change": "R145C",
+   "n": 6,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 163,
+   "change": "p.163",
+   "n": 1,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 180,
+   "change": "R180*",
+   "n": 6,
+   "type": {
+    "zh": "截断",
+    "en": "Truncating"
+   }
+  },
+  {
+   "pos": 183,
+   "change": "p.183",
+   "n": 1,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 189,
+   "change": "p.189",
+   "n": 1,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 210,
+   "change": "G210D",
+   "n": 15,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 212,
+   "change": "p.212",
+   "n": 2,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 226,
+   "change": "p.226",
+   "n": 1,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 244,
+   "change": "p.244",
+   "n": 1,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 248,
+   "change": "R248W",
+   "n": 22,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 249,
+   "change": "p.249",
+   "n": 2,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 253,
+   "change": "p.253",
+   "n": 1,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 256,
+   "change": "K256del",
+   "n": 4,
+   "type": {
+    "zh": "框内缺失",
+    "en": "In-frame deletion"
+   }
+  },
+  {
+   "pos": 261,
+   "change": "p.261",
+   "n": 1,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 317,
+   "change": "p.317",
+   "n": 1,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 320,
+   "change": "E320fs",
+   "n": 4,
+   "type": {
+    "zh": "截断",
+    "en": "Truncating"
+   }
+  },
+  {
+   "pos": 324,
+   "change": "p.324",
+   "n": 1,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 341,
+   "change": "p.341",
+   "n": 1,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 359,
+   "change": "p.359",
+   "n": 1,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 371,
+   "change": "p.371",
+   "n": 1,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 386,
+   "change": "p.386",
+   "n": 1,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 397,
+   "change": "p.397",
+   "n": 1,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 400,
+   "change": "p.400",
+   "n": 2,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 401,
+   "change": "W401*",
+   "n": 3,
+   "type": {
+    "zh": "截断",
+    "en": "Truncating"
+   }
+  },
+  {
+   "pos": 404,
+   "change": "p.404",
+   "n": 1,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 455,
+   "change": "S455fs",
+   "n": 2,
+   "type": {
+    "zh": "截断",
+    "en": "Truncating"
+   }
+  },
+  {
+   "pos": 460,
+   "change": "p.460",
+   "n": 1,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 475,
+   "change": "p.475",
+   "n": 1,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  },
+  {
+   "pos": 476,
+   "change": "p.476",
+   "n": 1,
+   "type": {
+    "zh": "错义",
+    "en": "Missense"
+   }
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

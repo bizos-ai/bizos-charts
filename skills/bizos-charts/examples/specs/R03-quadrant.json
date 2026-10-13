@@ -1,0 +1,135 @@
+{
+ "type": "R03",
+ "title": {
+  "zh": "两个高流量高转化核心词贡献最多订单，“dog water bowl”流量大但转化不足 3%",
+  "en": "Two high-volume, high-conversion keywords drive most orders; “dog water bowl” converts under 3%"
+ },
+ "subtitle": {
+  "zh": "关键词月搜索量（千次）与广告转化率（%），气泡面积为月订单（百单），分界线为中位数",
+  "en": "Keyword monthly searches (k) vs ad conversion (%), bubble area = monthly orders (hundreds); medians split"
+ },
+ "x": "vol",
+ "y": "cvr",
+ "size": "orders",
+ "label": "kw",
+ "xUnit": {
+  "zh": "千次",
+  "en": "k"
+ },
+ "format": "percent",
+ "sizeFormat": "number:1",
+ "sizeUnit": {
+  "zh": "百单",
+  "en": "hundred orders"
+ },
+ "xTitle": {
+  "zh": "月搜索量",
+  "en": "Monthly searches"
+ },
+ "yTitle": {
+  "zh": "转化率",
+  "en": "Conversion rate"
+ },
+ "names": {
+  "orders": {
+   "zh": "月订单",
+   "en": "Monthly orders"
+  }
+ },
+ "quadrants": [
+  {
+   "zh": "核心词：加大投放",
+   "en": "Core: scale up"
+  },
+  {
+   "zh": "精准长尾：维持",
+   "en": "Precise long tail: maintain"
+  },
+  {
+   "zh": "低效：收缩",
+   "en": "Low yield: cut back"
+  },
+  {
+   "zh": "高流量低转化：优化页面",
+   "en": "High traffic, low conversion: fix listing"
+  }
+ ],
+ "data": [
+  {
+   "kw": "dog water fountain",
+   "vol": 48.2,
+   "cvr": 14.1,
+   "orders": 12.8
+  },
+  {
+   "kw": "cat water fountain",
+   "vol": 61.5,
+   "cvr": 11.2,
+   "orders": 18.4
+  },
+  {
+   "kw": "pet fountain stainless",
+   "vol": 9.6,
+   "cvr": 16.9,
+   "orders": 3.1
+  },
+  {
+   "kw": "quiet cat fountain",
+   "vol": 7.2,
+   "cvr": 15.3,
+   "orders": 2.2
+  },
+  {
+   "kw": "pet water dispenser",
+   "vol": 22.4,
+   "cvr": 6.1,
+   "orders": 4
+  },
+  {
+   "kw": "automatic water bowl",
+   "vol": 31.8,
+   "cvr": 5.2,
+   "orders": 4.4
+  },
+  {
+   "kw": "cat fountain filter",
+   "vol": 18.9,
+   "cvr": 9.8,
+   "orders": 5.6
+  },
+  {
+   "kw": "wireless pet fountain",
+   "vol": 6.1,
+   "cvr": 12.4,
+   "orders": 1.6
+  },
+  {
+   "kw": "dog water bowl",
+   "vol": 88.4,
+   "cvr": 2.9,
+   "orders": 7
+  },
+  {
+   "kw": "pet waterer",
+   "vol": 4.8,
+   "cvr": 7,
+   "orders": 0.9
+  },
+  {
+   "kw": "cat drinking fountain",
+   "vol": 14.6,
+   "cvr": 13.3,
+   "orders": 4.9
+  },
+  {
+   "kw": "water fountain for cats",
+   "vol": 12.1,
+   "cvr": 8.2,
+   "orders": 3
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "type": "C06",
+ "title": {
+  "zh": "英国站超额完成，日本站仅达成目标的 79%",
+  "en": "The UK beat target; Japan reached only 79% of plan"
+ },
+ "subtitle": {
+  "zh": "2025 年 12 月销售额实际与目标（万美元），灰色底为差/中/好区间",
+  "en": "December 2025 sales vs target (US$ 10k); grey bands show poor/fair/good"
+ },
+ "unit": {
+  "zh": "万美元",
+  "en": "US$ 10k"
+ },
+ "format": "number:0",
+ "x": "market",
+ "y": "actual",
+ "target": "target",
+ "bands": [
+  "poor",
+  "ok"
+ ],
+ "names": {
+  "actual": {
+   "zh": "实际",
+   "en": "Actual"
+  },
+  "target": {
+   "zh": "目标",
+   "en": "Target"
+  }
+ },
+ "data": [
+  {
+   "market": {
+    "zh": "美国站",
+    "en": "US"
+   },
+   "actual": 238,
+   "target": 250,
+   "poor": 200,
+   "ok": 235
+  },
+  {
+   "market": {
+    "zh": "英国站",
+    "en": "UK"
+   },
+   "actual": 51,
+   "target": 46,
+   "poor": 38,
+   "ok": 45
+  },
+  {
+   "market": {
+    "zh": "德国站",
+    "en": "Germany"
+   },
+   "actual": 52,
+   "target": 60,
+   "poor": 48,
+   "ok": 57
+  },
+  {
+   "market": {
+    "zh": "日本站",
+    "en": "Japan"
+   },
+   "actual": 33,
+   "target": 42,
+   "poor": 34,
+   "ok": 40
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

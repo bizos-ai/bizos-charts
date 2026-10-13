@@ -1,0 +1,175 @@
+{
+ "type": "T04",
+ "title": {
+  "zh": "公司股价 22 个月跑赢行业指数，超额收益主要来自 2025 年",
+  "en": "The stock outperformed its sector over 22 months, mostly in 2025"
+ },
+ "subtitle": {
+  "zh": "月末收盘价，2024 年 1 月 = 100",
+  "en": "Month-end close, Jan 2024 = 100"
+ },
+ "x": "month",
+ "y": [
+  "co",
+  "sector",
+  "market"
+ ],
+ "names": {
+  "co": {
+   "zh": "示例公司",
+   "en": "Example Co."
+  },
+  "sector": {
+   "zh": "跨境电商指数",
+   "en": "E-commerce index"
+  },
+  "market": {
+   "zh": "市场指数",
+   "en": "Market index"
+  }
+ },
+ "highlight": [
+  {
+   "zh": "示例公司",
+   "en": "Example Co."
+  }
+ ],
+ "data": [
+  {
+   "month": "2024-01",
+   "co": 38.2,
+   "sector": 3120,
+   "market": 1840
+  },
+  {
+   "month": "2024-02",
+   "co": 38.24,
+   "sector": 3188,
+   "market": 1855
+  },
+  {
+   "month": "2024-03",
+   "co": 38.02,
+   "sector": 3135,
+   "market": 1906
+  },
+  {
+   "month": "2024-04",
+   "co": 38.78,
+   "sector": 3183,
+   "market": 1941
+  },
+  {
+   "month": "2024-05",
+   "co": 39.2,
+   "sector": 3136,
+   "market": 1973
+  },
+  {
+   "month": "2024-06",
+   "co": 38,
+   "sector": 3230,
+   "market": 1959
+  },
+  {
+   "month": "2024-07",
+   "co": 39.5,
+   "sector": 3282,
+   "market": 1949
+  },
+  {
+   "month": "2024-08",
+   "co": 40.1,
+   "sector": 3356,
+   "market": 1987
+  },
+  {
+   "month": "2024-09",
+   "co": 41.25,
+   "sector": 3432,
+   "market": 2034
+  },
+  {
+   "month": "2024-10",
+   "co": 40.2,
+   "sector": 3372,
+   "market": 2092
+  },
+  {
+   "month": "2024-11",
+   "co": 42.07,
+   "sector": 3395,
+   "market": 2081
+  },
+  {
+   "month": "2024-12",
+   "co": 43.49,
+   "sector": 3425,
+   "market": 2033
+  },
+  {
+   "month": "2025-01",
+   "co": 42.98,
+   "sector": 3407,
+   "market": 2051
+  },
+  {
+   "month": "2025-02",
+   "co": 45.23,
+   "sector": 3407,
+   "market": 2016
+  },
+  {
+   "month": "2025-03",
+   "co": 48.39,
+   "sector": 3355,
+   "market": 1998
+  },
+  {
+   "month": "2025-04",
+   "co": 48.35,
+   "sector": 3437,
+   "market": 2060
+  },
+  {
+   "month": "2025-05",
+   "co": 49.74,
+   "sector": 3483,
+   "market": 2011
+  },
+  {
+   "month": "2025-06",
+   "co": 50.37,
+   "sector": 3428,
+   "market": 2035
+  },
+  {
+   "month": "2025-07",
+   "co": 48.9,
+   "sector": 3500,
+   "market": 2042
+  },
+  {
+   "month": "2025-08",
+   "co": 47.38,
+   "sector": 3453,
+   "market": 2014
+  },
+  {
+   "month": "2025-09",
+   "co": 48.7,
+   "sector": 3547,
+   "market": 1974
+  },
+  {
+   "month": "2025-10",
+   "co": 48.57,
+   "sector": 3519,
+   "market": 2021
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "type": "S03",
+ "wide": true,
+ "title": {
+  "zh": "销量增长抵消了广告与物流成本上升，经营利润增长 5.6%",
+  "en": "Volume growth offset higher ad and logistics costs; operating profit rose 5.6%"
+ },
+ "subtitle": {
+  "zh": "经营利润变动拆解（百万美元），2024 年 → 2025 年",
+  "en": "Operating profit bridge (US$ mn), FY24 → FY25"
+ },
+ "unit": {
+  "zh": "百万美元",
+  "en": "US$ mn"
+ },
+ "format": "number:2",
+ "x": "label",
+ "y": "value",
+ "kind": "kind",
+ "data": [
+  {
+   "kind": "total",
+   "label": {
+    "zh": "2024 年经营利润",
+    "en": "FY24 operating profit"
+   },
+   "value": 4.82
+  },
+  {
+   "kind": "delta",
+   "label": {
+    "zh": "销量增长",
+    "en": "Volume"
+   },
+   "value": 2.31
+  },
+  {
+   "kind": "delta",
+   "label": {
+    "zh": "价格调整",
+    "en": "Price"
+   },
+   "value": 0.64
+  },
+  {
+   "kind": "delta",
+   "label": {
+    "zh": "产品结构",
+    "en": "Mix"
+   },
+   "value": -0.38
+  },
+  {
+   "kind": "delta",
+   "label": {
+    "zh": "物流成本",
+    "en": "Logistics cost"
+   },
+   "value": -1.12
+  },
+  {
+   "kind": "delta",
+   "label": {
+    "zh": "广告投入",
+    "en": "Advertising"
+   },
+   "value": -1.47
+  },
+  {
+   "kind": "delta",
+   "label": {
+    "zh": "汇率",
+    "en": "FX"
+   },
+   "value": 0.29
+  },
+  {
+   "kind": "total",
+   "label": {
+    "zh": "2025 年经营利润",
+    "en": "FY25 operating profit"
+   },
+   "value": 5.09
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

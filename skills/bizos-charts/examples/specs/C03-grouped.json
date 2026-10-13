@@ -1,0 +1,75 @@
+{
+ "type": "C03",
+ "title": {
+  "zh": "五个站点中四个增长，日本站是唯一下滑的站点",
+  "en": "Four of five marketplaces grew; Japan was the only decline"
+ },
+ "subtitle": {
+  "zh": "分站点年度销售额（万美元），2024 年 vs 2025 年",
+  "en": "Sales by marketplace (US$ 10k), 2024 vs 2025"
+ },
+ "unit": {
+  "zh": "万美元",
+  "en": "US$ 10k"
+ },
+ "format": "number:0",
+ "x": "market",
+ "y": [
+  "y2024",
+  "y2025"
+ ],
+ "names": {
+  "y2024": "2024",
+  "y2025": "2025"
+ },
+ "colors": {
+  "2024": "#8FB3DB",
+  "2025": "#16365C"
+ },
+ "data": [
+  {
+   "market": {
+    "zh": "美国",
+    "en": "US"
+   },
+   "y2024": 1820,
+   "y2025": 2240
+  },
+  {
+   "market": {
+    "zh": "英国",
+    "en": "UK"
+   },
+   "y2024": 412,
+   "y2025": 468
+  },
+  {
+   "market": {
+    "zh": "德国",
+    "en": "Germany"
+   },
+   "y2024": 506,
+   "y2025": 542
+  },
+  {
+   "market": {
+    "zh": "日本",
+    "en": "Japan"
+   },
+   "y2024": 388,
+   "y2025": 371
+  },
+  {
+   "market": {
+    "zh": "加拿大",
+    "en": "Canada"
+   },
+   "y2024": 214,
+   "y2025": 279
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "type": "C07",
+ "title": {
+  "zh": "我方 34.99 美元定价高于 5 个对象的中位价，仅低于品牌 A",
+  "en": "Our US$34.99 price is above the median of 5 of 6 groups; only Brand A prices higher"
+ },
+ "subtitle": {
+  "zh": "前 50 名 ASIN 售价区间（美元），竖线为各品牌中位价",
+  "en": "Price range of top-50 ASINs (US$); tick marks each brand’s median"
+ },
+ "unit": {
+  "zh": "美元",
+  "en": "US$"
+ },
+ "format": "number:2",
+ "x": "brand",
+ "low": "low",
+ "high": "high",
+ "mid": "median",
+ "names": {
+  "median": {
+   "zh": "中位价",
+   "en": "Median price"
+  }
+ },
+ "refLines": [
+  {
+   "value": 34.99,
+   "label": {
+    "zh": "我方",
+    "en": "Ours"
+   }
+  }
+ ],
+ "data": [
+  {
+   "brand": {
+    "zh": "品牌 A",
+    "en": "Brand A"
+   },
+   "low": 29.9,
+   "high": 49.9,
+   "median": 39.9
+  },
+  {
+   "brand": {
+    "zh": "品牌 B",
+    "en": "Brand B"
+   },
+   "low": 24.9,
+   "high": 44.9,
+   "median": 32.9
+  },
+  {
+   "brand": {
+    "zh": "品牌 C",
+    "en": "Brand C"
+   },
+   "low": 19.9,
+   "high": 34.9,
+   "median": 27.5
+  },
+  {
+   "brand": {
+    "zh": "品牌 D",
+    "en": "Brand D"
+   },
+   "low": 17.9,
+   "high": 39.9,
+   "median": 25.9
+  },
+  {
+   "brand": {
+    "zh": "品牌 E",
+    "en": "Brand E"
+   },
+   "low": 14.9,
+   "high": 29.9,
+   "median": 21.9
+  },
+  {
+   "brand": {
+    "zh": "白牌卖家",
+    "en": "Unbranded sellers"
+   },
+   "low": 9.9,
+   "high": 24.9,
+   "median": 16.9
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

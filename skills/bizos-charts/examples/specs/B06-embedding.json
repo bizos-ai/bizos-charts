@@ -1,0 +1,243 @@
+{
+ "type": "B06",
+ "title": {
+  "zh": "PC1（41.3% 方差）将对照组与两个剂量组完全分开",
+  "en": "PC1 (41.3% of variance) fully separates control from both dose groups"
+ },
+ "subtitle": {
+  "zh": "24 个肝组织样本转录组主成分分析（前 2,000 个高变基因）",
+  "en": "PCA of 24 liver transcriptomes (top 2,000 variable genes)"
+ },
+ "x": "pc1",
+ "y": "pc2",
+ "group": "group",
+ "label": "sample",
+ "method": "pca",
+ "variance": [
+  41.3,
+  18.7
+ ],
+ "ellipse": true,
+ "data": [
+  {
+   "sample": "C1",
+   "group": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "pc1": -14.3,
+   "pc2": 7
+  },
+  {
+   "sample": "C2",
+   "group": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "pc1": -20.8,
+   "pc2": 5.4
+  },
+  {
+   "sample": "C3",
+   "group": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "pc1": -21.6,
+   "pc2": -0.3
+  },
+  {
+   "sample": "C4",
+   "group": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "pc1": -25.5,
+   "pc2": 1
+  },
+  {
+   "sample": "C5",
+   "group": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "pc1": -12,
+   "pc2": 1.8
+  },
+  {
+   "sample": "C6",
+   "group": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "pc1": -26.2,
+   "pc2": -6.2
+  },
+  {
+   "sample": "C7",
+   "group": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "pc1": -10,
+   "pc2": 3.7
+  },
+  {
+   "sample": "C8",
+   "group": {
+    "zh": "对照",
+    "en": "Control"
+   },
+   "pc1": -15.8,
+   "pc2": -4.9
+  },
+  {
+   "sample": "L1",
+   "group": {
+    "zh": "低剂量",
+    "en": "Low dose"
+   },
+   "pc1": 14,
+   "pc2": 12.9
+  },
+  {
+   "sample": "L2",
+   "group": {
+    "zh": "低剂量",
+    "en": "Low dose"
+   },
+   "pc1": 0.2,
+   "pc2": 11.3
+  },
+  {
+   "sample": "L3",
+   "group": {
+    "zh": "低剂量",
+    "en": "Low dose"
+   },
+   "pc1": 12.9,
+   "pc2": 9.1
+  },
+  {
+   "sample": "L4",
+   "group": {
+    "zh": "低剂量",
+    "en": "Low dose"
+   },
+   "pc1": 6.1,
+   "pc2": 9
+  },
+  {
+   "sample": "L5",
+   "group": {
+    "zh": "低剂量",
+    "en": "Low dose"
+   },
+   "pc1": 5.6,
+   "pc2": 6.4
+  },
+  {
+   "sample": "L6",
+   "group": {
+    "zh": "低剂量",
+    "en": "Low dose"
+   },
+   "pc1": 7.6,
+   "pc2": 12
+  },
+  {
+   "sample": "L7",
+   "group": {
+    "zh": "低剂量",
+    "en": "Low dose"
+   },
+   "pc1": 1.5,
+   "pc2": 6.3
+  },
+  {
+   "sample": "L8",
+   "group": {
+    "zh": "低剂量",
+    "en": "Low dose"
+   },
+   "pc1": 5.8,
+   "pc2": 11.4
+  },
+  {
+   "sample": "H1",
+   "group": {
+    "zh": "高剂量",
+    "en": "High dose"
+   },
+   "pc1": 12.9,
+   "pc2": -5.6
+  },
+  {
+   "sample": "H2",
+   "group": {
+    "zh": "高剂量",
+    "en": "High dose"
+   },
+   "pc1": 21,
+   "pc2": -16.3
+  },
+  {
+   "sample": "H3",
+   "group": {
+    "zh": "高剂量",
+    "en": "High dose"
+   },
+   "pc1": 22.1,
+   "pc2": -12.9
+  },
+  {
+   "sample": "H4",
+   "group": {
+    "zh": "高剂量",
+    "en": "High dose"
+   },
+   "pc1": 15.7,
+   "pc2": -12.6
+  },
+  {
+   "sample": "H5",
+   "group": {
+    "zh": "高剂量",
+    "en": "High dose"
+   },
+   "pc1": 22.5,
+   "pc2": -5.1
+  },
+  {
+   "sample": "H6",
+   "group": {
+    "zh": "高剂量",
+    "en": "High dose"
+   },
+   "pc1": 21,
+   "pc2": -8
+  },
+  {
+   "sample": "H7",
+   "group": {
+    "zh": "高剂量",
+    "en": "High dose"
+   },
+   "pc1": 28.5,
+   "pc2": -8.9
+  },
+  {
+   "sample": "H8",
+   "group": {
+    "zh": "高剂量",
+    "en": "High dose"
+   },
+   "pc1": 18.6,
+   "pc2": -6.5
+  }
+ ],
+ "source": {
+  "zh": "示例数据；BizOS 整理",
+  "en": "Illustrative data; BizOS analysis"
+ }
+}

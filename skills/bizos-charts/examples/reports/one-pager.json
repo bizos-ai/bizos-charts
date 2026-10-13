@@ -1,0 +1,1211 @@
+{
+ "layout": "one-pager",
+ "langs": [
+  "zh",
+  "en"
+ ],
+ "meta": {
+  "kicker": {
+   "zh": "品类一页纸 · 宠物饮水机",
+   "en": "Category one-pager · Pet fountains"
+  },
+  "title": {
+   "zh": "宠物饮水机：大众价位竞争最激烈，精准长尾词仍有转化红利",
+   "en": "Pet fountains: the mid-price tier is most contested; precise long-tail keywords still convert well"
+  },
+  "date": "2026-10-11",
+  "author": {
+   "zh": "BizOS 市场研究",
+   "en": "BizOS Market Research"
+  }
+ },
+ "summary": [
+  {
+   "zh": "头部商品售价集中在 20–35 美元，均价被少数高价商品拉高。",
+   "en": "Leading items cluster at US$20–35; a few premium products lift the mean."
+  },
+  {
+   "zh": "大众价位（20–40 美元）占品类一半销售额，示例品牌 A 以 23% 份额领先。",
+   "en": "The US$20–40 tier is half of category sales; Brand A leads it with 23%."
+  },
+  {
+   "zh": "两个核心词贡献最多订单；“dog water bowl”流量大但转化不足 3%，应收缩出价。",
+   "en": "Two core keywords bring most orders; “dog water bowl” has traffic but converts under 3% — cut bids."
+  },
+  {
+   "zh": "头部 100 家卖家中 59 家来自广东与浙江，供应链高度集中。",
+   "en": "59 of the top-100 sellers are in Guangdong and Zhejiang; supply is concentrated."
+  }
+ ],
+ "keyData": [
+  {
+   "label": {
+    "zh": "统计范围",
+    "en": "Scope"
+   },
+   "value": {
+    "zh": "美国站前 200 名 ASIN",
+    "en": "US top-200 ASINs"
+   }
+  },
+  {
+   "label": {
+    "zh": "售价中位数",
+    "en": "Median price"
+   },
+   "value": {
+    "zh": "25.3 美元",
+    "en": "US$25.3"
+   }
+  },
+  {
+   "label": {
+    "zh": "大众价位份额",
+    "en": "Mid-tier share"
+   },
+   "value": "50%"
+  },
+  {
+   "label": {
+    "zh": "核心词数量",
+    "en": "Core keywords"
+   },
+   "value": "2"
+  }
+ ],
+ "sections": [
+  {
+   "title": "",
+   "blocks": [
+    {
+     "type": "exhibit",
+     "spec": {
+      "type": "D01",
+      "title": {
+       "zh": "56% 的头部商品售价在 20–35 美元，均价 27.7 美元被少数高价商品拉高",
+       "en": "56% of top items price at US$20–35; a few premium items lift the mean to US$27.7"
+      },
+      "subtitle": {
+       "zh": "品类前 200 名 ASIN 售价分布（美元）",
+       "en": "Price distribution of the top-200 ASINs in the category (US$)"
+      },
+      "unit": {
+       "zh": "美元",
+       "en": "US$"
+      },
+      "format": "number:0",
+      "y": "price",
+      "names": {
+       "price": {
+        "zh": "售价",
+        "en": "Price"
+       }
+      },
+      "marks": [
+       "median",
+       "mean"
+      ],
+      "data": [
+       {
+        "price": 36.22
+       },
+       {
+        "price": 30.92
+       },
+       {
+        "price": 46.75
+       },
+       {
+        "price": 28.74
+       },
+       {
+        "price": 22.39
+       },
+       {
+        "price": 42.81
+       },
+       {
+        "price": 13.86
+       },
+       {
+        "price": 22.39
+       },
+       {
+        "price": 25.71
+       },
+       {
+        "price": 30.56
+       },
+       {
+        "price": 18.97
+       },
+       {
+        "price": 56.01
+       },
+       {
+        "price": 31.69
+       },
+       {
+        "price": 29.79
+       },
+       {
+        "price": 23.46
+       },
+       {
+        "price": 22.7
+       },
+       {
+        "price": 23.68
+       },
+       {
+        "price": 42.42
+       },
+       {
+        "price": 31
+       },
+       {
+        "price": 10.88
+       },
+       {
+        "price": 30.41
+       },
+       {
+        "price": 29.04
+       },
+       {
+        "price": 19.36
+       },
+       {
+        "price": 27.63
+       },
+       {
+        "price": 28.32
+       },
+       {
+        "price": 38.65
+       },
+       {
+        "price": 28.61
+       },
+       {
+        "price": 54.09
+       },
+       {
+        "price": 24.24
+       },
+       {
+        "price": 44.43
+       },
+       {
+        "price": 20.69
+       },
+       {
+        "price": 41.08
+       },
+       {
+        "price": 43.7
+       },
+       {
+        "price": 23.13
+       },
+       {
+        "price": 42.81
+       },
+       {
+        "price": 19.02
+       },
+       {
+        "price": 28.19
+       },
+       {
+        "price": 24.44
+       },
+       {
+        "price": 34.28
+       },
+       {
+        "price": 16.04
+       },
+       {
+        "price": 24.77
+       },
+       {
+        "price": 31.87
+       },
+       {
+        "price": 27.94
+       },
+       {
+        "price": 14.07
+       },
+       {
+        "price": 28.84
+       },
+       {
+        "price": 29.62
+       },
+       {
+        "price": 77.64
+       },
+       {
+        "price": 30.05
+       },
+       {
+        "price": 26.23
+       },
+       {
+        "price": 20.96
+       },
+       {
+        "price": 35.38
+       },
+       {
+        "price": 33.8
+       },
+       {
+        "price": 27.89
+       },
+       {
+        "price": 29.78
+       },
+       {
+        "price": 31.61
+       },
+       {
+        "price": 24.85
+       },
+       {
+        "price": 21.62
+       },
+       {
+        "price": 40.85
+       },
+       {
+        "price": 18.49
+       },
+       {
+        "price": 32.13
+       },
+       {
+        "price": 41.76
+       },
+       {
+        "price": 21.79
+       },
+       {
+        "price": 24.9
+       },
+       {
+        "price": 10.9
+       },
+       {
+        "price": 29.41
+       },
+       {
+        "price": 19.78
+       },
+       {
+        "price": 22.34
+       },
+       {
+        "price": 39.67
+       },
+       {
+        "price": 32.13
+       },
+       {
+        "price": 26.94
+       },
+       {
+        "price": 24.66
+       },
+       {
+        "price": 16.86
+       },
+       {
+        "price": 25.58
+       },
+       {
+        "price": 27.3
+       },
+       {
+        "price": 45.62
+       },
+       {
+        "price": 23.25
+       },
+       {
+        "price": 16.2
+       },
+       {
+        "price": 18.32
+       },
+       {
+        "price": 35.66
+       },
+       {
+        "price": 34.39
+       },
+       {
+        "price": 38.4
+       },
+       {
+        "price": 43.84
+       },
+       {
+        "price": 20.91
+       },
+       {
+        "price": 35.01
+       },
+       {
+        "price": 21.83
+       },
+       {
+        "price": 18.3
+       },
+       {
+        "price": 22.81
+       },
+       {
+        "price": 29.72
+       },
+       {
+        "price": 24.62
+       },
+       {
+        "price": 56.43
+       },
+       {
+        "price": 23.26
+       },
+       {
+        "price": 24.44
+       },
+       {
+        "price": 23.21
+       },
+       {
+        "price": 15.96
+       },
+       {
+        "price": 24.48
+       },
+       {
+        "price": 60.63
+       },
+       {
+        "price": 21.15
+       },
+       {
+        "price": 11.13
+       },
+       {
+        "price": 13.95
+       },
+       {
+        "price": 36.75
+       },
+       {
+        "price": 43.67
+       },
+       {
+        "price": 34.68
+       },
+       {
+        "price": 21.49
+       },
+       {
+        "price": 21.24
+       },
+       {
+        "price": 33.97
+       },
+       {
+        "price": 20.12
+       },
+       {
+        "price": 28.73
+       },
+       {
+        "price": 23.48
+       },
+       {
+        "price": 20.04
+       },
+       {
+        "price": 36.01
+       },
+       {
+        "price": 19.83
+       },
+       {
+        "price": 23.85
+       },
+       {
+        "price": 27.15
+       },
+       {
+        "price": 19.5
+       },
+       {
+        "price": 13.42
+       },
+       {
+        "price": 32.07
+       },
+       {
+        "price": 25.06
+       },
+       {
+        "price": 20.45
+       },
+       {
+        "price": 13.76
+       },
+       {
+        "price": 13.86
+       },
+       {
+        "price": 20.57
+       },
+       {
+        "price": 32.15
+       },
+       {
+        "price": 24.91
+       },
+       {
+        "price": 17.91
+       },
+       {
+        "price": 46.45
+       },
+       {
+        "price": 38.5
+       },
+       {
+        "price": 24.17
+       },
+       {
+        "price": 13.04
+       },
+       {
+        "price": 18
+       },
+       {
+        "price": 15.75
+       },
+       {
+        "price": 23.39
+       },
+       {
+        "price": 32.75
+       },
+       {
+        "price": 32.94
+       },
+       {
+        "price": 17.37
+       },
+       {
+        "price": 40.71
+       },
+       {
+        "price": 31.51
+       },
+       {
+        "price": 41.8
+       },
+       {
+        "price": 20.45
+       },
+       {
+        "price": 15.84
+       },
+       {
+        "price": 31.44
+       },
+       {
+        "price": 16.22
+       },
+       {
+        "price": 41.89
+       },
+       {
+        "price": 16.91
+       },
+       {
+        "price": 45.29
+       },
+       {
+        "price": 37.89
+       },
+       {
+        "price": 53.61
+       },
+       {
+        "price": 21.6
+       },
+       {
+        "price": 26.47
+       },
+       {
+        "price": 12.08
+       },
+       {
+        "price": 16.16
+       },
+       {
+        "price": 28.01
+       },
+       {
+        "price": 49.29
+       },
+       {
+        "price": 37.3
+       },
+       {
+        "price": 19.87
+       },
+       {
+        "price": 23.13
+       },
+       {
+        "price": 15.37
+       },
+       {
+        "price": 24.95
+       },
+       {
+        "price": 12.98
+       },
+       {
+        "price": 67.13
+       },
+       {
+        "price": 27.18
+       },
+       {
+        "price": 22.05
+       },
+       {
+        "price": 22.61
+       },
+       {
+        "price": 25.6
+       },
+       {
+        "price": 15.05
+       },
+       {
+        "price": 20.88
+       },
+       {
+        "price": 26.84
+       },
+       {
+        "price": 19.07
+       },
+       {
+        "price": 36.6
+       },
+       {
+        "price": 24.29
+       },
+       {
+        "price": 17.68
+       },
+       {
+        "price": 11.06
+       },
+       {
+        "price": 20.15
+       },
+       {
+        "price": 22.38
+       },
+       {
+        "price": 13.63
+       },
+       {
+        "price": 25.44
+       },
+       {
+        "price": 13.66
+       },
+       {
+        "price": 26.77
+       },
+       {
+        "price": 22.33
+       },
+       {
+        "price": 30.6
+       },
+       {
+        "price": 18.3
+       },
+       {
+        "price": 25.09
+       },
+       {
+        "price": 16.9
+       },
+       {
+        "price": 32.82
+       },
+       {
+        "price": 35.41
+       },
+       {
+        "price": 21.59
+       },
+       {
+        "price": 26.51
+       },
+       {
+        "price": 34.55
+       },
+       {
+        "price": 37.44
+       },
+       {
+        "price": 29.29
+       },
+       {
+        "price": 43.34
+       },
+       {
+        "price": 27.19
+       },
+       {
+        "price": 22.18
+       },
+       {
+        "price": 13.94
+       },
+       {
+        "price": 27.86
+       },
+       {
+        "price": 33.87
+       },
+       {
+        "price": 23.83
+       },
+       {
+        "price": 20.2
+       },
+       {
+        "price": 17.3
+       },
+       {
+        "price": 28.14
+       },
+       {
+        "price": 41.7
+       }
+      ],
+      "source": {
+       "zh": "示例数据；BizOS 整理",
+       "en": "Illustrative data; BizOS analysis"
+      }
+     }
+    },
+    {
+     "type": "exhibit",
+     "spec": {
+      "type": "S06",
+      "title": {
+       "zh": "示例品牌 A 在大众价位份额 23% 居首，但在入门价位仅 8%",
+       "en": "Brand A leads the mid tier with 23% but holds only 8% of entry level"
+      },
+      "subtitle": {
+       "zh": "细分价位段规模（列宽）与品牌份额（高度），2025 年销售额（万美元）",
+       "en": "Price-tier size (width) and brand share (height), 2025 sales (US$ 10k)"
+      },
+      "unit": {
+       "zh": "万美元",
+       "en": "US$ 10k"
+      },
+      "format": "number:0",
+      "x": "seg",
+      "seriesBy": "brand",
+      "y": "sales",
+      "otherLabel": {
+       "zh": "其他",
+       "en": "Other"
+      },
+      "highlight": [
+       {
+        "zh": "示例品牌 A",
+        "en": "Brand A"
+       }
+      ],
+      "data": [
+       {
+        "seg": {
+         "zh": "中高端（>40 美元）",
+         "en": "Premium (>$40)"
+        },
+        "brand": {
+         "zh": "示例品牌 A",
+         "en": "Brand A"
+        },
+        "sales": 96
+       },
+       {
+        "seg": {
+         "zh": "中高端（>40 美元）",
+         "en": "Premium (>$40)"
+        },
+        "brand": {
+         "zh": "品牌 B",
+         "en": "Brand B"
+        },
+        "sales": 141
+       },
+       {
+        "seg": {
+         "zh": "中高端（>40 美元）",
+         "en": "Premium (>$40)"
+        },
+        "brand": {
+         "zh": "品牌 C",
+         "en": "Brand C"
+        },
+        "sales": 48
+       },
+       {
+        "seg": {
+         "zh": "中高端（>40 美元）",
+         "en": "Premium (>$40)"
+        },
+        "brand": {
+         "zh": "其他",
+         "en": "Other"
+        },
+        "sales": 115
+       },
+       {
+        "seg": {
+         "zh": "大众（20–40 美元）",
+         "en": "Mid ($20–40)"
+        },
+        "brand": {
+         "zh": "示例品牌 A",
+         "en": "Brand A"
+        },
+        "sales": 182
+       },
+       {
+        "seg": {
+         "zh": "大众（20–40 美元）",
+         "en": "Mid ($20–40)"
+        },
+        "brand": {
+         "zh": "品牌 B",
+         "en": "Brand B"
+        },
+        "sales": 118
+       },
+       {
+        "seg": {
+         "zh": "大众（20–40 美元）",
+         "en": "Mid ($20–40)"
+        },
+        "brand": {
+         "zh": "品牌 C",
+         "en": "Brand C"
+        },
+        "sales": 156
+       },
+       {
+        "seg": {
+         "zh": "大众（20–40 美元）",
+         "en": "Mid ($20–40)"
+        },
+        "brand": {
+         "zh": "其他",
+         "en": "Other"
+        },
+        "sales": 344
+       },
+       {
+        "seg": {
+         "zh": "入门（<20 美元）",
+         "en": "Entry (<$20)"
+        },
+        "brand": {
+         "zh": "示例品牌 A",
+         "en": "Brand A"
+        },
+        "sales": 31
+       },
+       {
+        "seg": {
+         "zh": "入门（<20 美元）",
+         "en": "Entry (<$20)"
+        },
+        "brand": {
+         "zh": "品牌 B",
+         "en": "Brand B"
+        },
+        "sales": 22
+       },
+       {
+        "seg": {
+         "zh": "入门（<20 美元）",
+         "en": "Entry (<$20)"
+        },
+        "brand": {
+         "zh": "品牌 C",
+         "en": "Brand C"
+        },
+        "sales": 88
+       },
+       {
+        "seg": {
+         "zh": "入门（<20 美元）",
+         "en": "Entry (<$20)"
+        },
+        "brand": {
+         "zh": "其他",
+         "en": "Other"
+        },
+        "sales": 259
+       }
+      ],
+      "source": {
+       "zh": "示例数据；BizOS 整理",
+       "en": "Illustrative data; BizOS analysis"
+      }
+     }
+    },
+    {
+     "type": "exhibit",
+     "spec": {
+      "type": "R03",
+      "title": {
+       "zh": "两个高流量高转化核心词贡献最多订单，“dog water bowl”流量大但转化不足 3%",
+       "en": "Two high-volume, high-conversion keywords drive most orders; “dog water bowl” converts under 3%"
+      },
+      "subtitle": {
+       "zh": "关键词月搜索量（千次）与广告转化率（%），气泡面积为月订单（百单），分界线为中位数",
+       "en": "Keyword monthly searches (k) vs ad conversion (%), bubble area = monthly orders (hundreds); medians split"
+      },
+      "x": "vol",
+      "y": "cvr",
+      "size": "orders",
+      "label": "kw",
+      "xUnit": {
+       "zh": "千次",
+       "en": "k"
+      },
+      "format": "percent",
+      "sizeFormat": "number:1",
+      "sizeUnit": {
+       "zh": "百单",
+       "en": "hundred orders"
+      },
+      "xTitle": {
+       "zh": "月搜索量",
+       "en": "Monthly searches"
+      },
+      "yTitle": {
+       "zh": "转化率",
+       "en": "Conversion rate"
+      },
+      "names": {
+       "orders": {
+        "zh": "月订单",
+        "en": "Monthly orders"
+       }
+      },
+      "quadrants": [
+       {
+        "zh": "核心词：加大投放",
+        "en": "Core: scale up"
+       },
+       {
+        "zh": "精准长尾：维持",
+        "en": "Precise long tail: maintain"
+       },
+       {
+        "zh": "低效：收缩",
+        "en": "Low yield: cut back"
+       },
+       {
+        "zh": "高流量低转化：优化页面",
+        "en": "High traffic, low conversion: fix listing"
+       }
+      ],
+      "data": [
+       {
+        "kw": "dog water fountain",
+        "vol": 48.2,
+        "cvr": 14.1,
+        "orders": 12.8
+       },
+       {
+        "kw": "cat water fountain",
+        "vol": 61.5,
+        "cvr": 11.2,
+        "orders": 18.4
+       },
+       {
+        "kw": "pet fountain stainless",
+        "vol": 9.6,
+        "cvr": 16.9,
+        "orders": 3.1
+       },
+       {
+        "kw": "quiet cat fountain",
+        "vol": 7.2,
+        "cvr": 15.3,
+        "orders": 2.2
+       },
+       {
+        "kw": "pet water dispenser",
+        "vol": 22.4,
+        "cvr": 6.1,
+        "orders": 4
+       },
+       {
+        "kw": "automatic water bowl",
+        "vol": 31.8,
+        "cvr": 5.2,
+        "orders": 4.4
+       },
+       {
+        "kw": "cat fountain filter",
+        "vol": 18.9,
+        "cvr": 9.8,
+        "orders": 5.6
+       },
+       {
+        "kw": "wireless pet fountain",
+        "vol": 6.1,
+        "cvr": 12.4,
+        "orders": 1.6
+       },
+       {
+        "kw": "dog water bowl",
+        "vol": 88.4,
+        "cvr": 2.9,
+        "orders": 7
+       },
+       {
+        "kw": "pet waterer",
+        "vol": 4.8,
+        "cvr": 7,
+        "orders": 0.9
+       },
+       {
+        "kw": "cat drinking fountain",
+        "vol": 14.6,
+        "cvr": 13.3,
+        "orders": 4.9
+       },
+       {
+        "kw": "water fountain for cats",
+        "vol": 12.1,
+        "cvr": 8.2,
+        "orders": 3
+       }
+      ],
+      "source": {
+       "zh": "示例数据；BizOS 整理",
+       "en": "Illustrative data; BizOS analysis"
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "side": [
+  {
+   "type": "exhibit",
+   "spec": {
+    "type": "G02",
+    "title": {
+     "zh": "头部 100 家卖家中，广东与浙江合计 59 家，供应链高度集中于东南沿海",
+     "en": "Guangdong and Zhejiang host 59 of the top-100 sellers; supply is concentrated on the southeast coast"
+    },
+    "subtitle": {
+     "zh": "品类前 100 名卖家按公司注册省份（家）",
+     "en": "Top-100 sellers by registered province (count)"
+    },
+    "unit": {
+     "zh": "家",
+     "en": "sellers"
+    },
+    "format": "integer",
+    "x": "province",
+    "y": "sellers",
+    "scale": "linear",
+    "names": {
+     "sellers": {
+      "zh": "卖家数",
+      "en": "Sellers"
+     }
+    },
+    "data": [
+     {
+      "province": "黑龙江",
+      "sellers": 0
+     },
+     {
+      "province": "吉林",
+      "sellers": 0
+     },
+     {
+      "province": "内蒙古",
+      "sellers": 0
+     },
+     {
+      "province": "辽宁",
+      "sellers": 0
+     },
+     {
+      "province": "北京",
+      "sellers": 1
+     },
+     {
+      "province": "天津",
+      "sellers": 0
+     },
+     {
+      "province": "河北",
+      "sellers": 0
+     },
+     {
+      "province": "山西",
+      "sellers": 0
+     },
+     {
+      "province": "宁夏",
+      "sellers": 0
+     },
+     {
+      "province": "新疆",
+      "sellers": 0
+     },
+     {
+      "province": "青海",
+      "sellers": 0
+     },
+     {
+      "province": "甘肃",
+      "sellers": 0
+     },
+     {
+      "province": "陕西",
+      "sellers": 0
+     },
+     {
+      "province": "河南",
+      "sellers": 2
+     },
+     {
+      "province": "山东",
+      "sellers": 4
+     },
+     {
+      "province": "西藏",
+      "sellers": 0
+     },
+     {
+      "province": "四川",
+      "sellers": 1
+     },
+     {
+      "province": "重庆",
+      "sellers": 0
+     },
+     {
+      "province": "湖北",
+      "sellers": 2
+     },
+     {
+      "province": "安徽",
+      "sellers": 1
+     },
+     {
+      "province": "江苏",
+      "sellers": 8
+     },
+     {
+      "province": "上海",
+      "sellers": 5
+     },
+     {
+      "province": "云南",
+      "sellers": 0
+     },
+     {
+      "province": "贵州",
+      "sellers": 0
+     },
+     {
+      "province": "湖南",
+      "sellers": 3
+     },
+     {
+      "province": "江西",
+      "sellers": 2
+     },
+     {
+      "province": "浙江",
+      "sellers": 18
+     },
+     {
+      "province": "广西",
+      "sellers": 0
+     },
+     {
+      "province": "广东",
+      "sellers": 41
+     },
+     {
+      "province": "福建",
+      "sellers": 11
+     },
+     {
+      "province": "台湾",
+      "sellers": 0
+     },
+     {
+      "province": "海南",
+      "sellers": 0
+     },
+     {
+      "province": "澳门",
+      "sellers": 0
+     },
+     {
+      "province": "香港",
+      "sellers": 1
+     }
+    ],
+    "source": {
+     "zh": "示例数据；BizOS 整理",
+     "en": "Illustrative data; BizOS analysis"
+    }
+   }
+  }
+ ],
+ "risks": [
+  {
+   "zh": "样本为单一时间截面，大促期间价格结构会变化。",
+   "en": "A single snapshot; the price structure shifts during promotions."
+  }
+ ],
+ "sources": [
+  {
+   "zh": "BizOS 市场数据（ASIN、关键词、卖家）",
+   "en": "BizOS market data (ASINs, keywords, sellers)"
+  }
+ ]
+}
