@@ -1,9 +1,10 @@
 #!/usr/bin/env node
-// Render English documentation previews from the bundled specifications.
+// Record real chart interactions as looping English documentation previews.
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { createRequire } from 'node:module';
+import { execFileSync } from 'node:child_process';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const skill = path.join(root, 'skills/bizos-charts');
@@ -28,7 +29,7 @@ const previews = [
 const files = [];
 for (const [name, title, samples] of previews) {
   const result = charts.exhibitsPage(samples.map(load), {
-    engineSource, layout: 'grid', title, kicker: 'BIZOS CHARTS · OPEN SKILLS',
+    engineSource, layout: 'grid', title, kicker: 'BIZOS CHARTS · OPEN SOURCE',
     lede: 'Rendered from bundled specifications. All data are illustrative.',
   });
   const errors = result.issues.filter(issue => issue.level === 'error');
@@ -48,7 +49,7 @@ const browser = await chromium.launch({ executablePath, headless: true, args: ['
 const results = [];
 try {
   for (const { name, file } of files) {
-    const page = await browser.newPage({ viewport: { width: 1600, height: 1000 }, deviceScaleFactor: 1 });
+    const page = await browser.newPage({ viewport: { width: 1200, height: 800 }, deviceScaleFactor: 1 });
     const errors = [];
     page.on('pageerror', error => errors.push(error.message));
     page.on('console', message => { if (message.type() === 'error') errors.push(message.text()); });
@@ -57,9 +58,66 @@ try {
     await page.waitForTimeout(700);
     await page.evaluate(() => document.fonts.ready);
     if (errors.length) throw new Error(name + ': ' + errors.join('; '));
-    const destination = path.join(images, name + '.png');
-    await page.screenshot({ path: destination, fullPage: true });
-    results.push({ name, figures: await page.locator('figure.bz-exhibit').count(), bytes: fs.statSync(destination).size });
+    const framesDir = path.join(output, name + '-frames');
+    fs.mkdirSync(framesDir, { recursive: true });
+    const frames = [];
+    const capture = async (duration = 0.125) => {
+      await page.evaluate(() => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))));
+      const frame = path.join(framesDir, String(frames.length).padStart(4, '0') + '.png');
+      await page.screenshot({ path: frame });
+      frames.push({ frame, duration });
+    };
+    const scrollTo = async (target, seconds = 2) => {
+      const start = await page.evaluate(() => window.scrollY);
+      const max = await page.evaluate(() => Math.max(0, document.documentElement.scrollHeight - window.innerHeight));
+      const end = Math.max(0, Math.min(target, max));
+      if (Math.abs(end - start) < 2) return;
+      const count = Math.round(seconds * 8);
+      for (let i = 1; i <= count; i++) {
+        const t = i / count, eased = t * t * (3 - 2 * t);
+        await page.evaluate(y => window.scrollTo(0, y), start + (end - start) * eased);
+        await capture(seconds / count);
+      }
+    };
+    await capture(1.2);
+    let tooltips = 0;
+    const hits = page.locator('[data-tip]');
+    const count = await hits.count();
+    for (const index of [...new Set([0, Math.min(6, count - 1)])]) {
+      if (index < 0) continue;
+      const hit = hits.nth(index), box = await hit.boundingBox();
+      if (!box || box.y < 0 || box.y + box.height > 800) continue;
+      await hit.focus();
+      const shown = await page.locator('.bz-tip').evaluateAll(tips => tips.some(tip => getComputedStyle(tip).display !== 'none'));
+      if (shown) { tooltips++; await capture(1); }
+      await hit.evaluate(element => element.blur());
+    }
+    const summary = page.locator('details.bz-data > summary').first();
+    const tableCount = await summary.count();
+    if (tableCount) {
+      const y = await summary.evaluate(element => element.getBoundingClientRect().top + window.scrollY);
+      await scrollTo(y - 450, 1.5);
+      await summary.click();
+      await capture(1.4);
+      await summary.click();
+    }
+    const max = await page.evaluate(() => Math.max(0, document.documentElement.scrollHeight - window.innerHeight));
+    await scrollTo(max, name === 'overview' || name === 'dashboard' ? 4 : 2);
+    await capture(1.3);
+    await scrollTo(0, name === 'overview' || name === 'dashboard' ? 3 : 2);
+    await capture(1);
+    if (errors.length) throw new Error(name + ': ' + errors.join('; '));
+    const escapePath = p => p.replaceAll("'", "'\\''");
+    const sequence = path.join(framesDir, 'frames.txt');
+    fs.writeFileSync(sequence, frames.map(({ frame, duration }) => `file '${escapePath(frame)}'\nduration ${duration}\n`).join('') + `file '${escapePath(frames.at(-1).frame)}'\n`);
+    const destination = path.join(images, name + '.gif');
+    execFileSync(process.env.BIZOS_FFMPEG || 'ffmpeg', [
+      '-hide_banner', '-loglevel', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', sequence,
+      '-filter_complex', 'split[a][b];[a]palettegen=max_colors=192:stats_mode=diff[p];[b][p]paletteuse=dither=bayer:bayer_scale=3:diff_mode=rectangle',
+      '-fps_mode', 'vfr', '-loop', '0', destination,
+    ], { stdio: 'pipe' });
+    results.push({ name, figures: await page.locator('figure.bz-exhibit').count(), frames: frames.length, tooltips, dataTableShown: !!tableCount, bytes: fs.statSync(destination).size });
+    console.log(JSON.stringify(results.at(-1)));
     await page.close();
   }
 } finally { await browser.close(); }

@@ -1,20 +1,34 @@
-# BizOS Open Skills
+<h1 align="center">BizOS Charts</h1>
 
-Open-source skills for turning evidence into clear, inspectable business and research outputs.
+<p align="center"><strong>Research-grade charts and complete reports, rendered offline from your data.</strong></p>
 
-The featured skill is **BizOS Charts** (public package **2.1.1**, renderer **2.1.0**): a charting skill, a dependency-free rendering engine, **64 exhibit types**, and **6 complete report layouts**. It produces offline HTML with SVG graphics, readable source notes, inspectable data tables, and SVG, PNG, and CSV exports.
+<p align="center">64 exhibit types · 6 report layouts · English and Chinese · inspectable data · SVG, PNG and CSV exports</p>
 
-![Six examples rendered by the BizOS Charts engine](skills/bizos-charts/assets/previews/overview.png)
+<p align="center">
+  <a href="https://github.com/bizos-ai/bizos-charts/stargazers"><img src="https://img.shields.io/github/stars/bizos-ai/bizos-charts?style=social" alt="GitHub stars"></a>
+  <a href="https://github.com/bizos-ai/bizos-charts/releases/latest"><img src="https://img.shields.io/github/v/release/bizos-ai/bizos-charts?color=2563eb" alt="Latest release"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/bizos-ai/bizos-charts?color=0284c7" alt="Apache-2.0 license"></a>
+  <a href=".nvmrc"><img src="https://img.shields.io/badge/node-22.17.0-43853d" alt="Reference Node version 22.17.0"></a>
+  <a href="#what-bizos-charts-gives-you"><img src="https://img.shields.io/badge/runtime_dependencies-0-brightgreen" alt="Zero runtime dependencies"></a>
+  <a href="#the-64-type-chart-library"><img src="https://img.shields.io/badge/chart_types-64-2563eb" alt="64 chart types"></a>
+  <a href="#assemble-a-complete-report"><img src="https://img.shields.io/badge/report_layouts-6-b8862b" alt="6 report layouts"></a>
+</p>
 
-*Actual engine output. All figures and reports in this introduction use illustrative data, not live business or clinical results.*
+<p align="center"><a href="#install-the-skill-in-your-agent-environment">Install</a> · <a href="#quick-start-render-a-chart">Quick start</a> · <a href="#the-64-type-chart-library">Chart library</a> · <a href="#assemble-a-complete-report">Reports</a> · <a href="CONTRIBUTING.md">Contributing</a> · <a href="LICENSE">License</a></p>
 
-## Available skills
+**BizOS Charts** (public package **2.1.2**, renderer **2.1.0**) combines a charting skill, a dependency-free rendering engine, **64 exhibit types**, and **6 complete report layouts**. It produces offline HTML with SVG graphics, readable source notes, inspectable data tables, and SVG, PNG, and CSV exports.
+
+![Animated tour of six examples rendered by the BizOS Charts engine](skills/bizos-charts/assets/previews/overview.gif)
+
+*Looping recordings of the real chart pages: hover to inspect values, reveal the data, and scroll through the evidence. All figures and reports use illustrative data, not live business or clinical results.*
+
+## Skill package
 
 | Skill | What it does | Entry point |
 |---|---|---|
 | **bizos-charts** | Selects, validates, and renders business, financial, experimental, and biomedical exhibits; assembles complete reports | [Skill instructions](skills/bizos-charts/SKILL.md) · [Package guide](skills/bizos-charts/README.md) |
 
-Each skill is a self-contained folder under `skills/`. The collection can grow without requiring users to install unrelated capabilities. This repository contains the standalone chart engine and its documentation; private application templates, account services, and application release infrastructure are outside its scope.
+The skill is a self-contained folder at `skills/bizos-charts`. This repository contains the standalone chart engine and its documentation; private application templates, account services, and application release infrastructure are outside its scope.
 
 ## What BizOS Charts gives you
 
@@ -32,7 +46,7 @@ Each skill is a self-contained folder under `skills/`. The collection can grow w
 
 Trend exhibits cover lines, areas, bars with rate overlays, indexed series, forecast fans, OHLC, valuation bands, calendars, slopes, ranking changes, and seasonality. Use them to distinguish recurring changes, turning points, and differences between entities. Direct labels, axis units, and source lines remain part of the exhibit.
 
-![Trend and ranking exhibits](skills/bizos-charts/assets/previews/trends.png)
+![Animated trend and comparison exhibits](skills/bizos-charts/assets/previews/trends.gif)
 
 *The examples compare marketplace sales and show how entities differ. The titles state a specific conclusion supported by the sample values.*
 
@@ -40,7 +54,7 @@ Trend exhibits cover lines, areas, bars with rate overlays, indexed series, fore
 
 Composition and bridge charts connect headline results to their components. A waterfall can explain the route from revenue to profit; a stacked view can show a changing mix; a Sankey can represent supplied flows. The skill checks whether the available data supports the selected encoding. It does not invent paths from aggregate edges or treat overlapping percentages as a mutually exclusive whole.
 
-![Profit bridge and valuation sensitivity exhibits](skills/bizos-charts/assets/previews/finance.png)
+![Animated profit bridge and valuation sensitivity exhibits](skills/bizos-charts/assets/previews/finance.gif)
 
 *A bridge explains the components of a result. A sensitivity matrix compares explicitly supplied assumptions and outcomes; it is not a forecasting model.*
 
@@ -50,11 +64,11 @@ Scientific exhibits include group comparisons, violin plots, experimental curves
 
 The engine computes supported statistics from supplied observations, returns them in `stats`, and adds method notes to the figure. Available methods include Welch and paired t-tests, Mann–Whitney, multiple-comparison adjustment, Kaplan–Meier and log-rank, ROC with DeLong intervals, four-parameter logistic fitting, inverse-variance meta-analysis, and hierarchical clustering. Model-derived quantities that the engine does not fit must come from a real external analysis and retain their method information.
 
-![Survival and dose-response exhibits](skills/bizos-charts/assets/previews/biomedicine.png)
+![Animated survival and dose-response exhibits](skills/bizos-charts/assets/previews/biomedicine.gif)
 
 *Illustrative survival and dose–response data demonstrate the display and calculation workflow. Review study design, assumptions, censoring, and test selection before using results in a real analysis.*
 
-![Forest and ROC exhibits](skills/bizos-charts/assets/previews/statistics.png)
+![Animated forest and ROC exhibits](skills/bizos-charts/assets/previews/statistics.gif)
 
 *Intervals, reference values, and method notes are part of the output. Quote calculated quantities from `stats` so that titles and figures agree.*
 
@@ -62,7 +76,7 @@ The engine computes supported statistics from supplied observations, returns the
 
 Report specifications organize evidence into sections, with numbered exhibits and a shared visual system. A report can use a different layout without changing the underlying chart contracts.
 
-![An English dashboard rendered from the bundled report specification](skills/bizos-charts/assets/previews/dashboard.png)
+![Animated English dashboard rendered from the bundled report specification](skills/bizos-charts/assets/previews/dashboard.gif)
 
 | Layout | Best suited to |
 |---|---|
@@ -101,8 +115,8 @@ Every type has a registered data contract, selection guidance, and a bundled sam
 You need Node.js. Generated assets and validation were built with **Node.js 22.17.0**, recorded in `.nvmrc`. Use that version when checking generated files byte for byte; JavaScript runtime differences can change the last digits of calculated statistics.
 
 ```bash
-git clone https://github.com/bizos-ai/bizos-skills.git
-cd bizos-skills/skills/bizos-charts
+git clone https://github.com/bizos-ai/bizos-charts.git
+cd bizos-charts/skills/bizos-charts
 
 # Render an existing example in English.
 node scripts/render.mjs \
@@ -232,8 +246,8 @@ skills/bizos-charts/
   examples/reports/          one sample for each report layout
   templates/                English and Chinese atlases and reports
   scripts/                  build, render, search, and validation helpers
-  assets/previews/           actual chart and report screenshots
-tools/                       reproducible documentation preview generator
+  assets/previews/           animated recordings of actual chart and report pages
+tools/                       reproducible animated documentation preview generator
 ```
 
 Catalogs and specifications contain English chart names and field descriptions alongside Chinese guidance. The public skill entry point and this introduction are in English, and the engine renders complete English or Chinese outputs.
@@ -242,4 +256,4 @@ Catalogs and specifications contain English chart names and field descriptions a
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the source/build workflow and validation requirements. Keep chart changes in `engine/src/`, add a meaningful sample for a new type, and rebuild generated artifacts. Changes should preserve accurate encodings, clear methods, inspectable data, and offline output.
 
-The collection and BizOS Charts are released under the [Apache License 2.0](LICENSE), copyright 2026 BIZOS. You may use, modify, and redistribute them, including commercially, under its terms.
+BizOS Charts is released under the [Apache License 2.0](LICENSE), copyright 2026 BIZOS. You may use, modify, and redistribute it, including commercially, under its terms.

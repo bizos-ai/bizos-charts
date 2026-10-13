@@ -20,7 +20,7 @@ For a new chart type, provide a registered ID, English and Chinese names, an ana
 
 Rendering has no npm dependency. Real-browser checks additionally need `playwright-core` and Chrome or Edge. Check changed outputs at 1280px and 390px; inspect labeling, scaling, data tables, source lines, and exports. Never report an `unverified` result as a browser pass.
 
-The preview generator is `tools/render-previews.mjs`. Point `BIZOS_PLAYWRIGHT_CORE` to an installed `playwright-core` module, then run it from the repository root. It regenerates English preview pages, checks browser errors and network requests, and captures the image assets used in the introduction.
+The animated preview generator is `tools/render-previews.mjs`. It needs `playwright-core`, a local browser, and FFmpeg. Point `BIZOS_PLAYWRIGHT_CORE` to the module path, then run it from the repository root. Set `BIZOS_FFMPEG` if FFmpeg is not on PATH. It regenerates English preview pages, checks browser errors and network requests, records real scrolling, tooltips and data-table interactions, and encodes the looping GIFs used in the introduction. Temporary frames stay in the ignored `output/` directory.
 
 ## Branches
 
